@@ -1,31 +1,70 @@
 ---
-title: Teaching (with) Quarto
-subtitle: JSM 2023
+title: Introducción al Procesamiento de datos con R
+#subtitle: JSM 2023
 listing:
-  contents: talks/*/index.qmd
+  contents: encuentros/*/index.qmd
   fields: [image, title, author, subtitle]
   type: grid
   sort:
     - filename
 ---
 
-![](jsm-logo.png){style="float: right;" fig-alt="JSM 2023 Logo" width="150"}
+![](img/r-logo.png){style="float: right;" fig-alt="JSM 2023 Logo" width="150"}
 
-Monday, Aug 7\
-2:00 PM - 3:50 PM\
-[Session \# 1797](https://ww2.aievolution.com/JSMAnnual/index.cfm?do=ev.viewEv&ev=2605) \
-Metro Toronto Convention Centre Room: CC-803B
+## Presentación
 
-## Homepage
+El taller tiene como principal objetivo introducir a los y las participantes en el mundo de R y la programación para producir información estadística descriptiva. La idea es centrarse en cómo encarar un proyecto que involucre meter manos en los datos, desde cómo nombrar las carpetas o archivos, importarlos para acceder a la información, limpiar y procesarla hasta como visualizar, analizar y comunicar los hallazgos.
 
-All session materials can be viewed at <https://bit.ly/teach-quarto>. The GitHub repo that serves this site, <https://github.com/mine-cetinkaya-rundel/teach-with-quarto>, contains the source code for all presentations.
+## ¿Para quién?
 
-## Overview
+Para toda aquella persona que quiera / necesite trabajar con datos de una forma más sistemática, ordenada y productiva. No se requiere conocimientos previos de ningún lenguaje de programación en particular, aunque siempre es de ayuda haberse cruzado al menos con una sintaxis o haber utilizado alguna fórmula en Excel.
 
-Quarto is an open-source scientific and technical publishing system that unifies and extends the R Markdown ecosystem. This session features five speakers who have been using and teaching R Markdown over the last decade and who have adopted Quarto over the last two years. The speakers will share their experiences teaching Quarto to students in a wide range of courses that span from first-year introductory data science to Master's level statistical computing courses. The talks will also touch on multiple languages and tools as these courses teach R and Python using both RStudio and Jupyter Notebooks. The educators will also discuss building course materials with Quarto, using Quarto for standardizing and organizing student work, as well as for academic authoring broadly. The session will conclude with a discussion on the importance of teaching reproducible computing early and often as well as tips for educators for adopting and teaching new tools and technologies in a constantly evolving landscape.
+Lo de *Ciencias Sociales* es una excusa! el contenido es válido para cualquier campo/disciplina/profesión que tenga datos entre manos.
 
-**Session chair:** [Allison Theobold](https://statistics.calpoly.edu/allison-theobold) - Cal Poly
+## ¿Cómo?
 
-**Session organizer:** [Mine Çetinkaya-Rundel](https://mine-cr.com/) - Duke University + Posit
+La programación no es un tema de personas brillantes, sino más bien de aquellas perseverantes. Con este lema bajo el brazo es que se pensó el curso, el cual se focaliza en lo práctico. No sólo se van a ofrecer ejercicios para resolver código entre clase y clase sino que vamos a escribir R durante el encuentro sincrónico, compartiendo pantallas y dudas en vivo!
 
-## Talks
+## ¿Qué te llevas?
+
+-   👥️ Acceso irrestrico al foro y sus canales de debate **Estación R**, donde vas a poder encontrarte con colegas de otras disciplinas o áreas que están transitando su recorrido en R (incicial o avanzado). Allí podrás compartir, consultar (o también responder) cosillas de R y más!
+
+-   📑 Todos los scripts (el código) de lo que se ve durante la clase, junto a las diapositivas.
+
+-   🎞️ Acceso a las clases grabadas durante 3 meses, para que puedas seguir repasando y practicando lo visto durante la cursada
+
+-   📓 'Notas de clase', con todo el código que se fue escribiendo en vivo durante la clase.
+
+-   🧰 Una batería de recursos (bibliografía, referentes del mundo R, espacios de difusión, webs con herramientas, y hasta incluso otros cursos) para explotar al máximo el recorrido inicial y también post cursada.
+
+------------------------------------------------------------------------
+
+## Cronograma:
+
+**Cantidad de encuentros:** 7.
+
+**Cantidad de horas por encuentro:** 2hs.
+
+**Día y horario de cursada:** Miércoles, de 18 a 20hs.
+
+**Fecha de inicio**: Miércoles 17 de Febrero.
+
+**Fecha de finalización**: Miércoles 14 de Marzo.
+
+## Precio del curso:
+
+-   Argentina: \$75.000
+
+-   México: \$1,600
+
+-   Internacional: USD 90
+
+## Inscripción:
+
+El curso tiene un cupo limitado para garantizar la calidad del mismo. Si estás interesado/a, entrá al link debajo y llená el formulario, desde donde deberás también abonar la inscripción para garantizar el lugar:
+
+**Link:** [*https://forms.gle/fednwD1m2SBDsRBn7*](https://forms.gle/fednwD1m2SBDsRBn7)
+
+## Encuentros
+
+*("Artwork by @allison_horst")*

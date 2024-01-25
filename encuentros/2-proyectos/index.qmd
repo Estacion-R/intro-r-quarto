@@ -1,0 +1,6 @@
+---
+title: Proyectos de R, organizando la mesa de Trabajo.
+author: Pablo Tiscornia
+image: featured.png
+description: Buenas prácticas para organizar un proyecto de trabajo con datos
+---

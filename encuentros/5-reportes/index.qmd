@@ -1,0 +1,6 @@
+---
+title: Reportes con Rmarkdown
+author: Pablo Tiscornia
+image: featured.png
+description: Introducción a la comunicación del dato estadístico. Informes y reportes con Rmarkdown
+---

@@ -1,22 +1,29 @@
 project:
   type: website
+  output-dir: docs
   resources:
-    - talks/1-welcome/welcome.scss
+    - encuentros/1-intro-r/intro-r.scss
 
 website:
   #logo: jsm-logo.png
   repo-url: https://github.com/mine-cetinkaya-rundel/teach-with-quarto
   repo-actions: [edit, issue]
   navbar:
-    logo: jsm-logo.png
+    logo: img/r-logo.png
     search: true
     left:
       - href: index.qmd
-        text: Home
+        text: Inicio
+      - href: programa.qmd
+        text: Programa
+      - href: puesta-punto.qmd
+        text: Puesta a punto
+      - href: profesor.qmd
+        text: Docente
     tools:
       - icon: github
-        href: https://github.com/mine-cetinkaya-rundel/teach-with-quarto
-
+        href: https://github.com/pablotis/intro-r-quarto
+ 
 format:
   html:
     theme: cosmo

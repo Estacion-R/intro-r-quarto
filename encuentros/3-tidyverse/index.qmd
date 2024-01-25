@@ -1,0 +1,6 @@
+---
+title: Introducción al procesamiento de datos con {tidyverse}. 
+author: Pablo Tiscornia
+image: featured.png
+description: Funciones estrella de {tidyverse}, indispensables para el tratamiento de datos.
+---

@@ -1,0 +1,6 @@
+---
+title: Introducción a la Visualización de datos con {ggplot2}
+author: Pablo Tiscornia
+image: featured.png
+description: Conceptos básicos de la gramática de los gráficos. Cómo armar un lindo (y útil) gráfico sin morir en el intento.
+---
