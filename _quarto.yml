@@ -6,8 +6,8 @@ project:
 
 website:
   #logo: jsm-logo.png
-  repo-url: https://github.com/mine-cetinkaya-rundel/teach-with-quarto
-  repo-actions: [edit, issue]
+  #repo-url: https://github.com/pablotis/intro-r-quarto/settings/pages
+  #repo-actions: [edit, issue]
   navbar:
     logo: img/background-estacion_r_v2.png
     search: true
