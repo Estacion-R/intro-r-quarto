@@ -9,7 +9,7 @@ website:
   repo-url: https://github.com/mine-cetinkaya-rundel/teach-with-quarto
   repo-actions: [edit, issue]
   navbar:
-    logo: img/r-logo.png
+    logo: img/background-estacion_r_v2.png
     search: true
     left:
       - href: index.qmd

@@ -9,7 +9,7 @@ listing:
     - filename
 ---
 
-![](img/r-logo.png){style="float: right;" fig-alt="JSM 2023 Logo" width="150"}
+![](img/logo-estacion_r_v2.png){style="float: right;" fig-alt="JSM 2023 Logo" width="150"}
 
 ## Presentación
 
