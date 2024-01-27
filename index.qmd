@@ -9,7 +9,9 @@ listing:
     - filename
 ---
 
-![](img/logo-estacion_r_v2.png){style="float: right;" fig-alt="JSM 2023 Logo" width="150"}
+![](img/logo-estacion_r_v2.png){style="float: right;" fig-alt="Logo Estación R" width="150"}
+
+> Modalidad 100% virtual sincrónica.
 
 ## Presentación
 
@@ -22,7 +24,8 @@ Para toda aquella persona que quiera / necesite trabajar con datos de una forma 
 
 ## ¿Cómo?
 
-La programación no es un tema de personas brillantes, sino más bien de aquellas perseverantes. Con este lema bajo el brazo es que se pensó el curso, el cual se focaliza en lo práctico. No sólo se van a ofrecer ejercicios para resolver código entre clase y clase sino que vamos a escribir R durante el encuentro sincrónico, compartiendo pantallas y dudas en vivo!
+La programación no es un tema de mentes brillantes, sino más bien de aquellas perseverantes. Con este lema bajo el brazo es que se pensó el curso, el cual se focaliza en lo práctico. No sólo se van a ofrecer ejercicios para resolver código entre clase y clase sino que vamos a escribir R durante el encuentro sincrónico, compartiendo pantallas y dudas en vivo!
+
 
 ## ¿Qué te llevas?
 
