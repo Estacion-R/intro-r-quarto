@@ -44,11 +44,11 @@ La programación no es un tema de personas brillantes, sino más bien de aquella
 
 **Cantidad de horas por encuentro:** 2hs.
 
-**Día y horario de cursada:** Miércoles, de 18 a 20hs.
+**Día y horario de cursada:** Miércoles, de 18 a 20hs (Hora Argentina, UTC-3).
 
-**Fecha de inicio**: Miércoles 17 de Febrero.
+**Fecha de inicio**: Miércoles 14 de Febrero.
 
-**Fecha de finalización**: Miércoles 14 de Marzo.
+**Fecha de finalización**: Miércoles 27 de Marzo.
 
 ## Precio del curso:
 
