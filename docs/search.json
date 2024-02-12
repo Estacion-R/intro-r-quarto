@@ -56,88 +56,536 @@
     "text": "Encuentros\n(“Artwork by @allison_horst”)"
   },
   {
-    "objectID": "profesor.html",
-    "href": "profesor.html",
-    "title": "Docente",
+    "objectID": "programa.html",
+    "href": "programa.html",
+    "title": "Programa",
     "section": "",
-    "text": "PABLO TISCORNIA\nSociólogo y Científico de Datos. Especializado en metodología, producción, procesamiento y comunicación de información estadística. Trabajé como analista y procesador de datos en las oficinas estadísticas de la Ciudad de Buenos Aires (DGEyC) y Argentina (INDEC), y como Coordinador de Datos en la Dirección Nacional de Mercados y Estadística (DNMYE), del Ministerio de Turismo y Deportes de la Nación. Actualmente estoy trabajando como Científico de datos para C40 Cities."
+    "text": "Módulo I: Presentación del lenguaje R.\n\nR base.\nData frames (bases de datos)\nPaquetes\nProyectos de trabajo con RStudio\n\n\n\nMódulo II: Procesamiento de datos con el paquete Tidyverse:\n\nImportación de datos (de Excel, SPSS, Stata, archivos de texto, etc.)\nLimpieza: Seleccionar variables, filtrar casos, recodificar, renombrar, ordenar y agrupar información.\nTratamiento de valores faltantes (missing values/ NA´s)\nConstruir medidas de resumen de la información\n\n\n\nMódulo III: Visualización de la información\n\nPaquete ggplot2:\nGráficos de línea, barras, Boxplots\nChapa y pintura: Leyendas, ejes, títulos, notas, colores, escala\n\n\n\nMódulo IV: Introducción al armado de informes/reportes con RMarkdown\n\nAspectos básicos de html\nRecopilación y procesamiento de datos de la web\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "profesor.html#docencia-y-r",
-    "href": "profesor.html#docencia-y-r",
-    "title": "Docente",
-    "section": "Docencia y R:",
-    "text": "Docencia y R:\nVan ya más de 5 años diseñando y llevando adelante cursos de R, algunos de ellos son:\n\nCiencias Sociales Computacionales y Humanidades Digitales (IDAES-UNSAM). Módulo 1. Introducción a la Ciencia de Datos para Científicos Sociales\nBig Data e Inteligencia Territorial (FLACSO) - Módulo Ciencia de Datos I\nInstrumentos de Análisis Urbanos II (UTDT)\nIntroducción a R para Ciencias Sociales - IIGG\nSoftware estadístico R, aplicado al análisis y procesamiento de la información estadística del INDEC."
-  },
-  {
-    "objectID": "profesor.html#mundo-r",
-    "href": "profesor.html#mundo-r",
-    "title": "Docente",
-    "section": "Mundo R:",
-    "text": "Mundo R:\nHe participado en la organización y difusión de la comunidad de R en Buenos Aires, en el desarrollo de los paquetes eph, herramientas, comunicacion y evyth.\n📝 Podés encontrar parte de mi recorrido y trabajo con R en mi blog personal estación-R, buscar Tips sobre R con rtips y descubrir Asombrosos paquetes de R en Latinoamérica, proyectos que llevo adelante como aporte a la comunidad.\nPodemos cruzarnos en: 𝕏 r_tips | Github | 🌐 estacion-r | 𝕏 pabblo_h"
-  },
-  {
-    "objectID": "encuentros/5-reportes/index_ACTIVAR.html",
-    "href": "encuentros/5-reportes/index_ACTIVAR.html",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "objectID": "puesta-punto.html",
+    "href": "puesta-punto.html",
+    "title": "Puesta a punto",
     "section": "",
-    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
+    "text": "Este taller está pensado para ser esencialmente práctico. La idea es exponer una presentación por módulo, en donde cada 3 o 4 conceptos se le dedicará un tiempo para poder ejercitar lo visto, previo a continuar con el siguiente contenido.\nSe recomienda seguir las presentaciones durante la exposición ya que de ellas se extraerá el código, haciendo más ágil la cursada."
   },
   {
-    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#abstract",
-    "href": "encuentros/5-reportes/index_ACTIVAR.html#abstract",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "objectID": "puesta-punto.html#dinámica-de-taller",
+    "href": "puesta-punto.html#dinámica-de-taller",
+    "title": "Puesta a punto",
     "section": "",
-    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
+    "text": "Este taller está pensado para ser esencialmente práctico. La idea es exponer una presentación por módulo, en donde cada 3 o 4 conceptos se le dedicará un tiempo para poder ejercitar lo visto, previo a continuar con el siguiente contenido.\nSe recomienda seguir las presentaciones durante la exposición ya que de ellas se extraerá el código, haciendo más ágil la cursada."
   },
   {
-    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#slides",
-    "href": "encuentros/5-reportes/index_ACTIVAR.html#slides",
+    "objectID": "puesta-punto.html#estrategias-metodológicas-y-recursos-didácticos",
+    "href": "puesta-punto.html#estrategias-metodológicas-y-recursos-didácticos",
+    "title": "Puesta a punto",
+    "section": "Estrategias metodológicas y Recursos didácticos",
+    "text": "Estrategias metodológicas y Recursos didácticos\nLas clases del curso serán teórico-prácticas. Por cada presentación temática se irán planteando ejercicios a medida que se avanza en el contenido, abordando las dudas que vayan surgiendo. Se prioriza la utilización del programa durante la clase.\nA lo largo del curso se brindarán sintaxis al estilo “notas de clase”, en las cuales se plasman conjuntamente las líneas de código que se exponen y su correspondiente explicación respecto a los procedimientos realizados. Finalmente, se propondrán ejercicios para resolver fuera de la clase con el objetivo de reforzar los conocimientos vistos en las mismas.\nSe busca que, siempre que se pueda, el contenido, ejemplos y ejercicios representen problemáticas y desafíos propios del campo en el que se encuentran insertos los y las participantes."
+  },
+  {
+    "objectID": "puesta-punto.html#instalación-de-r",
+    "href": "puesta-punto.html#instalación-de-r",
+    "title": "Puesta a punto",
+    "section": "Instalación de R",
+    "text": "Instalación de R\nAsegurate de tener instalado R en tu computadora previo a comenzar el taller. Desde R-project vas a poder hacerte de R.\nSugerencia: Para usuarios y usuarias con Windows en sus computadoras, instalar rtools, herramienta para poder trabajar con el paquete tidyverse.\nDe todas formas, una semana previo al comienzo del curso se enviará un tutorial con todo lo necesario para un arranque sin problemas."
+  },
+  {
+    "objectID": "puesta-punto.html#instalación-de-rstudio",
+    "href": "puesta-punto.html#instalación-de-rstudio",
+    "title": "Puesta a punto",
+    "section": "Instalación de Rstudio",
+    "text": "Instalación de Rstudio\nRstudio es la plataforma desde donde se trabajará durante todo el taller. Si bien debemos tener instalado R, el programa que se abrirá en cada clase y desde donde haremos los ejercicios es Rstudio.\nDescargar Rstudio"
+  },
+  {
+    "objectID": "puesta-punto.html#descarga-de-slack-versión-escritorio",
+    "href": "puesta-punto.html#descarga-de-slack-versión-escritorio",
+    "title": "Puesta a punto",
+    "section": "Descarga de Slack (versión escritorio)",
+    "text": "Descarga de Slack (versión escritorio)\nLa forma de comunicación será principalmente Slack, una plataforma de intercambio que funciona como un chat-foro. Desde allí es posible concentrar la comunicación del curso, difundir material, código y también realizar consultas y respuestas de forma grupal."
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#outline",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#outline",
     "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Outline",
+    "text": "Outline\n\nWhy use Quarto to make teaching materials?\nWhat teaching materials can I create using Quarto?\nHow do I get started?"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-instructor",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-instructor",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Benefits for instructor",
+    "text": "Benefits for instructor\n\nReproducible course materials that are easier to update\nIntegrate narrative, executable R code, images, and interactive elements\nEasily share course materials with students and more broadly\nRegularly use the same technology as your students"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-students",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-students",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Benefits for students",
+    "text": "Benefits for students\n\nNavigation menu on all documents to easily to find content\nSearch capabilities on website to more easily find content by topic\nOption to export PDF of slides\nRead course materials on multiple devices"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Teaching materials in Quarto",
+    "text": "Teaching materials in Quarto\n\n\nCourse websites\n\n\n\n\n\nSlides"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto-1",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto-1",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Teaching materials in Quarto",
+    "text": "Teaching materials in Quarto\n\n\nLong-form notes\n\n\n\n\n\nAssignment instructions"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-menu",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-menu",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Slide menu",
+    "text": "Slide menu\n\nSlide navigation\nPrint to PDF\nSpeaker view\nAnnotation\nChalkboard"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-code-output",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-code-output",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Slide with code + output",
+    "text": "Slide with code + output\n\n\nPublished slide\n\n\nSource code\n\n\n\n\n\nSource: SciPy lecture by Colin Rundel"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-mathematical-notation",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-mathematical-notation",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Slide with mathematical notation",
+    "text": "Slide with mathematical notation\n\n\nPublished slide\n\n\nSource code\n\n\n\n\n\nSource: SLR: Mathematical models for inference by Maria Tackett"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#navigating-course-website",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#navigating-course-website",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Navigating course website",
+    "text": "Navigating course website\n\n\n\nIntroduction to Data Science taught by Mine Çetinkaya-Rundel"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#example-website-file-structure",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#example-website-file-structure",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Example website file structure",
+    "text": "Example website file structure"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#interactive-documents-with-webr",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#interactive-documents-with-webr",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Interactive documents with webR",
+    "text": "Interactive documents with webR\n\n“Run R code in the browser without the need for an R server to execute the code”\n\n\n\n\nwebR demo: maria.quarto.pub/webr-demo"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#webr-source-code",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#webr-source-code",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "webR source code",
+    "text": "webR source code\nYAML\n\n---\ntitle: \"webR document\"\nformat: html\nfilters:\n  - webr\nwebr:\n  packages: ['dplyr', 'ggplot2']\n  Cross-Origin-Opener-Policy: same-origin\n  Cross-Origin-Embedder-Policy: require-corp\n---\n\n\nExecutable code chunk\n\n{webr-r}\nmpg |&gt;\n  count(manufacturer, _____)"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-slides-documents",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-slides-documents",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Getting started: slides + documents",
+    "text": "Getting started: slides + documents\n\n\nBasic\nCustomized\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\nformat: revealjs\n---\n\n\n\n\n\n\n\nTip\n\n\nEasily produce multiple types of documents by changing the format in the YAML.\n\n\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\ndate-format: long\nfooter: \"URL to course website\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: false\n    incremental: false \n    chalkboard: \n    code-link: true\neditor: visual\nexecute: \n  eval: true\n  echo: true\n---"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-websites",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-websites",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Getting started: websites",
+    "text": "Getting started: websites\n\nMake a website repo on GitHub\nClone the repo and start a new RStudio project\n\nRun the following code in the Terminal\nquarto create-project --type website\n\n\nYou will see the standard files for a new website in the Files pane. See Creating a Website on quarto.org for more information."
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#publishing-materials",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#publishing-materials",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Publishing materials",
+    "text": "Publishing materials\nRun the following code in the Terminal\nGitHub pages\nquarto publish gh-pages\nQuarto pub\nquarto publish quarto-pub\nNetlify\nquarto publish netlify\n\nSee Publishing Basics on quarto.org for more information and publishing options."
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#course-websites-created-with-quarto",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#course-websites-created-with-quarto",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Course websites created with Quarto",
+    "text": "Course websites created with Quarto\n\nIntroduction to Data Science, Elijah Meyer\n\n[website][GitHub repo]\n\n\nRegression Analysis, Maria Tackett\n\n[website][GitHub repo]\n\n\nAdvanced Data Visualization, Mine Çetinkaya-Rundel\n\n[website][GitHub repo]\n\n\nApplied Experimental Design and Regression Models, Allison Theobold\n\n[website][Github repo]"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#course-slides-created-with-quarto",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#course-slides-created-with-quarto",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Course slides created with Quarto",
+    "text": "Course slides created with Quarto\n\n\nStatistical Computing and Computation, Colin Rundel\n\n[website][GitHub repo]\n\n\n\nStatistical Learning with R, Kelly Bodwin\n\n[GitHub repo]"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#learn-more",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#learn-more",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Learn more!",
+    "text": "Learn more!\n\nOrganizing Teaching Materials by Maria Tackett & Mine Çetinkaya-Rundel\nReproducible documents, presentations, and websites with Quarto by Hunter Glanz, Emily Robinson & Allison Theobold\nHello Quarto: Share, Collaborate, Teach, Reimagine by Mine Çetinkaya-Rundel & Julia Lowndes\nquarto.org"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#engine-setup",
+    "href": "encuentros/3-tidyverse/r-python.html#engine-setup",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Engine Setup",
+    "text": "Engine Setup\nIn R Markdown, to use python, you had to set everything up in R using the reticulate package:"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#section",
+    "href": "encuentros/3-tidyverse/r-python.html#section",
+    "title": "Bilingual Materials with Quarto",
+    "section": "",
+    "text": "library(reticulate)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#section-1",
+    "href": "encuentros/3-tidyverse/r-python.html#section-1",
+    "title": "Bilingual Materials with Quarto",
+    "section": "",
+    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#section-2",
+    "href": "encuentros/3-tidyverse/r-python.html#section-2",
+    "title": "Bilingual Materials with Quarto",
+    "section": "",
+    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()\n\n## You may need the code below if you are working on your home Windows computer:\npy_run_string(\"import os as os\")\npy_run_string(\"os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:/Users/kbodwin/Anaconda3/Library/plugins/platforms'\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#section-3",
+    "href": "encuentros/3-tidyverse/r-python.html#section-3",
+    "title": "Bilingual Materials with Quarto",
+    "section": "",
+    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()\n\n## You may need the code below if you are working on your home Windows computer:\npy_run_string(\"import os as os\")\npy_run_string(\"os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:/Users/kbodwin/Anaconda3/Library/plugins/platforms'\")\n\nreticulate::py_install(\"pandas\")\nreticulate::py_install(\"scikit-learn\")\nreticulate::py_install(\"scipy\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#engine-setup-1",
+    "href": "encuentros/3-tidyverse/r-python.html#engine-setup-1",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Engine Setup",
+    "text": "Engine Setup\nNow, it’s all “under the hood”:\n---\ntitle: \"My document\"\njupyter: python3\n---"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#choose-your-install-in-global-options",
+    "href": "encuentros/3-tidyverse/r-python.html#choose-your-install-in-global-options",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Choose your install in Global Options",
+    "text": "Choose your install in Global Options"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#object-passing",
+    "href": "encuentros/3-tidyverse/r-python.html#object-passing",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Object passing",
+    "text": "Object passing\n\nAutomatic variables named py and r\nAccess python objects from R with py$\nAccess R objects from python with r."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#object-passing-1",
+    "href": "encuentros/3-tidyverse/r-python.html#object-passing-1",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Object passing",
+    "text": "Object passing\n\n```{r}\n# read and filter data with R\nlibrary(palmerpenguins)\n\nadelie &lt;-\n  penguins %&gt;%\n  filter(species == \"Adelie\")\n```\n\n```{python}\n# model with python\nLR = LinearRegression()\n\nX = r.adelie[['bill_length_mm', 'bill_depth_mm']]\ny = r.adelie['mass_g']\n\nmod = LR.fit(X, y)\ncoef = mod.coef_\n```\n\n```{r}\n# summarize with R\npy$coef\n```"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#jupyter",
+    "href": "encuentros/3-tidyverse/r-python.html#jupyter",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Jupyter",
+    "text": "Jupyter\n\nDo you like Jupyter notebooks? Me too!\nDo you like Colab and/or Posit Cloud? Me too!\nDo you want to make your materials in Quarto but distribute to students in Jupyter form? Me too!\n\n\n\nCode\nquarto convert class_notes.qmd\nquarto convert class_notes.ipynb \n\nquarto render class_notes.ipynb"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#remaining-challenges-of-multilingual-docs",
+    "href": "encuentros/3-tidyverse/r-python.html#remaining-challenges-of-multilingual-docs",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Remaining challenges of multilingual docs",
+    "text": "Remaining challenges of multilingual docs\n\nMost undergrad programs don’t require multiple languages.\nDetecting python installs and packages isn’t perfect.\nR and python do not always have the same default implementations for models.\nWhat if what you want is not a multilingual document, but duplicated translated documents?"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#what-it-does",
+    "href": "encuentros/3-tidyverse/r-python.html#what-it-does",
+    "title": "Bilingual Materials with Quarto",
+    "section": "What it does",
+    "text": "What it does\nUpon rendering…\n\nIdentifies the R chunks from the python chunks\nIdentifies the labeled text sections for R or python.\nWrites new unilingual source files (qmds) in separate folders\n(Optionally) Renders those source files\n(Optionally) Converts the python one to ipynb."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#first-chunk",
+    "href": "encuentros/3-tidyverse/r-python.html#first-chunk",
+    "title": "Bilingual Materials with Quarto",
+    "section": "First chunk",
+    "text": "First chunk\n```{r, version = \"none\"}\ntemplar::versions_quarto_multilingual(global_eval = FALSE,\n                                      to_jupyter = TRUE, \n                                      warn_edit = FALSE)\n```\n\n{version = \"none\"}: this code itself should not appear in generated files\nglobal_eval: do you want to\nto_jupyter: do you want to convert the python version?\nwarn_edit: put a warning at the top of generated files to not edit directly?"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#code-chunk-versions",
+    "href": "encuentros/3-tidyverse/r-python.html#code-chunk-versions",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Code chunk versions",
+    "text": "Code chunk versions\n\nThe first thing we need to do with any dataset is check for\nmissing data, and make sure the variables are the right type:\n\n```{r, version = \"R\"}\ndf %&gt;% summary()\n```\n\n```{python, version = \"python\"}\ndf.info()\n```"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#versioned-text",
+    "href": "encuentros/3-tidyverse/r-python.html#versioned-text",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Versioned text",
+    "text": "Versioned text\n\nThe next step is to clean the data.\n\n%%% version: R\n\nThe \"Color\" variable is being treated as a \"character\" variable,\ni.e., just an ordinary word.\n\nBut we know it should be *categorical*, aka a `factor` variable.\nLet's `mutate` the dataset to fix this:\n\n```{r, version = \"R\"}\ndf &lt;- df %&gt;%\n  mutate(\n    Color = factor(Color)\n  )\n\ndf %&gt;% summary()\n```\n\n%%%\n\n%%% version: python\n\nThe \"Color\" variable is being treated as an \"object\" variable,\ni.e., just an ordinary word.\n\nBut we know it should be *categorical*, aka a `category` variable.\nLet's *retype* the variable to fix this:\n\n%%%\n\n```{python, version = \"python\"}\nkelly_df['Gender'] = kelly_df['Gender'].astype('category')\nkelly_df.info()\n```"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#why-its-useful",
+    "href": "encuentros/3-tidyverse/r-python.html#why-its-useful",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Why it’s useful",
+    "text": "Why it’s useful\n\nKeep the content creation all in one place - more reproducible!\nElements of the document can be shared - e.g. data descriptions, question prompts, css chunks\nGive you source files to disseminate to students, not just rendered files.\n(Also lets you do student and solution version, or Exam A and Exam B, etc.)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#lua-translation",
+    "href": "encuentros/3-tidyverse/r-python.html#lua-translation",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Lua translation",
+    "text": "Lua translation\n\nParse the source file text more elegantly\nMatch syntax to Quarto’s\n(::: instead of %%%)\n(#| version: R instad of {version = \"R})\nDo you know Lua and knitr? Let’s be friends."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick",
+    "href": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Quarto’s multi-output trick",
+    "text": "Quarto’s multi-output trick\nWhat it can do now:\n---\ntitle: \"My Versioned Doc\"\nformat: \n  html:\n    output-file: my_versioned_doc.html\n  pdf:\n    output-file: my_versioned_doc.pdf\n---\n\n::: {.content-visible when-format=\"html\"}\nClick here to expand!\n:::"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick-1",
+    "href": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick-1",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Quarto’s multi-output trick",
+    "text": "Quarto’s multi-output trick\nWhat I want:\n---\ntitle: \"My Versioned Doc\"\nformat: \n  html+R:\n    output-file: handout-r.html\n  html+python:\n    output-file: handout-python.html\n---\n\n::: {.content-visible when-variant=\"R\"}\nThe function `mutate()` will add a new variable.\n:::"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#resources",
+    "href": "encuentros/3-tidyverse/r-python.html#resources",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Resources",
+    "text": "Resources\nInstall the templar package:\n\nremotes::install_github(\"r-for-educators/templar\")\n\nCo-author: Ian Flores Siaca\nContribute at www.github.com/r-for-educators/templar\nExamples of course materials generated with templar:\nhttps://github.com/Statistical-Learning-with-R"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html",
+    "href": "encuentros/2-proyectos/index_ACTIVAR.html",
+    "title": "Teaching Quarto in Introduction to Data Science Courses",
+    "section": "",
+    "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
+  },
+  {
+    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html#abstract",
+    "href": "encuentros/2-proyectos/index_ACTIVAR.html#abstract",
+    "title": "Teaching Quarto in Introduction to Data Science Courses",
+    "section": "",
+    "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
+  },
+  {
+    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html#slides",
+    "href": "encuentros/2-proyectos/index_ACTIVAR.html#slides",
+    "title": "Teaching Quarto in Introduction to Data Science Courses",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#speaker",
-    "href": "encuentros/5-reportes/index_ACTIVAR.html#speaker",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html#speaker",
+    "href": "encuentros/2-proyectos/index_ACTIVAR.html#speaker",
+    "title": "Teaching Quarto in Introduction to Data Science Courses",
     "section": "Speaker",
-    "text": "Speaker\n\n\n\n\n\nMaria Tackett is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. Her research focuses on understanding factors that impact students’ sense of belonging in introductory math and statistics courses with the aim to identify pedagogies that foster community and a supportive learning environment. She’s an active member of the statistics education community and its effort to make statistics more engaging and accessible for all students."
+    "text": "Speaker\n\nElijah Meyer (elijah.meyer@duke.edu) is currently a teaching postdoctoral associate at Duke University. Taught Quarto in introductory data science at Duke the last fall, spring, and summer sessions. His work focuses on curricula and course creation, as well as studying how to best support newer instructor’s use of active learning."
   },
   {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html",
-    "title": "Blending R and Python in Quarto documents",
+    "objectID": "encuentros/1-intro-r/intro-r.html#r",
+    "href": "encuentros/1-intro-r/intro-r.html#r",
+    "title": "Introducción a R base",
+    "section": "R …",
+    "text": "R …\n\nEs un lenguaje de programación, un diccionario que permite comunicarnos para realizar ciertas tareas.\nSu enfoque principale es el procesamiento, análisis y la comunicación de datos\n\n\nArtwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#quarto",
+    "href": "encuentros/1-intro-r/intro-r.html#quarto",
+    "title": "Introducción a R base",
+    "section": "Quarto …",
+    "text": "Quarto …\nunifies + extends the R Markdown ecosystem"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-1",
+    "href": "encuentros/1-intro-r/intro-r.html#quarto-1",
+    "title": "Introducción a R base",
+    "section": "Quarto …",
+    "text": "Quarto …\nunifies + extends the R Markdown ecosystem\n\nunifies for people who love R Markdown"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-2",
+    "href": "encuentros/1-intro-r/intro-r.html#quarto-2",
+    "title": "Introducción a R base",
+    "section": "Quarto …",
+    "text": "Quarto …\nunifies + extends the R Markdown ecosystem\n\nunifies for people who love R Markdown\nextends for people who don’t know R Markdown"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-unifies-extends-r-markdown",
+    "href": "encuentros/1-intro-r/intro-r.html#quarto-unifies-extends-r-markdown",
+    "title": "Introducción a R base",
+    "section": "Quarto unifies + extends R Markdown",
+    "text": "Quarto unifies + extends R Markdown\n\n\nConsistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.\nMore accessible defaults as well as better support for accessibility\nGuardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.\nSupport for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks."
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-in-a-nutshell",
+    "href": "encuentros/1-intro-r/intro-r.html#quarto-in-a-nutshell",
+    "title": "Introducción a R base",
+    "section": "Quarto, in a nutshell",
+    "text": "Quarto, in a nutshell"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#yaml",
+    "href": "encuentros/1-intro-r/intro-r.html#yaml",
+    "title": "Introducción a R base",
+    "section": "YAML",
+    "text": "YAML\nDocument metadata\n\n\ntitle: \"Hello, Penguins!\"\nformat: html\neditor: visual\n\n\n\n\n\n\n\ntitle: \"Hello, Penguins!\"\nauthor: Mine Çetinkaya-Rundel\ninstitute: Duke University\ndate: now\n...\nformat: html\neditor: visual"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#text",
+    "href": "encuentros/1-intro-r/intro-r.html#text",
+    "title": "Introducción a R base",
+    "section": "Text",
+    "text": "Text\nMarkdown, that can be edited with any editor, including RStudio’s source or visual editors."
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#code",
+    "href": "encuentros/1-intro-r/intro-r.html#code",
+    "title": "Introducción a R base",
+    "section": "Code",
+    "text": "Code\n\nR code chunks executed with knitr: {r}\nPython, Julia, and Observable chunks executed with jupyter: {python}"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#documents",
+    "href": "encuentros/1-intro-r/intro-r.html#documents",
+    "title": "Introducción a R base",
+    "section": "Documents",
+    "text": "Documents\n\n\n\nBold palmerpenguins and add link to https://allisonhorst.github.io/palmerpenguins/.\nAdd code chunk options with YAML completion:\n\nfig-alt\ncode-fold\necho: fenced\n\nAnnotate table making code # &lt;1&gt;\n\nTake penguins data frame , and then, # &lt;2&gt;\nSlice the top 10 rows, and then, # &lt;3&gt;\nSelect the variables indicates, and then, # &lt;4&gt;\nMake a gt table\n\nAdd code-annotation: hover to YAML, and then change to code-annotation: select, and then remove\nAdd a citation: 10.1371/journal.pone.0090081 to palmerpenguins\nMake document PDF"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#slides",
+    "href": "encuentros/1-intro-r/intro-r.html#slides",
+    "title": "Introducción a R base",
+    "section": "Slides",
+    "text": "Slides\n\n\n\nChange format: revealjs\nAdd section headings: First level headings Introduction and Analysis, under Analysis a second level heading called Modeling\nAdd columns to slides\nReveal code with echo: true\nteaching-tip: code-line-numbers\nChange output-location of figure"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#websites",
+    "href": "encuentros/1-intro-r/intro-r.html#websites",
+    "title": "Introducción a R base",
+    "section": "Websites",
+    "text": "Websites\n\n\n\nAdd Quarto file and call it index.qmd\nAdd _quarto.yml\nRestart project\nBuild Tab &gt; Render Website"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#publications",
+    "href": "encuentros/1-intro-r/intro-r.html#publications",
+    "title": "Introducción a R base",
+    "section": "Publications",
+    "text": "Publications\n\nYou can already write reproducible journal articles with Quarto (like you could with the rticles and similar packages and R Markdown), and an ASA template is available!\nYou can now also write fully reproducible manuscripts with embedded computation and render to multiple formats!\n\n\n\n\n\n\n\nQuarto 1.4\n\n\nThe manuscript project type is available in Quarto 1.4. Pre-release now available, release coming soon!"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#manuscripts",
+    "href": "encuentros/1-intro-r/intro-r.html#manuscripts",
+    "title": "Introducción a R base",
+    "section": "Manuscripts",
+    "text": "Manuscripts"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-cli",
+    "href": "encuentros/1-intro-r/intro-r.html#quarto-cli",
+    "title": "Introducción a R base",
+    "section": "Quarto CLI…",
+    "text": "Quarto CLI…\norchestrates each step of rendering\n\nArtwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#learning-more",
+    "href": "encuentros/1-intro-r/intro-r.html#learning-more",
+    "title": "Introducción a R base",
+    "section": "Learning more",
+    "text": "Learning more\nhttps://quarto.org"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#follow-up-with",
+    "href": "encuentros/1-intro-r/intro-r.html#follow-up-with",
+    "title": "Introducción a R base",
+    "section": "Follow up with…",
+    "text": "Follow up with…\nthe Quarto Blog: https://quarto.org/docs/blog"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#thank-you",
+    "href": "encuentros/1-intro-r/intro-r.html#thank-you",
+    "title": "Introducción a R base",
+    "section": "Thank you!",
+    "text": "Thank you!\n🔗 bit.ly/teach-quarto\n🐘 fosstodon.org/@minecr\n✉️ mc301@duke.edu\n\n\n🔗 bit.ly/teach-quarto"
+  },
+  {
+    "objectID": "encuentros/4-visualizacion/index_ACTIVAR.html",
+    "href": "encuentros/4-visualizacion/index_ACTIVAR.html",
+    "title": "Quarto and automation in teaching statistical computing",
     "section": "",
-    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
+    "text": "In this talk we will discuss the use of GitHub actions and Quarto to provide automated feedback to students in a variety of statistical computing courses. These courses span the undergraduate and graduate curriculum and make use of both R and Python. The flexibility and power of the Quarto framework provide for the development of common tooling and workflows that can be adapted the specific needs of each course. We will provide concrete examples of how these tools are currently being used in these courses as well as discussing how they can be extended and adopted for new courses."
   },
   {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#abstract",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#abstract",
-    "title": "Blending R and Python in Quarto documents",
+    "objectID": "encuentros/4-visualizacion/index_ACTIVAR.html#abstract",
+    "href": "encuentros/4-visualizacion/index_ACTIVAR.html#abstract",
+    "title": "Quarto and automation in teaching statistical computing",
     "section": "",
-    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
+    "text": "In this talk we will discuss the use of GitHub actions and Quarto to provide automated feedback to students in a variety of statistical computing courses. These courses span the undergraduate and graduate curriculum and make use of both R and Python. The flexibility and power of the Quarto framework provide for the development of common tooling and workflows that can be adapted the specific needs of each course. We will provide concrete examples of how these tools are currently being used in these courses as well as discussing how they can be extended and adopted for new courses."
   },
   {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#slides",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#slides",
-    "title": "Blending R and Python in Quarto documents",
+    "objectID": "encuentros/4-visualizacion/index_ACTIVAR.html#slides",
+    "href": "encuentros/4-visualizacion/index_ACTIVAR.html#slides",
+    "title": "Quarto and automation in teaching statistical computing",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#links",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#links",
-    "title": "Blending R and Python in Quarto documents",
+    "objectID": "encuentros/4-visualizacion/index_ACTIVAR.html#speaker",
+    "href": "encuentros/4-visualizacion/index_ACTIVAR.html#speaker",
+    "title": "Quarto and automation in teaching statistical computing",
+    "section": "Speaker",
+    "text": "Speaker\n\nColin Rundel is Associate Professor of the Practice at Duke University where he has been teaching since 2012. His work focuses on teaching statistical computing to both undergraduate and graduate students in both R and Python."
+  },
+  {
+    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html",
+    "href": "encuentros/1-intro-r/index_ACTIVAR.html",
+    "title": "Bienvenido a Estación R",
+    "section": "",
+    "text": "Estación R es bla bla bla"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html#abstract",
+    "href": "encuentros/1-intro-r/index_ACTIVAR.html#abstract",
+    "title": "Bienvenido a Estación R",
+    "section": "",
+    "text": "Estación R es bla bla bla"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html#slides",
+    "href": "encuentros/1-intro-r/index_ACTIVAR.html#slides",
+    "title": "Bienvenido a Estación R",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html#links",
+    "href": "encuentros/1-intro-r/index_ACTIVAR.html#links",
+    "title": "Bienvenido a Estación R",
     "section": "Links",
-    "text": "Links\ntemplar package: https://www.github.com/r-for-educators/templar\nExample materials: https://github.com/Statistical-Learning-with-R"
+    "text": "Links\n\nDemo document, slides, and website repo: https://github.com/mine-cetinkaya-rundel/twq-demo\nManuscript repo: https://github.com/mine-cetinkaya-rundel/twq-awesome-education-paper"
   },
   {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#speaker",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#speaker",
-    "title": "Blending R and Python in Quarto documents",
+    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html#speaker",
+    "href": "encuentros/1-intro-r/index_ACTIVAR.html#speaker",
+    "title": "Bienvenido a Estación R",
     "section": "Speaker",
-    "text": "Speaker\n\n\n\n\n\nKelly Bodwin is an Associate Professor of Statistics and Data Science at Cal Poly, in San Luis Obispo, CA. Her research includes R package development, studies of statistical education, and applications in a variety of fields such as history, biology, and viticulture. While R will always be her first love, she is slowly learning to accept python into her life."
+    "text": "Speaker\n\nMine Çetinkaya-Rundel is Professor of the Practice at Duke University and Developer Educator at RStudio. Mine’s work focuses on innovation in statistics and data science pedagogy, with an emphasis on computing, reproducible research, student-centered learning, and open-source education as well as pedagogical approaches for enhancing retention of women and under-represented minorities in STEM. Mine works on integrating computation into the undergraduate statistics curriculum, using reproducible research methodologies and analysis of real and complex datasets. Mine works on the OpenIntro project, whose mission is to make educational products that are free, transparent, and lower barriers to education. As part of this project she co-authored four open-source introductory statistics textbooks. She is also the creator and maintainer of datasciencebox.org and she teaches the popular Statistics with R MOOC on Coursera. Mine is a Fellow of the ASA and Elected Member of the ISI as well as the winner of the 2021 Robert V. Hogg Award for For Excellence in Teaching Introductory Statistics. In 2023, she is the Chair of the ASA Section on Statistical Computing."
   },
   {
     "objectID": "encuentros/2-proyectos/intro-ds.html#outline",
@@ -301,535 +749,94 @@
     "text": "References\n\n\n\n\n\n\nFanelli, Daniele. 2018. “Is Science Really Facing a Reproducibility Crisis, and Do We Need It To?” Proceedings of the National Academy of Sciences 115 (11): 2628–31. https://doi.org/10.1073/pnas.1708272114."
   },
   {
-    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html",
-    "href": "encuentros/1-intro-r/index_ACTIVAR.html",
-    "title": "Bienvenido a Estación R",
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html",
+    "title": "Blending R and Python in Quarto documents",
     "section": "",
-    "text": "Estación R es bla bla bla"
+    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
   },
   {
-    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html#abstract",
-    "href": "encuentros/1-intro-r/index_ACTIVAR.html#abstract",
-    "title": "Bienvenido a Estación R",
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#abstract",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#abstract",
+    "title": "Blending R and Python in Quarto documents",
     "section": "",
-    "text": "Estación R es bla bla bla"
+    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
   },
   {
-    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html#slides",
-    "href": "encuentros/1-intro-r/index_ACTIVAR.html#slides",
-    "title": "Bienvenido a Estación R",
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#slides",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#slides",
+    "title": "Blending R and Python in Quarto documents",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html#links",
-    "href": "encuentros/1-intro-r/index_ACTIVAR.html#links",
-    "title": "Bienvenido a Estación R",
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#links",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#links",
+    "title": "Blending R and Python in Quarto documents",
     "section": "Links",
-    "text": "Links\n\nDemo document, slides, and website repo: https://github.com/mine-cetinkaya-rundel/twq-demo\nManuscript repo: https://github.com/mine-cetinkaya-rundel/twq-awesome-education-paper"
+    "text": "Links\ntemplar package: https://www.github.com/r-for-educators/templar\nExample materials: https://github.com/Statistical-Learning-with-R"
   },
   {
-    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html#speaker",
-    "href": "encuentros/1-intro-r/index_ACTIVAR.html#speaker",
-    "title": "Bienvenido a Estación R",
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#speaker",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#speaker",
+    "title": "Blending R and Python in Quarto documents",
     "section": "Speaker",
-    "text": "Speaker\n\nMine Çetinkaya-Rundel is Professor of the Practice at Duke University and Developer Educator at RStudio. Mine’s work focuses on innovation in statistics and data science pedagogy, with an emphasis on computing, reproducible research, student-centered learning, and open-source education as well as pedagogical approaches for enhancing retention of women and under-represented minorities in STEM. Mine works on integrating computation into the undergraduate statistics curriculum, using reproducible research methodologies and analysis of real and complex datasets. Mine works on the OpenIntro project, whose mission is to make educational products that are free, transparent, and lower barriers to education. As part of this project she co-authored four open-source introductory statistics textbooks. She is also the creator and maintainer of datasciencebox.org and she teaches the popular Statistics with R MOOC on Coursera. Mine is a Fellow of the ASA and Elected Member of the ISI as well as the winner of the 2021 Robert V. Hogg Award for For Excellence in Teaching Introductory Statistics. In 2023, she is the Chair of the ASA Section on Statistical Computing."
+    "text": "Speaker\n\n\n\n\n\nKelly Bodwin is an Associate Professor of Statistics and Data Science at Cal Poly, in San Luis Obispo, CA. Her research includes R package development, studies of statistical education, and applications in a variety of fields such as history, biology, and viticulture. While R will always be her first love, she is slowly learning to accept python into her life."
   },
   {
-    "objectID": "encuentros/4-visualizacion/index_ACTIVAR.html",
-    "href": "encuentros/4-visualizacion/index_ACTIVAR.html",
-    "title": "Quarto and automation in teaching statistical computing",
+    "objectID": "encuentros/5-reportes/index_ACTIVAR.html",
+    "href": "encuentros/5-reportes/index_ACTIVAR.html",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "",
-    "text": "In this talk we will discuss the use of GitHub actions and Quarto to provide automated feedback to students in a variety of statistical computing courses. These courses span the undergraduate and graduate curriculum and make use of both R and Python. The flexibility and power of the Quarto framework provide for the development of common tooling and workflows that can be adapted the specific needs of each course. We will provide concrete examples of how these tools are currently being used in these courses as well as discussing how they can be extended and adopted for new courses."
+    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
   },
   {
-    "objectID": "encuentros/4-visualizacion/index_ACTIVAR.html#abstract",
-    "href": "encuentros/4-visualizacion/index_ACTIVAR.html#abstract",
-    "title": "Quarto and automation in teaching statistical computing",
+    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#abstract",
+    "href": "encuentros/5-reportes/index_ACTIVAR.html#abstract",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "",
-    "text": "In this talk we will discuss the use of GitHub actions and Quarto to provide automated feedback to students in a variety of statistical computing courses. These courses span the undergraduate and graduate curriculum and make use of both R and Python. The flexibility and power of the Quarto framework provide for the development of common tooling and workflows that can be adapted the specific needs of each course. We will provide concrete examples of how these tools are currently being used in these courses as well as discussing how they can be extended and adopted for new courses."
+    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
   },
   {
-    "objectID": "encuentros/4-visualizacion/index_ACTIVAR.html#slides",
-    "href": "encuentros/4-visualizacion/index_ACTIVAR.html#slides",
-    "title": "Quarto and automation in teaching statistical computing",
+    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#slides",
+    "href": "encuentros/5-reportes/index_ACTIVAR.html#slides",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "encuentros/4-visualizacion/index_ACTIVAR.html#speaker",
-    "href": "encuentros/4-visualizacion/index_ACTIVAR.html#speaker",
-    "title": "Quarto and automation in teaching statistical computing",
+    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#speaker",
+    "href": "encuentros/5-reportes/index_ACTIVAR.html#speaker",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "Speaker",
-    "text": "Speaker\n\nColin Rundel is Associate Professor of the Practice at Duke University where he has been teaching since 2012. His work focuses on teaching statistical computing to both undergraduate and graduate students in both R and Python."
+    "text": "Speaker\n\n\n\n\n\nMaria Tackett is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. Her research focuses on understanding factors that impact students’ sense of belonging in introductory math and statistics courses with the aim to identify pedagogies that foster community and a supportive learning environment. She’s an active member of the statistics education community and its effort to make statistics more engaging and accessible for all students."
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#r",
-    "href": "encuentros/1-intro-r/intro-r.html#r",
-    "title": "Introducción a R base",
-    "section": "R …",
-    "text": "R …\n\nEs un lenguaje de programación, un diccionario que permite comunicarnos para realizar ciertas tareas.\nSu enfoque principale es el procesamiento, análisis y la comunicación de datos\n\n\nArtwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#quarto",
-    "href": "encuentros/1-intro-r/intro-r.html#quarto",
-    "title": "Introducción a R base",
-    "section": "Quarto …",
-    "text": "Quarto …\nunifies + extends the R Markdown ecosystem"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-1",
-    "href": "encuentros/1-intro-r/intro-r.html#quarto-1",
-    "title": "Introducción a R base",
-    "section": "Quarto …",
-    "text": "Quarto …\nunifies + extends the R Markdown ecosystem\n\nunifies for people who love R Markdown"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-2",
-    "href": "encuentros/1-intro-r/intro-r.html#quarto-2",
-    "title": "Introducción a R base",
-    "section": "Quarto …",
-    "text": "Quarto …\nunifies + extends the R Markdown ecosystem\n\nunifies for people who love R Markdown\nextends for people who don’t know R Markdown"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-unifies-extends-r-markdown",
-    "href": "encuentros/1-intro-r/intro-r.html#quarto-unifies-extends-r-markdown",
-    "title": "Introducción a R base",
-    "section": "Quarto unifies + extends R Markdown",
-    "text": "Quarto unifies + extends R Markdown\n\n\nConsistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.\nMore accessible defaults as well as better support for accessibility\nGuardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.\nSupport for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks."
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-in-a-nutshell",
-    "href": "encuentros/1-intro-r/intro-r.html#quarto-in-a-nutshell",
-    "title": "Introducción a R base",
-    "section": "Quarto, in a nutshell",
-    "text": "Quarto, in a nutshell"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#yaml",
-    "href": "encuentros/1-intro-r/intro-r.html#yaml",
-    "title": "Introducción a R base",
-    "section": "YAML",
-    "text": "YAML\nDocument metadata\n\n\ntitle: \"Hello, Penguins!\"\nformat: html\neditor: visual\n\n\n\n\n\n\n\ntitle: \"Hello, Penguins!\"\nauthor: Mine Çetinkaya-Rundel\ninstitute: Duke University\ndate: now\n...\nformat: html\neditor: visual"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#text",
-    "href": "encuentros/1-intro-r/intro-r.html#text",
-    "title": "Introducción a R base",
-    "section": "Text",
-    "text": "Text\nMarkdown, that can be edited with any editor, including RStudio’s source or visual editors."
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#code",
-    "href": "encuentros/1-intro-r/intro-r.html#code",
-    "title": "Introducción a R base",
-    "section": "Code",
-    "text": "Code\n\nR code chunks executed with knitr: {r}\nPython, Julia, and Observable chunks executed with jupyter: {python}"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#documents",
-    "href": "encuentros/1-intro-r/intro-r.html#documents",
-    "title": "Introducción a R base",
-    "section": "Documents",
-    "text": "Documents\n\n\n\nBold palmerpenguins and add link to https://allisonhorst.github.io/palmerpenguins/.\nAdd code chunk options with YAML completion:\n\nfig-alt\ncode-fold\necho: fenced\n\nAnnotate table making code # &lt;1&gt;\n\nTake penguins data frame , and then, # &lt;2&gt;\nSlice the top 10 rows, and then, # &lt;3&gt;\nSelect the variables indicates, and then, # &lt;4&gt;\nMake a gt table\n\nAdd code-annotation: hover to YAML, and then change to code-annotation: select, and then remove\nAdd a citation: 10.1371/journal.pone.0090081 to palmerpenguins\nMake document PDF"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#slides",
-    "href": "encuentros/1-intro-r/intro-r.html#slides",
-    "title": "Introducción a R base",
-    "section": "Slides",
-    "text": "Slides\n\n\n\nChange format: revealjs\nAdd section headings: First level headings Introduction and Analysis, under Analysis a second level heading called Modeling\nAdd columns to slides\nReveal code with echo: true\nteaching-tip: code-line-numbers\nChange output-location of figure"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#websites",
-    "href": "encuentros/1-intro-r/intro-r.html#websites",
-    "title": "Introducción a R base",
-    "section": "Websites",
-    "text": "Websites\n\n\n\nAdd Quarto file and call it index.qmd\nAdd _quarto.yml\nRestart project\nBuild Tab &gt; Render Website"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#publications",
-    "href": "encuentros/1-intro-r/intro-r.html#publications",
-    "title": "Introducción a R base",
-    "section": "Publications",
-    "text": "Publications\n\nYou can already write reproducible journal articles with Quarto (like you could with the rticles and similar packages and R Markdown), and an ASA template is available!\nYou can now also write fully reproducible manuscripts with embedded computation and render to multiple formats!\n\n\n\n\n\n\n\nQuarto 1.4\n\n\nThe manuscript project type is available in Quarto 1.4. Pre-release now available, release coming soon!"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#manuscripts",
-    "href": "encuentros/1-intro-r/intro-r.html#manuscripts",
-    "title": "Introducción a R base",
-    "section": "Manuscripts",
-    "text": "Manuscripts"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-cli",
-    "href": "encuentros/1-intro-r/intro-r.html#quarto-cli",
-    "title": "Introducción a R base",
-    "section": "Quarto CLI…",
-    "text": "Quarto CLI…\norchestrates each step of rendering\n\nArtwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#learning-more",
-    "href": "encuentros/1-intro-r/intro-r.html#learning-more",
-    "title": "Introducción a R base",
-    "section": "Learning more",
-    "text": "Learning more\nhttps://quarto.org"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#follow-up-with",
-    "href": "encuentros/1-intro-r/intro-r.html#follow-up-with",
-    "title": "Introducción a R base",
-    "section": "Follow up with…",
-    "text": "Follow up with…\nthe Quarto Blog: https://quarto.org/docs/blog"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#thank-you",
-    "href": "encuentros/1-intro-r/intro-r.html#thank-you",
-    "title": "Introducción a R base",
-    "section": "Thank you!",
-    "text": "Thank you!\n🔗 bit.ly/teach-quarto\n🐘 fosstodon.org/@minecr\n✉️ mc301@duke.edu\n\n\n🔗 bit.ly/teach-quarto"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html",
-    "href": "encuentros/2-proyectos/index_ACTIVAR.html",
-    "title": "Teaching Quarto in Introduction to Data Science Courses",
+    "objectID": "profesor.html",
+    "href": "profesor.html",
+    "title": "Docente",
     "section": "",
-    "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
+    "text": "PABLO TISCORNIA\nSociólogo y Científico de Datos. Especializado en metodología, producción, procesamiento y comunicación de información estadística. Trabajé como analista y procesador de datos en las oficinas estadísticas de la Ciudad de Buenos Aires (DGEyC) y Argentina (INDEC), y como Coordinador de Datos en la Dirección Nacional de Mercados y Estadística (DNMYE), del Ministerio de Turismo y Deportes de la Nación. Actualmente estoy trabajando como Científico de datos para C40 Cities."
   },
   {
-    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html#abstract",
-    "href": "encuentros/2-proyectos/index_ACTIVAR.html#abstract",
-    "title": "Teaching Quarto in Introduction to Data Science Courses",
+    "objectID": "profesor.html#docencia-y-r",
+    "href": "profesor.html#docencia-y-r",
+    "title": "Docente",
+    "section": "Docencia y R:",
+    "text": "Docencia y R:\n\nInstructor Certificado de The Carpentries\n\nVan ya más de 5 años diseñando y llevando adelante cursos de R, algunos de ellos son:\n\nCiencias Sociales Computacionales y Humanidades Digitales (IDAES-UNSAM). Módulo 1. Introducción a la Ciencia de Datos para Científicos Sociales\nBig Data e Inteligencia Territorial (FLACSO) - Módulo Ciencia de Datos I\nInstrumentos de Análisis Urbanos II (UTDT)\nIntroducción a R para Ciencias Sociales - IIGG\nSoftware estadístico R, aplicado al análisis y procesamiento de la información estadística del INDEC."
+  },
+  {
+    "objectID": "profesor.html#mundo-r",
+    "href": "profesor.html#mundo-r",
+    "title": "Docente",
+    "section": "Mundo R:",
+    "text": "Mundo R:\nHe participado en la organización y difusión de la comunidad de R en Buenos Aires, en el desarrollo de los paquetes eph, herramientas, comunicacion y evyth.\n📝 Podés encontrar parte de mi recorrido y trabajo con R en mi blog estación-R, buscar Tips sobre R con rtips (twitter)/rtips (Mastodon) y descubrir Asombrosos paquetes de R en Latinoamérica, proyectos que llevo adelante como aporte a la comunidad.\nPodemos cruzarnos en: 𝕏 estacion-r | Mastodon 🦣 | Github | 🇷 estacion-r | 𝕏 pabblo_h"
+  },
+  {
+    "objectID": "cod_de_conducta.html",
+    "href": "cod_de_conducta.html",
+    "title": "Código de conducta",
     "section": "",
-    "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
-  },
-  {
-    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html#slides",
-    "href": "encuentros/2-proyectos/index_ACTIVAR.html#slides",
-    "title": "Teaching Quarto in Introduction to Data Science Courses",
-    "section": "Slides",
-    "text": "Slides"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html#speaker",
-    "href": "encuentros/2-proyectos/index_ACTIVAR.html#speaker",
-    "title": "Teaching Quarto in Introduction to Data Science Courses",
-    "section": "Speaker",
-    "text": "Speaker\n\nElijah Meyer (elijah.meyer@duke.edu) is currently a teaching postdoctoral associate at Duke University. Taught Quarto in introductory data science at Duke the last fall, spring, and summer sessions. His work focuses on curricula and course creation, as well as studying how to best support newer instructor’s use of active learning."
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#engine-setup",
-    "href": "encuentros/3-tidyverse/r-python.html#engine-setup",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Engine Setup",
-    "text": "Engine Setup\nIn R Markdown, to use python, you had to set everything up in R using the reticulate package:"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#section",
-    "href": "encuentros/3-tidyverse/r-python.html#section",
-    "title": "Bilingual Materials with Quarto",
-    "section": "",
-    "text": "library(reticulate)"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#section-1",
-    "href": "encuentros/3-tidyverse/r-python.html#section-1",
-    "title": "Bilingual Materials with Quarto",
-    "section": "",
-    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#section-2",
-    "href": "encuentros/3-tidyverse/r-python.html#section-2",
-    "title": "Bilingual Materials with Quarto",
-    "section": "",
-    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()\n\n## You may need the code below if you are working on your home Windows computer:\npy_run_string(\"import os as os\")\npy_run_string(\"os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:/Users/kbodwin/Anaconda3/Library/plugins/platforms'\")"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#section-3",
-    "href": "encuentros/3-tidyverse/r-python.html#section-3",
-    "title": "Bilingual Materials with Quarto",
-    "section": "",
-    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()\n\n## You may need the code below if you are working on your home Windows computer:\npy_run_string(\"import os as os\")\npy_run_string(\"os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:/Users/kbodwin/Anaconda3/Library/plugins/platforms'\")\n\nreticulate::py_install(\"pandas\")\nreticulate::py_install(\"scikit-learn\")\nreticulate::py_install(\"scipy\")"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#engine-setup-1",
-    "href": "encuentros/3-tidyverse/r-python.html#engine-setup-1",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Engine Setup",
-    "text": "Engine Setup\nNow, it’s all “under the hood”:\n---\ntitle: \"My document\"\njupyter: python3\n---"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#choose-your-install-in-global-options",
-    "href": "encuentros/3-tidyverse/r-python.html#choose-your-install-in-global-options",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Choose your install in Global Options",
-    "text": "Choose your install in Global Options"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#object-passing",
-    "href": "encuentros/3-tidyverse/r-python.html#object-passing",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Object passing",
-    "text": "Object passing\n\nAutomatic variables named py and r\nAccess python objects from R with py$\nAccess R objects from python with r."
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#object-passing-1",
-    "href": "encuentros/3-tidyverse/r-python.html#object-passing-1",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Object passing",
-    "text": "Object passing\n\n```{r}\n# read and filter data with R\nlibrary(palmerpenguins)\n\nadelie &lt;-\n  penguins %&gt;%\n  filter(species == \"Adelie\")\n```\n\n```{python}\n# model with python\nLR = LinearRegression()\n\nX = r.adelie[['bill_length_mm', 'bill_depth_mm']]\ny = r.adelie['mass_g']\n\nmod = LR.fit(X, y)\ncoef = mod.coef_\n```\n\n```{r}\n# summarize with R\npy$coef\n```"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#jupyter",
-    "href": "encuentros/3-tidyverse/r-python.html#jupyter",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Jupyter",
-    "text": "Jupyter\n\nDo you like Jupyter notebooks? Me too!\nDo you like Colab and/or Posit Cloud? Me too!\nDo you want to make your materials in Quarto but distribute to students in Jupyter form? Me too!\n\n\n\nCode\nquarto convert class_notes.qmd\nquarto convert class_notes.ipynb \n\nquarto render class_notes.ipynb"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#remaining-challenges-of-multilingual-docs",
-    "href": "encuentros/3-tidyverse/r-python.html#remaining-challenges-of-multilingual-docs",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Remaining challenges of multilingual docs",
-    "text": "Remaining challenges of multilingual docs\n\nMost undergrad programs don’t require multiple languages.\nDetecting python installs and packages isn’t perfect.\nR and python do not always have the same default implementations for models.\nWhat if what you want is not a multilingual document, but duplicated translated documents?"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#what-it-does",
-    "href": "encuentros/3-tidyverse/r-python.html#what-it-does",
-    "title": "Bilingual Materials with Quarto",
-    "section": "What it does",
-    "text": "What it does\nUpon rendering…\n\nIdentifies the R chunks from the python chunks\nIdentifies the labeled text sections for R or python.\nWrites new unilingual source files (qmds) in separate folders\n(Optionally) Renders those source files\n(Optionally) Converts the python one to ipynb."
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#first-chunk",
-    "href": "encuentros/3-tidyverse/r-python.html#first-chunk",
-    "title": "Bilingual Materials with Quarto",
-    "section": "First chunk",
-    "text": "First chunk\n```{r, version = \"none\"}\ntemplar::versions_quarto_multilingual(global_eval = FALSE,\n                                      to_jupyter = TRUE, \n                                      warn_edit = FALSE)\n```\n\n{version = \"none\"}: this code itself should not appear in generated files\nglobal_eval: do you want to\nto_jupyter: do you want to convert the python version?\nwarn_edit: put a warning at the top of generated files to not edit directly?"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#code-chunk-versions",
-    "href": "encuentros/3-tidyverse/r-python.html#code-chunk-versions",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Code chunk versions",
-    "text": "Code chunk versions\n\nThe first thing we need to do with any dataset is check for\nmissing data, and make sure the variables are the right type:\n\n```{r, version = \"R\"}\ndf %&gt;% summary()\n```\n\n```{python, version = \"python\"}\ndf.info()\n```"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#versioned-text",
-    "href": "encuentros/3-tidyverse/r-python.html#versioned-text",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Versioned text",
-    "text": "Versioned text\n\nThe next step is to clean the data.\n\n%%% version: R\n\nThe \"Color\" variable is being treated as a \"character\" variable,\ni.e., just an ordinary word.\n\nBut we know it should be *categorical*, aka a `factor` variable.\nLet's `mutate` the dataset to fix this:\n\n```{r, version = \"R\"}\ndf &lt;- df %&gt;%\n  mutate(\n    Color = factor(Color)\n  )\n\ndf %&gt;% summary()\n```\n\n%%%\n\n%%% version: python\n\nThe \"Color\" variable is being treated as an \"object\" variable,\ni.e., just an ordinary word.\n\nBut we know it should be *categorical*, aka a `category` variable.\nLet's *retype* the variable to fix this:\n\n%%%\n\n```{python, version = \"python\"}\nkelly_df['Gender'] = kelly_df['Gender'].astype('category')\nkelly_df.info()\n```"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#why-its-useful",
-    "href": "encuentros/3-tidyverse/r-python.html#why-its-useful",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Why it’s useful",
-    "text": "Why it’s useful\n\nKeep the content creation all in one place - more reproducible!\nElements of the document can be shared - e.g. data descriptions, question prompts, css chunks\nGive you source files to disseminate to students, not just rendered files.\n(Also lets you do student and solution version, or Exam A and Exam B, etc.)"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#lua-translation",
-    "href": "encuentros/3-tidyverse/r-python.html#lua-translation",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Lua translation",
-    "text": "Lua translation\n\nParse the source file text more elegantly\nMatch syntax to Quarto’s\n(::: instead of %%%)\n(#| version: R instad of {version = \"R})\nDo you know Lua and knitr? Let’s be friends."
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick",
-    "href": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Quarto’s multi-output trick",
-    "text": "Quarto’s multi-output trick\nWhat it can do now:\n---\ntitle: \"My Versioned Doc\"\nformat: \n  html:\n    output-file: my_versioned_doc.html\n  pdf:\n    output-file: my_versioned_doc.pdf\n---\n\n::: {.content-visible when-format=\"html\"}\nClick here to expand!\n:::"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick-1",
-    "href": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick-1",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Quarto’s multi-output trick",
-    "text": "Quarto’s multi-output trick\nWhat I want:\n---\ntitle: \"My Versioned Doc\"\nformat: \n  html+R:\n    output-file: handout-r.html\n  html+python:\n    output-file: handout-python.html\n---\n\n::: {.content-visible when-variant=\"R\"}\nThe function `mutate()` will add a new variable.\n:::"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#resources",
-    "href": "encuentros/3-tidyverse/r-python.html#resources",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Resources",
-    "text": "Resources\nInstall the templar package:\n\nremotes::install_github(\"r-for-educators/templar\")\n\nCo-author: Ian Flores Siaca\nContribute at www.github.com/r-for-educators/templar\nExamples of course materials generated with templar:\nhttps://github.com/Statistical-Learning-with-R"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#outline",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#outline",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Outline",
-    "text": "Outline\n\nWhy use Quarto to make teaching materials?\nWhat teaching materials can I create using Quarto?\nHow do I get started?"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-instructor",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-instructor",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Benefits for instructor",
-    "text": "Benefits for instructor\n\nReproducible course materials that are easier to update\nIntegrate narrative, executable R code, images, and interactive elements\nEasily share course materials with students and more broadly\nRegularly use the same technology as your students"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-students",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-students",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Benefits for students",
-    "text": "Benefits for students\n\nNavigation menu on all documents to easily to find content\nSearch capabilities on website to more easily find content by topic\nOption to export PDF of slides\nRead course materials on multiple devices"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Teaching materials in Quarto",
-    "text": "Teaching materials in Quarto\n\n\nCourse websites\n\n\n\n\n\nSlides"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto-1",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto-1",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Teaching materials in Quarto",
-    "text": "Teaching materials in Quarto\n\n\nLong-form notes\n\n\n\n\n\nAssignment instructions"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-menu",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-menu",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Slide menu",
-    "text": "Slide menu\n\nSlide navigation\nPrint to PDF\nSpeaker view\nAnnotation\nChalkboard"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-code-output",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-code-output",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Slide with code + output",
-    "text": "Slide with code + output\n\n\nPublished slide\n\n\nSource code\n\n\n\n\n\nSource: SciPy lecture by Colin Rundel"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-mathematical-notation",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-mathematical-notation",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Slide with mathematical notation",
-    "text": "Slide with mathematical notation\n\n\nPublished slide\n\n\nSource code\n\n\n\n\n\nSource: SLR: Mathematical models for inference by Maria Tackett"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#navigating-course-website",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#navigating-course-website",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Navigating course website",
-    "text": "Navigating course website\n\n\n\nIntroduction to Data Science taught by Mine Çetinkaya-Rundel"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#example-website-file-structure",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#example-website-file-structure",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Example website file structure",
-    "text": "Example website file structure"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#interactive-documents-with-webr",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#interactive-documents-with-webr",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Interactive documents with webR",
-    "text": "Interactive documents with webR\n\n“Run R code in the browser without the need for an R server to execute the code”\n\n\n\n\nwebR demo: maria.quarto.pub/webr-demo"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#webr-source-code",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#webr-source-code",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "webR source code",
-    "text": "webR source code\nYAML\n\n---\ntitle: \"webR document\"\nformat: html\nfilters:\n  - webr\nwebr:\n  packages: ['dplyr', 'ggplot2']\n  Cross-Origin-Opener-Policy: same-origin\n  Cross-Origin-Embedder-Policy: require-corp\n---\n\n\nExecutable code chunk\n\n{webr-r}\nmpg |&gt;\n  count(manufacturer, _____)"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-slides-documents",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-slides-documents",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Getting started: slides + documents",
-    "text": "Getting started: slides + documents\n\n\nBasic\nCustomized\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\nformat: revealjs\n---\n\n\n\n\n\n\n\nTip\n\n\nEasily produce multiple types of documents by changing the format in the YAML.\n\n\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\ndate-format: long\nfooter: \"URL to course website\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: false\n    incremental: false \n    chalkboard: \n    code-link: true\neditor: visual\nexecute: \n  eval: true\n  echo: true\n---"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-websites",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-websites",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Getting started: websites",
-    "text": "Getting started: websites\n\nMake a website repo on GitHub\nClone the repo and start a new RStudio project\n\nRun the following code in the Terminal\nquarto create-project --type website\n\n\nYou will see the standard files for a new website in the Files pane. See Creating a Website on quarto.org for more information."
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#publishing-materials",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#publishing-materials",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Publishing materials",
-    "text": "Publishing materials\nRun the following code in the Terminal\nGitHub pages\nquarto publish gh-pages\nQuarto pub\nquarto publish quarto-pub\nNetlify\nquarto publish netlify\n\nSee Publishing Basics on quarto.org for more information and publishing options."
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#course-websites-created-with-quarto",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#course-websites-created-with-quarto",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Course websites created with Quarto",
-    "text": "Course websites created with Quarto\n\nIntroduction to Data Science, Elijah Meyer\n\n[website][GitHub repo]\n\n\nRegression Analysis, Maria Tackett\n\n[website][GitHub repo]\n\n\nAdvanced Data Visualization, Mine Çetinkaya-Rundel\n\n[website][GitHub repo]\n\n\nApplied Experimental Design and Regression Models, Allison Theobold\n\n[website][Github repo]"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#course-slides-created-with-quarto",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#course-slides-created-with-quarto",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Course slides created with Quarto",
-    "text": "Course slides created with Quarto\n\n\nStatistical Computing and Computation, Colin Rundel\n\n[website][GitHub repo]\n\n\n\nStatistical Learning with R, Kelly Bodwin\n\n[GitHub repo]"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#learn-more",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#learn-more",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Learn more!",
-    "text": "Learn more!\n\nOrganizing Teaching Materials by Maria Tackett & Mine Çetinkaya-Rundel\nReproducible documents, presentations, and websites with Quarto by Hunter Glanz, Emily Robinson & Allison Theobold\nHello Quarto: Share, Collaborate, Teach, Reimagine by Mine Çetinkaya-Rundel & Julia Lowndes\nquarto.org"
-  },
-  {
-    "objectID": "puesta-punto.html",
-    "href": "puesta-punto.html",
-    "title": "Puesta a punto",
-    "section": "",
-    "text": "Este taller está pensado para ser esencialmente práctico. La idea es exponer una presentación por módulo, en donde cada 3 o 4 conceptos se le dedicará un tiempo para poder ejercitar lo visto, previo a continuar con el siguiente contenido.\nSe recomienda seguir las presentaciones durante la exposición ya que de ellas se extraerá el código, haciendo más ágil la cursada."
-  },
-  {
-    "objectID": "puesta-punto.html#dinámica-de-taller",
-    "href": "puesta-punto.html#dinámica-de-taller",
-    "title": "Puesta a punto",
-    "section": "",
-    "text": "Este taller está pensado para ser esencialmente práctico. La idea es exponer una presentación por módulo, en donde cada 3 o 4 conceptos se le dedicará un tiempo para poder ejercitar lo visto, previo a continuar con el siguiente contenido.\nSe recomienda seguir las presentaciones durante la exposición ya que de ellas se extraerá el código, haciendo más ágil la cursada."
-  },
-  {
-    "objectID": "puesta-punto.html#estrategias-metodológicas-y-recursos-didácticos",
-    "href": "puesta-punto.html#estrategias-metodológicas-y-recursos-didácticos",
-    "title": "Puesta a punto",
-    "section": "Estrategias metodológicas y Recursos didácticos",
-    "text": "Estrategias metodológicas y Recursos didácticos\nLas clases del curso serán teórico-prácticas. Por cada presentación temática se irán planteando ejercicios a medida que se avanza en el contenido, abordando las dudas que vayan surgiendo. Se prioriza la utilización del programa durante la clase.\nA lo largo del curso se brindarán sintaxis al estilo “notas de clase”, en las cuales se plasman conjuntamente las líneas de código que se exponen y su correspondiente explicación respecto a los procedimientos realizados. Finalmente, se propondrán ejercicios para resolver fuera de la clase con el objetivo de reforzar los conocimientos vistos en las mismas.\nSe busca que, siempre que se pueda, el contenido, ejemplos y ejercicios representen problemáticas y desafíos propios del campo en el que se encuentran insertos los y las participantes."
-  },
-  {
-    "objectID": "puesta-punto.html#instalación-de-r",
-    "href": "puesta-punto.html#instalación-de-r",
-    "title": "Puesta a punto",
-    "section": "Instalación de R",
-    "text": "Instalación de R\nAsegurate de tener instalado R en tu computadora previo a comenzar el taller. Desde R-project vas a poder hacerte de R.\nSugerencia: Para usuarios y usuarias con Windows en sus computadoras, instalar rtools, herramienta para poder trabajar con el paquete tidyverse.\nDe todas formas, una semana previo al comienzo del curso se enviará un tutorial con todo lo necesario para un arranque sin problemas."
-  },
-  {
-    "objectID": "puesta-punto.html#instalación-de-rstudio",
-    "href": "puesta-punto.html#instalación-de-rstudio",
-    "title": "Puesta a punto",
-    "section": "Instalación de Rstudio",
-    "text": "Instalación de Rstudio\nRstudio es la plataforma desde donde se trabajará durante todo el taller. Si bien debemos tener instalado R, el programa que se abrirá en cada clase y desde donde haremos los ejercicios es Rstudio.\nDescargar Rstudio"
-  },
-  {
-    "objectID": "puesta-punto.html#descarga-de-slack-versión-escritorio",
-    "href": "puesta-punto.html#descarga-de-slack-versión-escritorio",
-    "title": "Puesta a punto",
-    "section": "Descarga de Slack (versión escritorio)",
-    "text": "Descarga de Slack (versión escritorio)\nLa forma de comunicación será principalmente Slack, una plataforma de intercambio que funciona como un chat-foro. Desde allí es posible concentrar la comunicación del curso, difundir material, código y también realizar consultas y respuestas de forma grupal."
-  },
-  {
-    "objectID": "programa.html",
-    "href": "programa.html",
-    "title": "Programa",
-    "section": "",
-    "text": "Módulo I: Presentación del lenguaje R.\n\nR base.\nData frames (bases de datos)\nPaquetes\nProyectos de trabajo con RStudio\n\n\n\nMódulo II: Procesamiento de datos con el paquete Tidyverse:\n\nImportación de datos (de Excel, SPSS, Stata, archivos de texto, etc.)\nLimpieza: Seleccionar variables, filtrar casos, recodificar, renombrar, ordenar y agrupar información.\nTratamiento de valores faltantes (missing values/ NA´s)\nConstruir medidas de resumen de la información\n\n\n\nMódulo III: Visualización de la información\n\nPaquete ggplot2:\nGráficos de línea, barras, Boxplots\nChapa y pintura: Leyendas, ejes, títulos, notas, colores, escala\n\n\n\nMódulo IV: Introducción al armado de informes/reportes con RMarkdown\n\nAspectos básicos de html\nRecopilación y procesamiento de datos de la web\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Código de conducta\nLa comunidad de Estación R, incluyendo sus representantes, deben conocer y seguir este Código de Conducta (basado en el Código de Conducta de R Community) que es establecido con la finalidad de alentar al crecimiento de esta comunidad, participando en un ambiente amigable y partiendo de la base del respeto mutuo.\nEste código de conducta aplica en todos los espacios de participación de Estación R, incluyendo reuniones, Twitter, Slack, listas de correo, tanto online como offline. También es aplicable fuera de los espacios del grupo a quienes actúen en representación del mismo, ya sea online u offline.\nEn cualquier tipo de evento ya sea conferencia, charla, taller, fiesta, reunión, redes sociales y otros medios en línea:\n\nAborde los esfuerzos ajenos con consideración;\nCuando no esté de acuerdo con algo, sea amable al plantear sus problemas;\nEjercite la consideración y el respeto en su discurso y en sus acciones;\nIntente colaborar para evitar conflictos;\nSea consciente de su entorno y del resto de las personas;\nAlerte a quien considere oportuno si nota alguna situación peligrosa, alguien sufriendo una situación comprometedora o violaciones de este Código de Conducta, incluso aunque parezcan poco importantes. Responderemos tan pronto como podamos.\n\nEsperamos que Estación R sea un grupo libre de acoso.\nAcoso incluye, entre otros: insultos, tanto directos como indirectos; daño o perjurio verbal o escrito relacionado con género, orientación sexual, raza, religión, incapacidad; uso inapropiado de imágenes de desnudez (incluyendo presentaciones digitales); intimidación deliberada, acecho o persecución; fotografías o grabaciones abusivas; interrupción sostenida de presentaciones u de otros eventos; contacto físico inapropiado y atención sexual no deseada.\nQuienes violen estas reglas podrían recibir una sanción o explusión del grupo. Si se te pide que detengas cualquier comportamiento que se considere como acoso, esperamos que lo detengas de inmediato.\nSomos receptivos a los comentarios constructivos y las críticas, ya que las experiencias y conjuntos de habilidades de otras personas contribuyen a todos nuestros esfuerzos. Aceptamos a cualquiera que desee participar en nuestras actividades. Fomentanmos un entorno en el que quien lo desee pueda aportar y marcar la diferencia.\n\n\nVeedores del Código de Conducta\nEste código de conducta será aplicado por integrantes de Estación R. En caso de disputas que involucren a alguien que es parte del grupo designado, ésta persona se hará a un lado en la toma de decisiones.\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

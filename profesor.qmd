@@ -15,6 +15,8 @@ Sociólogo y Científico de Datos. Especializado en metodología, producción, p
 
 ## Docencia y R:
 
+- Instructor Certificado de [The Carpentries](https://carpentries.org/)
+
 Van ya más de `r lubridate::year(lubridate::today()) - 2019` años diseñando y llevando adelante cursos de R, algunos de ellos son:
 
 -   [Ciencias Sociales Computacionales y Humanidades Digitales (IDAES-UNSAM)](https://noticias.unsam.edu.ar/wp-content/uploads/2022/02/Cs-Computacionales-dga2022.pdf). Módulo 1. Introducción a la Ciencia de Datos para Científicos Sociales
@@ -31,8 +33,8 @@ Van ya más de `r lubridate::year(lubridate::today()) - 2019` años diseñando y
 
 He participado en la organización y difusión de la comunidad de [R en Buenos Aires](https://renbaires.github.io/), en el desarrollo de los paquetes [eph](https://holatam.github.io/eph/), [herramientas](https://dnme-minturdep.r-universe.dev/herramientas), [comunicacion](https://dnme-minturdep.r-universe.dev/comunicacion) y [evyth](https://dnme-minturdep.r-universe.dev/evyth).
 
-📝 Podés encontrar parte de mi recorrido y trabajo con R en mi blog personal [estación-R](https://estacion-r.netlify.app/), buscar Tips sobre R con [rtips](https://twitter.com/r_tipss) y descubrir [Asombrosos paquetes de R en Latinoamérica](https://github.com/pablotis/asombrosos-paquetes-r-latinoamerica), proyectos que llevo adelante como aporte a la comunidad.
+📝 Podés encontrar parte de mi recorrido y trabajo con R en mi blog [estación-R](https://estacion-r.netlify.app/), buscar Tips sobre R con [rtips (twitter)](https://twitter.com/r_tipss)/[rtips (Mastodon)](@r_tips@botsin.space) y descubrir [Asombrosos paquetes de R en Latinoamérica](https://github.com/pablotis/asombrosos-paquetes-r-latinoamerica), proyectos que llevo adelante como aporte a la comunidad.
 
-Podemos cruzarnos en: [𝕏 r_tips](https://twitter.com/r_tips) \| [Github](https://github.com/pablotis) \| [🌐 estacion-r](https://estacion-r.netlify.app/) \| [𝕏 pabblo_h](https://twitter.com/pabblo_h)
+Podemos cruzarnos en: [𝕏 estacion-r](https://twitter.com/r_tips) \| [Mastodon 🦣](https://mastodon.social/deck/@r_tips@botsin.space) \| [Github](https://github.com/pablotis) \| [🇷 estacion-r](https://estacion-r.netlify.app/) \| [𝕏 pabblo_h](https://twitter.com/pabblo_h)
 
 ------------------------------------------------------------------------

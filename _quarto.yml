@@ -20,6 +20,9 @@ website:
         text: Puesta a punto
       - href: profesor.qmd
         text: Docente
+    right: 
+      - href: cod_de_conducta.qmd
+        text: Código de conducta
     tools:
       - icon: github
         href: https://github.com/pablotis/intro-r-quarto

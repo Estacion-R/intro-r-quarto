@@ -10,11 +10,15 @@
     ]
   },
   {
+    "listing": "/programa.html",
+    "items": []
+  },
+  {
     "listing": "/profesor.html",
     "items": []
   },
   {
-    "listing": "/programa.html",
+    "listing": "/cod_de_conducta.html",
     "items": []
   }
 ]
