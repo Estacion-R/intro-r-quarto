@@ -1,0 +1,35 @@
+---
+title: "Intro a R - Ejercitación"
+author: "Estación R"
+---
+
+## Consignas:
+
+1. Crear un vector llamado `apellido`, con los siguientes 7 apellidos:
+
+    - "García",
+    - "Sanchez",
+    - "Van Del Sar",
+    - "Mihatovich",
+    - "Lama",
+    - "Lugercio"
+    - "Messidona"
+
+1. Crear un vector llamado `cantidad`, con los siguientes 7 valores, que representen la frecuencia con la que existe cada apellido en nuestra base:
+
+    - 1
+    - 3
+    - 17
+    - 9
+    - 2
+    - 34
+    - 98
+    
+    
+1. Con estos vectores, crear un `data.frane` que los combine y:
+
+    a. Sumar la cantidad de apellidos total que hay en la base (la función `sum()` puede ayudar al respecto).
+    
+    a. Calcular el apellido que más frecuencia tiene (la función `max()` puede ayudar al respecto).
+    
+    a. Calcular el apellido que menos frecuencia tiene (la función `min()` puede ayudar al respecto)

@@ -399,130 +399,361 @@
     "text": "Speaker\n\nElijah Meyer (elijah.meyer@duke.edu) is currently a teaching postdoctoral associate at Duke University. Taught Quarto in introductory data science at Duke the last fall, spring, and summer sessions. His work focuses on curricula and course creation, as well as studying how to best support newer instructor’s use of active learning."
   },
   {
+    "objectID": "encuentros/1-intro-r/index.html",
+    "href": "encuentros/1-intro-r/index.html",
+    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
+    "section": "",
+    "text": "En este encuentro vamos a presentar a R, su contexto y su potencia, asi como también introducirnos en sus conceptos básicos, como lo son los valores, vectores, data frames y funciones.\nTendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente."
+  },
+  {
+    "objectID": "encuentros/1-intro-r/index.html#descripción",
+    "href": "encuentros/1-intro-r/index.html#descripción",
+    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
+    "section": "",
+    "text": "En este encuentro vamos a presentar a R, su contexto y su potencia, asi como también introducirnos en sus conceptos básicos, como lo son los valores, vectores, data frames y funciones.\nTendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente."
+  },
+  {
+    "objectID": "encuentros/1-intro-r/index.html#slides",
+    "href": "encuentros/1-intro-r/index.html#slides",
+    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/index.html#links",
+    "href": "encuentros/1-intro-r/index.html#links",
+    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
+    "section": "Links",
+    "text": "Links\n\nPresentación: https://docs.google.com/document/d/1cM2BpKw4weWxsJ5EvcoJzT02YZPjcIZvxNVoOskEPgY/edit#heading=h.jja0j3hbdd5p\nCiencia de Datos para Gente Sociable: https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/\nEjercitación de la semana: https://pablotis.github.io/intro-r-quarto/encuentros/1-intro-r/intro-r_ejercitacion.html"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/index.html#docente",
+    "href": "encuentros/1-intro-r/index.html#docente",
+    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
+    "section": "Docente",
+    "text": "Docente\n\nPablo Tiscornia"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#hoja-de-ruta",
+    "href": "encuentros/1-intro-r/intro-r.html#hoja-de-ruta",
+    "title": "Introducción a R base",
+    "section": "Hoja de Ruta",
+    "text": "Hoja de Ruta\n\n\n📌 ¿Qué es R?\n📌 ¿Qué es la Ciencia de Datos?\n📌 R != Rstudio\n\n📌 Conceptos básicos de R\n  👉🏼 Valores\n\n  👉🏼 Vectores\n\n  👉🏼 Tipos / Clases\n\n  👉🏼 Data Frames"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#primera-impresión",
+    "href": "encuentros/1-intro-r/intro-r.html#primera-impresión",
+    "title": "Introducción a R base",
+    "section": "Primera impresión",
+    "text": "Primera impresión"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#evolución-emocional",
+    "href": "encuentros/1-intro-r/intro-r.html#evolución-emocional",
+    "title": "Introducción a R base",
+    "section": "Evolución emocional",
+    "text": "Evolución emocional"
+  },
+  {
     "objectID": "encuentros/1-intro-r/intro-r.html#r",
     "href": "encuentros/1-intro-r/intro-r.html#r",
     "title": "Introducción a R base",
     "section": "R …",
-    "text": "R …\n\nEs un lenguaje de programación, un diccionario que permite comunicarnos para realizar ciertas tareas.\nSu enfoque principale es el procesamiento, análisis y la comunicación de datos\n\n\nArtwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
+    "text": "R …\n\nEs un lenguaje de programación especializado en análisis y visualización de datos."
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#quarto",
-    "href": "encuentros/1-intro-r/intro-r.html#quarto",
+    "objectID": "encuentros/1-intro-r/intro-r.html#r-1",
+    "href": "encuentros/1-intro-r/intro-r.html#r-1",
     "title": "Introducción a R base",
-    "section": "Quarto …",
-    "text": "Quarto …\nunifies + extends the R Markdown ecosystem"
+    "section": "R …",
+    "text": "R …\n\nEs de código abierto (se puede usar y modificar sin pagar licencias ni costos de ningún tipo)"
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-1",
-    "href": "encuentros/1-intro-r/intro-r.html#quarto-1",
+    "objectID": "encuentros/1-intro-r/intro-r.html#r-2",
+    "href": "encuentros/1-intro-r/intro-r.html#r-2",
     "title": "Introducción a R base",
-    "section": "Quarto …",
-    "text": "Quarto …\nunifies + extends the R Markdown ecosystem\n\nunifies for people who love R Markdown"
+    "section": "R …",
+    "text": "R …\n\nCrece a partir del aporte de su comunidad (no depende de un departamento de desarrollo):\n\nAcademia (Universidades)\nInvestigación Científica (Centros de investigación, comunidad científica)\nSector privado (Facebook, Google, X, Uber, Airbnb, IBM, New York times)\nGente de a pie (personas o grupos de personas)"
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-2",
-    "href": "encuentros/1-intro-r/intro-r.html#quarto-2",
+    "objectID": "encuentros/1-intro-r/intro-r.html#r-3",
+    "href": "encuentros/1-intro-r/intro-r.html#r-3",
     "title": "Introducción a R base",
-    "section": "Quarto …",
-    "text": "Quarto …\nunifies + extends the R Markdown ecosystem\n\nunifies for people who love R Markdown\nextends for people who don’t know R Markdown"
+    "section": "R …",
+    "text": "R …\n\nEn el campo del análisis de datos, es la herramienta por excelencia en muchas universidades, empresas de tecnología, y redacciones de periodismo de datos."
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-unifies-extends-r-markdown",
-    "href": "encuentros/1-intro-r/intro-r.html#quarto-unifies-extends-r-markdown",
+    "objectID": "encuentros/1-intro-r/intro-r.html#qué-es-la-ciencia-de-datos-1",
+    "href": "encuentros/1-intro-r/intro-r.html#qué-es-la-ciencia-de-datos-1",
     "title": "Introducción a R base",
-    "section": "Quarto unifies + extends R Markdown",
-    "text": "Quarto unifies + extends R Markdown\n\n\nConsistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.\nMore accessible defaults as well as better support for accessibility\nGuardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.\nSupport for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks."
+    "section": "¿Qué es la Ciencia de Datos?",
+    "text": "¿Qué es la Ciencia de Datos?"
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-in-a-nutshell",
-    "href": "encuentros/1-intro-r/intro-r.html#quarto-in-a-nutshell",
+    "objectID": "encuentros/1-intro-r/intro-r.html#r-rstudio-1",
+    "href": "encuentros/1-intro-r/intro-r.html#r-rstudio-1",
     "title": "Introducción a R base",
-    "section": "Quarto, in a nutshell",
-    "text": "Quarto, in a nutshell"
+    "section": "R != Rstudio",
+    "text": "R != Rstudio"
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#yaml",
-    "href": "encuentros/1-intro-r/intro-r.html#yaml",
+    "objectID": "encuentros/1-intro-r/intro-r.html#r-rstudio-2",
+    "href": "encuentros/1-intro-r/intro-r.html#r-rstudio-2",
     "title": "Introducción a R base",
-    "section": "YAML",
-    "text": "YAML\nDocument metadata\n\n\ntitle: \"Hello, Penguins!\"\nformat: html\neditor: visual\n\n\n\n\n\n\n\ntitle: \"Hello, Penguins!\"\nauthor: Mine Çetinkaya-Rundel\ninstitute: Duke University\ndate: now\n...\nformat: html\neditor: visual"
+    "section": "R != Rstudio",
+    "text": "R != Rstudio"
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#text",
-    "href": "encuentros/1-intro-r/intro-r.html#text",
+    "objectID": "encuentros/1-intro-r/intro-r.html#puesta-a-punto",
+    "href": "encuentros/1-intro-r/intro-r.html#puesta-a-punto",
     "title": "Introducción a R base",
-    "section": "Text",
-    "text": "Text\nMarkdown, that can be edited with any editor, including RStudio’s source or visual editors."
+    "section": "Puesta a punto …",
+    "text": "Puesta a punto …\n\nIdentificar las 4 ventanas principales"
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#code",
-    "href": "encuentros/1-intro-r/intro-r.html#code",
+    "objectID": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-1",
+    "href": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-1",
     "title": "Introducción a R base",
-    "section": "Code",
-    "text": "Code\n\nR code chunks executed with knitr: {r}\nPython, Julia, and Observable chunks executed with jupyter: {python}"
+    "section": "Puesta a punto …",
+    "text": "Puesta a punto …\n\nIdentificar las 4 ventanas principales ✅\n\n\n\nCambiar la apariencia de la plataforma"
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#documents",
-    "href": "encuentros/1-intro-r/intro-r.html#documents",
+    "objectID": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-2",
+    "href": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-2",
     "title": "Introducción a R base",
-    "section": "Documents",
-    "text": "Documents\n\n\n\nBold palmerpenguins and add link to https://allisonhorst.github.io/palmerpenguins/.\nAdd code chunk options with YAML completion:\n\nfig-alt\ncode-fold\necho: fenced\n\nAnnotate table making code # &lt;1&gt;\n\nTake penguins data frame , and then, # &lt;2&gt;\nSlice the top 10 rows, and then, # &lt;3&gt;\nSelect the variables indicates, and then, # &lt;4&gt;\nMake a gt table\n\nAdd code-annotation: hover to YAML, and then change to code-annotation: select, and then remove\nAdd a citation: 10.1371/journal.pone.0090081 to palmerpenguins\nMake document PDF"
+    "section": "Puesta a punto …",
+    "text": "Puesta a punto …\n\nIdentificar las 4 ventanas principales ✅\n\n\n\nCambiar la apariencia de la plataforma ✅\n\n\n\nSetear en Opciones Globales (Global Options) la configuración General"
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#slides",
-    "href": "encuentros/1-intro-r/intro-r.html#slides",
+    "objectID": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-3",
+    "href": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-3",
     "title": "Introducción a R base",
-    "section": "Slides",
-    "text": "Slides\n\n\n\nChange format: revealjs\nAdd section headings: First level headings Introduction and Analysis, under Analysis a second level heading called Modeling\nAdd columns to slides\nReveal code with echo: true\nteaching-tip: code-line-numbers\nChange output-location of figure"
+    "section": "Puesta a punto …",
+    "text": "Puesta a punto …\n\nIdentificar las 4 ventanas principales ✅\n\n\n\nCambiar la apariencia de la plataforma ✅\n\n\n\nSetear en Opciones Globales (Global Options) la configuración General ✅"
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#websites",
-    "href": "encuentros/1-intro-r/intro-r.html#websites",
+    "objectID": "encuentros/1-intro-r/intro-r.html#valores",
+    "href": "encuentros/1-intro-r/intro-r.html#valores",
     "title": "Introducción a R base",
-    "section": "Websites",
-    "text": "Websites\n\n\n\nAdd Quarto file and call it index.qmd\nAdd _quarto.yml\nRestart project\nBuild Tab &gt; Render Website"
+    "section": "Valores …",
+    "text": "Valores …"
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#publications",
-    "href": "encuentros/1-intro-r/intro-r.html#publications",
+    "objectID": "encuentros/1-intro-r/intro-r.html#valores-1",
+    "href": "encuentros/1-intro-r/intro-r.html#valores-1",
     "title": "Introducción a R base",
-    "section": "Publications",
-    "text": "Publications\n\nYou can already write reproducible journal articles with Quarto (like you could with the rticles and similar packages and R Markdown), and an ASA template is available!\nYou can now also write fully reproducible manuscripts with embedded computation and render to multiple formats!\n\n\n\n\n\n\n\nQuarto 1.4\n\n\nThe manuscript project type is available in Quarto 1.4. Pre-release now available, release coming soon!"
+    "section": "Valores …",
+    "text": "Valores …\nnuméricos\n\n100\n\n[1] 100"
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#manuscripts",
-    "href": "encuentros/1-intro-r/intro-r.html#manuscripts",
+    "objectID": "encuentros/1-intro-r/intro-r.html#valores-2",
+    "href": "encuentros/1-intro-r/intro-r.html#valores-2",
     "title": "Introducción a R base",
-    "section": "Manuscripts",
-    "text": "Manuscripts"
+    "section": "Valores …",
+    "text": "Valores …\nde texto\n\n\"cien\"\n\n[1] \"cien\""
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#quarto-cli",
-    "href": "encuentros/1-intro-r/intro-r.html#quarto-cli",
+    "objectID": "encuentros/1-intro-r/intro-r.html#valores-3",
+    "href": "encuentros/1-intro-r/intro-r.html#valores-3",
     "title": "Introducción a R base",
-    "section": "Quarto CLI…",
-    "text": "Quarto CLI…\norchestrates each step of rendering\n\nArtwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
+    "section": "Valores …",
+    "text": "Valores …\n¿?\n\"100\""
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#learning-more",
-    "href": "encuentros/1-intro-r/intro-r.html#learning-more",
+    "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables",
+    "href": "encuentros/1-intro-r/intro-r.html#vectores-variables",
     "title": "Introducción a R base",
-    "section": "Learning more",
-    "text": "Learning more\nhttps://quarto.org"
+    "section": "Vectores … ¿variables?",
+    "text": "Vectores … ¿variables?"
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#follow-up-with",
-    "href": "encuentros/1-intro-r/intro-r.html#follow-up-with",
+    "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables-1",
+    "href": "encuentros/1-intro-r/intro-r.html#vectores-variables-1",
     "title": "Introducción a R base",
-    "section": "Follow up with…",
-    "text": "Follow up with…\nthe Quarto Blog: https://quarto.org/docs/blog"
+    "section": "Vectores … ¿variables?",
+    "text": "Vectores … ¿variables?\nnuméricos\n\nc(100, 102, 200)\n\n[1] 100 102 200"
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#thank-you",
-    "href": "encuentros/1-intro-r/intro-r.html#thank-you",
+    "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables-2",
+    "href": "encuentros/1-intro-r/intro-r.html#vectores-variables-2",
     "title": "Introducción a R base",
-    "section": "Thank you!",
-    "text": "Thank you!\n🔗 bit.ly/teach-quarto\n🐘 fosstodon.org/@minecr\n✉️ mc301@duke.edu\n\n\n🔗 bit.ly/teach-quarto"
+    "section": "Vectores … ¿variables?",
+    "text": "Vectores … ¿variables?\nde texto\n\nc(\"cien\", \"ciento dos\", \"doscientos\")\n\n[1] \"cien\"       \"ciento dos\" \"doscientos\""
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables-3",
+    "href": "encuentros/1-intro-r/intro-r.html#vectores-variables-3",
+    "title": "Introducción a R base",
+    "section": "Vectores … ¿variables?",
+    "text": "Vectores … ¿variables?\nde texto\n\nc(\"100\", \"102\", \"200\")\n\n[1] \"100\" \"102\" \"200\""
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#funciones",
+    "href": "encuentros/1-intro-r/intro-r.html#funciones",
+    "title": "Introducción a R base",
+    "section": "Funciones",
+    "text": "Funciones\n\nLas funciones en R son el alma mater del lenguaje (de todos los lenguajes)\nellas reciben un input y devuelven un output\nSiempre las encontrarás escrita así:\n\nnombre_de_la_funcion(input)"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-1",
+    "href": "encuentros/1-intro-r/intro-r.html#funciones-1",
+    "title": "Introducción a R base",
+    "section": "Funciones",
+    "text": "Funciones\n\nLa función class() devuelve el tipo del valor o vector que le de (input)\n\n\nclass(1)\n\n[1] \"numeric\""
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-2",
+    "href": "encuentros/1-intro-r/intro-r.html#funciones-2",
+    "title": "Introducción a R base",
+    "section": "Funciones",
+    "text": "Funciones\n\nclass(\"1\")\n\n[1] \"character\""
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-3",
+    "href": "encuentros/1-intro-r/intro-r.html#funciones-3",
+    "title": "Introducción a R base",
+    "section": "Funciones",
+    "text": "Funciones\n\nLa función length() devuelve el largo del input (probemos con un vector):\n\n\nlength(c(10, 20, 30))\n\n[1] 3"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-4",
+    "href": "encuentros/1-intro-r/intro-r.html#funciones-4",
+    "title": "Introducción a R base",
+    "section": "Funciones",
+    "text": "Funciones\n\nLa función mean() calcula el promedio de un input (tiene que ser si o si numérico):\n\n\nmean(c(10, 20, 30))\n\n[1] 20"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-5",
+    "href": "encuentros/1-intro-r/intro-r.html#funciones-5",
+    "title": "Introducción a R base",
+    "section": "Funciones",
+    "text": "Funciones\n\nmean(c(\"10\", \"20\", \"30\"))\n\n[1] NA"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nTodo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-1",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-1",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nTodo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)\nPara guardar algo en un objeto, tengo que seguir la siguiente estructura:\n\nnombre_del_objeto &lt;- algo"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-2",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-2",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nguardo_un_numero &lt;- 1"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-3",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-3",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nguardo_un_numero\n\n[1] 1"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-4",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-4",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nguardo_un_vector &lt;- c(10, 20, 30)"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-5",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-5",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nguardo_un_vector\n\n[1] 10 20 30"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-6",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-6",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nguardo_un_resultado &lt;- mean(c(20, 45, 23))"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-7",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-7",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nguardo_un_resultado\n\n[1] 29.33333"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-8",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-8",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nobjeto_como_input &lt;- c(20, 45, 23)\n\nmean(objeto_como_input)\n\n[1] 29.33333"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#ejercitación-1",
+    "href": "encuentros/1-intro-r/intro-r.html#ejercitación-1",
+    "title": "Introducción a R base",
+    "section": "Ejercitación",
+    "text": "Ejercitación\n\nCrear un objeto con los siguientes 5 valores numéricos: 17, 92, 56, 32 y 102, y llamarlo edad_personas.\nCon la función class() chequear de qué tipo es el objeto.\nCon la función length() conocer la longitud de ese objeto (cuántos valores tiene).\nCalcular el promedio de esos valores (la edad promedio)"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#data-frames-1",
+    "href": "encuentros/1-intro-r/intro-r.html#data-frames-1",
+    "title": "Introducción a R base",
+    "section": "Data Frames",
+    "text": "Data Frames\n\nUn Data Frame (o tabla) es la combinación de vectores (variables), que termina conformando una relación entre filas y columnas.\nCada vector es una columna de un dataframe, y cada uno de sus valores, en el orden en que se encuentran, conforman las filas."
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#data-frames-2",
+    "href": "encuentros/1-intro-r/intro-r.html#data-frames-2",
+    "title": "Introducción a R base",
+    "section": "Data Frames",
+    "text": "Data Frames\n\nPara crear un Data Frame puedo utilizar la función data.frame(), cuyos inputs son los vectores:\n\n\nvector_edad &lt;- c(20, 43, 102, 56)\nvector_nombre &lt;- c(\"Pepe\", \"Pepa\", \"Rigoberto\", \"Rodoberta\")\n\nbase_personas &lt;- data.frame(vector_edad,\n                            vector_nombre)"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#data-franes",
+    "href": "encuentros/1-intro-r/intro-r.html#data-franes",
+    "title": "Introducción a R base",
+    "section": "Data Franes",
+    "text": "Data Franes\n\nAsí se ve un data.frame:\n\n\nbase_personas\n\n  vector_edad vector_nombre\n1          20          Pepe\n2          43          Pepa\n3         102     Rigoberto\n4          56     Rodoberta"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frames-1",
+    "href": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frames-1",
+    "title": "Introducción a R base",
+    "section": "Accediendo a un Data Frames",
+    "text": "Accediendo a un Data Frames\n\nCon el comando $ (símbolo peso) puedo acceder a una columna del data frame:"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frane",
+    "href": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frane",
+    "title": "Introducción a R base",
+    "section": "Accediendo a un Data Frane",
+    "text": "Accediendo a un Data Frane\n\nbase_personas$vector_nombre\n\n[1] \"Pepe\"      \"Pepa\"      \"Rigoberto\" \"Rodoberta\""
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frane-1",
+    "href": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frane-1",
+    "title": "Introducción a R base",
+    "section": "Accediendo a un Data Frane",
+    "text": "Accediendo a un Data Frane\nEl resultado de base_personas$vector_nombre es nuevamente un vector, por lo que puedo:\n\nclass(base_personas$vector_nombre)\n\n[1] \"character\"\n\n\n\nlength(base_personas$vector_nombre)\n\n[1] 4"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#ejercitación-3",
+    "href": "encuentros/1-intro-r/intro-r.html#ejercitación-3",
+    "title": "Introducción a R base",
+    "section": "Ejercitación",
+    "text": "Ejercitación\n\nCrear un vector llamado serie, cuyos valores son: \"Berlín\", \"The Crown\" y \"Vikings\".\nCrear un vector llamado puntaje, cuyos valores son (agregar puntaje a gusto),\nCrear un data.frame llamado netflix, que combine los vectores anteriores\nCalcular el puntaje promedio de las series de Netflix."
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#listo",
+    "href": "encuentros/1-intro-r/intro-r.html#listo",
+    "title": "Introducción a R base",
+    "section": "¡Listo!",
+    "text": "¡Listo!\n\nNos vemos el encuentro que viene.\nSeguimos la comunicación entre clase y clase por Slack\nAcá dejamos más ejercitación para seguir practicando\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
   },
   {
     "objectID": "encuentros/4-visualizacion/index_ACTIVAR.html",
@@ -553,39 +784,18 @@
     "text": "Speaker\n\nColin Rundel is Associate Professor of the Practice at Duke University where he has been teaching since 2012. His work focuses on teaching statistical computing to both undergraduate and graduate students in both R and Python."
   },
   {
-    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html",
-    "href": "encuentros/1-intro-r/index_ACTIVAR.html",
-    "title": "Bienvenido a Estación R",
+    "objectID": "encuentros/1-intro-r/intro-r_ejercitacion.html",
+    "href": "encuentros/1-intro-r/intro-r_ejercitacion.html",
+    "title": "Intro a R - Ejercitación",
     "section": "",
-    "text": "Estación R es bla bla bla"
+    "text": "Crear un vector llamado apellido, con los siguientes 7 apellidos:\n\n“García”,\n“Sanchez”,\n“Van Del Sar”,\n“Mihatovich”,\n“Lama”,\n“Lugercio”\n“Messidona”\n\nCrear un vector llamado cantidad, con los siguientes 7 valores, que representen la frecuencia con la que existe cada apellido en nuestra base:\n\n1\n3\n17\n9\n2\n34\n98\n\nCon estos vectores, crear un data.frane que los combine y:\n\nSumar la cantidad de apellidos total que hay en la base (la función sum() puede ayudar al respecto).\nCalcular el apellido que más frecuencia tiene (la función max() puede ayudar al respecto).\nCalcular el apellido que menos frecuencia tiene (la función min() puede ayudar al respecto)"
   },
   {
-    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html#abstract",
-    "href": "encuentros/1-intro-r/index_ACTIVAR.html#abstract",
-    "title": "Bienvenido a Estación R",
+    "objectID": "encuentros/1-intro-r/intro-r_ejercitacion.html#consignas",
+    "href": "encuentros/1-intro-r/intro-r_ejercitacion.html#consignas",
+    "title": "Intro a R - Ejercitación",
     "section": "",
-    "text": "Estación R es bla bla bla"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html#slides",
-    "href": "encuentros/1-intro-r/index_ACTIVAR.html#slides",
-    "title": "Bienvenido a Estación R",
-    "section": "Slides",
-    "text": "Slides"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html#links",
-    "href": "encuentros/1-intro-r/index_ACTIVAR.html#links",
-    "title": "Bienvenido a Estación R",
-    "section": "Links",
-    "text": "Links\n\nDemo document, slides, and website repo: https://github.com/mine-cetinkaya-rundel/twq-demo\nManuscript repo: https://github.com/mine-cetinkaya-rundel/twq-awesome-education-paper"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/index_ACTIVAR.html#speaker",
-    "href": "encuentros/1-intro-r/index_ACTIVAR.html#speaker",
-    "title": "Bienvenido a Estación R",
-    "section": "Speaker",
-    "text": "Speaker\n\nMine Çetinkaya-Rundel is Professor of the Practice at Duke University and Developer Educator at RStudio. Mine’s work focuses on innovation in statistics and data science pedagogy, with an emphasis on computing, reproducible research, student-centered learning, and open-source education as well as pedagogical approaches for enhancing retention of women and under-represented minorities in STEM. Mine works on integrating computation into the undergraduate statistics curriculum, using reproducible research methodologies and analysis of real and complex datasets. Mine works on the OpenIntro project, whose mission is to make educational products that are free, transparent, and lower barriers to education. As part of this project she co-authored four open-source introductory statistics textbooks. She is also the creator and maintainer of datasciencebox.org and she teaches the popular Statistics with R MOOC on Coursera. Mine is a Fellow of the ASA and Elected Member of the ISI as well as the winner of the 2021 Robert V. Hogg Award for For Excellence in Teaching Introductory Statistics. In 2023, she is the Chair of the ASA Section on Statistical Computing."
+    "text": "Crear un vector llamado apellido, con los siguientes 7 apellidos:\n\n“García”,\n“Sanchez”,\n“Van Del Sar”,\n“Mihatovich”,\n“Lama”,\n“Lugercio”\n“Messidona”\n\nCrear un vector llamado cantidad, con los siguientes 7 valores, que representen la frecuencia con la que existe cada apellido en nuestra base:\n\n1\n3\n17\n9\n2\n34\n98\n\nCon estos vectores, crear un data.frane que los combine y:\n\nSumar la cantidad de apellidos total que hay en la base (la función sum() puede ayudar al respecto).\nCalcular el apellido que más frecuencia tiene (la función max() puede ayudar al respecto).\nCalcular el apellido que menos frecuencia tiene (la función min() puede ayudar al respecto)"
   },
   {
     "objectID": "encuentros/2-proyectos/intro-ds.html#outline",
@@ -837,6 +1047,6 @@
     "href": "cod_de_conducta.html",
     "title": "Código de conducta",
     "section": "",
-    "text": "Código de conducta\nLa comunidad de Estación R, incluyendo sus representantes, deben conocer y seguir este Código de Conducta (basado en el Código de Conducta de R Community) que es establecido con la finalidad de alentar al crecimiento de esta comunidad, participando en un ambiente amigable y partiendo de la base del respeto mutuo.\nEste código de conducta aplica en todos los espacios de participación de Estación R, incluyendo reuniones, Twitter, Slack, listas de correo, tanto online como offline. También es aplicable fuera de los espacios del grupo a quienes actúen en representación del mismo, ya sea online u offline.\nEn cualquier tipo de evento ya sea conferencia, charla, taller, fiesta, reunión, redes sociales y otros medios en línea:\n\nAborde los esfuerzos ajenos con consideración;\nCuando no esté de acuerdo con algo, sea amable al plantear sus problemas;\nEjercite la consideración y el respeto en su discurso y en sus acciones;\nIntente colaborar para evitar conflictos;\nSea consciente de su entorno y del resto de las personas;\nAlerte a quien considere oportuno si nota alguna situación peligrosa, alguien sufriendo una situación comprometedora o violaciones de este Código de Conducta, incluso aunque parezcan poco importantes. Responderemos tan pronto como podamos.\n\nEsperamos que Estación R sea un grupo libre de acoso.\nAcoso incluye, entre otros: insultos, tanto directos como indirectos; daño o perjurio verbal o escrito relacionado con género, orientación sexual, raza, religión, incapacidad; uso inapropiado de imágenes de desnudez (incluyendo presentaciones digitales); intimidación deliberada, acecho o persecución; fotografías o grabaciones abusivas; interrupción sostenida de presentaciones u de otros eventos; contacto físico inapropiado y atención sexual no deseada.\nQuienes violen estas reglas podrían recibir una sanción o explusión del grupo. Si se te pide que detengas cualquier comportamiento que se considere como acoso, esperamos que lo detengas de inmediato.\nSomos receptivos a los comentarios constructivos y las críticas, ya que las experiencias y conjuntos de habilidades de otras personas contribuyen a todos nuestros esfuerzos. Aceptamos a cualquiera que desee participar en nuestras actividades. Fomentanmos un entorno en el que quien lo desee pueda aportar y marcar la diferencia.\n\n\nVeedores del Código de Conducta\nEste código de conducta será aplicado por integrantes de Estación R. En caso de disputas que involucren a alguien que es parte del grupo designado, ésta persona se hará a un lado en la toma de decisiones.\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "La comunidad de Estación R, incluyendo sus representantes, deben conocer y seguir este Código de Conducta (basado en el Código de Conducta de R Community) que es establecido con la finalidad de alentar al crecimiento de esta comunidad, participando en un ambiente amigable y partiendo de la base del respeto mutuo.\nEste código de conducta aplica en todos los espacios de participación de Estación R, incluyendo reuniones, Twitter, Slack, listas de correo, tanto online como offline. También es aplicable fuera de los espacios del grupo a quienes actúen en representación del mismo, ya sea online u offline.\nEn cualquier tipo de evento ya sea conferencia, charla, taller, fiesta, reunión, redes sociales y otros medios en línea:\n\nAborde los esfuerzos ajenos con consideración;\nCuando no esté de acuerdo con algo, sea amable al plantear sus problemas;\nEjercite la consideración y el respeto en su discurso y en sus acciones;\nIntente colaborar para evitar conflictos;\nSea consciente de su entorno y del resto de las personas;\nAlerte a quien considere oportuno si nota alguna situación peligrosa, alguien sufriendo una situación comprometedora o violaciones de este Código de Conducta, incluso aunque parezcan poco importantes. Responderemos tan pronto como podamos.\n\nEsperamos que Estación R sea un grupo libre de acoso.\nAcoso incluye, entre otros: insultos, tanto directos como indirectos; daño o perjurio verbal o escrito relacionado con género, orientación sexual, raza, religión, incapacidad; uso inapropiado de imágenes de desnudez (incluyendo presentaciones digitales); intimidación deliberada, acecho o persecución; fotografías o grabaciones abusivas; interrupción sostenida de presentaciones u de otros eventos; contacto físico inapropiado y atención sexual no deseada.\nQuienes violen estas reglas podrían recibir una sanción o explusión del grupo. Si se te pide que detengas cualquier comportamiento que se considere como acoso, esperamos que lo detengas de inmediato.\nSomos receptivos a los comentarios constructivos y las críticas, ya que las experiencias y conjuntos de habilidades de otras personas contribuyen a todos nuestros esfuerzos. Aceptamos a cualquiera que desee participar en nuestras actividades. Fomentanmos un entorno en el que quien lo desee pueda aportar y marcar la diferencia.\n\nVeedores del Código de Conducta\nEste código de conducta será aplicado por integrantes de Estación R. En caso de disputas que involucren a alguien que es parte del grupo designado, ésta persona se hará a un lado en la toma de decisiones.\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -1,6 +1,33 @@
 ---
-title: Introducción a R
-author: Pablo Tiscornia
-image: featured.png
-description: ¿Qué es R? Primeros pasos y conceptos principales para procesar datos con R
+title: "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje"
+author: Estación R
+image: ../../img/r-logo.png
+description: ¿Qué es R? ¿Qué es la Ciencia de Datos? ¿Valores? ¿Vectores? ¿Funciones?
 ---
+
+## Descripción
+
+En este encuentro vamos a presentar a R, su contexto y su potencia, asi como también introducirnos en sus conceptos básicos, como lo son los `valores`, `vectores`, `data frames` y `funciones`.
+
+Tendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente.
+
+## Slides
+
+```{=html}
+<iframe class="slide-deck" src="/encuentros/1-intro-r/intro-r-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+
+## Links
+
+-   Presentación: <https://docs.google.com/document/d/1cM2BpKw4weWxsJ5EvcoJzT02YZPjcIZvxNVoOskEPgY/edit#heading=h.jja0j3hbdd5p>
+
+-   Ciencia de Datos para Gente Sociable: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/>
+
+-   Ejercitación de la semana: <https://pablotis.github.io/intro-r-quarto/encuentros/1-intro-r/intro-r_ejercitacion.html>
+
+
+## Docente
+
+![](../../img/foto_perfil.jpeg){style="float: right; padding-left: 10px;" fig-alt="Foto de Pablo Tiscornia" width="180"}
+
+[Pablo Tiscornia](https://pablotis.github.io/intro-r-quarto/profesor.html)

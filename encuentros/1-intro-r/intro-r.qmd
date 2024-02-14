@@ -1,10 +1,11 @@
 ---
 title: Introducción a R base
 subtitle: Fundamentos básicos del lenguaje
-author: Estación R
+author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2024-01-01
-footer: "[🔗 bit.ly/teach-quarto](https://bit.ly/teach-quarto)"
+date: 2024-02-14
+footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
+logo: ../../img/background-estacion_r_v2.png
 #title-slide-attributes:
   #data-background-image: images/horst-teach-quarto.png
   #data-background-size: stretch
@@ -14,214 +15,442 @@ format:
     theme: intro-r.scss
     multiplex: true
     transition: fade
+    progress: true
+    highlight-style: printing
     embed-resources: true
+    code-line-numbers: false
+    code-block-bg: true
+    code-copy: true
+code-block-border-left: "#31BAE9"
 execute:
+  execute:
+  freeze: auto
   echo: true
 ---
 
-# Qué es R?
+# Bienvenidos y bienvenidas a Estación R
 
-## R ...
+::: columns
+::: {.column width="50%"}
+💬 [Slack](https://join.slack.com/t/estacion-r/shared_invite/zt-2cktmesg3-11HhUxMFmynQe18ZsBkVpA)
 
--   Es un lenguaje de programación, un diccionario que permite comunicarnos para realizar ciertas tareas.
--   Su enfoque principale es el procesamiento, análisis y la comunicación de datos
+🔗 [Web](https://estacion-r.netlify.app/)
 
-![Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.](images/horst_quarto_schematic.png){fig-alt="A schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto." fig-align="center"}
+🐘 [Mastodon](https://botsin.space/@r_tips)
 
-## Quarto ... {.center auto-animate="true"}
+𝕏 [X](https://twitter.com/estacion_erre)
 
-**unifies** + **extends** the R Markdown ecosystem
+✉️ [Correo](mailto:pablotisco@gmail.com)
+:::
 
-## Quarto ... {.center auto-animate="true"}
+::: {.column width="50%"}
+[Instagram](https://www.instagram.com/estacion_ere?igsh=OWhtcWR5ZGkwb3Bw&utm_source=qr)
 
-**unifies** + **extends** the R Markdown ecosystem
+[LinkedIn](https://www.linkedin.com/company/estacion-r/)
+:::
+:::
+
+# Sobre el curso
+
+-   Dinámica de la clase
+
+    ```         
+    - Ejercitación semanal
+
+    - Tp Integrador
+
+    - Grabación de encuentros
+    ```
+
+# Presentación
+
+👋 Presentate [acá](https://docs.google.com/document/d/1cM2BpKw4weWxsJ5EvcoJzT02YZPjcIZvxNVoOskEPgY/edit#heading=h.jja0j3hbdd5p)
+
+## Hoja de Ruta
+
+::: columns
+::: {.column width="50%"}
+📌 ¿Qué es R?
+
+📌 ¿Qué es la Ciencia de Datos?
+
+📌 R != Rstudio
+:::
+
+::: {.column width="50%"}
+📌 Conceptos básicos de R
+
+```         
+  👉🏼 Valores
+
+  👉🏼 Vectores
+
+  👉🏼 Tipos / Clases
+
+  👉🏼 Data Frames
+```
+:::
+:::
+
+# ¿Qué es R?
+
+## Primera impresión
+
+![](images/r_miedo.jpg)
+
+## Evolución emocional
+
+![](images/curva_r.png){fig-alt="r project console"}
+
+## R ... {.center auto-animate="true"}
+
+-   Es un lenguaje de programación especializado en análisis y visualización de datos.
+
+## R ... {.center auto-animate="true"}
+
+-   Es de código abierto (se puede usar y modificar sin pagar licencias ni costos de ningún tipo)
+
+## R ... {.center auto-animate="true"}
+
+-   Crece a partir del aporte de su comunidad (no depende de un departamento de desarrollo):
+    -   Academia (Universidades)
+    -   Investigación Científica (Centros de investigación, comunidad científica)
+    -   Sector privado (Facebook, Google, X, Uber, Airbnb, IBM, New York times)
+    -   Gente de a pie (personas o grupos de personas)
+
+## R ... {.center auto-animate="true"}
+
+-   En el campo del análisis de datos, es la herramienta por excelencia en muchas universidades, empresas de tecnología, y redacciones de periodismo de datos.
+
+# ¿Qué es la Ciencia de Datos?
+
+## ¿Qué es la Ciencia de Datos?
+
+![](images/proceso_ciencia_datos.jpg){fig-alt="r project console"}
+
+# R != Rstudio
+
+## R != Rstudio
+
+::: columns
+::: {.column width="50%"}
+![](images/r_console.png){fig-alt="r project console"}
+:::
+
+::: {.column width="50%"}
+![](images/consola_r_studio.png){fig-alt="R studio console"}
+:::
+:::
+
+## R != Rstudio
+
+::: columns
+::: {.column width="50%"}
+![](images/r_console.png){fig-alt="r project console"}
+:::
+
+::: {.column width="50%"}
+![](images/consola_r_studio_ok.png){fig-alt="R studio console"}
+:::
+:::
+
+# Vamos a Rstudio!
+
+## Puesta a punto ... {auto-animate="true"}
+
+-   Identificar las 4 ventanas principales
+
+## Puesta a punto ... {auto-animate="true"}
+
+-   Identificar las 4 ventanas principales ✅
 
 <br>
 
-**unifies** for people who love R Markdown
+-   Cambiar la apariencia de la plataforma
 
-## Quarto ... {.center auto-animate="true"}
+## Puesta a punto ... {auto-animate="true"}
 
-**unifies** + **extends** the R Markdown ecosystem
+-   Identificar las 4 ventanas principales ✅
 
 <br>
 
-**unifies** for people who love R Markdown
+-   Cambiar la apariencia de la plataforma ✅
 
-**extends** for people who don't know R Markdown
+<br>
 
-## Quarto unifies + extends R Markdown
+-   Setear en **Opciones Globales** (*Global Options*) la configuración **General**
 
-::: incremental
--   Consistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.
--   More accessible defaults as well as better support for accessibility
--   Guardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.
--   Support for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks.
-:::
+## Puesta a punto ... {auto-animate="true"}
 
-## Quarto, in a nutshell
+-   Identificar las 4 ventanas principales ✅
 
-```{=html}
-<script src="https://fast.wistia.com/embed/medias/9yok93f94g.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:58.75% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_9yok93f94g seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/9yok93f94g/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+<br>
+
+-   Cambiar la apariencia de la plataforma ✅
+
+<br>
+
+-   Setear en **Opciones Globales** (*Global Options*) la configuración **General** ✅
+
+# Descanso
+
+```{r echo=FALSE}
+library(countdown)
+
+contador <- countdown(minutes = 10, bottom = 0, warn_when = 60, blink_colon = TRUE, play_sound=here::here("encuentros/1-intro-r/images/inst_adlibs_birdman1.wav"))
 ```
-# Anatomy of a Quarto document
 
-## YAML
+`r contador`
 
-Document metadata
+# Conceptos básicos de R
 
-::: columns
-::: {.column width="50%"}
-``` yaml
-title: "Hello, Penguins!"
-format: html
-editor: visual
+## Valores ... {.center auto-animate="true"}
+
+## Valores ... {.center auto-animate="true"}
+
+#### numéricos
+
+```{r}
+100
 ```
-:::
 
-::: {.column width="50%"}
-![](images/yaml-less.png){fig-alt="Rendered YAML with title (Hello, Penguins!)."}
-:::
-:::
+## Valores ... {.center auto-animate="true"}
 
-. . .
-
-::: columns
-::: {.column width="50%"}
-``` yaml
-title: "Hello, Penguins!"
-author: Mine Çetinkaya-Rundel
-institute: Duke University
-date: now
-...
-format: html
-editor: visual
+#### de texto
+```{r}
+"cien"
 ```
-:::
 
-::: {.column width="50%"}
-![](images/yaml-more.png){fig-alt="Rendered YAML with title (Hello, Penguins!), author (Mine Çetinkaya-Rundel), affiliation (Duke University), and published date (August 7, 2023)"}
-:::
-:::
+## Valores ... {.center auto-animate="true"}
 
-## Text
+#### ¿?
 
-Markdown, that can be edited with any editor, including RStudio's source or visual editors.
-
-::: columns
-::: {.column width="50%"}
-![](images/source-editor.png){fig-alt="Top of the document titled penguins.qmd in the RStudio source editor, including YAML, headings, text, and a code chunk for loading packages."}
-:::
-
-::: {.column width="50%"}
-![](images/visual-editor.png){fig-alt="Top of the document titled penguins.qmd in the RStudio visual editor, including YAML, headings, text, and a code chunk for loading packages."}
-:::
-:::
-
-## Code
-
--   R code chunks executed with **knitr**: `{r}`
-
--   Python, Julia, and Observable chunks executed with **jupyter**: `{python}`
-
-# Quarto + various document types
-
-## Documents
-
-```{=html}
-<script src="https://fast.wistia.com/embed/medias/1nh2c8jcpl.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.04% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1nh2c8jcpl seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/1nh2c8jcpl/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+```r
+"100"
 ```
-::: notes
--   Bold palmerpenguins and add link to <https://allisonhorst.github.io/palmerpenguins/.>
--   Add code chunk options with YAML completion:
-    -   fig-alt
-    -   code-fold
-    -   echo: fenced
--   Annotate table making code \# \<1\>
-    1.  Take `penguins` data frame , and then, \# \<2\>
-    2.  Slice the top 10 rows, and then, \# \<3\>
-    3.  Select the variables indicates, and then, \# \<4\>
-    4.  Make a gt table
--   Add code-annotation: hover to YAML, and then change to code-annotation: select, and then remove
--   Add a citation: 10.1371/journal.pone.0090081 to palmerpenguins
--   Make document PDF
-:::
 
-## Slides
 
-```{=html}
-<script src="https://fast.wistia.com/embed/medias/100yca01j9.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.21% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_100yca01j9 seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/100yca01j9/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+
+## Vectores ... ¿variables? {.center auto-animate="true"}
+
+## Vectores ... ¿variables? {.center auto-animate="true"}
+
+#### numéricos
+
+```{r}
+c(100, 102, 200)
 ```
-::: notes
--   Change format: revealjs
 
--   Add section headings: First level headings Introduction and Analysis, under Analysis a second level heading called Modeling
+## Vectores ... ¿variables? {.center auto-animate="true"}
 
--   Add columns to slides
-
--   Reveal code with echo: true
-
--   teaching-tip: code-line-numbers
-
--   Change output-location of figure
-:::
-
-## Websites
-
-```{=html}
-<script src="https://fast.wistia.com/embed/medias/0rhehtalro.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.21% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_0rhehtalro seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/0rhehtalro/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+#### de texto
+```{r}
+c("cien", "ciento dos", "doscientos")
 ```
-::: notes
--   Add Quarto file and call it index.qmd
 
--   Add \_quarto.yml
+## Vectores ... ¿variables? {.center auto-animate="true"}
 
--   Restart project
+#### de texto
 
--   Build Tab \> Render Website
-:::
-
-## Publications
-
--   You can already write reproducible journal articles with Quarto (like you could with the **rticles** and similar packages and R Markdown), and an ASA template is available!
-
--   You can now also write fully reproducible `manuscripts` with embedded computation and render to multiple formats!
-
-::: callout-warning
-## Quarto 1.4
-
-The `manuscript` project type is available in Quarto 1.4. Pre-release now available, release coming soon!
-:::
-
-## Manuscripts
-
-```{=html}
-<script src="https://fast.wistia.com/embed/medias/qh63wiwlxw.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.04% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_qh63wiwlxw seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/qh63wiwlxw/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+```{r}
+c("100", "102", "200")
 ```
-# Parting remarks
 
-## Quarto CLI...
+## Funciones
 
-orchestrates each step of rendering
+- Las funciones en R son el alma mater del lenguaje (de todos los lenguajes)
 
-![Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.](images/horst_qmd_render_schema.png){fig-alt="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document."}
+- ellas reciben un [input]{style="color: green;"} y devuelven un [output]{style="color: red;"}
 
-## Learning more
+- Siempre las encontrarás escrita así:
 
-[https://quarto.org](https://quarto.org/)
+`nombre_de_la_funcion(input)`
 
-![](images/quarto-org.png){fig-alt="Screenshot of quarto.org" fig-align="center" width="1000"}
 
-## Follow up with...
+## Funciones
 
-the Quarto Blog: <https://quarto.org/docs/blog>
+- La función `class()` devuelve el tipo del valor o vector que le de ([input]{style="color: green;"})
 
-![](images/quarto-blog.png){fig-alt="Screenshot of Quarto Blog" fig-align="center" width="1000"}
+```{r}
+class(1)
+```
 
-## Thank you! {background-image="images/thank-you.png"}
+## Funciones
 
-🔗 [bit.ly/teach-quarto](https://bit.ly/teach-quarto)
+```{r}
+class("1")
+```
 
-🐘 [fosstodon.org/\@minecr](https://fosstodon.org/@minecr)
+## Funciones
 
-✉️ [mc301\@duke.edu](mailto:mc301@duke.edu)
+- La función `length()` devuelve el largo del input (probemos con un vector):
+
+```{r}
+length(c(10, 20, 30))
+```
+
+## Funciones
+
+- La función `mean()` calcula el promedio de un input (tiene que ser si o si numérico):
+
+```{r}
+mean(c(10, 20, 30))
+```
+
+
+## Funciones
+
+```{r}
+mean(c("10", "20", "30"))
+```
+
+
+
+
+## Objectos
+
+- Todo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)
+
+## Objectos
+
+- Todo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)
+
+- Para guardar _algo_ en un objeto, tengo que seguir la siguiente estructura:
+
+```r
+nombre_del_objeto <- algo
+```
+
+## Objectos
+
+```{r}
+guardo_un_numero <- 1
+```
+
+## Objectos
+
+```{r}
+guardo_un_numero
+```
+
+## Objectos
+
+```{r}
+guardo_un_vector <- c(10, 20, 30)
+```
+
+## Objectos
+
+```{r}
+guardo_un_vector
+```
+
+## Objectos
+
+```{r}
+guardo_un_resultado <- mean(c(20, 45, 23))
+```
+
+## Objectos
+
+```{r}
+guardo_un_resultado
+```
+
+## Objectos
+
+```{r}
+objeto_como_input <- c(20, 45, 23)
+
+mean(objeto_como_input)
+```
+
+# Ejercitación
+
+## Ejercitación
+
+- Crear un objeto con los siguientes **5 valores numéricos: 17, 92, 56, 32 y 102**, y llamarlo `edad_personas`.
+
+- Con la función `class()` chequear de qué tipo es el objeto.
+
+- Con la función `length()` conocer la longitud de ese objeto (cuántos valores tiene). 
+
+- Calcular el promedio de esos valores (la edad promedio)
+
+# Data Frames
+
+## Data Frames
+
+- Un Data Frame (o tabla) es la combinación de vectores (variables), que termina conformando una relación entre filas y columnas.
+
+- Cada **vector** es una columna de un `dataframe`, y cada uno de sus valores, en el orden en que se encuentran, conforman las filas.
+
+
+## Data Frames
+
+- Para crear un Data Frame puedo utilizar la función `data.frame()`, cuyos inputs son los vectores:
+
+```{r}
+vector_edad <- c(20, 43, 102, 56)
+vector_nombre <- c("Pepe", "Pepa", "Rigoberto", "Rodoberta")
+
+base_personas <- data.frame(vector_edad,
+                            vector_nombre)
+```
+
+## Data Franes
+
+- Así se ve un data.frame:
+
+```{r}
+base_personas
+```
+
+# Accediendo a un Data Frames {.center}
+
+> Recordar este comando: `$`
+
+## Accediendo a un Data Frames
+
+- Con el comando `$` (símbolo peso) puedo acceder a una columna del data frame:
+
+![](images/comnado_peso.png){width=20%}
+
+## Accediendo a un Data Frane
+
+```{r}
+base_personas$vector_nombre
+```
+
+## Accediendo a un Data Frane
+
+El resultado de `base_personas$vector_nombre` es nuevamente un vector, por lo que puedo:
+
+```{r}
+class(base_personas$vector_nombre)
+```
+
+```{r}
+length(base_personas$vector_nombre)
+```
+
+# Ejercitación
+
+## Ejercitación
+
+- Crear un vector llamado `serie`, cuyos valores son: `"Berlín", "The Crown"` y `"Vikings"`.
+
+- Crear un vector llamado `puntaje`, cuyos valores son (agregar puntaje a gusto),
+
+- Crear un `data.frame` llamado `netflix`, que combine los vectores anteriores
+
+- Calcular el puntaje promedio de las series de Netflix.
+
+
+## ¡Listo! 
+
+- Nos vemos el encuentro que viene.
+
+- Seguimos la comunicación entre clase y clase por **Slack**
+
+- [Acá]() dejamos más ejercitación para seguir practicando
