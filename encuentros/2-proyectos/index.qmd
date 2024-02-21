@@ -1,6 +1,35 @@
 ---
-title: Proyectos de R, organizando la mesa de Trabajo.
-author: Pablo Tiscornia
+title: "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto"
+author: Estación R
 image: featured.png
-description: Buenas prácticas para organizar un proyecto de trabajo con datos
+description: ¿Qué es un paquete? ¿Cómo se instala / usa? ¿Qué es la ruta (_path_) de un archivo? / Reproducibilidad / Proyecto de Rstudio / Portabilidad de un script
 ---
+
+
+## Descripción
+
+En este encuentro vamos a charlar sobre conceptos básicos a la hora de pensar un flujo de trabajo con datos en clave de proyecto. La búsqueda será la reproducibilidad de nuestro trabajo, hacer nuestros scripts portables (que no dependan ni de nuestra computadora ni de nosotres) y delinear restricciones, sugerencias y consensos a la hora de estructurar nuestra carpeta (y archivos).
+
+Tendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente.
+
+## Slides 
+
+```{=html}
+<iframe class="slide-deck" src="/encuentros/2-proyectos/proyectos-r-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+## Links
+
+-   Notas de clase colaborativa: <https://docs.google.com/document/d/1Hjy4NxQajOFUMHu1If1L-GEAsgszm2nUbfzonbs993k/edit>
+
+-   Ciencia de Datos para Gente Sociable: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/una-presentaci%C3%B3n-a-toda-marcha-de-r.html#crear-un-proyecto-en-rstudio>
+
+-   (en inglés) Rmarkdown for Scientist - Capítulo: _Workflow_: <https://rmd4sci.njtierney.com/workflow.html>
+
+-   Ejercitación de la semana: <https://pablotis.github.io/intro-r-quarto/encuentros/2-proyectos/proyectos-r_ejercitacion.html>
+
+
+## Docente
+
+![](../../img/foto_perfil.jpeg){style="float: right; padding-left: 10px;" fig-alt="Foto de Pablo Tiscornia" width="180"}
+
+[Pablo Tiscornia](https://pablotis.github.io/intro-r-quarto/profesor.html)

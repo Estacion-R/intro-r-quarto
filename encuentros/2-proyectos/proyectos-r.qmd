@@ -1,0 +1,407 @@
+---
+title: "Proyectos de R, organizando la mesa de Trabajo"
+subtitle: "Buenas prácticas para organizar un proyecto de trabajo con datos"
+author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
+institution: Estación R
+date: 2024-02-21
+footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
+logo: ../../img/background-estacion_r_v2.png
+format: 
+  revealjs: 
+    theme: ../estilo_diapos.scss
+    multiplex: true
+    transition: fade
+    progress: true
+    highlight-style: printing
+    embed-resources: true
+    code-line-numbers: false
+    code-block-bg: true
+    code-copy: true
+code-block-border-left: "#31BAE9"
+execute:
+  execute:
+  freeze: auto
+  echo: true
+---
+
+# Bienvenidos y bienvenidas a Estación R
+
+::: columns
+::: {.column width="50%"}
+💬 [Slack](https://join.slack.com/t/estacion-r/shared_invite/zt-2cktmesg3-11HhUxMFmynQe18ZsBkVpA)
+
+🔗 [Web](https://estacion-r.netlify.app/)
+
+🐘 [Mastodon](https://botsin.space/@r_tips)
+
+𝕏 [X](https://twitter.com/estacion_erre)
+
+✉️ [Correo](mailto:pablotisco@gmail.com)
+:::
+
+::: {.column width="50%"}
+[Instagram](https://www.instagram.com/estacion_ere?igsh=OWhtcWR5ZGkwb3Bw&utm_source=qr)
+
+[LinkedIn](https://www.linkedin.com/company/estacion-r/)
+:::
+:::
+
+---
+
+## ¿Qué vimos?
+
+✅ Valores
+
+✅ Vectores
+
+✅ Data frames
+
+✅ Objetos
+
+✅ Funciones
+
+
+## Hoja de Ruta
+
+::: columns
+::: {.column width="50%"}
+📌 Paquetes
+
+📌 Ruta de un archivo (o _file path_)
+
+📌 Importar nuestra primera base de datos
+:::
+
+::: {.column width="50%"}
+📌 Armar un proyecto de trabajo en Rstudio (*R project*)
+
+📌 Estructura de carpeta
+
+```         
+  👉🏼 Cómo estructurar la carpeta de trabajo
+
+  👉🏼 Cómo nombrar archivos
+
+```
+
+:::
+
+:::
+
+
+# Paquetes
+
+## Paquetes
+
+![](images/paquetes.PNG)
+
+
+## Paquetes
+
+- Los paquetes o librerías son la potencia de los lenguajes como R y Python
+
+- Es cómo las comunidades pueden hacer crecer al lenguaje
+
+![[Link a Mapa de paquetes](https://anatomyofcode.com/cranmap/)](images/mapa_cran.png)
+
+
+## Paquetes
+
+> Se __instala__ (una vez por computadora)
+
+```r
+install.packages("nombre_del_paquete")
+```
+
+<br>
+
+> Se __convoca__ (por cada sesión de R)
+
+```r
+library(nombre_del_paquete)
+```
+
+## Paquetes
+
+> Para _instalar_ un paquete (`install.packages()`), el nombre del paquete va __siempre__ entre comillas
+
+```{r eval=FALSE}
+install.packages("readr")
+```
+
+<br>
+
+## Paquetes
+
+> Para _instalar_ un paquete (`install.packages()`), el nombre del paquete va __siempre__ entre comillas
+
+```{r eval=FALSE}
+install.packages("readr")
+```
+
+<br>
+
+> Para _convocar_ un paquete (`library()`) el nombre puede o no llevar comillas (se recomienda __sin__)
+
+```{r}
+library(readr)
+```
+
+
+## Paquetes
+
+- Instalemos nuestro primer paquete:
+
+```r
+install.packages("readr")
+```
+
+## Paquetes
+
+- Instalemos nuestro primer paquete:
+
+```r
+install.packages("readr")
+```
+
+- ¿Mucha letra roja?
+
+
+## Paquetes
+
+::: columns
+::: {.column width="50%"}
+
+- Convoquemos al paquete 
+
+```{r}
+library(readr)
+```
+
+:::
+
+::: {.column width="50%"}
+
+<br>
+
+![](https://helios-i.mashable.com/imagery/articles/03wZYjQKEeZIUvKsxYtn73r/hero-image.fill.size_1200x900.v1611609729.jpg)
+
+:::
+:::
+
+# Ruta de archivos
+
+- **Definición:** Ubicación de una carpeta / archivo en mi computadora
+
+- **Máxima:** Todas las carpetas en nuestra computadora tienen una *__ruta__*
+
+## Ruta de archivos
+
+- **Ejemplo diario de seleccionar una _ruta de archivo_:** 
+
+![](images/guardar_como.jpg){width: "70%";}
+
+## Importar datos
+
+- Vamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.
+
+- **Base de datos:** _Nombre de Personas. Argentina, año 2015._
+
+> [Link](https://datos.gob.ar/dataset/otros-nombres-personas-fisicas)
+
+## Importar datos
+
+- Vamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.
+
+**- Base de datos:** _Nombre de Personas. Argentina, año 2015._
+
+[Link](https://datos.gob.ar/dataset/otros-nombres-personas-fisicas)
+
+- Tip: Reconocer la **_extensión_** del archivo a descargar (.csv, .txt, .sav, .dta, .sas, etc.)
+
+
+## Importar datos
+
+- Manos a la obra:
+
+```r
+library(readr)
+
+read_csv(file = "/home/pablote/Documentos/datos_personas/nombres-2015.csv")
+```
+
+## Importar datos
+
+- Falta algo...
+
+
+## Importar datos
+
+- Falta algo...
+
+```r
+base_personas <- read_csv(file = "/home/pablote/Documentos/datos_personas/nombres-2015.csv")
+```
+
+# Descanso
+
+```{r echo=FALSE}
+library(countdown)
+
+contador <- countdown(minutes = 10, bottom = 0, warn_when = 60, blink_colon = TRUE, play_sound=here::here("encuentros/1-intro-r/images/inst_adlibs_birdman1.wav"))
+```
+
+`r contador`
+
+
+# Proyectos de trabajo {.center auto-animate="true"}
+
+![](images/r_project.png){ width="250" height="200" style="display: block; margin: 0 auto" }
+
+
+## Proyectos de trabajo
+
+- Copiar la siguiente sentencia en tu consola o script y ejecutar:
+
+```r
+base_personas <- read_csv(file = "/home/pablote/Documentos/datos_personas/nombres-2015.csv")
+```
+
+## Proyectos de trabajo
+
+<br>
+
+::: {.incremental}
+- Si compartimos el script a otra persona, **el código se rompe**
+
+- Si cambiamos de computadora, **el código se rompe**
+    
+- Si cambiamos la base de lugar, **el código se rompe**
+    
+:::
+
+# La solución
+
+![](https://media.tenor.com/HHbDUjAOYE0AAAAM/worried-kermit.gif)
+
+## Crear un proyecto de Rstudio
+
+- Paso 1:
+
+--> **File (_archivo_) --> New Project (_Nuevo Proyecto..._)**
+
+![](images/nuevo_proj_paso1.png)
+
+
+## Crear un proyecto de Rstudio
+
+- Paso 2:
+
+--> **New Directory (_Nueva carpeta_)**
+
+![](images/nuevo_proj_paso2.png)
+
+## Crear un proyecto de Rstudio
+
+- Paso 3:
+
+--> **New Project**
+
+![](images/nuevo_proj_paso3.png)
+
+## Crear un proyecto de Rstudio
+
+- Resultado:
+
+![](images/proyecto_nuevo.png)
+
+
+# Manos a la obra
+
+## Crear un proyecto de Rstudio
+
+- Asegurarse que estamos en el proyecto, de lo contrario, abrirlo
+
+
+## Crear un proyecto de Rstudio
+
+
+- Asegurarse esta en el proyecto, de lo contrario, abrirlo ✅
+    
+- Crear una carpeta nueva llamada `datos`
+
+
+## Crear un proyecto de Rstudio
+
+
+- Asegurarse esta en el proyecto, de lo contrario, abrirlo ✅
+    
+- Crear una carpeta nueva llamada `datos` ✅
+    
+- Guardar la base de personas en la carpeta `datos`
+    
+## Crear un proyecto de Rstudio
+
+
+- Asegurarse esta en el proyecto, de lo contrario, abrirlo ✅
+    
+- Crear una carpeta nueva llamada `datos` ✅
+    
+- Guardar la base de personas en la carpeta `datos` ✅
+    
+- Ejecutar la siguiente sentencia:
+
+
+```r
+library(readr)
+
+base_personas <- read_csv("datos/nombres-2015.csv")
+```
+
+
+## Crear un proyecto de Rstudio
+
+- **Antes**
+
+```r
+base_personas <- read_csv(file = "/home/pablote/Documentos/datos_personas/nombres-2015.csv")
+```
+
+## Crear un proyecto de Rstudio
+
+- **Antes** _(sin un proyecto)_
+
+```r
+base_personas <- read_csv(file = "/home/pablote/Documentos/datos_personas/nombres-2015.csv")
+```
+
+<br>
+
+- **Después** _(con un proyecto)_
+
+```r
+base_personas <- read_csv("datos/nombres-2015.csv")
+```
+
+
+## Estructura de carpetas
+
+
+- 📂 nuevo_proyecto
+    
+    -  <img src = "images/r_project.png" style="height: 35px; width:35px;"/>  _nuevo_proyecto.Rproj_
+  
+    - 📂 datos
+  
+        - ⛁ _nombres-2015.csv_
+  
+    - 📂 outputs
+    
+    - 📂 scripts
+    
+        - 📄 _1_levantar_datos.R_
+    
+    - 📂 docs_metodologicos
+    
+        - 📚 _bibliografia.docx_
+

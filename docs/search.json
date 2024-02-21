@@ -21,32 +21,11 @@
     "text": "¿Cómo?\nLa programación no es un tema de mentes brillantes, sino más bien de aquellas perseverantes. Con este lema bajo el brazo es que se pensó el curso, el cual se focaliza en lo práctico. No sólo se van a ofrecer ejercicios para resolver código entre clase y clase sino que vamos a escribir R durante el encuentro sincrónico, compartiendo pantallas y dudas en vivo!"
   },
   {
-    "objectID": "index.html#qué-te-llevas",
-    "href": "index.html#qué-te-llevas",
-    "title": "Introducción al Procesamiento de datos con R",
-    "section": "¿Qué te llevas?",
-    "text": "¿Qué te llevas?\n\n👥️ Acceso irrestrico al foro y sus canales de debate Estación R, donde vas a poder encontrarte con colegas de otras disciplinas o áreas que están transitando su recorrido en R (incicial o avanzado). Allí podrás compartir, consultar (o también responder) cosillas de R y más!\n📑 Todos los scripts (el código) de lo que se ve durante la clase, junto a las diapositivas.\n🎞️ Acceso a las clases grabadas durante 3 meses, para que puedas seguir repasando y practicando lo visto durante la cursada\n📓 ‘Notas de clase’, con todo el código que se fue escribiendo en vivo durante la clase.\n🧰 Una batería de recursos (bibliografía, referentes del mundo R, espacios de difusión, webs con herramientas, y hasta incluso otros cursos) para explotar al máximo el recorrido inicial y también post cursada."
-  },
-  {
     "objectID": "index.html#cronograma",
     "href": "index.html#cronograma",
     "title": "Introducción al Procesamiento de datos con R",
     "section": "Cronograma:",
     "text": "Cronograma:\nCantidad de encuentros: 7.\nCantidad de horas por encuentro: 2hs.\nDía y horario de cursada: Miércoles, de 18 a 20hs (Hora Argentina, UTC-3).\nFecha de inicio: Miércoles 14 de Febrero.\nFecha de finalización: Miércoles 27 de Marzo."
-  },
-  {
-    "objectID": "index.html#precio-del-curso",
-    "href": "index.html#precio-del-curso",
-    "title": "Introducción al Procesamiento de datos con R",
-    "section": "Precio del curso:",
-    "text": "Precio del curso:\n\nArgentina 🇦🇷: $75.000\nMéxico 🇲🇽: $1,600\nInternacional 🌎: USD 90"
-  },
-  {
-    "objectID": "index.html#inscripción",
-    "href": "index.html#inscripción",
-    "title": "Introducción al Procesamiento de datos con R",
-    "section": "Inscripción:",
-    "text": "Inscripción:\nEl curso tiene un cupo limitado para garantizar la calidad del mismo. Si estás interesado/a, entrá al link debajo y llená el formulario, desde donde deberás también abonar la inscripción para garantizar el lugar:\nLink: https://forms.gle/fednwD1m2SBDsRBn7\nConsultas a: pablotisco@gmail.com"
   },
   {
     "objectID": "index.html#encuentros",
@@ -105,270 +84,102 @@
     "text": "Descarga de Slack (versión escritorio)\nLa forma de comunicación será principalmente Slack, una plataforma de intercambio que funciona como un chat-foro. Desde allí es posible concentrar la comunicación del curso, difundir material, código y también realizar consultas y respuestas de forma grupal."
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#outline",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#outline",
+    "objectID": "encuentros/5-reportes/index_ACTIVAR.html",
+    "href": "encuentros/5-reportes/index_ACTIVAR.html",
     "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Outline",
-    "text": "Outline\n\nWhy use Quarto to make teaching materials?\nWhat teaching materials can I create using Quarto?\nHow do I get started?"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-instructor",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-instructor",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Benefits for instructor",
-    "text": "Benefits for instructor\n\nReproducible course materials that are easier to update\nIntegrate narrative, executable R code, images, and interactive elements\nEasily share course materials with students and more broadly\nRegularly use the same technology as your students"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-students",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-students",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Benefits for students",
-    "text": "Benefits for students\n\nNavigation menu on all documents to easily to find content\nSearch capabilities on website to more easily find content by topic\nOption to export PDF of slides\nRead course materials on multiple devices"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Teaching materials in Quarto",
-    "text": "Teaching materials in Quarto\n\n\nCourse websites\n\n\n\n\n\nSlides"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto-1",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto-1",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Teaching materials in Quarto",
-    "text": "Teaching materials in Quarto\n\n\nLong-form notes\n\n\n\n\n\nAssignment instructions"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-menu",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-menu",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Slide menu",
-    "text": "Slide menu\n\nSlide navigation\nPrint to PDF\nSpeaker view\nAnnotation\nChalkboard"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-code-output",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-code-output",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Slide with code + output",
-    "text": "Slide with code + output\n\n\nPublished slide\n\n\nSource code\n\n\n\n\n\nSource: SciPy lecture by Colin Rundel"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-mathematical-notation",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-mathematical-notation",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Slide with mathematical notation",
-    "text": "Slide with mathematical notation\n\n\nPublished slide\n\n\nSource code\n\n\n\n\n\nSource: SLR: Mathematical models for inference by Maria Tackett"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#navigating-course-website",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#navigating-course-website",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Navigating course website",
-    "text": "Navigating course website\n\n\n\nIntroduction to Data Science taught by Mine Çetinkaya-Rundel"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#example-website-file-structure",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#example-website-file-structure",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Example website file structure",
-    "text": "Example website file structure"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#interactive-documents-with-webr",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#interactive-documents-with-webr",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Interactive documents with webR",
-    "text": "Interactive documents with webR\n\n“Run R code in the browser without the need for an R server to execute the code”\n\n\n\n\nwebR demo: maria.quarto.pub/webr-demo"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#webr-source-code",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#webr-source-code",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "webR source code",
-    "text": "webR source code\nYAML\n\n---\ntitle: \"webR document\"\nformat: html\nfilters:\n  - webr\nwebr:\n  packages: ['dplyr', 'ggplot2']\n  Cross-Origin-Opener-Policy: same-origin\n  Cross-Origin-Embedder-Policy: require-corp\n---\n\n\nExecutable code chunk\n\n{webr-r}\nmpg |&gt;\n  count(manufacturer, _____)"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-slides-documents",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-slides-documents",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Getting started: slides + documents",
-    "text": "Getting started: slides + documents\n\n\nBasic\nCustomized\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\nformat: revealjs\n---\n\n\n\n\n\n\n\nTip\n\n\nEasily produce multiple types of documents by changing the format in the YAML.\n\n\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\ndate-format: long\nfooter: \"URL to course website\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: false\n    incremental: false \n    chalkboard: \n    code-link: true\neditor: visual\nexecute: \n  eval: true\n  echo: true\n---"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-websites",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-websites",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Getting started: websites",
-    "text": "Getting started: websites\n\nMake a website repo on GitHub\nClone the repo and start a new RStudio project\n\nRun the following code in the Terminal\nquarto create-project --type website\n\n\nYou will see the standard files for a new website in the Files pane. See Creating a Website on quarto.org for more information."
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#publishing-materials",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#publishing-materials",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Publishing materials",
-    "text": "Publishing materials\nRun the following code in the Terminal\nGitHub pages\nquarto publish gh-pages\nQuarto pub\nquarto publish quarto-pub\nNetlify\nquarto publish netlify\n\nSee Publishing Basics on quarto.org for more information and publishing options."
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#course-websites-created-with-quarto",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#course-websites-created-with-quarto",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Course websites created with Quarto",
-    "text": "Course websites created with Quarto\n\nIntroduction to Data Science, Elijah Meyer\n\n[website][GitHub repo]\n\n\nRegression Analysis, Maria Tackett\n\n[website][GitHub repo]\n\n\nAdvanced Data Visualization, Mine Çetinkaya-Rundel\n\n[website][GitHub repo]\n\n\nApplied Experimental Design and Regression Models, Allison Theobold\n\n[website][Github repo]"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#course-slides-created-with-quarto",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#course-slides-created-with-quarto",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Course slides created with Quarto",
-    "text": "Course slides created with Quarto\n\n\nStatistical Computing and Computation, Colin Rundel\n\n[website][GitHub repo]\n\n\n\nStatistical Learning with R, Kelly Bodwin\n\n[GitHub repo]"
-  },
-  {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#learn-more",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#learn-more",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Learn more!",
-    "text": "Learn more!\n\nOrganizing Teaching Materials by Maria Tackett & Mine Çetinkaya-Rundel\nReproducible documents, presentations, and websites with Quarto by Hunter Glanz, Emily Robinson & Allison Theobold\nHello Quarto: Share, Collaborate, Teach, Reimagine by Mine Çetinkaya-Rundel & Julia Lowndes\nquarto.org"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#engine-setup",
-    "href": "encuentros/3-tidyverse/r-python.html#engine-setup",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Engine Setup",
-    "text": "Engine Setup\nIn R Markdown, to use python, you had to set everything up in R using the reticulate package:"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#section",
-    "href": "encuentros/3-tidyverse/r-python.html#section",
-    "title": "Bilingual Materials with Quarto",
     "section": "",
-    "text": "library(reticulate)"
+    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-python.html#section-1",
-    "href": "encuentros/3-tidyverse/r-python.html#section-1",
-    "title": "Bilingual Materials with Quarto",
+    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#abstract",
+    "href": "encuentros/5-reportes/index_ACTIVAR.html#abstract",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "",
-    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()"
+    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-python.html#section-2",
-    "href": "encuentros/3-tidyverse/r-python.html#section-2",
-    "title": "Bilingual Materials with Quarto",
+    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#slides",
+    "href": "encuentros/5-reportes/index_ACTIVAR.html#slides",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#speaker",
+    "href": "encuentros/5-reportes/index_ACTIVAR.html#speaker",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Speaker",
+    "text": "Speaker\n\n\n\n\n\nMaria Tackett is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. Her research focuses on understanding factors that impact students’ sense of belonging in introductory math and statistics courses with the aim to identify pedagogies that foster community and a supportive learning environment. She’s an active member of the statistics education community and its effort to make statistics more engaging and accessible for all students."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html",
+    "title": "Blending R and Python in Quarto documents",
     "section": "",
-    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()\n\n## You may need the code below if you are working on your home Windows computer:\npy_run_string(\"import os as os\")\npy_run_string(\"os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:/Users/kbodwin/Anaconda3/Library/plugins/platforms'\")"
+    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-python.html#section-3",
-    "href": "encuentros/3-tidyverse/r-python.html#section-3",
-    "title": "Bilingual Materials with Quarto",
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#abstract",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#abstract",
+    "title": "Blending R and Python in Quarto documents",
     "section": "",
-    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()\n\n## You may need the code below if you are working on your home Windows computer:\npy_run_string(\"import os as os\")\npy_run_string(\"os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:/Users/kbodwin/Anaconda3/Library/plugins/platforms'\")\n\nreticulate::py_install(\"pandas\")\nreticulate::py_install(\"scikit-learn\")\nreticulate::py_install(\"scipy\")"
+    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-python.html#engine-setup-1",
-    "href": "encuentros/3-tidyverse/r-python.html#engine-setup-1",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Engine Setup",
-    "text": "Engine Setup\nNow, it’s all “under the hood”:\n---\ntitle: \"My document\"\njupyter: python3\n---"
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#slides",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#slides",
+    "title": "Blending R and Python in Quarto documents",
+    "section": "Slides",
+    "text": "Slides"
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-python.html#choose-your-install-in-global-options",
-    "href": "encuentros/3-tidyverse/r-python.html#choose-your-install-in-global-options",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Choose your install in Global Options",
-    "text": "Choose your install in Global Options"
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#links",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#links",
+    "title": "Blending R and Python in Quarto documents",
+    "section": "Links",
+    "text": "Links\ntemplar package: https://www.github.com/r-for-educators/templar\nExample materials: https://github.com/Statistical-Learning-with-R"
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-python.html#object-passing",
-    "href": "encuentros/3-tidyverse/r-python.html#object-passing",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Object passing",
-    "text": "Object passing\n\nAutomatic variables named py and r\nAccess python objects from R with py$\nAccess R objects from python with r."
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#speaker",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#speaker",
+    "title": "Blending R and Python in Quarto documents",
+    "section": "Speaker",
+    "text": "Speaker\n\n\n\n\n\nKelly Bodwin is an Associate Professor of Statistics and Data Science at Cal Poly, in San Luis Obispo, CA. Her research includes R package development, studies of statistical education, and applications in a variety of fields such as history, biology, and viticulture. While R will always be her first love, she is slowly learning to accept python into her life."
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-python.html#object-passing-1",
-    "href": "encuentros/3-tidyverse/r-python.html#object-passing-1",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Object passing",
-    "text": "Object passing\n\n```{r}\n# read and filter data with R\nlibrary(palmerpenguins)\n\nadelie &lt;-\n  penguins %&gt;%\n  filter(species == \"Adelie\")\n```\n\n```{python}\n# model with python\nLR = LinearRegression()\n\nX = r.adelie[['bill_length_mm', 'bill_depth_mm']]\ny = r.adelie['mass_g']\n\nmod = LR.fit(X, y)\ncoef = mod.coef_\n```\n\n```{r}\n# summarize with R\npy$coef\n```"
+    "objectID": "encuentros/2-proyectos/index.html",
+    "href": "encuentros/2-proyectos/index.html",
+    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
+    "section": "",
+    "text": "En este encuentro vamos a charlar sobre conceptos básicos a la hora de pensar un flujo de trabajo con datos en clave de proyecto. La búsqueda será la reproducibilidad de nuestro trabajo, hacer nuestros scripts portables (que no dependan ni de nuestra computadora ni de nosotres) y delinear restricciones, sugerencias y consensos a la hora de estructurar nuestra carpeta (y archivos).\nTendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente."
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-python.html#jupyter",
-    "href": "encuentros/3-tidyverse/r-python.html#jupyter",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Jupyter",
-    "text": "Jupyter\n\nDo you like Jupyter notebooks? Me too!\nDo you like Colab and/or Posit Cloud? Me too!\nDo you want to make your materials in Quarto but distribute to students in Jupyter form? Me too!\n\n\n\nCode\nquarto convert class_notes.qmd\nquarto convert class_notes.ipynb \n\nquarto render class_notes.ipynb"
+    "objectID": "encuentros/2-proyectos/index.html#descripción",
+    "href": "encuentros/2-proyectos/index.html#descripción",
+    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
+    "section": "",
+    "text": "En este encuentro vamos a charlar sobre conceptos básicos a la hora de pensar un flujo de trabajo con datos en clave de proyecto. La búsqueda será la reproducibilidad de nuestro trabajo, hacer nuestros scripts portables (que no dependan ni de nuestra computadora ni de nosotres) y delinear restricciones, sugerencias y consensos a la hora de estructurar nuestra carpeta (y archivos).\nTendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente."
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-python.html#remaining-challenges-of-multilingual-docs",
-    "href": "encuentros/3-tidyverse/r-python.html#remaining-challenges-of-multilingual-docs",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Remaining challenges of multilingual docs",
-    "text": "Remaining challenges of multilingual docs\n\nMost undergrad programs don’t require multiple languages.\nDetecting python installs and packages isn’t perfect.\nR and python do not always have the same default implementations for models.\nWhat if what you want is not a multilingual document, but duplicated translated documents?"
+    "objectID": "encuentros/2-proyectos/index.html#slides",
+    "href": "encuentros/2-proyectos/index.html#slides",
+    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
+    "section": "Slides",
+    "text": "Slides"
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-python.html#what-it-does",
-    "href": "encuentros/3-tidyverse/r-python.html#what-it-does",
-    "title": "Bilingual Materials with Quarto",
-    "section": "What it does",
-    "text": "What it does\nUpon rendering…\n\nIdentifies the R chunks from the python chunks\nIdentifies the labeled text sections for R or python.\nWrites new unilingual source files (qmds) in separate folders\n(Optionally) Renders those source files\n(Optionally) Converts the python one to ipynb."
+    "objectID": "encuentros/2-proyectos/index.html#links",
+    "href": "encuentros/2-proyectos/index.html#links",
+    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
+    "section": "Links",
+    "text": "Links\n\nNotas de clase colaborativa: https://docs.google.com/document/d/1Hjy4NxQajOFUMHu1If1L-GEAsgszm2nUbfzonbs993k/edit\nCiencia de Datos para Gente Sociable: https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/una-presentaci%C3%B3n-a-toda-marcha-de-r.html#crear-un-proyecto-en-rstudio\n(en inglés) Rmarkdown for Scientist - Capítulo: Workflow: https://rmd4sci.njtierney.com/workflow.html\nEjercitación de la semana: https://pablotis.github.io/intro-r-quarto/encuentros/2-proyectos/proyectos-r_ejercitacion.html"
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-python.html#first-chunk",
-    "href": "encuentros/3-tidyverse/r-python.html#first-chunk",
-    "title": "Bilingual Materials with Quarto",
-    "section": "First chunk",
-    "text": "First chunk\n```{r, version = \"none\"}\ntemplar::versions_quarto_multilingual(global_eval = FALSE,\n                                      to_jupyter = TRUE, \n                                      warn_edit = FALSE)\n```\n\n{version = \"none\"}: this code itself should not appear in generated files\nglobal_eval: do you want to\nto_jupyter: do you want to convert the python version?\nwarn_edit: put a warning at the top of generated files to not edit directly?"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#code-chunk-versions",
-    "href": "encuentros/3-tidyverse/r-python.html#code-chunk-versions",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Code chunk versions",
-    "text": "Code chunk versions\n\nThe first thing we need to do with any dataset is check for\nmissing data, and make sure the variables are the right type:\n\n```{r, version = \"R\"}\ndf %&gt;% summary()\n```\n\n```{python, version = \"python\"}\ndf.info()\n```"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#versioned-text",
-    "href": "encuentros/3-tidyverse/r-python.html#versioned-text",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Versioned text",
-    "text": "Versioned text\n\nThe next step is to clean the data.\n\n%%% version: R\n\nThe \"Color\" variable is being treated as a \"character\" variable,\ni.e., just an ordinary word.\n\nBut we know it should be *categorical*, aka a `factor` variable.\nLet's `mutate` the dataset to fix this:\n\n```{r, version = \"R\"}\ndf &lt;- df %&gt;%\n  mutate(\n    Color = factor(Color)\n  )\n\ndf %&gt;% summary()\n```\n\n%%%\n\n%%% version: python\n\nThe \"Color\" variable is being treated as an \"object\" variable,\ni.e., just an ordinary word.\n\nBut we know it should be *categorical*, aka a `category` variable.\nLet's *retype* the variable to fix this:\n\n%%%\n\n```{python, version = \"python\"}\nkelly_df['Gender'] = kelly_df['Gender'].astype('category')\nkelly_df.info()\n```"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#why-its-useful",
-    "href": "encuentros/3-tidyverse/r-python.html#why-its-useful",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Why it’s useful",
-    "text": "Why it’s useful\n\nKeep the content creation all in one place - more reproducible!\nElements of the document can be shared - e.g. data descriptions, question prompts, css chunks\nGive you source files to disseminate to students, not just rendered files.\n(Also lets you do student and solution version, or Exam A and Exam B, etc.)"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#lua-translation",
-    "href": "encuentros/3-tidyverse/r-python.html#lua-translation",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Lua translation",
-    "text": "Lua translation\n\nParse the source file text more elegantly\nMatch syntax to Quarto’s\n(::: instead of %%%)\n(#| version: R instad of {version = \"R})\nDo you know Lua and knitr? Let’s be friends."
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick",
-    "href": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Quarto’s multi-output trick",
-    "text": "Quarto’s multi-output trick\nWhat it can do now:\n---\ntitle: \"My Versioned Doc\"\nformat: \n  html:\n    output-file: my_versioned_doc.html\n  pdf:\n    output-file: my_versioned_doc.pdf\n---\n\n::: {.content-visible when-format=\"html\"}\nClick here to expand!\n:::"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick-1",
-    "href": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick-1",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Quarto’s multi-output trick",
-    "text": "Quarto’s multi-output trick\nWhat I want:\n---\ntitle: \"My Versioned Doc\"\nformat: \n  html+R:\n    output-file: handout-r.html\n  html+python:\n    output-file: handout-python.html\n---\n\n::: {.content-visible when-variant=\"R\"}\nThe function `mutate()` will add a new variable.\n:::"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/r-python.html#resources",
-    "href": "encuentros/3-tidyverse/r-python.html#resources",
-    "title": "Bilingual Materials with Quarto",
-    "section": "Resources",
-    "text": "Resources\nInstall the templar package:\n\nremotes::install_github(\"r-for-educators/templar\")\n\nCo-author: Ian Flores Siaca\nContribute at www.github.com/r-for-educators/templar\nExamples of course materials generated with templar:\nhttps://github.com/Statistical-Learning-with-R"
+    "objectID": "encuentros/2-proyectos/index.html#docente",
+    "href": "encuentros/2-proyectos/index.html#docente",
+    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
+    "section": "Docente",
+    "text": "Docente\n\nPablo Tiscornia"
   },
   {
     "objectID": "encuentros/2-proyectos/index_ACTIVAR.html",
@@ -798,228 +609,550 @@
     "text": "Crear un vector llamado apellido, con los siguientes 7 apellidos:\n\n“García”,\n“Sanchez”,\n“Van Del Sar”,\n“Mihatovich”,\n“Lama”,\n“Lugercio”\n“Messidona”\n\nCrear un vector llamado cantidad, con los siguientes 7 valores, que representen la frecuencia con la que existe cada apellido en nuestra base:\n\n1\n3\n17\n9\n2\n34\n98\n\nCon estos vectores, crear un data.frane que los combine y:\n\nSumar la cantidad de apellidos total que hay en la base (la función sum() puede ayudar al respecto).\nCalcular el apellido que más frecuencia tiene (la función max() puede ayudar al respecto).\nCalcular el apellido que menos frecuencia tiene (la función min() puede ayudar al respecto)"
   },
   {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#outline",
-    "href": "encuentros/2-proyectos/intro-ds.html#outline",
-    "title": "Teaching  in Introductory Data Science",
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#qué-vimos",
+    "href": "encuentros/2-proyectos/proyectos-r.html#qué-vimos",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "¿Qué vimos?",
+    "text": "¿Qué vimos?\n✅ Valores\n✅ Vectores\n✅ Data frames\n✅ Objetos\n✅ Funciones"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#hoja-de-ruta",
+    "href": "encuentros/2-proyectos/proyectos-r.html#hoja-de-ruta",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Hoja de Ruta",
+    "text": "Hoja de Ruta\n\n\n📌 Paquetes\n📌 Ruta de un archivo (o file path)\n📌 Importar nuestra primera base de datos\n\n📌 Armar un proyecto de trabajo en Rstudio (R project)\n📌 Estructura de carpeta\n  👉🏼 Cómo estructurar la carpeta de trabajo\n\n  👉🏼 Cómo nombrar archivos"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-1",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-1",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-2",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-2",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nLos paquetes o librerías son la potencia de los lenguajes como R y Python\nEs cómo las comunidades pueden hacer crecer al lenguaje\n\n\nLink a Mapa de paquetes"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-3",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-3",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nSe instala (una vez por computadora)\n\ninstall.packages(\"nombre_del_paquete\")\n\n\nSe convoca (por cada sesión de R)\n\nlibrary(nombre_del_paquete)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-4",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-4",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nPara instalar un paquete (install.packages()), el nombre del paquete va siempre entre comillas\n\n\ninstall.packages(\"readr\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-5",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-5",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nPara instalar un paquete (install.packages()), el nombre del paquete va siempre entre comillas\n\n\ninstall.packages(\"readr\")\n\n\n\nPara convocar un paquete (library()) el nombre puede o no llevar comillas (se recomienda sin)\n\n\nlibrary(readr)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-6",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-6",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nInstalemos nuestro primer paquete:\n\ninstall.packages(\"readr\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-7",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-7",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nInstalemos nuestro primer paquete:\n\ninstall.packages(\"readr\")\n\n¿Mucha letra roja?"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-8",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-8",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\n\n\nConvoquemos al paquete\n\n\nlibrary(readr)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#ruta-de-archivos-1",
+    "href": "encuentros/2-proyectos/proyectos-r.html#ruta-de-archivos-1",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Ruta de archivos",
+    "text": "Ruta de archivos\n\nEjemplo diario de seleccionar una ruta de archivo:\n\n{width: “70%”;}"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos",
+    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nVamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.\nBase de datos: Nombre de Personas. Argentina, año 2015.\n\n\nLink"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos-1",
+    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-1",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nVamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.\n\n- Base de datos: Nombre de Personas. Argentina, año 2015.\nLink\n\nTip: Reconocer la extensión del archivo a descargar (.csv, .txt, .sav, .dta, .sas, etc.)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos-2",
+    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-2",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nManos a la obra:\n\nlibrary(readr)\n\nread_csv(file = \"/home/pablote/Documentos/datos_personas/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos-3",
+    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-3",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nFalta algo…"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos-4",
+    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-4",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nFalta algo…\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos_personas/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-1",
+    "href": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-1",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Proyectos de trabajo",
+    "text": "Proyectos de trabajo\n\nCopiar la siguiente sentencia en tu consola o script y ejecutar:\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos_personas/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-2",
+    "href": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-2",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Proyectos de trabajo",
+    "text": "Proyectos de trabajo\n\n\n\nSi compartimos el script a otra persona, el código se rompe\nSi cambiamos de computadora, el código se rompe\nSi cambiamos la base de lugar, el código se rompe"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nPaso 1:\n\n–&gt; File (archivo) –&gt; New Project (Nuevo Proyecto…)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-1",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-1",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nPaso 2:\n\n–&gt; New Directory (Nueva carpeta)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-2",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-2",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nPaso 3:\n\n–&gt; New Project"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-3",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-3",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nResultado:"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-4",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-4",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAsegurarse que estamos en el proyecto, de lo contrario, abrirlo"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-5",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-5",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAsegurarse esta en el proyecto, de lo contrario, abrirlo ✅\nCrear una carpeta nueva llamada datos"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-6",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-6",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAsegurarse esta en el proyecto, de lo contrario, abrirlo ✅\nCrear una carpeta nueva llamada datos ✅\nGuardar la base de personas en la carpeta datos"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-7",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-7",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAsegurarse esta en el proyecto, de lo contrario, abrirlo ✅\nCrear una carpeta nueva llamada datos ✅\nGuardar la base de personas en la carpeta datos ✅\nEjecutar la siguiente sentencia:\n\nlibrary(readr)\n\nbase_personas &lt;- read_csv(\"datos/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-8",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-8",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAntes\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos_personas/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-9",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-9",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAntes (sin un proyecto)\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos_personas/nombres-2015.csv\")\n\n\nDespués (con un proyecto)\n\nbase_personas &lt;- read_csv(\"datos/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#estructura-de-carpetas",
+    "href": "encuentros/2-proyectos/proyectos-r.html#estructura-de-carpetas",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Estructura de carpetas",
+    "text": "Estructura de carpetas\n\n📂 nuevo_proyecto\n\n nuevo_proyecto.Rproj\n📂 datos\n\n⛁ nombres-2015.csv\n\n📂 outputs\n📂 scripts\n\n📄 1_levantar_datos.R\n\n📂 docs_metodologicos\n\n📚 bibliografia.docx\n\n\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r_ejercitacion.html",
+    "href": "encuentros/2-proyectos/proyectos-r_ejercitacion.html",
+    "title": "Proyectos R - Ejercitación",
+    "section": "",
+    "text": "Abrir el proyecto creado en clase, que contiene la base de nombres de personas. En su defecto, crear un proyecto nuevo, con una carpeta en su interior llamada datos y ubicar en esa carpeta la base de nombre de personas para el año 2015, vista en clase.\nUna vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base de nombres de personas - 2015 a nuestro Ambiente (Environment) de Rstudio. Recordar guardar en un objeto esa base.\nEjecutar las siguientes funciones sobre el data frame base_personas y describir con un comentario (#) en el script lo que realiza cada una de ellas.\n\nSugerencia: Intentar describir a ojo lo que está haciendo la función. En caso de dificultad, consultar con el sistema de ayuda de R, anteponiendo el símbolo de cierre de interrogación (?) al nombre de la función.\nEjemplo de ayuda: ?mean()\n\nEjemplo de resolución:\n### dim(): Devuelve la cantidad de dimensiones del data.frame (cantidad de filas x columnas)\ndim(base_personas)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r_ejercitacion.html#consigna",
+    "href": "encuentros/2-proyectos/proyectos-r_ejercitacion.html#consigna",
+    "title": "Proyectos R - Ejercitación",
+    "section": "",
+    "text": "Abrir el proyecto creado en clase, que contiene la base de nombres de personas. En su defecto, crear un proyecto nuevo, con una carpeta en su interior llamada datos y ubicar en esa carpeta la base de nombre de personas para el año 2015, vista en clase.\nUna vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base de nombres de personas - 2015 a nuestro Ambiente (Environment) de Rstudio. Recordar guardar en un objeto esa base.\nEjecutar las siguientes funciones sobre el data frame base_personas y describir con un comentario (#) en el script lo que realiza cada una de ellas.\n\nSugerencia: Intentar describir a ojo lo que está haciendo la función. En caso de dificultad, consultar con el sistema de ayuda de R, anteponiendo el símbolo de cierre de interrogación (?) al nombre de la función.\nEjemplo de ayuda: ?mean()\n\nEjemplo de resolución:\n### dim(): Devuelve la cantidad de dimensiones del data.frame (cantidad de filas x columnas)\ndim(base_personas)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r_ejercitacion.html#lista-de-funciones-a-ejectura",
+    "href": "encuentros/2-proyectos/proyectos-r_ejercitacion.html#lista-de-funciones-a-ejectura",
+    "title": "Proyectos R - Ejercitación",
+    "section": "Lista de funciones a ejectura",
+    "text": "Lista de funciones a ejectura\n\n\n\n\n\n\n\nFunción\nAcción\n\n\n\n\ndim()\nejecutar sobre un data frame\n\n\ncolnames()\nejecutar sobre un data frame\n\n\nstr()\nejecutar sobre un data frame\n\n\nsummary()\nejecutar sobre un data frame / una columna del df\n\n\nclass()\nejecutar sobre un data frame / una columna del df\n\n\nlength()\nejecutar sobre un data frame / una columna del df\n\n\ntable()\nejecutar sobre una columna del df\n\n\nis.na()\nejecutar sobre una columna del df\n\n\nmean()\nejecutar sobre una columna del df"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#engine-setup",
+    "href": "encuentros/3-tidyverse/r-python.html#engine-setup",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Engine Setup",
+    "text": "Engine Setup\nIn R Markdown, to use python, you had to set everything up in R using the reticulate package:"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#section",
+    "href": "encuentros/3-tidyverse/r-python.html#section",
+    "title": "Bilingual Materials with Quarto",
+    "section": "",
+    "text": "library(reticulate)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#section-1",
+    "href": "encuentros/3-tidyverse/r-python.html#section-1",
+    "title": "Bilingual Materials with Quarto",
+    "section": "",
+    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#section-2",
+    "href": "encuentros/3-tidyverse/r-python.html#section-2",
+    "title": "Bilingual Materials with Quarto",
+    "section": "",
+    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()\n\n## You may need the code below if you are working on your home Windows computer:\npy_run_string(\"import os as os\")\npy_run_string(\"os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:/Users/kbodwin/Anaconda3/Library/plugins/platforms'\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#section-3",
+    "href": "encuentros/3-tidyverse/r-python.html#section-3",
+    "title": "Bilingual Materials with Quarto",
+    "section": "",
+    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()\n\n## You may need the code below if you are working on your home Windows computer:\npy_run_string(\"import os as os\")\npy_run_string(\"os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:/Users/kbodwin/Anaconda3/Library/plugins/platforms'\")\n\nreticulate::py_install(\"pandas\")\nreticulate::py_install(\"scikit-learn\")\nreticulate::py_install(\"scipy\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#engine-setup-1",
+    "href": "encuentros/3-tidyverse/r-python.html#engine-setup-1",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Engine Setup",
+    "text": "Engine Setup\nNow, it’s all “under the hood”:\n---\ntitle: \"My document\"\njupyter: python3\n---"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#choose-your-install-in-global-options",
+    "href": "encuentros/3-tidyverse/r-python.html#choose-your-install-in-global-options",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Choose your install in Global Options",
+    "text": "Choose your install in Global Options"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#object-passing",
+    "href": "encuentros/3-tidyverse/r-python.html#object-passing",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Object passing",
+    "text": "Object passing\n\nAutomatic variables named py and r\nAccess python objects from R with py$\nAccess R objects from python with r."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#object-passing-1",
+    "href": "encuentros/3-tidyverse/r-python.html#object-passing-1",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Object passing",
+    "text": "Object passing\n\n```{r}\n# read and filter data with R\nlibrary(palmerpenguins)\n\nadelie &lt;-\n  penguins %&gt;%\n  filter(species == \"Adelie\")\n```\n\n```{python}\n# model with python\nLR = LinearRegression()\n\nX = r.adelie[['bill_length_mm', 'bill_depth_mm']]\ny = r.adelie['mass_g']\n\nmod = LR.fit(X, y)\ncoef = mod.coef_\n```\n\n```{r}\n# summarize with R\npy$coef\n```"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#jupyter",
+    "href": "encuentros/3-tidyverse/r-python.html#jupyter",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Jupyter",
+    "text": "Jupyter\n\nDo you like Jupyter notebooks? Me too!\nDo you like Colab and/or Posit Cloud? Me too!\nDo you want to make your materials in Quarto but distribute to students in Jupyter form? Me too!\n\n\n\nCode\nquarto convert class_notes.qmd\nquarto convert class_notes.ipynb \n\nquarto render class_notes.ipynb"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#remaining-challenges-of-multilingual-docs",
+    "href": "encuentros/3-tidyverse/r-python.html#remaining-challenges-of-multilingual-docs",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Remaining challenges of multilingual docs",
+    "text": "Remaining challenges of multilingual docs\n\nMost undergrad programs don’t require multiple languages.\nDetecting python installs and packages isn’t perfect.\nR and python do not always have the same default implementations for models.\nWhat if what you want is not a multilingual document, but duplicated translated documents?"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#what-it-does",
+    "href": "encuentros/3-tidyverse/r-python.html#what-it-does",
+    "title": "Bilingual Materials with Quarto",
+    "section": "What it does",
+    "text": "What it does\nUpon rendering…\n\nIdentifies the R chunks from the python chunks\nIdentifies the labeled text sections for R or python.\nWrites new unilingual source files (qmds) in separate folders\n(Optionally) Renders those source files\n(Optionally) Converts the python one to ipynb."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#first-chunk",
+    "href": "encuentros/3-tidyverse/r-python.html#first-chunk",
+    "title": "Bilingual Materials with Quarto",
+    "section": "First chunk",
+    "text": "First chunk\n```{r, version = \"none\"}\ntemplar::versions_quarto_multilingual(global_eval = FALSE,\n                                      to_jupyter = TRUE, \n                                      warn_edit = FALSE)\n```\n\n{version = \"none\"}: this code itself should not appear in generated files\nglobal_eval: do you want to\nto_jupyter: do you want to convert the python version?\nwarn_edit: put a warning at the top of generated files to not edit directly?"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#code-chunk-versions",
+    "href": "encuentros/3-tidyverse/r-python.html#code-chunk-versions",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Code chunk versions",
+    "text": "Code chunk versions\n\nThe first thing we need to do with any dataset is check for\nmissing data, and make sure the variables are the right type:\n\n```{r, version = \"R\"}\ndf %&gt;% summary()\n```\n\n```{python, version = \"python\"}\ndf.info()\n```"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#versioned-text",
+    "href": "encuentros/3-tidyverse/r-python.html#versioned-text",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Versioned text",
+    "text": "Versioned text\n\nThe next step is to clean the data.\n\n%%% version: R\n\nThe \"Color\" variable is being treated as a \"character\" variable,\ni.e., just an ordinary word.\n\nBut we know it should be *categorical*, aka a `factor` variable.\nLet's `mutate` the dataset to fix this:\n\n```{r, version = \"R\"}\ndf &lt;- df %&gt;%\n  mutate(\n    Color = factor(Color)\n  )\n\ndf %&gt;% summary()\n```\n\n%%%\n\n%%% version: python\n\nThe \"Color\" variable is being treated as an \"object\" variable,\ni.e., just an ordinary word.\n\nBut we know it should be *categorical*, aka a `category` variable.\nLet's *retype* the variable to fix this:\n\n%%%\n\n```{python, version = \"python\"}\nkelly_df['Gender'] = kelly_df['Gender'].astype('category')\nkelly_df.info()\n```"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#why-its-useful",
+    "href": "encuentros/3-tidyverse/r-python.html#why-its-useful",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Why it’s useful",
+    "text": "Why it’s useful\n\nKeep the content creation all in one place - more reproducible!\nElements of the document can be shared - e.g. data descriptions, question prompts, css chunks\nGive you source files to disseminate to students, not just rendered files.\n(Also lets you do student and solution version, or Exam A and Exam B, etc.)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#lua-translation",
+    "href": "encuentros/3-tidyverse/r-python.html#lua-translation",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Lua translation",
+    "text": "Lua translation\n\nParse the source file text more elegantly\nMatch syntax to Quarto’s\n(::: instead of %%%)\n(#| version: R instad of {version = \"R})\nDo you know Lua and knitr? Let’s be friends."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick",
+    "href": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Quarto’s multi-output trick",
+    "text": "Quarto’s multi-output trick\nWhat it can do now:\n---\ntitle: \"My Versioned Doc\"\nformat: \n  html:\n    output-file: my_versioned_doc.html\n  pdf:\n    output-file: my_versioned_doc.pdf\n---\n\n::: {.content-visible when-format=\"html\"}\nClick here to expand!\n:::"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick-1",
+    "href": "encuentros/3-tidyverse/r-python.html#quartos-multi-output-trick-1",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Quarto’s multi-output trick",
+    "text": "Quarto’s multi-output trick\nWhat I want:\n---\ntitle: \"My Versioned Doc\"\nformat: \n  html+R:\n    output-file: handout-r.html\n  html+python:\n    output-file: handout-python.html\n---\n\n::: {.content-visible when-variant=\"R\"}\nThe function `mutate()` will add a new variable.\n:::"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-python.html#resources",
+    "href": "encuentros/3-tidyverse/r-python.html#resources",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Resources",
+    "text": "Resources\nInstall the templar package:\n\nremotes::install_github(\"r-for-educators/templar\")\n\nCo-author: Ian Flores Siaca\nContribute at www.github.com/r-for-educators/templar\nExamples of course materials generated with templar:\nhttps://github.com/Statistical-Learning-with-R"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#outline",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#outline",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "Outline",
-    "text": "Outline\n\n\nHow\nBenefits"
+    "text": "Outline\n\nWhy use Quarto to make teaching materials?\nWhat teaching materials can I create using Quarto?\nHow do I get started?"
   },
   {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#how-application-exercises",
-    "href": "encuentros/2-proyectos/intro-ds.html#how-application-exercises",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "How: Application Exercises",
-    "text": "How: Application Exercises"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#when-first-teaching",
-    "href": "encuentros/2-proyectos/intro-ds.html#when-first-teaching",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "When First Teaching",
-    "text": "When First Teaching\n\nStick to “what’s familiar”\nStick to “basics”"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#visual-vs-source-tab",
-    "href": "encuentros/2-proyectos/intro-ds.html#visual-vs-source-tab",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Visual vs Source Tab",
-    "text": "Visual vs Source Tab\n\n\n\n\n\n\n\n(a)\n\n\n\n\n\n\n\n(b)\n\n\n\n\nFigure 1: Source (a) vs Visual (b)"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#quarto-layout",
-    "href": "encuentros/2-proyectos/intro-ds.html#quarto-layout",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Quarto Layout",
-    "text": "Quarto Layout"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#quarto-as-a-teaching-tool",
-    "href": "encuentros/2-proyectos/intro-ds.html#quarto-as-a-teaching-tool",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Quarto as a Teaching Tool",
-    "text": "Quarto as a Teaching Tool\nOnce students have the layout…Lean into what Quarto has to offer\n\nInformative Syntax and Completion\nInformative Error Messages"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#informative-syntax-and-completion",
-    "href": "encuentros/2-proyectos/intro-ds.html#informative-syntax-and-completion",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Informative Syntax and Completion",
-    "text": "Informative Syntax and Completion"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#informative-errors-and-common-mistakes",
-    "href": "encuentros/2-proyectos/intro-ds.html#informative-errors-and-common-mistakes",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Informative Errors and Common Mistakes",
-    "text": "Informative Errors and Common Mistakes\nApproachability of Quarto error messages alleviates some tension in an intro class"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#missing-syntax",
-    "href": "encuentros/2-proyectos/intro-ds.html#missing-syntax",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Missing Syntax",
-    "text": "Missing Syntax\n#| label: plot1\n#| warning false\n\n\nIn the Background Jobs pane:\nScanner error: while scanning a simple key at line 2, column 1 could not find\n  expected : at line 3, column 1"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#indentation-error",
-    "href": "encuentros/2-proyectos/intro-ds.html#indentation-error",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Indentation Error",
-    "text": "Indentation Error\ntitle: \"Demo Document\"\n  author: \"Student 1\"\nformat: html\neditor: visual\n\n\nIn the Background Jobs pane:\nERROR: YAMLError: bad indentation of a mapping entry at line 3, column 3:\n      author: \"Student 1\"\n      ^"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#in-class-activity",
-    "href": "encuentros/2-proyectos/intro-ds.html#in-class-activity",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "In-class activity",
-    "text": "In-class activity\nUse well scaffolded Quarto documents\n\nprovide the code early\nprovide documentation\nfill in the blank code\nprovide code with errors"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#suggestions-in-class-activity",
-    "href": "encuentros/2-proyectos/intro-ds.html#suggestions-in-class-activity",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Suggestions: In-class activity",
-    "text": "Suggestions: In-class activity\n\n\n\n\n\nMinimal chunk options\n\n\nlabel:\nwarning:\nmessage:\necho:\nfigure options\n\n\n\nMinimal YAML\n\n\ntitle:\nauthor:\nformat:\neditor:"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#in-class-activity-1",
-    "href": "encuentros/2-proyectos/intro-ds.html#in-class-activity-1",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "In-class activity",
-    "text": "In-class activity\nRender early and often!\n\n\nprovide check points to build habit\nExample Application Exercise"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#from-the-students-perspective",
-    "href": "encuentros/2-proyectos/intro-ds.html#from-the-students-perspective",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "From the student’s perspective",
-    "text": "From the student’s perspective\n\nUseful tool: Good habit to build for future coursework + career\nProof of work: A project they can take with them"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#project-with-quarto",
-    "href": "encuentros/2-proyectos/intro-ds.html#project-with-quarto",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Project with Quarto",
-    "text": "Project with Quarto"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#how-we-do-it",
-    "href": "encuentros/2-proyectos/intro-ds.html#how-we-do-it",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "How we do it",
-    "text": "How we do it"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#how-we-do-it-1",
-    "href": "encuentros/2-proyectos/intro-ds.html#how-we-do-it-1",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "How we do it",
-    "text": "How we do it"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#project-professional-document",
-    "href": "encuentros/2-proyectos/intro-ds.html#project-professional-document",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Project: Professional Document",
-    "text": "Project: Professional Document\nR Markdown:\n\nknitr::opts_chunk$set(echo = FALSE)  \n\n\n\nQuarto: Easier to get started and attempts to “smooth” the edges of R Markdown\n\ntitle: \"Project Title\" \nexecute:\n  echo: false"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#from-the-instructors-perspective",
-    "href": "encuentros/2-proyectos/intro-ds.html#from-the-instructors-perspective",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "From the instructor’s perspective",
-    "text": "From the instructor’s perspective\nEfficiency\n\nReproducible lessons to adapt\nConsistent formatting = easier grading"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#going-beyond",
-    "href": "encuentros/2-proyectos/intro-ds.html#going-beyond",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Going Beyond",
-    "text": "Going Beyond\nCitations"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#in-summary",
-    "href": "encuentros/2-proyectos/intro-ds.html#in-summary",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "In Summary",
-    "text": "In Summary\n\nStart minimal and build up!\nContinuously practice\nReproducibility becomes not optional\nKnow that the investment pays off"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#motivating-example",
-    "href": "encuentros/2-proyectos/intro-ds.html#motivating-example",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Motivating Example",
-    "text": "Motivating Example\n\nLack of Trust in Science (Fanelli 2018)"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/intro-ds.html#references",
-    "href": "encuentros/2-proyectos/intro-ds.html#references",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "References",
-    "text": "References\n\n\n\n\n\n\nFanelli, Daniele. 2018. “Is Science Really Facing a Reproducibility Crisis, and Do We Need It To?” Proceedings of the National Academy of Sciences 115 (11): 2628–31. https://doi.org/10.1073/pnas.1708272114."
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html",
-    "title": "Blending R and Python in Quarto documents",
-    "section": "",
-    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#abstract",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#abstract",
-    "title": "Blending R and Python in Quarto documents",
-    "section": "",
-    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#slides",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#slides",
-    "title": "Blending R and Python in Quarto documents",
-    "section": "Slides",
-    "text": "Slides"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#links",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#links",
-    "title": "Blending R and Python in Quarto documents",
-    "section": "Links",
-    "text": "Links\ntemplar package: https://www.github.com/r-for-educators/templar\nExample materials: https://github.com/Statistical-Learning-with-R"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#speaker",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#speaker",
-    "title": "Blending R and Python in Quarto documents",
-    "section": "Speaker",
-    "text": "Speaker\n\n\n\n\n\nKelly Bodwin is an Associate Professor of Statistics and Data Science at Cal Poly, in San Luis Obispo, CA. Her research includes R package development, studies of statistical education, and applications in a variety of fields such as history, biology, and viticulture. While R will always be her first love, she is slowly learning to accept python into her life."
-  },
-  {
-    "objectID": "encuentros/5-reportes/index_ACTIVAR.html",
-    "href": "encuentros/5-reportes/index_ACTIVAR.html",
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-instructor",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-instructor",
     "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "",
-    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
+    "section": "Benefits for instructor",
+    "text": "Benefits for instructor\n\nReproducible course materials that are easier to update\nIntegrate narrative, executable R code, images, and interactive elements\nEasily share course materials with students and more broadly\nRegularly use the same technology as your students"
   },
   {
-    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#abstract",
-    "href": "encuentros/5-reportes/index_ACTIVAR.html#abstract",
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-students",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-students",
     "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "",
-    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
+    "section": "Benefits for students",
+    "text": "Benefits for students\n\nNavigation menu on all documents to easily to find content\nSearch capabilities on website to more easily find content by topic\nOption to export PDF of slides\nRead course materials on multiple devices"
   },
   {
-    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#slides",
-    "href": "encuentros/5-reportes/index_ACTIVAR.html#slides",
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto",
     "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Slides",
-    "text": "Slides"
+    "section": "Teaching materials in Quarto",
+    "text": "Teaching materials in Quarto\n\n\nCourse websites\n\n\n\n\n\nSlides"
   },
   {
-    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#speaker",
-    "href": "encuentros/5-reportes/index_ACTIVAR.html#speaker",
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto-1",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto-1",
     "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Speaker",
-    "text": "Speaker\n\n\n\n\n\nMaria Tackett is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. Her research focuses on understanding factors that impact students’ sense of belonging in introductory math and statistics courses with the aim to identify pedagogies that foster community and a supportive learning environment. She’s an active member of the statistics education community and its effort to make statistics more engaging and accessible for all students."
+    "section": "Teaching materials in Quarto",
+    "text": "Teaching materials in Quarto\n\n\nLong-form notes\n\n\n\n\n\nAssignment instructions"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-menu",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-menu",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Slide menu",
+    "text": "Slide menu\n\nSlide navigation\nPrint to PDF\nSpeaker view\nAnnotation\nChalkboard"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-code-output",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-code-output",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Slide with code + output",
+    "text": "Slide with code + output\n\n\nPublished slide\n\n\nSource code\n\n\n\n\n\nSource: SciPy lecture by Colin Rundel"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-mathematical-notation",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-mathematical-notation",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Slide with mathematical notation",
+    "text": "Slide with mathematical notation\n\n\nPublished slide\n\n\nSource code\n\n\n\n\n\nSource: SLR: Mathematical models for inference by Maria Tackett"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#navigating-course-website",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#navigating-course-website",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Navigating course website",
+    "text": "Navigating course website\n\n\n\nIntroduction to Data Science taught by Mine Çetinkaya-Rundel"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#example-website-file-structure",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#example-website-file-structure",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Example website file structure",
+    "text": "Example website file structure"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#interactive-documents-with-webr",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#interactive-documents-with-webr",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Interactive documents with webR",
+    "text": "Interactive documents with webR\n\n“Run R code in the browser without the need for an R server to execute the code”\n\n\n\n\nwebR demo: maria.quarto.pub/webr-demo"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#webr-source-code",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#webr-source-code",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "webR source code",
+    "text": "webR source code\nYAML\n\n---\ntitle: \"webR document\"\nformat: html\nfilters:\n  - webr\nwebr:\n  packages: ['dplyr', 'ggplot2']\n  Cross-Origin-Opener-Policy: same-origin\n  Cross-Origin-Embedder-Policy: require-corp\n---\n\n\nExecutable code chunk\n\n{webr-r}\nmpg |&gt;\n  count(manufacturer, _____)"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-slides-documents",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-slides-documents",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Getting started: slides + documents",
+    "text": "Getting started: slides + documents\n\n\nBasic\nCustomized\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\nformat: revealjs\n---\n\n\n\n\n\n\n\nTip\n\n\nEasily produce multiple types of documents by changing the format in the YAML.\n\n\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\ndate-format: long\nfooter: \"URL to course website\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: false\n    incremental: false \n    chalkboard: \n    code-link: true\neditor: visual\nexecute: \n  eval: true\n  echo: true\n---"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-websites",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-websites",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Getting started: websites",
+    "text": "Getting started: websites\n\nMake a website repo on GitHub\nClone the repo and start a new RStudio project\n\nRun the following code in the Terminal\nquarto create-project --type website\n\n\nYou will see the standard files for a new website in the Files pane. See Creating a Website on quarto.org for more information."
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#publishing-materials",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#publishing-materials",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Publishing materials",
+    "text": "Publishing materials\nRun the following code in the Terminal\nGitHub pages\nquarto publish gh-pages\nQuarto pub\nquarto publish quarto-pub\nNetlify\nquarto publish netlify\n\nSee Publishing Basics on quarto.org for more information and publishing options."
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#course-websites-created-with-quarto",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#course-websites-created-with-quarto",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Course websites created with Quarto",
+    "text": "Course websites created with Quarto\n\nIntroduction to Data Science, Elijah Meyer\n\n[website][GitHub repo]\n\n\nRegression Analysis, Maria Tackett\n\n[website][GitHub repo]\n\n\nAdvanced Data Visualization, Mine Çetinkaya-Rundel\n\n[website][GitHub repo]\n\n\nApplied Experimental Design and Regression Models, Allison Theobold\n\n[website][Github repo]"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#course-slides-created-with-quarto",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#course-slides-created-with-quarto",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Course slides created with Quarto",
+    "text": "Course slides created with Quarto\n\n\nStatistical Computing and Computation, Colin Rundel\n\n[website][GitHub repo]\n\n\n\nStatistical Learning with R, Kelly Bodwin\n\n[GitHub repo]"
+  },
+  {
+    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#learn-more",
+    "href": "encuentros/5-reportes/quarto-teaching-materials.html#learn-more",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Learn more!",
+    "text": "Learn more!\n\nOrganizing Teaching Materials by Maria Tackett & Mine Çetinkaya-Rundel\nReproducible documents, presentations, and websites with Quarto by Hunter Glanz, Emily Robinson & Allison Theobold\nHello Quarto: Share, Collaborate, Teach, Reimagine by Mine Çetinkaya-Rundel & Julia Lowndes\nquarto.org"
+  },
+  {
+    "objectID": "index_LANZAMIENTO.html#presentación",
+    "href": "index_LANZAMIENTO.html#presentación",
+    "title": "Introducción al Procesamiento de datos con R",
+    "section": "Presentación",
+    "text": "Presentación\nEl taller tiene como principal objetivo introducir a los y las participantes en el mundo de R y la programación para producir información estadística descriptiva. La idea es centrarse en cómo encarar un proyecto que involucre meter manos en los datos, desde cómo nombrar las carpetas o archivos, importarlos para acceder a la información, limpiar y procesarla hasta como visualizar, analizar y comunicar los hallazgos."
+  },
+  {
+    "objectID": "index_LANZAMIENTO.html#para-quién",
+    "href": "index_LANZAMIENTO.html#para-quién",
+    "title": "Introducción al Procesamiento de datos con R",
+    "section": "¿Para quién?",
+    "text": "¿Para quién?\nPara toda aquella persona que quiera / necesite trabajar con datos de una forma más sistemática, ordenada y productiva. No se requiere conocimientos previos de ningún lenguaje de programación en particular, aunque siempre es de ayuda haberse cruzado al menos con una sintaxis o haber utilizado alguna fórmula en Excel."
+  },
+  {
+    "objectID": "index_LANZAMIENTO.html#cómo",
+    "href": "index_LANZAMIENTO.html#cómo",
+    "title": "Introducción al Procesamiento de datos con R",
+    "section": "¿Cómo?",
+    "text": "¿Cómo?\nLa programación no es un tema de mentes brillantes, sino más bien de aquellas perseverantes. Con este lema bajo el brazo es que se pensó el curso, el cual se focaliza en lo práctico. No sólo se van a ofrecer ejercicios para resolver código entre clase y clase sino que vamos a escribir R durante el encuentro sincrónico, compartiendo pantallas y dudas en vivo!"
+  },
+  {
+    "objectID": "index_LANZAMIENTO.html#qué-te-llevas",
+    "href": "index_LANZAMIENTO.html#qué-te-llevas",
+    "title": "Introducción al Procesamiento de datos con R",
+    "section": "¿Qué te llevas?",
+    "text": "¿Qué te llevas?\n\n👥️ Acceso irrestrico al foro y sus canales de debate Estación R, donde vas a poder encontrarte con colegas de otras disciplinas o áreas que están transitando su recorrido en R (incicial o avanzado). Allí podrás compartir, consultar (o también responder) cosillas de R y más!\n📑 Todos los scripts (el código) de lo que se ve durante la clase, junto a las diapositivas.\n🎞️ Acceso a las clases grabadas durante 3 meses, para que puedas seguir repasando y practicando lo visto durante la cursada\n📓 ‘Notas de clase’, con todo el código que se fue escribiendo en vivo durante la clase.\n🧰 Una batería de recursos (bibliografía, referentes del mundo R, espacios de difusión, webs con herramientas, y hasta incluso otros cursos) para explotar al máximo el recorrido inicial y también post cursada."
+  },
+  {
+    "objectID": "index_LANZAMIENTO.html#cronograma",
+    "href": "index_LANZAMIENTO.html#cronograma",
+    "title": "Introducción al Procesamiento de datos con R",
+    "section": "Cronograma:",
+    "text": "Cronograma:\nCantidad de encuentros: 7.\nCantidad de horas por encuentro: 2hs.\nDía y horario de cursada: Miércoles, de 18 a 20hs (Hora Argentina, UTC-3).\nFecha de inicio: Miércoles 14 de Febrero.\nFecha de finalización: Miércoles 27 de Marzo."
+  },
+  {
+    "objectID": "index_LANZAMIENTO.html#precio-del-curso",
+    "href": "index_LANZAMIENTO.html#precio-del-curso",
+    "title": "Introducción al Procesamiento de datos con R",
+    "section": "Precio del curso:",
+    "text": "Precio del curso:\n\nArgentina 🇦🇷: $75.000\nMéxico 🇲🇽: $1,600\nInternacional 🌎: USD 90"
+  },
+  {
+    "objectID": "index_LANZAMIENTO.html#inscripción",
+    "href": "index_LANZAMIENTO.html#inscripción",
+    "title": "Introducción al Procesamiento de datos con R",
+    "section": "Inscripción:",
+    "text": "Inscripción:\nEl curso tiene un cupo limitado para garantizar la calidad del mismo. Si estás interesado/a, entrá al link debajo y llená el formulario, desde donde deberás también abonar la inscripción para garantizar el lugar:\nLink: https://forms.gle/fednwD1m2SBDsRBn7\nConsultas a: pablotisco@gmail.com"
+  },
+  {
+    "objectID": "index_LANZAMIENTO.html#encuentros",
+    "href": "index_LANZAMIENTO.html#encuentros",
+    "title": "Introducción al Procesamiento de datos con R",
+    "section": "Encuentros",
+    "text": "Encuentros\n(“Artwork by @allison_horst”)"
   },
   {
     "objectID": "profesor.html",
