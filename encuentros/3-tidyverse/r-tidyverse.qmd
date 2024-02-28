@@ -1,0 +1,288 @@
+---
+title: "Procesando datos con `{tidyverse}`"
+subtitle: "Principales herramientas (funciones) para el tratamiento de datos"
+author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
+institution: Estación R
+date: 2024-02-21
+footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
+logo: ../../img/background-estacion_r_v2.png
+format: 
+  revealjs: 
+    theme: ../estilo_diapos.scss
+    multiplex: true
+    transition: fade
+    progress: true
+    highlight-style: printing
+    embed-resources: true
+    code-line-numbers: false
+    code-block-bg: true
+    code-copy: true
+code-block-border-left: "#31BAE9"
+execute:
+  execute:
+  freeze: auto
+  echo: true
+---
+
+# Bienvenidos y bienvenidas a Estación R
+
+::: columns
+::: {.column width="50%"}
+💬 [Slack](https://join.slack.com/t/estacion-r/shared_invite/zt-2cktmesg3-11HhUxMFmynQe18ZsBkVpA)
+
+🔗 [Web](https://estacion-r.netlify.app/)
+
+🐘 [Mastodon](https://botsin.space/@r_tips)
+
+𝕏 [X](https://twitter.com/estacion_erre)
+
+✉️ [Correo](mailto:pablotisco@gmail.com)
+:::
+
+::: {.column width="50%"}
+[Instagram](https://www.instagram.com/estacion_ere?igsh=OWhtcWR5ZGkwb3Bw&utm_source=qr)
+
+[LinkedIn](https://www.linkedin.com/company/estacion-r/)
+:::
+:::
+
+---
+
+## ¿Qué vimos?
+
+<br>
+
+✅ Conceptos básicos de R  (valores, vectores, data.framtes, funciones, objetos)
+
+<br>
+
+✅ Cómo armar y organizar un proyecto de trabajo
+
+<br>
+
+✅ Qué son los paquetes (o librerías)
+
+
+
+## Hoja de Ruta
+
+::: columns
+::: {.column width="50%"}
+📌 ¿Qué es la Ciencia de Datos?
+
+<br>
+
+📦 Paquete `{dplyr}`
+
+    🔧 `select()` 🔧 `filter()` 
+    
+    🔧 `mutate()` 🔧 `rename()` 
+    
+    🔧 `arrange()` 
+    
+    🔧 `group_by()` 🔧 `summarise()`  
+    
+    🔧 `joins` 
+
+:::
+
+::: {.column width="50%"}
+
+📌 La pipa (`|>` o `%>%`)
+
+<br>
+
+📦 Paquete `{tidyr}`
+
+    🔧 `pivot_longer()` 🔧 `pivot_wider()`  
+    
+:::
+
+:::
+
+
+# ¿Qué es la Ciencia de Datos?
+
+## ¿Qué es la Ciencia de Datos?
+
+![](../1-intro-r/images/proceso_ciencia_datos.jpg){fig-alt="r project console"}
+
+# `{tidyverse}`
+
+## ¿Qué es `{tidyverse}`?
+
+::: {.incremental}
+
+- Una colección de paquetes.
+
+- Comparten una filosofía acerca de los datos y la programación en R ("*tidy*" -*ordenado*-).
+
+- Tienen una coherencia para ser utilizados en conjunto.
+
+- Orientado a ser leído y escrito por y para seres humanos.
+
+- Una comunidad, basada en los principios del código abierto y trabajo colaborativo.
+
+:::
+
+## ¿Qué es `{tidyverse}`?
+
+![](../1-intro-r/images/circuito_del_dato_tidy.png)
+
+## `{tidyverse}`
+
+- Instalación: 
+
+```r
+install.packages("tidyverse")
+```
+
+<br>
+
+- Cargo el paquete:
+
+```{r message=TRUE, warning=TRUE}
+library(tidyverse)
+```
+
+
+## `{tidyverse}`
+
+- Nos evita tener que instalar uno por uno cada paquete:
+
+```r
+install.packages("dplyr")
+install.packages("tidyr")
+install.packages("ggplot2")
+```
+
+<br>
+
+- Como también tener que convocarlos te a uno:
+
+```r
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+```
+
+## Un operador llamado `pipa`
+
+<br>
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+
+```{r eval=FALSE}
+base_de_datos |> 
+  funcion1 |> 
+  funcion2 |>  
+  funcion3
+```
+:::
+
+::: {.column width="50%"}
+
+![](images/pipa.gif)
+:::
+:::
+
+## Un operador llamado `pipa`
+
+<br>
+
+- Pipa de **R base**:  ` |> `
+
+<br>
+
+- Pipa de **{magritr}**:  ` %>% `
+
+
+## Ejemplo:
+
+<br>
+<br>
+
+```{r}
+datos <- data.frame(nombre = c("Pirulanzo", "Rodogovia", "Rodogovia", "Rodogovia"),
+                    edad = c(23, 12, 87, 32))
+
+datos
+```
+
+## Ejemplo:
+
+- Quiero calcular qué proporción de personas se llaman _Rodogovia_
+
+<br>
+
+- Antes (*sin el pipe*):
+
+```{r}
+round(prop.table(table(datos$nombre)), digits = 1)
+```
+
+## Ejemplo:
+
+<br>
+
+- Después (*con el pipe*):
+
+```{r}
+datos$nombre |> 
+  table() |> 
+  prop.table() |> 
+  round(digits = 1)
+```
+
+# 
+
+```{r echo=FALSE, out.width = '30%', fig.align = 'center'}
+knitr::include_graphics("images/logo dplyr.png")
+```
+
+
+## Funciones del paquete dplyr:
+
+<br>
+
+| __Función__   | __Acción__ |
+| :---          | ---:   |
+| `select()`    | *selecciona o descarta variables*|
+| `filter()`    | *selecciona filas*|
+| `mutate()`    | *crea / edita variables*|
+| `rename()`    | *renombra variables*|
+| `group_by()`  | *segmenta en funcion de una variable*|
+| `summarize()` | *genera una tabla de resúmen*|
+
+
+# __select()__ 
+
+<html>
+  <div style='float:left'></div>
+  <hr color='#EB811B' size=1px width=1125px>
+</html>
+
+<html>
+<p style="color:grey;" align:"center">Elije o descarta columnas de una base de datos</p>
+</html>
+
+
+
+## La función tiene el siguiente esquema:
+
+<br>
+
+```{r}
+#| code-line-numbers: "2"
+#| eval: false
+base_de_datos |> 
+  select(id, nombre)
+```
+
+```{r echo=FALSE, fig.align = 'center', out.width='65%'}
+knitr::include_graphics("images/select_presentacion.png")
+```
+

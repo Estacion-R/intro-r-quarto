@@ -1181,5 +1181,306 @@
     "title": "Código de conducta",
     "section": "",
     "text": "La comunidad de Estación R, incluyendo sus representantes, deben conocer y seguir este Código de Conducta (basado en el Código de Conducta de R Community) que es establecido con la finalidad de alentar al crecimiento de esta comunidad, participando en un ambiente amigable y partiendo de la base del respeto mutuo.\nEste código de conducta aplica en todos los espacios de participación de Estación R, incluyendo reuniones, Twitter, Slack, listas de correo, tanto online como offline. También es aplicable fuera de los espacios del grupo a quienes actúen en representación del mismo, ya sea online u offline.\nEn cualquier tipo de evento ya sea conferencia, charla, taller, fiesta, reunión, redes sociales y otros medios en línea:\n\nAborde los esfuerzos ajenos con consideración;\nCuando no esté de acuerdo con algo, sea amable al plantear sus problemas;\nEjercite la consideración y el respeto en su discurso y en sus acciones;\nIntente colaborar para evitar conflictos;\nSea consciente de su entorno y del resto de las personas;\nAlerte a quien considere oportuno si nota alguna situación peligrosa, alguien sufriendo una situación comprometedora o violaciones de este Código de Conducta, incluso aunque parezcan poco importantes. Responderemos tan pronto como podamos.\n\nEsperamos que Estación R sea un grupo libre de acoso.\nAcoso incluye, entre otros: insultos, tanto directos como indirectos; daño o perjurio verbal o escrito relacionado con género, orientación sexual, raza, religión, incapacidad; uso inapropiado de imágenes de desnudez (incluyendo presentaciones digitales); intimidación deliberada, acecho o persecución; fotografías o grabaciones abusivas; interrupción sostenida de presentaciones u de otros eventos; contacto físico inapropiado y atención sexual no deseada.\nQuienes violen estas reglas podrían recibir una sanción o explusión del grupo. Si se te pide que detengas cualquier comportamiento que se considere como acoso, esperamos que lo detengas de inmediato.\nSomos receptivos a los comentarios constructivos y las críticas, ya que las experiencias y conjuntos de habilidades de otras personas contribuyen a todos nuestros esfuerzos. Aceptamos a cualquiera que desee participar en nuestras actividades. Fomentanmos un entorno en el que quien lo desee pueda aportar y marcar la diferencia.\n\nVeedores del Código de Conducta\nEste código de conducta será aplicado por integrantes de Estación R. En caso de disputas que involucren a alguien que es parte del grupo designado, ésta persona se hará a un lado en la toma de decisiones.\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#qué-vimos",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#qué-vimos",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "¿Qué vimos?",
+    "text": "¿Qué vimos?\n\n✅ Conceptos básicos de R (valores, vectores, data.framtes, funciones, objetos)\n\n✅ Cómo armar y organizar un proyecto de trabajo\n\n✅ Qué son los paquetes (o librerías)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#hoja-de-ruta",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#hoja-de-ruta",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Hoja de Ruta",
+    "text": "Hoja de Ruta\n\n\n📌 ¿Qué es la Ciencia de Datos?\n\n📦 Paquete {dplyr}\n🔧 `select()` 🔧 `filter()` \n\n🔧 `mutate()` 🔧 `rename()` \n\n🔧 `arrange()` \n\n🔧 `group_by()` 🔧 `summarise()`  \n\n🔧 `joins` \n\n📌 La pipa (|&gt; o %&gt;%)\n\n📦 Paquete {tidyr}\n🔧 `pivot_longer()` 🔧 `pivot_wider()`"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nSe instala (una vez por computadora)\n\ninstall.packages(\"nombre_del_paquete\")\n\n\nSe convoca (por cada sesión de R)\n\nlibrary(nombre_del_paquete)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nPara instalar un paquete (install.packages()), el nombre del paquete va siempre entre comillas\n\n\ninstall.packages(\"readr\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-3",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-3",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nPara instalar un paquete (install.packages()), el nombre del paquete va siempre entre comillas\n\n\ninstall.packages(\"readr\")\n\n\n\nPara convocar un paquete (library()) el nombre puede o no llevar comillas (se recomienda sin)\n\n\nlibrary(readr)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-4",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-4",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nInstalemos nuestro primer paquete:\n\ninstall.packages(\"readr\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-5",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-5",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nInstalemos nuestro primer paquete:\n\ninstall.packages(\"readr\")\n\n¿Mucha letra roja?"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-6",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-6",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Paquetes",
+    "text": "Paquetes\n\n\n\nConvoquemos al paquete\n\n\nlibrary(readr)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-7",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-7",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nInstalemos nuestro primer paquete:\n\ninstall.packages(\"readr\")\n\n¿Mucha letra roja?"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-8",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#paquetes-8",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Paquetes",
+    "text": "Paquetes\n\n\n\nConvoquemos al paquete\n\n\nlibrary(readr)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#ruta-de-archivos-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#ruta-de-archivos-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Ruta de archivos",
+    "text": "Ruta de archivos\n\nEjemplo diario de seleccionar una ruta de archivo:\n\n{width: “70%”;}"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#importar-datos",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#importar-datos",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nVamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.\nBase de datos: Nombre de Personas. Argentina, año 2015.\n\n\nLink"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#importar-datos-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#importar-datos-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nVamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.\n\n- Base de datos: Nombre de Personas. Argentina, año 2015.\nLink\n\nTip: Reconocer la extensión del archivo a descargar (.csv, .txt, .sav, .dta, .sas, etc.)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#importar-datos-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#importar-datos-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nManos a la obra:\n\nlibrary(readr)\n\nread_csv(file = \"/home/pablote/Documentos/datos_personas/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#importar-datos-3",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#importar-datos-3",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nFalta algo…"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#importar-datos-4",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#importar-datos-4",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nFalta algo…\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos_personas/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#proyectos-de-trabajo-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#proyectos-de-trabajo-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Proyectos de trabajo",
+    "text": "Proyectos de trabajo\n\nCopiar la siguiente sentencia en tu consola o script y ejecutar:\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos_personas/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#proyectos-de-trabajo-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#proyectos-de-trabajo-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Proyectos de trabajo",
+    "text": "Proyectos de trabajo\n\n\n\nSi compartimos el script a otra persona, el código se rompe\nSi cambiamos de computadora, el código se rompe\nSi cambiamos la base de lugar, el código se rompe"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nPaso 1:\n\n–&gt; File (archivo) –&gt; New Project (Nuevo Proyecto…)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nPaso 2:\n\n–&gt; New Directory (Nueva carpeta)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nPaso 3:\n\n–&gt; New Project"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-3",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-3",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nResultado:"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-4",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-4",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAsegurarse que estamos en el proyecto, de lo contrario, abrirlo"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-5",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-5",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAsegurarse esta en el proyecto, de lo contrario, abrirlo ✅\nCrear una carpeta nueva llamada datos"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-6",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-6",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAsegurarse esta en el proyecto, de lo contrario, abrirlo ✅\nCrear una carpeta nueva llamada datos ✅\nGuardar la base de personas en la carpeta datos"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-7",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-7",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAsegurarse esta en el proyecto, de lo contrario, abrirlo ✅\nCrear una carpeta nueva llamada datos ✅\nGuardar la base de personas en la carpeta datos ✅\nEjecutar la siguiente sentencia:\n\nlibrary(readr)\n\nbase_personas &lt;- read_csv(\"datos/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-8",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-8",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAntes\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos_personas/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-9",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#crear-un-proyecto-de-rstudio-9",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAntes (sin un proyecto)\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos_personas/nombres-2015.csv\")\n\n\nDespués (con un proyecto)\n\nbase_personas &lt;- read_csv(\"datos/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#estructura-de-carpetas",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#estructura-de-carpetas",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Estructura de carpetas",
+    "text": "Estructura de carpetas\n\n📂 nuevo_proyecto\n\n nuevo_proyecto.Rproj\n📂 datos\n\n⛁ nombres-2015.csv\n\n📂 outputs\n📂 scripts\n\n📄 1_levantar_datos.R\n\n📂 docs_metodologicos\n\n📚 bibliografia.docx\n\n\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#qué-es-la-ciencia-de-datos-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#qué-es-la-ciencia-de-datos-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "¿Qué es la Ciencia de Datos?",
+    "text": "¿Qué es la Ciencia de Datos?"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#qué-es-tidyverse",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#qué-es-tidyverse",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "¿Qué es {tidyverse}?",
+    "text": "¿Qué es {tidyverse}?\n\n\nUna colección de paquetes.\nComparten una filosofía acerca de los datos y la programación en R (“tidy” -ordenado-).\nTienen una coherencia para ser utilizados en conjunto.\nOrientado a ser leído y escrito por y para seres humanos.\nUna comunidad, basada en los principios del código abierto y trabajo colaborativo."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#qué-es-tidyverse-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#qué-es-tidyverse-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "¿Qué es {tidyverse}?",
+    "text": "¿Qué es {tidyverse}?"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "{tidyverse}",
+    "text": "{tidyverse}\n\nInstalación:\n\ninstall.packages(\"tidyverse\")\n\n\nCargo el paquete:\n\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#paquetes",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#paquetes",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nLos paquetes o librerías son la potencia de los lenguajes como R y Python\nEs cómo las comunidades pueden hacer crecer al lenguaje\n\n\nLink a Mapa de paquetes"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "{tidyverse}",
+    "text": "{tidyverse}\n\nNos evita tener que instalar uno por uno cada paquete:\n\ninstall.packages(\"dplyr\")\ninstall.packages(\"tidyr\")\ninstall.packages(\"ggplot2\")\n\n\nComo también tener que convocarlos te a uno:\n\nlibrary(dplyr)\nlibrary(tidyr)\nlibrary(ggplot2)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#un-operador-llamado-pipa",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#un-operador-llamado-pipa",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Un operador llamado pipa",
+    "text": "Un operador llamado pipa\n\n\n\n\n\nbase_de_datos |&gt; \n  funcion1 |&gt; \n  funcion2 |&gt;  \n  funcion3"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#un-operador-llamado-pipa-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#un-operador-llamado-pipa-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Un operador llamado pipa",
+    "text": "Un operador llamado pipa\n\n\nPipa de R base: |&gt;\n\n\n\nPipa de {magritr}: %&gt;%"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#un-operador-llamado-pipa-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#un-operador-llamado-pipa-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Un operador llamado pipa",
+    "text": "Un operador llamado pipa\n\nEjemplo:\n\n\nlibrary(readr)\ndatos &lt;- read_csv(\"https://infra.datos.gob.ar/catalog/otros/dataset/2/distribution/2.21/download/nombres-2015.csv\")\n\n\nAntes:\n\n\nmax(datos$cantidad)\n\n[1] 3695\n\n\n\nDespués:\n\n\ndatos$cantidad |&gt; \n  max()\n\n[1] 3695\n\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#ejemplo",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#ejemplo",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Ejemplo:",
+    "text": "Ejemplo:\n \n\ndatos &lt;- data.frame(nombre = c(\"Pirulanzo\", \"Rodogovia\", \"Rodogovia\", \"Rodogovia\"),\n                    edad = c(23, 12, 87, 32))\n\ndatos\n\n     nombre edad\n1 Pirulanzo   23\n2 Rodogovia   12\n3 Rodogovia   87\n4 Rodogovia   32"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#ejemplo-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#ejemplo-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Ejemplo:",
+    "text": "Ejemplo:\n\nQuiero calcular qué proporción de personas se llaman Rodogovia\n\n\n\nAntes (sin el pipe):\n\n\nround(prop.table(table(datos$nombre)), digits = 1)\n\n\nPirulanzo Rodogovia \n      0.2       0.8"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#ejemplo-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#ejemplo-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Ejemplo:",
+    "text": "Ejemplo:\n\n\nDespués (con el pipe):\n\n\ndatos$nombre |&gt; \n  table() |&gt; \n  prop.table() |&gt; \n  round(digits = 1)\n\n\nPirulanzo Rodogovia \n      0.2       0.8"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#funciones-del-paquete-dplyr",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#funciones-del-paquete-dplyr",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Funciones del paquete dplyr:",
+    "text": "Funciones del paquete dplyr:\n\n\n\n\nFunción\nAcción\n\n\n\n\nselect()\nselecciona o descarta variables\n\n\nfilter()\nselecciona filas\n\n\nmutate()\ncrea / edita variables\n\n\nrename()\nrenombra variables\n\n\ngroup_by()\nsegmenta en funcion de una variable\n\n\nsummarize()\ngenera una tabla de resúmen"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#la-función-tiene-el-siguiente-esquema",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#la-función-tiene-el-siguiente-esquema",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "La función tiene el siguiente esquema:",
+    "text": "La función tiene el siguiente esquema:\n\n\nbase_de_datos |&gt; \n  select(id, nombre)\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
   }
 ]

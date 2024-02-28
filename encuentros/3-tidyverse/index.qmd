@@ -4,3 +4,30 @@ author: Pablo Tiscornia
 image: featured.png
 description: Funciones estrella de {tidyverse}, indispensables para el tratamiento de datos.
 ---
+
+## Descripción
+
+En este encuentro vamos a recorrer el conjunto de funciones (herramientas) indispensables para el procesamiento de datos. Son esas que acompañan tanto al principiante como al perfil de lo más avanzado. 
+
+Desde elegir con qué columnas (variables) vamos a trabajar; definir cuál es nuestra población de estudio (filas); crear variables nuevas (indicadores) o editar existentes (recodificar); ordenar la base en función de variables específicas y crear cálculos que permitan extraer algunas conclusiones (o más preguntas) en base a la información con la que contamos.
+
+## Slides
+
+```{=html}
+<iframe class="slide-deck" src="/encuentros/3-tidyverse/r-tidyverse-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+## Links
+
+-   Notas de clase colaborativa: <https://docs.google.com/document/d/1tobGulY1LayIkYUnEZrsUYcoxFms2odWoEBGrwFDgac/edit>
+
+-   Ciencia de Datos para Gente Sociable: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/poniendo-los-datos-en-forma.html#transformando-los-datos>
+
+-   R para Ciencia de Datos - Capítulo: *Explorar - Transformación de datos*: <https://es.r4ds.hadley.nz/05-transform.html>
+
+-   Ejercitación de la semana: <https://pablotis.github.io/intro-r-quarto/encuentros/3-tidyverse/r-tidyverse-r_ejercitacion.html>
+
+## Docente
+
+![](../../img/foto_perfil.jpeg){style="float: right; padding-left: 10px;" fig-alt="Foto de Pablo Tiscornia" width="180"}
+
+[Pablo Tiscornia](https://pablotis.github.io/intro-r-quarto/profesor.html)
