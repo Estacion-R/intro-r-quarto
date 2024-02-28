@@ -46,7 +46,7 @@ execute:
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ## ¿Qué vimos?
 
@@ -60,14 +60,13 @@ execute:
 
 ✅ Funciones
 
-
 ## Hoja de Ruta
 
 ::: columns
 ::: {.column width="50%"}
 📌 Paquetes
 
-📌 Ruta de un archivo (o _file path_)
+📌 Ruta de un archivo (o *file path*)
 
 📌 Importar nuestra primera base de datos
 :::
@@ -81,13 +80,9 @@ execute:
   👉🏼 Cómo estructurar la carpeta de trabajo
 
   👉🏼 Cómo nombrar archivos
-
 ```
-
 :::
-
 :::
-
 
 # Paquetes
 
@@ -95,35 +90,33 @@ execute:
 
 ![](images/paquetes.PNG)
 
-
 ## Paquetes
 
-- Los paquetes o librerías son la potencia de los lenguajes como R y Python
+-   Los paquetes o librerías son la potencia de los lenguajes como R y Python
 
-- Es cómo las comunidades pueden hacer crecer al lenguaje
+-   Es cómo las comunidades pueden hacer crecer al lenguaje
 
 ![[Link a Mapa de paquetes](https://anatomyofcode.com/cranmap/)](images/mapa_cran.png)
 
-
 ## Paquetes
 
-> Se __instala__ (una vez por computadora)
+> Se **instala** (una vez por computadora)
 
-```r
+``` r
 install.packages("nombre_del_paquete")
 ```
 
 <br>
 
-> Se __convoca__ (por cada sesión de R)
+> Se **convoca** (por cada sesión de R)
 
-```r
+``` r
 library(nombre_del_paquete)
 ```
 
 ## Paquetes
 
-> Para _instalar_ un paquete (`install.packages()`), el nombre del paquete va __siempre__ entre comillas
+> Para *instalar* un paquete (`install.packages()`), el nombre del paquete va **siempre** entre comillas
 
 ```{r eval=FALSE}
 install.packages("readr")
@@ -133,7 +126,7 @@ install.packages("readr")
 
 ## Paquetes
 
-> Para _instalar_ un paquete (`install.packages()`), el nombre del paquete va __siempre__ entre comillas
+> Para *instalar* un paquete (`install.packages()`), el nombre del paquete va **siempre** entre comillas
 
 ```{r eval=FALSE}
 install.packages("readr")
@@ -141,106 +134,98 @@ install.packages("readr")
 
 <br>
 
-> Para _convocar_ un paquete (`library()`) el nombre puede o no llevar comillas (se recomienda __sin__)
+> Para *convocar* un paquete (`library()`) el nombre puede o no llevar comillas (se recomienda **sin**)
 
 ```{r}
 library(readr)
 ```
 
-
 ## Paquetes
 
-- Instalemos nuestro primer paquete:
+-   Instalemos nuestro primer paquete:
 
-```r
+``` r
 install.packages("readr")
 ```
 
 ## Paquetes
 
-- Instalemos nuestro primer paquete:
+-   Instalemos nuestro primer paquete:
 
-```r
+``` r
 install.packages("readr")
 ```
 
-- ¿Mucha letra roja?
-
+-   ¿Mucha letra roja?
 
 ## Paquetes
 
 ::: columns
 ::: {.column width="50%"}
-
-- Convoquemos al paquete 
+-   Convoquemos al paquete
 
 ```{r}
 library(readr)
 ```
-
 :::
 
 ::: {.column width="50%"}
-
 <br>
 
 ![](https://helios-i.mashable.com/imagery/articles/03wZYjQKEeZIUvKsxYtn73r/hero-image.fill.size_1200x900.v1611609729.jpg)
-
 :::
 :::
 
 # Ruta de archivos
 
-- **Definición:** Ubicación de una carpeta / archivo en mi computadora
+-   **Definición:** Ubicación de una carpeta / archivo en mi computadora
 
-- **Máxima:** Todas las carpetas en nuestra computadora tienen una *__ruta__*
+-   **Máxima:** Todas las carpetas en nuestra computadora tienen una ***ruta***
 
 ## Ruta de archivos
 
-- **Ejemplo diario de seleccionar una _ruta de archivo_:** 
+-   **Ejemplo diario de seleccionar una *ruta de archivo*:**
 
 ![](images/guardar_como.jpg){width: "70%";}
 
 ## Importar datos
 
-- Vamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.
+-   Vamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.
 
-- **Base de datos:** _Nombre de Personas. Argentina, año 2015._
+-   **Base de datos:** *Nombre de Personas. Argentina, año 2015.*
 
 > [Link](https://datos.gob.ar/dataset/otros-nombres-personas-fisicas)
 
 ## Importar datos
 
-- Vamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.
+-   Vamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.
 
-**- Base de datos:** _Nombre de Personas. Argentina, año 2015._
+**- Base de datos:** *Nombre de Personas. Argentina, año 2015.*
 
 [Link](https://datos.gob.ar/dataset/otros-nombres-personas-fisicas)
 
-- Tip: Reconocer la **_extensión_** del archivo a descargar (.csv, .txt, .sav, .dta, .sas, etc.)
-
+-   Tip: Reconocer la ***extensión*** del archivo a descargar (.csv, .txt, .sav, .dta, .sas, etc.)
 
 ## Importar datos
 
-- Manos a la obra:
+-   Manos a la obra:
 
-```r
+``` r
 library(readr)
 
-read_csv(file = "/home/pablote/Documentos/datos_personas/nombres-2015.csv")
+read_csv(file = "/home/pablote/Documentos/datos/nombres-2015.csv")
 ```
 
 ## Importar datos
 
-- Falta algo...
-
+-   Falta algo...
 
 ## Importar datos
 
-- Falta algo...
+-   Falta algo...
 
-```r
-base_personas <- read_csv(file = "/home/pablote/Documentos/datos_personas/nombres-2015.csv")
+``` r
+base_personas <- read_csv(file = "/home/pablote/Documentos/datos/nombres-2015.csv")
 ```
 
 # Descanso
@@ -253,31 +238,34 @@ contador <- countdown(minutes = 10, bottom = 0, warn_when = 60, blink_colon = TR
 
 `r contador`
 
-
 # Proyectos de trabajo {.center auto-animate="true"}
 
-![](images/r_project.png){ width="250" height="200" style="display: block; margin: 0 auto" }
-
+![](images/r_project.png){width="250" height="200" style="display: block; margin: 0 auto"}
 
 ## Proyectos de trabajo
 
-- Copiar la siguiente sentencia en tu consola o script y ejecutar:
+<br>
 
-```r
-base_personas <- read_csv(file = "/home/pablote/Documentos/datos_personas/nombres-2015.csv")
+<br>
+
+-   Copiar la siguiente sentencia en tu consola o script y ejecutar:
+
+``` r
+base_personas <- read_csv(file = "/home/pablote/Documentos/datos/nombres-2015.csv")
 ```
 
 ## Proyectos de trabajo
 
 <br>
 
-::: {.incremental}
-- Si compartimos el script a otra persona, **el código se rompe**
+<br>
 
-- Si cambiamos de computadora, **el código se rompe**
-    
-- Si cambiamos la base de lugar, **el código se rompe**
-    
+::: incremental
+-   Si compartimos el script a otra persona, **el código se rompe**
+
+-   Si cambiamos de computadora, **el código se rompe**
+
+-   Si cambiamos la base de lugar, **el código se rompe**
 :::
 
 # La solución
@@ -286,122 +274,110 @@ base_personas <- read_csv(file = "/home/pablote/Documentos/datos_personas/nombre
 
 ## Crear un proyecto de Rstudio
 
-- Paso 1:
+-   Paso 1:
 
---> **File (_archivo_) --> New Project (_Nuevo Proyecto..._)**
+--\> **File (*archivo*) --\> New Project (*Nuevo Proyecto...*)**
 
 ![](images/nuevo_proj_paso1.png)
 
-
 ## Crear un proyecto de Rstudio
 
-- Paso 2:
+-   Paso 2:
 
---> **New Directory (_Nueva carpeta_)**
+--\> **New Directory (*Nueva carpeta*)**
 
 ![](images/nuevo_proj_paso2.png)
 
 ## Crear un proyecto de Rstudio
 
-- Paso 3:
+-   Paso 3:
 
---> **New Project**
+--\> **New Project**
 
 ![](images/nuevo_proj_paso3.png)
 
 ## Crear un proyecto de Rstudio
 
-- Resultado:
+-   Resultado:
 
 ![](images/proyecto_nuevo.png)
-
 
 # Manos a la obra
 
 ## Crear un proyecto de Rstudio
 
-- Asegurarse que estamos en el proyecto, de lo contrario, abrirlo
-
-
-## Crear un proyecto de Rstudio
-
-
-- Asegurarse esta en el proyecto, de lo contrario, abrirlo ✅
-    
-- Crear una carpeta nueva llamada `datos`
-
+-   Asegurarse que estamos en el proyecto, de lo contrario, abrirlo
 
 ## Crear un proyecto de Rstudio
 
+-   Asegurarse esta en el proyecto, de lo contrario, abrirlo ✅
 
-- Asegurarse esta en el proyecto, de lo contrario, abrirlo ✅
-    
-- Crear una carpeta nueva llamada `datos` ✅
-    
-- Guardar la base de personas en la carpeta `datos`
-    
+-   Crear una carpeta nueva llamada `datos`
+
 ## Crear un proyecto de Rstudio
 
+-   Asegurarse esta en el proyecto, de lo contrario, abrirlo ✅
 
-- Asegurarse esta en el proyecto, de lo contrario, abrirlo ✅
-    
-- Crear una carpeta nueva llamada `datos` ✅
-    
-- Guardar la base de personas en la carpeta `datos` ✅
-    
-- Ejecutar la siguiente sentencia:
+-   Crear una carpeta nueva llamada `datos` ✅
 
+-   Guardar la base de personas en la carpeta `datos`
 
-```r
+## Crear un proyecto de Rstudio
+
+-   Asegurarse esta en el proyecto, de lo contrario, abrirlo ✅
+
+-   Crear una carpeta nueva llamada `datos` ✅
+
+-   Guardar la base de personas en la carpeta `datos` ✅
+
+-   Ejecutar la siguiente sentencia:
+
+``` r
 library(readr)
 
 base_personas <- read_csv("datos/nombres-2015.csv")
 ```
 
-
 ## Crear un proyecto de Rstudio
 
-- **Antes**
+-   **Antes** *(sin un proyecto)*
 
-```r
-base_personas <- read_csv(file = "/home/pablote/Documentos/datos_personas/nombres-2015.csv")
+``` r
+base_personas <- read_csv(file = "/home/pablote/Documentos/datos/nombres-2015.csv")
 ```
 
 ## Crear un proyecto de Rstudio
 
-- **Antes** _(sin un proyecto)_
+-   **Antes** *(sin un proyecto)*
 
-```r
-base_personas <- read_csv(file = "/home/pablote/Documentos/datos_personas/nombres-2015.csv")
+``` r
+base_personas <- read_csv(file = "/home/pablote/Documentos/datos/nombres-2015.csv")
 ```
 
 <br>
 
-- **Después** _(con un proyecto)_
+-   **Después** *(con un proyecto)*
 
-```r
+``` r
 base_personas <- read_csv("datos/nombres-2015.csv")
 ```
 
-
 ## Estructura de carpetas
 
+-   📂 nuevo_proyecto
 
-- 📂 nuevo_proyecto
-    
-    -  <img src = "images/r_project.png" style="height: 35px; width:35px;"/>  _nuevo_proyecto.Rproj_
-  
-    - 📂 datos
-  
-        - ⛁ _nombres-2015.csv_
-  
-    - 📂 outputs
-    
-    - 📂 scripts
-    
-        - 📄 _1_levantar_datos.R_
-    
-    - 📂 docs_metodologicos
-    
-        - 📚 _bibliografia.docx_
+    -   <img src="images/r_project.png" style="height: 35px; width:35px;"/> *nuevo_proyecto.Rproj*
 
+    -   📂 datos
+
+        -   ⛁ *nombres-2015.csv*
+
+    -   📂 outputs
+
+    -   📂 scripts
+
+        -   📄 *1_levantar_datos.R*
+
+    -   📂 docs_metodologicos
+
+        -   📚 *bibliografia.docx*
