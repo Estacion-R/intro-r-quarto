@@ -1,13 +1,13 @@
 ---
 title: Introducción al procesamiento de datos con {tidyverse}. 
-author: Pablo Tiscornia
+author: Estación R
 image: featured.png
 description: Funciones estrella de {tidyverse}, indispensables para el tratamiento de datos.
 ---
 
 ## Descripción
 
-En este encuentro vamos a recorrer el conjunto de funciones (herramientas) indispensables para el procesamiento de datos. Son esas que acompañan tanto al principiante como al perfil de lo más avanzado. 
+En este encuentro vamos a recorrer el conjunto de funciones (herramientas) indispensables para el procesamiento de datos. Son esas que acompañan tanto al principiante como al perfil de lo más avanzado.
 
 Desde elegir con qué columnas (variables) vamos a trabajar; definir cuál es nuestra población de estudio (filas); crear variables nuevas (indicadores) o editar existentes (recodificar); ordenar la base en función de variables específicas y crear cálculos que permitan extraer algunas conclusiones (o más preguntas) en base a la información con la que contamos.
 

@@ -100,6 +100,20 @@ execute:
 
 :::
 
+## Configuración para esta clase
+
+<br>
+
+- Armar un proyeto de trabajo nuevo
+
+- Crear una carpeta en el llamada `datos`
+
+- Descargar la base del [**Padrón Único Nacional de Alojamientos**](https://datos.yvera.gob.ar/dataset/padron-unico-nacional-alojamiento) (Argentina) y ubicarla en la carpeta `datos`
+
+- Crear un **script** de trabajo
+
+
+
 
 # ¿Qué es la Ciencia de Datos?
 
@@ -131,11 +145,15 @@ execute:
 
 ## `{tidyverse}`
 
+<br>
+
 - Instalación: 
 
 ```r
 install.packages("tidyverse")
 ```
+
+## `{tidyverse}`
 
 <br>
 
@@ -148,7 +166,7 @@ library(tidyverse)
 
 ## `{tidyverse}`
 
-- Nos evita tener que instalar uno por uno cada paquete:
+- Nos evita tener que instalar uno por uno a cada paquete:
 
 ```r
 install.packages("dplyr")
@@ -158,13 +176,15 @@ install.packages("ggplot2")
 
 <br>
 
-- Como también tener que convocarlos te a uno:
+- Como también tener que convocarlos de a uno:
 
 ```r
 library(dplyr)
 library(tidyr)
 library(ggplot2)
 ```
+
+# La pipa
 
 ## Un operador llamado `pipa`
 
@@ -174,6 +194,8 @@ library(ggplot2)
 
 ::: columns
 ::: {.column width="50%"}
+
+<br>
 
 ```{r eval=FALSE}
 base_de_datos |> 
@@ -266,23 +288,420 @@ knitr::include_graphics("images/logo dplyr.png")
 </html>
 
 <html>
-<p style="color:grey;" align:"center">Elije o descarta columnas de una base de datos</p>
+<p style="color:grey;" align:"center">Elige o descarta columnas de una base de datos</p>
 </html>
 
 
 
-## La función tiene el siguiente esquema:
+## `select()`
+
+<br>
+
+- La función tiene la siguiente estructura:
+
+```{r}
+#| eval: false
+base_de_datos |> 
+  select(id, nombre) #<<
+```
+
+```{r echo=FALSE, fig.align = 'center', out.width='65%'}
+knitr::include_graphics("images/select_presentacion.png")
+```
+
+## Caso práctico
+
+```{r}
+#| include: false
+#| echo: false
+library(readr)
+df_puna <- read_csv(here::here("data/puna_base_agregada.csv"))
+```
+
+```r
+# Cargo paquete
+library(readr)
+
+# Importo datos
+df_puna <- read_csv("datos/puna_base_agregada.csv")
+```
+
+<br>
+
+```{r}
+# Exploro la base
+colnames(df_puna)
+```
+
+
+## Caso práctico
+
+<br>
+
+- **Pedido:** La coordinadora me ha solicitado conocer la cantidad de plazas que hay por localidad y, si es posible, saber de qué tipo son los alojamientos
+
+<br>
+
+- Variables de trabajo:
+
+    - _localidad_
+    - _plazas_
+    - _tipo_
+
+
+## Caso práctico
+
+<br>
+
+- Selecciono las 3 columnas de interés
+
+```{r}
+#| eval: false
+#| code-line-numbers: "3,4"
+library(tidyverse)
+
+df_puna |> 
+  select(localidad, tipo, plazas)
+```
+
+## Caso práctico
+
+<br>
+
+- Selecciono las 3 columnas de interés
+
+```{r}
+#| code-line-numbers: "2"
+library(tidyverse)
+
+df_puna_sel <- df_puna |> 
+  select(localidad, tipo, plazas)
+```
+
+<br>
+
+- Chequeo las columnas del nuevo objeto
+
+```{r}
+#| code-line-numbers: "1"
+colnames(df_puna_sel)
+```
+
+# Otras formas de seleccionar... 
+
+## `select()` - _por posición_
+
+<br>
+
+1. Chequeo la posición:
+
+```{r}
+colnames(df_puna)
+```
+
+## `select()` - _por posición_
+
+<br>
+
+2. Selecciono
+
+```{r}
+#| code-line-numbers: "2"
+df_puna_sel_posicion <- df_puna |> 
+  select(7, 9, 13)
+```
+
+## `select()` - _por posición_
+
+<br>
+
+3. Chequeo
+
+```{r}
+colnames(df_puna_sel_posicion)
+```
+
+
+## `select()` - _por posición (columnas consecutivas)_
 
 <br>
 
 ```{r}
 #| code-line-numbers: "2"
+df_puna_sel_posicion2 <- df_puna |> 
+  select(1:3)
+```
+
+## `select()` - _por posición (columnas consecutivas)_
+
+<br>
+
+```{r}
+#| code-line-numbers: "2"
+df_puna_sel_posicion2 <- df_puna |> 
+  select(1:3)
+```
+<br>
+
+```{r}
+colnames(df_puna_sel_posicion2)
+```
+
+# {.center auto-animate="true"}
+
+![](https://imgs.search.brave.com/Frz7Kuv_uvyXQb269pQbZ2-UxWSZ-oIPOgfP4lTWmmU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvc2FjaGEt/YmFyb24tY29oZW4t/dmVyeS1uaWNlLXFq/N2x5YXFudXBueTl6/ODAuZ2lm.gif)
+
+
+## `select()` - _por nombre (consecutiva)_
+
+<br>
+
+```{r}
+#| code-line-numbers: "2"
+df_puna_sel_posicion3 <- df_puna |> 
+  select(establecimientos:plazas)
+```
+
+## `select()` - _por nombre (consecutiva)_
+
+<br>
+
+```{r}
+#| code-line-numbers: "2"
+df_puna_sel_posicion3 <- df_puna |> 
+  select(establecimientos:plazas)
+```
+
+<br>
+
+```{r}
+colnames(df_puna_sel_posicion3)
+```
+
+# 
+
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXk3OXA1YnRnOGFkOGxqMjd4ZHU4MzZha2I4dzhqMmw0NTFmN2RoZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d4W4ZshZVbrqYvVnh8/giphy.gif)
+
+## `select()` - _Por patrones de texto_
+
+<br>
+
+**Trío: **
+
+- `starts_with()`  --> _empieza con..._
+
+- `ends_with()` --> _termina con..._
+
+- `contains()` --> _contiene..._
+
+
+## `select()` + `starts_with()`
+
+<br>
+
+```{r}
+#| code-line-numbers: "2"
+df_puna_sel_patron1 <- df_puna |> 
+  select(starts_with("provincia"))
+```
+
+## `select()` + `starts_with()`
+
+<br>
+
+```{r}
+#| code-line-numbers: "2"
+df_puna_sel_patron1 <- df_puna |> 
+  select(starts_with("provincia"))
+```
+
+<br>
+
+```{r}
+colnames(df_puna_sel_patron1)
+```
+
+## `select()` + `ends_with()`
+
+<br>
+
+```{r}
+#| code-line-numbers: "2"
+df_puna_sel_patron2 <- df_puna |> 
+  select(ends_with("o"))
+```
+
+## `select()` + `starts_with()`
+
+<br>
+
+```{r}
+#| code-line-numbers: "2"
+df_puna_sel_patron2 <- df_puna |> 
+  select(ends_with("o"))
+```
+
+<br>
+
+```{r}
+colnames(df_puna_sel_patron2)
+```
+
+#
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjEzMW15cWk3bXJ5MzQ0aXQwd2IwenIyN3JseTlucW9nc2R0enY4NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lk023zZqHJ3Zz4rxtV/giphy.gif)
+
+## `select()` + `contains()`
+
+<br>
+
+```{r}
+#| code-line-numbers: "2"
+df_puna_sel_patron3 <- df_puna |> 
+  select(contains("_"))
+```
+
+## `select()` + `contains()`
+
+<br>
+
+```{r}
+#| code-line-numbers: "2"
+df_puna_sel_patron3 <- df_puna |> 
+  select(contains("_"))
+```
+
+<br>
+
+```{r}
+colnames(df_puna_sel_patron3)
+```
+
+# 
+
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXprbDVsM2l1MmF5dDRjMGY1N2xiNW52dmFscHNsM3NhbDZ5eXc5NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NEvPzZ8bd1V4Y/giphy.gif)
+
+
+
+# LA COMBINACIÓN FINAL
+
+## `select()`
+
+<br>
+
+```{r}
+#| code-line-numbers: "2"
+df_puna_select_tuto <- df_puna |> 
+  select(localidad, 2, starts_with("provincia"), 9:11)
+```
+
+## `select()`
+
+<br>
+
+```{r}
+#| code-line-numbers: "1"
+df_puna_select_tuto <- df_puna |> 
+  select(localidad, 2, starts_with("provincia"), 9:11)
+```
+
+<br>
+
+```{r}
+colnames(df_puna_select_tuto)
+```
+
+
+# 
+
+![](images/explode.gif)
+
+
+# Ejercitación grupal
+
+## Ejercitación
+
+-   Crear un objeto en donde importamos la base de datos de Alojamientos.
+
+-   Seleccionar 3 variables de la base según el nombre de las mismas y guardar en otro objeto.
+
+-   Seleccionar 3 variables de la base según la posición de las mismas y guardar en otro objeto.
+
+-   Seleccionar todas las variables que **empiecen** con un patrón de texto (a elegir).
+
+
+# __filter()__ 
+
+<html>
+  <div style='float:left'></div>
+  <hr color='#EB811B' size=1px width=1125px>
+</html>
+
+<html>
+<p style="color:grey;" align:"center">Define los casos (filas) en base a una condición</p>
+</html>
+
+## `filter()`
+
+<br>
+
+- La función tiene la siguiente estructura:
+
+
+```{r}
 #| eval: false
+#| code-line-numbers: "2"
 base_de_datos |> 
-  select(id, nombre)
+  filter(condicion) 
 ```
 
 ```{r echo=FALSE, fig.align = 'center', out.width='65%'}
-knitr::include_graphics("images/select_presentacion.png")
+knitr::include_graphics("images/filter_presentacion.png")
+```
+
+## `filter()`
+
+<br>
+
+- La función tiene la siguiente estructura:
+
+
+```{r}
+#| eval: false
+#| code-line-numbers: "2"
+base_de_datos |> 
+  filter(Edad > 65) 
+```
+
+```{r echo=FALSE, fig.align = 'center', out.width='65%'}
+knitr::include_graphics("images/filter_presentacion.png")
+```
+
+## Caso práctico
+
+<br>
+
+- La directora de tesis me pidió que estudie los alojamientos de tipo **Camping**.
+
+<br>
+
+- Universo de análisis / Población de estudio: 
+
+      - Alojamientos tipo _Camping_
+      
+## Caso práctico
+
+<br>
+
+- Chequeo con qué tipos de alojamiento cuento en la base:
+
+## Caso práctico
+
+<br>
+
+- Chequeo con qué tipos de alojamiento cuento en la base:
+
+```{r}
+unique(df_puna$clasificacion_minturdep)
 ```
 
