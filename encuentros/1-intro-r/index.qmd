@@ -16,6 +16,17 @@ Tendremos ejercitación para realizar durante el encuentro y se dejará práctic
 ```{=html}
 <iframe class="slide-deck" src="/encuentros/1-intro-r/intro-r-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
+```{r echo=FALSE}
+downloadthis::download_file(
+  path = here::here("encuentros/1-intro-r/Introducción a R base.pdf"),
+  output_name = "r-intro_r",
+  button_label = "Descarga las diapositivas",
+  button_type = "success",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = TRUE
+)
+```
 
 ## Links
 
@@ -24,7 +35,6 @@ Tendremos ejercitación para realizar durante el encuentro y se dejará práctic
 -   Ciencia de Datos para Gente Sociable: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/>
 
 -   Ejercitación de la semana: <https://pablotis.github.io/intro-r-quarto/encuentros/1-intro-r/intro-r_ejercitacion.html>
-
 
 ## Docente
 

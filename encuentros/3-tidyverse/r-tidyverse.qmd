@@ -8,6 +8,7 @@ footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.g
 logo: ../../img/background-estacion_r_v2.png
 format: 
   revealjs: 
+    width: 1600
     theme: ../estilo_diapos.scss
     multiplex: true
     transition: fade
@@ -273,14 +274,22 @@ knitr::include_graphics("images/logo dplyr.png")
 ::: {style="float:left"}
 :::
 
+<<<<<<< HEAD
 <hr color='#EB811B' size=1px width=1125px>
+=======
+<hr color='#EB811B' size=1px width=1600px>
+>>>>>>> e221c9b (agrego descarga de diapos)
 
 </html>
 
 <html>
 
 ```{=html}
+<<<<<<< HEAD
 <p style="color:grey;" align:"center">Elige o descarta columnas de una base de datos</p>
+=======
+<p style="color:grey;" align:"left">Elige o descarta columnas de una base de datos</p>
+>>>>>>> e221c9b (agrego descarga de diapos)
 ```
 </html>
 
@@ -619,14 +628,22 @@ colnames(df_puna_select_tuto)
 ::: {style="float:left"}
 :::
 
+<<<<<<< HEAD
 <hr color='#EB811B' size=1px width=1125px>
+=======
+<hr color='#EB811B' size=1px width=1600px>
+>>>>>>> e221c9b (agrego descarga de diapos)
 
 </html>
 
 <html>
 
 ```{=html}
+<<<<<<< HEAD
 <p style="color:grey;" align:"center">Define los casos (filas) en base a una condición</p>
+=======
+<p style="color:grey;" align:"left">Define los casos (filas) en base a una condición</p>
+>>>>>>> e221c9b (agrego descarga de diapos)
 ```
 </html>
 
@@ -674,9 +691,15 @@ knitr::include_graphics("images/filter_presentacion.png")
 
 -   Universo de análisis / Población de estudio:
 
+<<<<<<< HEAD
     ```         
     - Alojamientos tipo _Camping_
     ```
+=======
+
+    - Alojamientos tipo *Camping*
+
+>>>>>>> e221c9b (agrego descarga de diapos)
 
 ## Caso práctico
 
@@ -693,3 +716,248 @@ knitr::include_graphics("images/filter_presentacion.png")
 ```{r}
 unique(df_puna$clasificacion_minturdep)
 ```
+<<<<<<< HEAD
+=======
+
+## Caso práctico
+
+<br>
+
+-   Aplico filtro
+
+```{r}
+library(tidyverse)
+
+df_filtrada <- df_puna |> 
+  filter(clasificacion_minturdep == "Camping")
+```
+
+## Caso práctico
+
+<br>
+
+-   Chequeo filtro
+
+```{r}
+unique(df_filtrada$clasificacion_minturdep)
+```
+
+
+## `filter()`
+
+::: columns
+::: {.column width="50%" style="font-size: 0.68"}
+
+
+|Condición |Acción              |
+| :---     | :---               |
+| `==`     | *igual*            |
+| `%in%`   | *incluye*          |
+| `!=`     | *distinto*         |
+| `>`      | *mayor que*        |
+| `<`      | *menor que*        |
+| `>=`     | *mayor o igual que*|
+| `<=`     | *menor o igual que*|
+
+:::
+
+::: {.column width="50%" style="font-size: 0.68"}
+
+| Operador | Descripción                                    |
+| :---     | :---                                           |
+| `&`      | *y* - Cuando se cumplen ambas condiciones      |
+| &#124;   | *o* - Cuando se cumple una u otra condición    |
+
+:::
+:::
+
+## Caso práctico
+
+<br>
+
+-   La encargada de la oficina de turismo de Buenos Aires quiere que le arme una base sólo con alojamientos de tipo *Camping* y *Hoteles 3 estrellas*.
+
+## Caso práctico
+
+<br>
+
+- Chequeo las categorías de la variable `clasificacion_minturdep`
+
+```{r}
+unique(df_puna$clasificacion_minturdep)
+```
+
+## Caso práctico
+
+<br>
+
+- Filtro (opción 1):
+
+```{r}
+df_camping_y_hoteles3estrellas <- df_puna |> 
+  filter(clasificacion_minturdep == "Camping" | clasificacion_minturdep == "Hotel 3 estrellas")
+```
+
+## Caso práctico
+
+<br>
+
+- Chequeo filtro
+```{r}
+unique(df_camping_y_hoteles3estrellas$clasificacion_minturdep)
+```
+
+
+## Caso práctico
+
+<br>
+
+- Filtro (opción 2, operador: `%in%`):
+
+```{r}
+df_camping_y_hoteles3estrellas <- df_puna |> 
+  filter(clasificacion_minturdep %in% c("Camping", "Hotel 3 estrellas"))
+```
+
+## Caso práctico
+
+<br>
+
+- Chequeo filtro
+```{r}
+unique(df_camping_y_hoteles3estrellas$clasificacion_minturdep)
+```
+
+## `select()` + `filter()`
+
+<br>
+
+:::: {.columns}
+::: {.column width="60%"}
+```{r}
+#| eval: false
+#| code-line-numbers: "2,3"
+df_puna |> 
+  select(localidad, 
+         clasificacion_minturdep)
+```
+:::
+
+::: {.column width="40%"}
+```{r}
+#| echo: false
+df_puna |> 
+  select(localidad, clasificacion_minturdep)
+```
+:::
+::::
+
+
+## `select()` + `filter()`
+
+<br>
+
+:::: {.columns}
+::: {.column width="60%"}
+```{r}
+#| eval: false
+#| code-line-numbers: "4"
+df_puna |> 
+  select(localidad, 
+         clasificacion_minturdep) |> 
+  filter(clasificacion_minturdep %in% c("Camping", "Hotel 3 estrellas"))
+```
+:::
+
+::: {.column width="40%"}
+```{r}
+#| echo: false
+df_puna |> 
+  select(localidad, clasificacion_minturdep) |> 
+  filter(clasificacion_minturdep %in% c("Camping", "Hotel 3 estrellas"))
+```
+:::
+::::
+
+
+# Ejercitación grupal
+
+
+## Ejercitación
+
+-   Crear un objeto que contenga la base de PUNA sólo con las variables `localidad`, `ruta_natural` y `plazas`  
+
+-   En ese mismo objeto, quedarse sólo con las filas de la **ruta natural** `Delta`.
+
+-   Calcular cuántas plazas hay en total para la ruta natural `Delta` (*tip: la función `sum()` puede ser de ayuda*)
+
+
+
+# **mutate()**
+
+<html>
+
+::: {style="float:left"}
+:::
+
+<hr color='#EB811B' size=1px width=1600px>
+
+</html>
+
+<html>
+
+```{=html}
+<p style="color:grey;" align:"left">Crea / edita variables (columnas)</p>
+```
+</html>
+
+
+## `mutate()`
+
+<br>
+
+-   La función tiene la siguiente estructura:
+
+<br>
+
+```{r}
+#| eval: false
+#| code-line-numbers: "2"
+base_de_datos %>% 
+   mutate(var_nueva = var_1 + var_2)
+```
+
+## `mutate()` - Caso práctico
+
+<br> 
+
+- Llega a la oficina una persona interesada en saber cuál es el valor total disponible para dormir en los establecimientos. Quiere, entonces, conocer el resultado de la suma entre `habitaciones` y `plazas`.
+
+. . .
+
+- Para ello, podemos crear una variable que contenga este resultado:
+
+## `mutate()` - Caso práctico
+
+:::: {.columns}
+::: {.column width="60%"}
+```{r}
+#| eval: false
+#| code-line-numbers: "3"
+df_lugar_tot <- df_puna |> 
+  select(localidad, habitaciones, plazas) |> 
+  mutate(lugar_disponible = habitaciones + plazas)
+```
+:::
+
+::: {.column width="40%"}
+```{r}
+#| echo: false
+df_puna |> 
+  select(localidad, habitaciones, plazas) |> 
+  mutate(lugar_disponible = habitaciones + plazas)
+```
+:::
+::::
+
+>>>>>>> e221c9b (agrego descarga de diapos)

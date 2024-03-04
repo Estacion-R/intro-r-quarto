@@ -16,6 +16,20 @@ Desde elegir con qué columnas (variables) vamos a trabajar; definir cuál es nu
 ```{=html}
 <iframe class="slide-deck" src="/encuentros/3-tidyverse/r-tidyverse-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
+
+```{r echo=FALSE}
+downloadthis::download_file(
+  path = here::here("encuentros/3-tidyverse/Procesando datos con tidyverse.pdf"),
+  output_name = "r-tidyverse",
+  button_label = "Descarga las diapositivas",
+  button_type = "success",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = TRUE
+)
+```
+
+
 ## Links
 
 -   Notas de clase colaborativa: <https://docs.google.com/document/d/1tobGulY1LayIkYUnEZrsUYcoxFms2odWoEBGrwFDgac/edit>

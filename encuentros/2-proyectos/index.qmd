@@ -16,6 +16,18 @@ Tendremos ejercitación para realizar durante el encuentro y se dejará práctic
 ```{=html}
 <iframe class="slide-deck" src="/encuentros/2-proyectos/proyectos-r-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
+```{r echo=FALSE}
+downloadthis::download_file(
+  path = here::here("encuentros/2-proyectos/Proyectos de R, organizando la mesa de Trabajo.pdf"),
+  output_name = "r-proyectos",
+  button_label = "Descarga las diapositivas",
+  button_type = "success",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = TRUE
+)
+```
+
 ## Links
 
 -   Notas de clase colaborativa: <https://docs.google.com/document/d/1Hjy4NxQajOFUMHu1If1L-GEAsgszm2nUbfzonbs993k/edit>
