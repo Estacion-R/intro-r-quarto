@@ -270,26 +270,12 @@ knitr::include_graphics("images/logo dplyr.png")
 # **select()**
 
 <html>
-
-::: {style="float:left"}
-:::
-
-<<<<<<< HEAD
-<hr color='#EB811B' size=1px width=1125px>
-=======
 <hr color='#EB811B' size=1px width=1600px>
->>>>>>> e221c9b (agrego descarga de diapos)
-
 </html>
 
 <html>
-
 ```{=html}
-<<<<<<< HEAD
-<p style="color:grey;" align:"center">Elige o descarta columnas de una base de datos</p>
-=======
 <p style="color:grey;" align:"left">Elige o descarta columnas de una base de datos</p>
->>>>>>> e221c9b (agrego descarga de diapos)
 ```
 </html>
 
@@ -624,26 +610,13 @@ colnames(df_puna_select_tuto)
 # **filter()**
 
 <html>
-
-::: {style="float:left"}
-:::
-
-<<<<<<< HEAD
-<hr color='#EB811B' size=1px width=1125px>
-=======
 <hr color='#EB811B' size=1px width=1600px>
->>>>>>> e221c9b (agrego descarga de diapos)
-
 </html>
 
 <html>
 
 ```{=html}
-<<<<<<< HEAD
-<p style="color:grey;" align:"center">Define los casos (filas) en base a una condición</p>
-=======
 <p style="color:grey;" align:"left">Define los casos (filas) en base a una condición</p>
->>>>>>> e221c9b (agrego descarga de diapos)
 ```
 </html>
 
@@ -691,15 +664,8 @@ knitr::include_graphics("images/filter_presentacion.png")
 
 -   Universo de análisis / Población de estudio:
 
-<<<<<<< HEAD
-    ```         
-    - Alojamientos tipo _Camping_
-    ```
-=======
-
     - Alojamientos tipo *Camping*
 
->>>>>>> e221c9b (agrego descarga de diapos)
 
 ## Caso práctico
 
@@ -716,8 +682,6 @@ knitr::include_graphics("images/filter_presentacion.png")
 ```{r}
 unique(df_puna$clasificacion_minturdep)
 ```
-<<<<<<< HEAD
-=======
 
 ## Caso práctico
 
@@ -959,5 +923,3 @@ df_puna |>
 ```
 :::
 ::::
-
->>>>>>> e221c9b (agrego descarga de diapos)

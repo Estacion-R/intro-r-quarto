@@ -410,7 +410,7 @@
     "href": "encuentros/3-tidyverse/r-tidyverse.html#caso-práctico-4",
     "title": "Procesando datos con {tidyverse}",
     "section": "Caso práctico",
-    "text": "Caso práctico\n\n\nLa directora de tesis me pidió que estudie los alojamientos de tipo Camping.\n\n\n\nUniverso de análisis / Población de estudio:\n\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD - Alojamientos tipo _Camping_ =======\n- Alojamientos tipo *Camping*\n\n\n\n\n\n\n\ne221c9b (agrego descarga de diapos)"
+    "text": "Caso práctico\n\n\nLa directora de tesis me pidió que estudie los alojamientos de tipo Camping.\n\n\n\nUniverso de análisis / Población de estudio:\n\nAlojamientos tipo Camping"
   },
   {
     "objectID": "encuentros/3-tidyverse/r-tidyverse.html#caso-práctico-5",
@@ -529,7 +529,7 @@
     "href": "encuentros/3-tidyverse/r-tidyverse.html#mutate---caso-práctico-1",
     "title": "Procesando datos con {tidyverse}",
     "section": "mutate() - Caso práctico",
-    "text": "mutate() - Caso práctico\n\n\n\ndf_lugar_tot &lt;- df_puna |&gt; \n  select(localidad, habitaciones, plazas) |&gt; \n  mutate(lugar_disponible = habitaciones + plazas)\n\n\n\n\n# A tibble: 14,717 × 4\n   localidad habitaciones plazas lugar_disponible\n   &lt;chr&gt;            &lt;dbl&gt;  &lt;dbl&gt;            &lt;dbl&gt;\n 1 Baradero             6     30               36\n 2 Baradero             0    277              277\n 3 Baradero             0     50               50\n 4 Baradero            57    131              188\n 5 Baradero            68    164              232\n 6 Baradero            15     34               49\n 7 Baradero            49    135              184\n 8 Baradero            27     78              105\n 9 Baradero            28     60               88\n10 Baradero             5     15               20\n# ℹ 14,707 more rows\n\n\n\n\n\n\n\n\n\n\n\ne221c9b (agrego descarga de diapos)\n\n\n\n\n\n\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+    "text": "mutate() - Caso práctico\n\n\n\ndf_lugar_tot &lt;- df_puna |&gt; \n  select(localidad, habitaciones, plazas) |&gt; \n  mutate(lugar_disponible = habitaciones + plazas)\n\n\n\n\n# A tibble: 14,717 × 4\n   localidad habitaciones plazas lugar_disponible\n   &lt;chr&gt;            &lt;dbl&gt;  &lt;dbl&gt;            &lt;dbl&gt;\n 1 Baradero             6     30               36\n 2 Baradero             0    277              277\n 3 Baradero             0     50               50\n 4 Baradero            57    131              188\n 5 Baradero            68    164              232\n 6 Baradero            15     34               49\n 7 Baradero            49    135              184\n 8 Baradero            27     78              105\n 9 Baradero            28     60               88\n10 Baradero             5     15               20\n# ℹ 14,707 more rows\n\n\n\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
   },
   {
     "objectID": "encuentros/2-proyectos/proyectos-r_ejercitacion.html",
