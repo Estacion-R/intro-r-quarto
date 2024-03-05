@@ -16,7 +16,6 @@ Desde elegir con qué columnas (variables) vamos a trabajar; definir cuál es nu
 ```{=html}
 <iframe class="slide-deck" src="/encuentros/3-tidyverse/r-tidyverse-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
-
 ```{r echo=FALSE}
 downloadthis::download_file(
   path = here::here("encuentros/3-tidyverse/Procesando datos con tidyverse.pdf"),
@@ -28,7 +27,6 @@ downloadthis::download_file(
   self_contained = TRUE
 )
 ```
-
 
 ## Links
 

@@ -529,7 +529,196 @@
     "href": "encuentros/3-tidyverse/r-tidyverse.html#mutate---caso-práctico-1",
     "title": "Procesando datos con {tidyverse}",
     "section": "mutate() - Caso práctico",
-    "text": "mutate() - Caso práctico\n\n\n\ndf_lugar_tot &lt;- df_puna |&gt; \n  select(localidad, habitaciones, plazas) |&gt; \n  mutate(lugar_disponible = habitaciones + plazas)\n\n\n\n\n# A tibble: 14,717 × 4\n   localidad habitaciones plazas lugar_disponible\n   &lt;chr&gt;            &lt;dbl&gt;  &lt;dbl&gt;            &lt;dbl&gt;\n 1 Baradero             6     30               36\n 2 Baradero             0    277              277\n 3 Baradero             0     50               50\n 4 Baradero            57    131              188\n 5 Baradero            68    164              232\n 6 Baradero            15     34               49\n 7 Baradero            49    135              184\n 8 Baradero            27     78              105\n 9 Baradero            28     60               88\n10 Baradero             5     15               20\n# ℹ 14,707 more rows\n\n\n\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+    "text": "mutate() - Caso práctico\n\n\n\n\ndf_lugar_tot &lt;- df_puna |&gt; \n  select(localidad, habitaciones, plazas)\n\n\n\n\n# A tibble: 14,717 × 3\n   localidad habitaciones plazas\n   &lt;chr&gt;            &lt;dbl&gt;  &lt;dbl&gt;\n 1 Baradero             6     30\n 2 Baradero             0    277\n 3 Baradero             0     50\n 4 Baradero            57    131\n 5 Baradero            68    164\n 6 Baradero            15     34\n 7 Baradero            49    135\n 8 Baradero            27     78\n 9 Baradero            28     60\n10 Baradero             5     15\n# ℹ 14,707 more rows"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#mutate---caso-práctico-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#mutate---caso-práctico-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "mutate() - Caso práctico",
+    "text": "mutate() - Caso práctico\n\n\n\n\ndf_lugar_tot &lt;- df_puna |&gt; \n  select(localidad, habitaciones, plazas) |&gt; \n  mutate(lugar_disponible = habitaciones + plazas)\n\n\n\n\n# A tibble: 14,717 × 4\n   localidad habitaciones plazas lugar_disponible\n   &lt;chr&gt;            &lt;dbl&gt;  &lt;dbl&gt;            &lt;dbl&gt;\n 1 Baradero             6     30               36\n 2 Baradero             0    277              277\n 3 Baradero             0     50               50\n 4 Baradero            57    131              188\n 5 Baradero            68    164              232\n 6 Baradero            15     34               49\n 7 Baradero            49    135              184\n 8 Baradero            27     78              105\n 9 Baradero            28     60               88\n10 Baradero             5     15               20\n# ℹ 14,707 more rows"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "mutate() + case_when() = Recodificación",
+    "text": "mutate() + case_when() = Recodificación\n \n\nNecesito agregarle una etiqueta a la variable indice_tiempo (pasar de 2020 a \"Año 2020\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "mutate() + case_when() = Recodificación",
+    "text": "mutate() + case_when() = Recodificación\n\n\n\n\ndf_lugar_tot &lt;- df_puna |&gt; \n  select(indice_tiempo, localidad, plazas)\n\n\n\n\n# A tibble: 14,717 × 3\n   indice_tiempo localidad plazas\n           &lt;dbl&gt; &lt;chr&gt;      &lt;dbl&gt;\n 1          2020 Baradero      30\n 2          2020 Baradero     277\n 3          2020 Baradero      50\n 4          2020 Baradero     131\n 5          2020 Baradero     164\n 6          2020 Baradero      34\n 7          2020 Baradero     135\n 8          2020 Baradero      78\n 9          2020 Baradero      60\n10          2020 Baradero      15\n# ℹ 14,707 more rows"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "mutate() + case_when() = Recodificación",
+    "text": "mutate() + case_when() = Recodificación\n\n\n\n\ndf_puna_recod &lt;- df_puna |&gt; \n  select(indice_tiempo, localidad, plazas) |&gt; \n  mutate(anio_etiqueta = case_when(indice_tiempo == 2020 ~ \"Año 2020\",\n                                      indice_tiempo == 2021 ~ \"Año 2021\",\n                                      indice_tiempo == 2022 ~ \"Año 2022\"))\n\n\n\n\n# A tibble: 14,717 × 4\n   indice_tiempo localidad plazas anio_etiqueta\n           &lt;dbl&gt; &lt;chr&gt;      &lt;dbl&gt; &lt;chr&gt;        \n 1          2020 Baradero      30 Año 2020     \n 2          2020 Baradero     277 Año 2020     \n 3          2020 Baradero      50 Año 2020     \n 4          2020 Baradero     131 Año 2020     \n 5          2020 Baradero     164 Año 2020     \n 6          2020 Baradero      34 Año 2020     \n 7          2020 Baradero     135 Año 2020     \n 8          2020 Baradero      78 Año 2020     \n 9          2020 Baradero      60 Año 2020     \n10          2020 Baradero      15 Año 2020     \n# ℹ 14,707 more rows"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación-3",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación-3",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "mutate() + case_when() = Recodificación",
+    "text": "mutate() + case_when() = Recodificación\n \n\nNecesito caracterizar al sector hotelero y compararlo con el resto de los alojamientos"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación-4",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación-4",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "mutate() + case_when() = Recodificación",
+    "text": "mutate() + case_when() = Recodificación\n\n\n\n\ndf_puna_agrup &lt;- df_puna |&gt; \n  select(tipo, plazas) |&gt; \n  mutate(tipo_agrupado = case_when(tipo == \"Hoteleros\" ~ \"Hoteleros\",\n                                   .default = \"Otros\"))\n\n\n\n\n# A tibble: 14,717 × 3\n   tipo             plazas tipo_agrupado\n   &lt;chr&gt;             &lt;dbl&gt; &lt;chr&gt;        \n 1 Otros colectivos     30 Otros        \n 2 Parahoteleros       277 Otros        \n 3 Otros colectivos     50 Otros        \n 4 Parahoteleros       131 Otros        \n 5 Parahoteleros       164 Otros        \n 6 Hoteleros            34 Hoteleros    \n 7 Hoteleros           135 Hoteleros    \n 8 Hoteleros            78 Hoteleros    \n 9 Hoteleros            60 Hoteleros    \n10 Parahoteleros        15 Otros        \n# ℹ 14,707 more rows"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación-5",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación-5",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "mutate() + case_when() = Recodificación",
+    "text": "mutate() + case_when() = Recodificación\n \n\nNecesito Reagrupar unicamente a los hoteles de 1, 2 y 3 estrellas, para compararlos frente al resto:"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación-6",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#mutate-case_when-recodificación-6",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "mutate() + case_when() = Recodificación",
+    "text": "mutate() + case_when() = Recodificación\n\n\n\n\ndf_puna_agrup_hotel &lt;- df_puna |&gt; \n  select(clasificacion_minturdep, plazas) |&gt; \n  mutate(clasif_agrupado = case_when(\n    clasificacion_minturdep %in% c(\"Hotel 1 estrella\", \n                                   \"Hotel 2 estrellas\",\n                                   \"Hotel 3 estrellas\") ~ \"Hotel hasta 3 estrellas\",\n    .default = \"Otros\"))\n\n\n\n\n# A tibble: 14,717 × 3\n   clasificacion_minturdep                   plazas clasif_agrupado        \n   &lt;chr&gt;                                      &lt;dbl&gt; &lt;chr&gt;                  \n 1 \"Albergue municipal / complejo deportivo\"     30 Otros                  \n 2 \"Caba\\xf1as / bungalows\"                     277 Otros                  \n 3 \"Conjunto de unidades turisticas\"             50 Otros                  \n 4 \"Establecimiento rural\"                      131 Otros                  \n 5 \"Hosteria\"                                   164 Otros                  \n 6 \"Hotel 1 estrella\"                            34 Hotel hasta 3 estrellas\n 7 \"Hotel 2 estrellas\"                          135 Hotel hasta 3 estrellas\n 8 \"Hotel boutique\"                              78 Otros                  \n 9 \"Hotel sin categorizar\"                       60 Otros                  \n10 \"Residencial\"                                 15 Otros                  \n# ℹ 14,707 more rows"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#ejercitación-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#ejercitación-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "Ejercitación",
+    "text": "Ejercitación\n\nNecesito reagrupar la variable clasificacion_minturdep para quedarme con 2 categorìas:\n\nCamping\nOtros\n\n\nDada la consigna anterior, rellenar en el campo marcado con ______ con el código necesario para ejecutar la sentencia:\ndf_puna |&gt; \n  select(localidad, ________) |&gt; \n  mutate(nueva_clasificacion = case_when(________ == \"Camping\" ~ \"Camping\",\n                                         .default = \"Otros\"))"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#summarise-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#summarise-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "summarise()",
+    "text": "summarise()\n\n\nAntes:\n\n\nsum(df_puna$plazas)\n\n[1] 2346290"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#summarise-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#summarise-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "summarise()",
+    "text": "summarise()\n\n\nAhora:\n\n\ndf_puna |&gt; \n  summarise(cant_plazas = sum(plazas))\n\n# A tibble: 1 × 1\n  cant_plazas\n        &lt;dbl&gt;\n1     2346290"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#summarise-3",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#summarise-3",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "summarise()",
+    "text": "summarise()\n\n\nAhora:\n\n\ndf_puna |&gt; \n  summarise(cant_plazas = sum(plazas),\n            prom_plazas = mean(plazas))\n\n# A tibble: 1 × 2\n  cant_plazas prom_plazas\n        &lt;dbl&gt;       &lt;dbl&gt;\n1     2346290        159."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#summarise-4",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#summarise-4",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "summarise()",
+    "text": "summarise()\n\n\nAhora:\n\n\ndf_puna |&gt; \n  summarise(cant_plazas = sum(plazas),\n            prom_plazas = mean(plazas),\n            min_plazas  = min(plazas),\n            max_plazas  = max(plazas))\n\n# A tibble: 1 × 4\n  cant_plazas prom_plazas min_plazas max_plazas\n        &lt;dbl&gt;       &lt;dbl&gt;      &lt;dbl&gt;      &lt;dbl&gt;\n1     2346290        159.          0      20001"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#group_by-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#group_by-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "group_by()",
+    "text": "group_by()\n\n\nAntes:\n\n\ndf_puna |&gt; \n  summarise(cant_plazas = sum(plazas),\n            prom_plazas = mean(plazas),\n            min_plazas  = min(plazas),\n            max_plazas  = max(plazas))\n\n# A tibble: 1 × 4\n  cant_plazas prom_plazas min_plazas max_plazas\n        &lt;dbl&gt;       &lt;dbl&gt;      &lt;dbl&gt;      &lt;dbl&gt;\n1     2346290        159.          0      20001"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#group_by-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#group_by-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "group_by()",
+    "text": "group_by()\n\n\nDespués:\n\n\ndf_puna |&gt;\n  group_by(indice_tiempo) |&gt; \n  summarise(cant_plazas = sum(plazas),\n            prom_plazas = mean(plazas),\n            min_plazas  = min(plazas),\n            max_plazas  = max(plazas))\n\n# A tibble: 3 × 5\n  indice_tiempo cant_plazas prom_plazas min_plazas max_plazas\n          &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;      &lt;dbl&gt;      &lt;dbl&gt;\n1          2020      785963        161.          0      20001\n2          2021      780050        159.          0      20001\n3          2022      780277        158.          0      19964"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#input-output",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#input-output",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "input / output",
+    "text": "input / output\n\n\n\n\n\n\nToda función tiene un input (ingredientes 🧂🌾🧄) y un output (la torta 🎂)"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#input-output-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#input-output-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "input / output",
+    "text": "input / output\n\n\n¿Cuál es el output del summarise()?"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#input-output-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#input-output-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "input / output",
+    "text": "input / output\n\n\n# Creo objeto\ntabla_puna &lt;- df_puna |&gt;\n  group_by(indice_tiempo) |&gt; \n  summarise(cant_plazas = sum(plazas),\n            prom_plazas = mean(plazas),\n            min_plazas  = min(plazas),\n            max_plazas  = max(plazas))\n\n# Chequeo tipo de objeto\nclass(tabla_puna)\n\n[1] \"tbl_df\"     \"tbl\"        \"data.frame\""
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#input-output-3",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#input-output-3",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "input / output",
+    "text": "input / output\n\n\n¿Y qué puedo hacer sobre un data frame?"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#input-output-4",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#input-output-4",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "input / output",
+    "text": "input / output\n\n\n\n\ntabla_puna |&gt; \n  filter(indice_tiempo == 2022)\n\n\n\n\n# A tibble: 1 × 5\n  indice_tiempo cant_plazas prom_plazas min_plazas max_plazas\n          &lt;dbl&gt;       &lt;dbl&gt;       &lt;dbl&gt;      &lt;dbl&gt;      &lt;dbl&gt;\n1          2022      780277        158.          0      19964"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#input-output-5",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#input-output-5",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "input / output",
+    "text": "input / output\n\n\n\n\ntabla_puna |&gt; \n  filter(indice_tiempo == 2022) |&gt; \n  select(indice_tiempo, cant_plazas)\n\n\n\n\n# A tibble: 1 × 2\n  indice_tiempo cant_plazas\n          &lt;dbl&gt;       &lt;dbl&gt;\n1          2022      780277"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "tidyverse en acción",
+    "text": "tidyverse en acción"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-1",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "tidyverse en acción",
+    "text": "tidyverse en acción\n\n\n\ndf_puna |&gt; \n  select(indice_tiempo, tipo, plazas)\n\n\n\n\n# A tibble: 14,717 × 3\n   indice_tiempo tipo             plazas\n           &lt;dbl&gt; &lt;chr&gt;             &lt;dbl&gt;\n 1          2020 Otros colectivos     30\n 2          2020 Parahoteleros       277\n 3          2020 Otros colectivos     50\n 4          2020 Parahoteleros       131\n 5          2020 Parahoteleros       164\n 6          2020 Hoteleros            34\n 7          2020 Hoteleros           135\n 8          2020 Hoteleros            78\n 9          2020 Hoteleros            60\n10          2020 Parahoteleros        15\n# ℹ 14,707 more rows"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-2",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-2",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "tidyverse en acción",
+    "text": "tidyverse en acción\n\n\n\ndf_puna |&gt; \n  select(indice_tiempo, tipo, plazas) |&gt; \n  filter(indice_tiempo %in% c(2021, 2022))\n\n\n\n\n# A tibble: 9,843 × 3\n   indice_tiempo tipo             plazas\n           &lt;dbl&gt; &lt;chr&gt;             &lt;dbl&gt;\n 1          2021 Otros colectivos     30\n 2          2021 Parahoteleros       277\n 3          2021 Otros colectivos     50\n 4          2021 Parahoteleros       131\n 5          2021 Parahoteleros       164\n 6          2021 Hoteleros            34\n 7          2021 Hoteleros           135\n 8          2021 Hoteleros            78\n 9          2021 Hoteleros            60\n10          2021 Parahoteleros        15\n# ℹ 9,833 more rows"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-3",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-3",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "tidyverse en acción",
+    "text": "tidyverse en acción\n\n\n\ndf_puna |&gt; \n  select(indice_tiempo, tipo, plazas) |&gt; \n  filter(indice_tiempo %in% c(2021, 2022)) |&gt; \n  mutate(tipo_recod = case_when(tipo == \"Hoteleros\" ~ \"Hoteleros\",\n                                .default = \"Otros\"))\n\n\n\n\n# A tibble: 9,843 × 4\n   indice_tiempo tipo             plazas tipo_recod\n           &lt;dbl&gt; &lt;chr&gt;             &lt;dbl&gt; &lt;chr&gt;     \n 1          2021 Otros colectivos     30 Otros     \n 2          2021 Parahoteleros       277 Otros     \n 3          2021 Otros colectivos     50 Otros     \n 4          2021 Parahoteleros       131 Otros     \n 5          2021 Parahoteleros       164 Otros     \n 6          2021 Hoteleros            34 Hoteleros \n 7          2021 Hoteleros           135 Hoteleros \n 8          2021 Hoteleros            78 Hoteleros \n 9          2021 Hoteleros            60 Hoteleros \n10          2021 Parahoteleros        15 Otros     \n# ℹ 9,833 more rows"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-4",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-4",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "tidyverse en acción",
+    "text": "tidyverse en acción\n\n\n\ndf_puna |&gt; \n  select(indice_tiempo, tipo, plazas) |&gt; \n  filter(indice_tiempo %in% c(2021, 2022)) |&gt; \n  mutate(tipo_recod = case_when(tipo == \"Hoteleros\" ~ \"Hoteleros\",\n                                .default = \"Otros\")) |&gt; \n  group_by(indice_tiempo, tipo_recod) |&gt; \n  summarise(cant_plazas = sum(plazas),\n            prom_plazas = mean(plazas))\n\n\n\n\n# A tibble: 4 × 4\n# Groups:   indice_tiempo [2]\n  indice_tiempo tipo_recod cant_plazas prom_plazas\n          &lt;dbl&gt; &lt;chr&gt;            &lt;dbl&gt;       &lt;dbl&gt;\n1          2021 Hoteleros       454631        264.\n2          2021 Otros           325419        102.\n3          2022 Hoteleros       455702        264.\n4          2022 Otros           324575        101."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-5",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-5",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "tidyverse en acción",
+    "text": "tidyverse en acción\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
   },
   {
     "objectID": "encuentros/2-proyectos/proyectos-r_ejercitacion.html",
