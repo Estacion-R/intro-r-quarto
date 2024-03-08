@@ -1,40 +1,61 @@
 ---
-title: "Proyectos R - Ejercitación"
+title: "Tidyverse, parte I - Ejercitación"
 author: "Estación R"
 ---
 
 ## Consigna:
 
-- Abrir el proyecto creado en clase, que contiene la base de nombres de personas. En su defecto, crear un proyecto nuevo, con una carpeta en su interior llamada `datos` y ubicar en esa carpeta la base de nombre de personas para el año 2015, vista en clase.
+a.  Estoy necesitando quedarme con los casos de tipo *Parahoteleros*. Reemplazar el campo ´_______´ de la siguiente sentencia y comprobar que la operación fué exitosa:
 
-- Una vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base de nombres de personas - 2015 a nuestro Ambiente (*Environment*) de Rstudio. _Recordar guardar en un objeto esa base._
+``` r
+### Cargo el paquete
+library(tidyverse)
 
-- Ejecutar las siguientes funciones sobre el data frame `base_personas` y describir con un comentario (`#`) en el script lo que realiza cada una de ellas. 
+### Cargo la base de datos
+df_puna <- read_csv("_____/puna_base_agregada.csv")
 
-_Sugerencia:_ Intentar describir _a ojo_ lo que está haciendo la función. En caso de dificultad, consultar con el sistema de ayuda de R, anteponiendo el símbolo de cierre de interrogación (`?`) al nombre de la función. 
-
-Ejemplo de ayuda: `?mean()`
-
-<br>
-
-**Ejemplo de resolución:**
-
-```r
-### dim(): Devuelve la cantidad de dimensiones del data.frame (cantidad de filas x columnas)
-dim(base_personas)
+df_parahoteleros <- df_puna %>%
+  ______(indice_tiempo, tipo, plazas) %>%
+  filter(_____ == "Parahoteleros")
+ 
 ```
 
+b.  Descargar la base de datos del [Padrón Único de Alojamientos](https://datos.yvera.gob.ar/dataset/padron-unico-nacional-alojamiento) y ubicarla en una carpeta, para luego crear un proyecto de Rstudio (o abrir uno ya creado).
 
-## Lista de funciones a ejectura
+-   Una vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base a nuestro Ambiente (*Environment*) de Rstudio. *Recordar guardar en un objeto esa base.*
 
-| __Función__       | __Acción__ |
-| :---              | :---   |
-| `dim()`           | _ejecutar sobre un data frame_|
-| `colnames()`      | _ejecutar sobre un data frame_|
-| `str()`           | _ejecutar sobre un data frame_|
-| `summary()`       | _ejecutar sobre un data frame / una columna del df_|
-| `class()`         | _ejecutar sobre un data frame / una columna del df_|
-| `length()`        | _ejecutar sobre un data frame / una columna del df_|
-| `table()`         | _ejecutar sobre una columna del df_|
-| `is.na()`         | _ejecutar sobre una columna del df_|
-| `mean()`          | _ejecutar sobre una columna del df_|
+-   Sobre esa base, crear otro objeto que contenga sólo las variables ´indice_tiempo´, ´localidad´ y ´habitaciones´ y los casos de la *localidad* de *Belen de Escobar*, unicamente.
+
+-   Chequear que la operación fue exitosa (en columnas y filas).
+
+para mí
+---
+title: "Tidyverse, parte I - Ejercitación"
+author: "Estación R"
+---
+
+## Consigna:
+
+a.  Estoy necesitando quedarme con los casos de tipo *Parahoteleros*. Reemplazar el campo ´______´ de la siguiente sentencia y comprobar que la operación fué exitosa:
+
+``` r
+### Cargo el paquete
+library(tidyverse)
+
+### Cargo la base de datos
+df_puna <- read_csv("_____/puna_base_agregada.csv")
+
+df_parahoteleros <- df_puna %>%
+  ______(indice_tiempo, tipo, plazas) %>%
+  filter(_____ == "Parahoteleros")
+ 
+```
+
+b.  Descargar la base de datos del [Padrón Único de Alojamientos](https://datos.yvera.gob.ar/dataset/padron-unico-nacional-alojamiento) y ubicarla en una carpeta, para luego crear un proyecto de Rstudio (o abrir uno ya creado).
+
+-   Una vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base a nuestro Ambiente (*Environment*) de Rstudio. *Recordar guardar en un objeto esa base.*
+
+-   Sobre esa base, crear otro objeto que contenga sólo las variables ´indice_tiempo´, ´localidad´ y ´habitaciones´ y los casos de la *localidad* de *Belen de Escobar*, unicamente.
+
+-   Chequear que la operación fue exitosa (en columnas y filas).
+

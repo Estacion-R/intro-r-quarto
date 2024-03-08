@@ -36,7 +36,7 @@ downloadthis::download_file(
 
 -   R para Ciencia de Datos - Capítulo: *Explorar - Transformación de datos*: <https://es.r4ds.hadley.nz/05-transform.html>
 
--   Ejercitación de la semana: <https://pablotis.github.io/intro-r-quarto/encuentros/3-tidyverse/r-tidyverse-r_ejercitacion.html>
+-   Ejercitación de la semana: <https://pablotis.github.io/intro-r-quarto/encuentros/3-tidyverse/r-tidyverse_ejercitacion.html>
 
 ## Docente
 

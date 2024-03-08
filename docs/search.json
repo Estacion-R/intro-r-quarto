@@ -1,136 +1,738 @@
 [
   {
-    "objectID": "index.html#presentación",
-    "href": "index.html#presentación",
-    "title": "Introducción al Procesamiento de datos con R",
-    "section": "Presentación",
-    "text": "Presentación\nEl taller tiene como principal objetivo introducir a los y las participantes en el mundo de R y la programación para producir información estadística descriptiva. La idea es centrarse en cómo encarar un proyecto que involucre meter manos en los datos, desde cómo nombrar las carpetas o archivos, importarlos para acceder a la información, limpiar y procesarla hasta como visualizar, analizar y comunicar los hallazgos."
-  },
-  {
-    "objectID": "index.html#para-quién",
-    "href": "index.html#para-quién",
-    "title": "Introducción al Procesamiento de datos con R",
-    "section": "¿Para quién?",
-    "text": "¿Para quién?\nPara toda aquella persona que quiera / necesite trabajar con datos de una forma más sistemática, ordenada y productiva. No se requiere conocimientos previos de ningún lenguaje de programación en particular, aunque siempre es de ayuda haberse cruzado al menos con una sintaxis o haber utilizado alguna fórmula en Excel."
-  },
-  {
-    "objectID": "index.html#cómo",
-    "href": "index.html#cómo",
-    "title": "Introducción al Procesamiento de datos con R",
-    "section": "¿Cómo?",
-    "text": "¿Cómo?\nLa programación no es un tema de mentes brillantes, sino más bien de aquellas perseverantes. Con este lema bajo el brazo es que se pensó el curso, el cual se focaliza en lo práctico. No sólo se van a ofrecer ejercicios para resolver código entre clase y clase sino que vamos a escribir R durante el encuentro sincrónico, compartiendo pantallas y dudas en vivo!"
-  },
-  {
-    "objectID": "index.html#cronograma",
-    "href": "index.html#cronograma",
-    "title": "Introducción al Procesamiento de datos con R",
-    "section": "Cronograma:",
-    "text": "Cronograma:\nCantidad de encuentros: 7.\nCantidad de horas por encuentro: 2hs.\nDía y horario de cursada: Miércoles, de 18 a 20hs (Hora Argentina, UTC-3).\nFecha de inicio: Miércoles 14 de Febrero.\nFecha de finalización: Miércoles 27 de Marzo."
-  },
-  {
-    "objectID": "index.html#encuentros",
-    "href": "index.html#encuentros",
-    "title": "Introducción al Procesamiento de datos con R",
-    "section": "Encuentros",
-    "text": "Encuentros\n(“Artwork by @allison_horst”)"
-  },
-  {
-    "objectID": "programa.html",
-    "href": "programa.html",
-    "title": "Programa",
+    "objectID": "cod_de_conducta.html",
+    "href": "cod_de_conducta.html",
+    "title": "Código de conducta",
     "section": "",
-    "text": "Módulo I: Presentación del lenguaje R.\n\nR base.\nData frames (bases de datos)\nPaquetes\nProyectos de trabajo con RStudio\n\n\n\nMódulo II: Procesamiento de datos con el paquete Tidyverse:\n\nImportación de datos (de Excel, SPSS, Stata, archivos de texto, etc.)\nLimpieza: Seleccionar variables, filtrar casos, recodificar, renombrar, ordenar y agrupar información.\nTratamiento de valores faltantes (missing values/ NA´s)\nConstruir medidas de resumen de la información\n\n\n\nMódulo III: Visualización de la información\n\nPaquete ggplot2:\nGráficos de línea, barras, Boxplots\nChapa y pintura: Leyendas, ejes, títulos, notas, colores, escala\n\n\n\nMódulo IV: Introducción al armado de informes/reportes con RMarkdown\n\nAspectos básicos de html\nRecopilación y procesamiento de datos de la web\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "La comunidad de Estación R, incluyendo sus representantes, deben conocer y seguir este Código de Conducta (basado en el Código de Conducta de R Community) que es establecido con la finalidad de alentar al crecimiento de esta comunidad, participando en un ambiente amigable y partiendo de la base del respeto mutuo.\nEste código de conducta aplica en todos los espacios de participación de Estación R, incluyendo reuniones, Twitter, Slack, listas de correo, tanto online como offline. También es aplicable fuera de los espacios del grupo a quienes actúen en representación del mismo, ya sea online u offline.\nEn cualquier tipo de evento ya sea conferencia, charla, taller, fiesta, reunión, redes sociales y otros medios en línea:\n\nAborde los esfuerzos ajenos con consideración;\nCuando no esté de acuerdo con algo, sea amable al plantear sus problemas;\nEjercite la consideración y el respeto en su discurso y en sus acciones;\nIntente colaborar para evitar conflictos;\nSea consciente de su entorno y del resto de las personas;\nAlerte a quien considere oportuno si nota alguna situación peligrosa, alguien sufriendo una situación comprometedora o violaciones de este Código de Conducta, incluso aunque parezcan poco importantes. Responderemos tan pronto como podamos.\n\nEsperamos que Estación R sea un grupo libre de acoso.\nAcoso incluye, entre otros: insultos, tanto directos como indirectos; daño o perjurio verbal o escrito relacionado con género, orientación sexual, raza, religión, incapacidad; uso inapropiado de imágenes de desnudez (incluyendo presentaciones digitales); intimidación deliberada, acecho o persecución; fotografías o grabaciones abusivas; interrupción sostenida de presentaciones u de otros eventos; contacto físico inapropiado y atención sexual no deseada.\nQuienes violen estas reglas podrían recibir una sanción o explusión del grupo. Si se te pide que detengas cualquier comportamiento que se considere como acoso, esperamos que lo detengas de inmediato.\nSomos receptivos a los comentarios constructivos y las críticas, ya que las experiencias y conjuntos de habilidades de otras personas contribuyen a todos nuestros esfuerzos. Aceptamos a cualquiera que desee participar en nuestras actividades. Fomentanmos un entorno en el que quien lo desee pueda aportar y marcar la diferencia.\n\nVeedores del Código de Conducta\nEste código de conducta será aplicado por integrantes de Estación R. En caso de disputas que involucren a alguien que es parte del grupo designado, ésta persona se hará a un lado en la toma de decisiones.\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "puesta-punto.html",
-    "href": "puesta-punto.html",
-    "title": "Puesta a punto",
+    "objectID": "encuentros/1-intro-r/index.html",
+    "href": "encuentros/1-intro-r/index.html",
+    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
     "section": "",
-    "text": "Este taller está pensado para ser esencialmente práctico. La idea es exponer una presentación por módulo, en donde cada 3 o 4 conceptos se le dedicará un tiempo para poder ejercitar lo visto, previo a continuar con el siguiente contenido.\nSe recomienda seguir las presentaciones durante la exposición ya que de ellas se extraerá el código, haciendo más ágil la cursada."
+    "text": "En este encuentro vamos a presentar a R, su contexto y su potencia, asi como también introducirnos en sus conceptos básicos, como lo son los valores, vectores, data frames y funciones.\nTendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente."
   },
   {
-    "objectID": "puesta-punto.html#dinámica-de-taller",
-    "href": "puesta-punto.html#dinámica-de-taller",
-    "title": "Puesta a punto",
+    "objectID": "encuentros/1-intro-r/index.html#descripción",
+    "href": "encuentros/1-intro-r/index.html#descripción",
+    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
     "section": "",
-    "text": "Este taller está pensado para ser esencialmente práctico. La idea es exponer una presentación por módulo, en donde cada 3 o 4 conceptos se le dedicará un tiempo para poder ejercitar lo visto, previo a continuar con el siguiente contenido.\nSe recomienda seguir las presentaciones durante la exposición ya que de ellas se extraerá el código, haciendo más ágil la cursada."
+    "text": "En este encuentro vamos a presentar a R, su contexto y su potencia, asi como también introducirnos en sus conceptos básicos, como lo son los valores, vectores, data frames y funciones.\nTendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente."
   },
   {
-    "objectID": "puesta-punto.html#estrategias-metodológicas-y-recursos-didácticos",
-    "href": "puesta-punto.html#estrategias-metodológicas-y-recursos-didácticos",
-    "title": "Puesta a punto",
-    "section": "Estrategias metodológicas y Recursos didácticos",
-    "text": "Estrategias metodológicas y Recursos didácticos\nLas clases del curso serán teórico-prácticas. Por cada presentación temática se irán planteando ejercicios a medida que se avanza en el contenido, abordando las dudas que vayan surgiendo. Se prioriza la utilización del programa durante la clase.\nA lo largo del curso se brindarán sintaxis al estilo “notas de clase”, en las cuales se plasman conjuntamente las líneas de código que se exponen y su correspondiente explicación respecto a los procedimientos realizados. Finalmente, se propondrán ejercicios para resolver fuera de la clase con el objetivo de reforzar los conocimientos vistos en las mismas.\nSe busca que, siempre que se pueda, el contenido, ejemplos y ejercicios representen problemáticas y desafíos propios del campo en el que se encuentran insertos los y las participantes."
+    "objectID": "encuentros/1-intro-r/index.html#slides",
+    "href": "encuentros/1-intro-r/index.html#slides",
+    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n Descarga las diapositivas"
   },
   {
-    "objectID": "puesta-punto.html#instalación-de-r",
-    "href": "puesta-punto.html#instalación-de-r",
-    "title": "Puesta a punto",
-    "section": "Instalación de R",
-    "text": "Instalación de R\nAsegurate de tener instalado R en tu computadora previo a comenzar el taller. Desde R-project vas a poder hacerte de R.\nSugerencia: Para usuarios y usuarias con Windows en sus computadoras, instalar rtools, herramienta para poder trabajar con el paquete tidyverse.\nDe todas formas, una semana previo al comienzo del curso se enviará un tutorial con todo lo necesario para un arranque sin problemas."
+    "objectID": "encuentros/1-intro-r/index.html#links",
+    "href": "encuentros/1-intro-r/index.html#links",
+    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
+    "section": "Links",
+    "text": "Links\n\nPresentación: https://docs.google.com/document/d/1cM2BpKw4weWxsJ5EvcoJzT02YZPjcIZvxNVoOskEPgY/edit#heading=h.jja0j3hbdd5p\nCiencia de Datos para Gente Sociable: https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/\nEjercitación de la semana: https://pablotis.github.io/intro-r-quarto/encuentros/1-intro-r/intro-r_ejercitacion.html"
   },
   {
-    "objectID": "puesta-punto.html#instalación-de-rstudio",
-    "href": "puesta-punto.html#instalación-de-rstudio",
-    "title": "Puesta a punto",
-    "section": "Instalación de Rstudio",
-    "text": "Instalación de Rstudio\nRstudio es la plataforma desde donde se trabajará durante todo el taller. Si bien debemos tener instalado R, el programa que se abrirá en cada clase y desde donde haremos los ejercicios es Rstudio.\nDescargar Rstudio"
+    "objectID": "encuentros/1-intro-r/index.html#docente",
+    "href": "encuentros/1-intro-r/index.html#docente",
+    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
+    "section": "Docente",
+    "text": "Docente\n\nPablo Tiscornia"
   },
   {
-    "objectID": "puesta-punto.html#descarga-de-slack-versión-escritorio",
-    "href": "puesta-punto.html#descarga-de-slack-versión-escritorio",
-    "title": "Puesta a punto",
-    "section": "Descarga de Slack (versión escritorio)",
-    "text": "Descarga de Slack (versión escritorio)\nLa forma de comunicación será principalmente Slack, una plataforma de intercambio que funciona como un chat-foro. Desde allí es posible concentrar la comunicación del curso, difundir material, código y también realizar consultas y respuestas de forma grupal."
+    "objectID": "encuentros/1-intro-r/intro-r.html#hoja-de-ruta",
+    "href": "encuentros/1-intro-r/intro-r.html#hoja-de-ruta",
+    "title": "Introducción a R base",
+    "section": "Hoja de Ruta",
+    "text": "Hoja de Ruta\n\n\n📌 ¿Qué es R?\n📌 ¿Qué es la Ciencia de Datos?\n📌 R != Rstudio\n\n📌 Conceptos básicos de R\n  👉🏼 Valores\n\n  👉🏼 Vectores\n\n  👉🏼 Tipos / Clases\n\n  👉🏼 Data Frames"
   },
   {
-    "objectID": "encuentros/5-reportes/index_ACTIVAR.html",
-    "href": "encuentros/5-reportes/index_ACTIVAR.html",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "objectID": "encuentros/1-intro-r/intro-r.html#primera-impresión",
+    "href": "encuentros/1-intro-r/intro-r.html#primera-impresión",
+    "title": "Introducción a R base",
+    "section": "Primera impresión",
+    "text": "Primera impresión"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#evolución-emocional",
+    "href": "encuentros/1-intro-r/intro-r.html#evolución-emocional",
+    "title": "Introducción a R base",
+    "section": "Evolución emocional",
+    "text": "Evolución emocional"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#r",
+    "href": "encuentros/1-intro-r/intro-r.html#r",
+    "title": "Introducción a R base",
+    "section": "R …",
+    "text": "R …\n\nEs un lenguaje de programación especializado en análisis y visualización de datos."
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#r-1",
+    "href": "encuentros/1-intro-r/intro-r.html#r-1",
+    "title": "Introducción a R base",
+    "section": "R …",
+    "text": "R …\n\nEs de código abierto (se puede usar y modificar sin pagar licencias ni costos de ningún tipo)"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#r-2",
+    "href": "encuentros/1-intro-r/intro-r.html#r-2",
+    "title": "Introducción a R base",
+    "section": "R …",
+    "text": "R …\n\nCrece a partir del aporte de su comunidad (no depende de un departamento de desarrollo):\n\nAcademia (Universidades)\nInvestigación Científica (Centros de investigación, comunidad científica)\nSector privado (Facebook, Google, X, Uber, Airbnb, IBM, New York times)\nGente de a pie (personas o grupos de personas)"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#r-3",
+    "href": "encuentros/1-intro-r/intro-r.html#r-3",
+    "title": "Introducción a R base",
+    "section": "R …",
+    "text": "R …\n\nEn el campo del análisis de datos, es la herramienta por excelencia en muchas universidades, empresas de tecnología, y redacciones de periodismo de datos."
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#qué-es-la-ciencia-de-datos-1",
+    "href": "encuentros/1-intro-r/intro-r.html#qué-es-la-ciencia-de-datos-1",
+    "title": "Introducción a R base",
+    "section": "¿Qué es la Ciencia de Datos?",
+    "text": "¿Qué es la Ciencia de Datos?"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#r-rstudio-1",
+    "href": "encuentros/1-intro-r/intro-r.html#r-rstudio-1",
+    "title": "Introducción a R base",
+    "section": "R != Rstudio",
+    "text": "R != Rstudio"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#r-rstudio-2",
+    "href": "encuentros/1-intro-r/intro-r.html#r-rstudio-2",
+    "title": "Introducción a R base",
+    "section": "R != Rstudio",
+    "text": "R != Rstudio"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#puesta-a-punto",
+    "href": "encuentros/1-intro-r/intro-r.html#puesta-a-punto",
+    "title": "Introducción a R base",
+    "section": "Puesta a punto …",
+    "text": "Puesta a punto …\n\nIdentificar las 4 ventanas principales"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-1",
+    "href": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-1",
+    "title": "Introducción a R base",
+    "section": "Puesta a punto …",
+    "text": "Puesta a punto …\n\nIdentificar las 4 ventanas principales ✅\n\n\n\nCambiar la apariencia de la plataforma"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-2",
+    "href": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-2",
+    "title": "Introducción a R base",
+    "section": "Puesta a punto …",
+    "text": "Puesta a punto …\n\nIdentificar las 4 ventanas principales ✅\n\n\n\nCambiar la apariencia de la plataforma ✅\n\n\n\nSetear en Opciones Globales (Global Options) la configuración General"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-3",
+    "href": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-3",
+    "title": "Introducción a R base",
+    "section": "Puesta a punto …",
+    "text": "Puesta a punto …\n\nIdentificar las 4 ventanas principales ✅\n\n\n\nCambiar la apariencia de la plataforma ✅\n\n\n\nSetear en Opciones Globales (Global Options) la configuración General ✅"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#valores",
+    "href": "encuentros/1-intro-r/intro-r.html#valores",
+    "title": "Introducción a R base",
+    "section": "Valores …",
+    "text": "Valores …"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#valores-1",
+    "href": "encuentros/1-intro-r/intro-r.html#valores-1",
+    "title": "Introducción a R base",
+    "section": "Valores …",
+    "text": "Valores …\nnuméricos\n\n100\n\n[1] 100"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#valores-2",
+    "href": "encuentros/1-intro-r/intro-r.html#valores-2",
+    "title": "Introducción a R base",
+    "section": "Valores …",
+    "text": "Valores …\nde texto\n\n\"cien\"\n\n[1] \"cien\""
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#valores-3",
+    "href": "encuentros/1-intro-r/intro-r.html#valores-3",
+    "title": "Introducción a R base",
+    "section": "Valores …",
+    "text": "Valores …\n¿?\n\"100\""
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables",
+    "href": "encuentros/1-intro-r/intro-r.html#vectores-variables",
+    "title": "Introducción a R base",
+    "section": "Vectores … ¿variables?",
+    "text": "Vectores … ¿variables?"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables-1",
+    "href": "encuentros/1-intro-r/intro-r.html#vectores-variables-1",
+    "title": "Introducción a R base",
+    "section": "Vectores … ¿variables?",
+    "text": "Vectores … ¿variables?\nnuméricos\n\nc(100, 102, 200)\n\n[1] 100 102 200"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables-2",
+    "href": "encuentros/1-intro-r/intro-r.html#vectores-variables-2",
+    "title": "Introducción a R base",
+    "section": "Vectores … ¿variables?",
+    "text": "Vectores … ¿variables?\nde texto\n\nc(\"cien\", \"ciento dos\", \"doscientos\")\n\n[1] \"cien\"       \"ciento dos\" \"doscientos\""
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables-3",
+    "href": "encuentros/1-intro-r/intro-r.html#vectores-variables-3",
+    "title": "Introducción a R base",
+    "section": "Vectores … ¿variables?",
+    "text": "Vectores … ¿variables?\nde texto\n\nc(\"100\", \"102\", \"200\")\n\n[1] \"100\" \"102\" \"200\""
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#funciones",
+    "href": "encuentros/1-intro-r/intro-r.html#funciones",
+    "title": "Introducción a R base",
+    "section": "Funciones",
+    "text": "Funciones\n\nLas funciones en R son el alma mater del lenguaje (de todos los lenguajes)\nellas reciben un input y devuelven un output\nSiempre las encontrarás escrita así:\n\nnombre_de_la_funcion(input)"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-1",
+    "href": "encuentros/1-intro-r/intro-r.html#funciones-1",
+    "title": "Introducción a R base",
+    "section": "Funciones",
+    "text": "Funciones\n\nLa función class() devuelve el tipo del valor o vector que le de (input)\n\n\nclass(1)\n\n[1] \"numeric\""
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-2",
+    "href": "encuentros/1-intro-r/intro-r.html#funciones-2",
+    "title": "Introducción a R base",
+    "section": "Funciones",
+    "text": "Funciones\n\nclass(\"1\")\n\n[1] \"character\""
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-3",
+    "href": "encuentros/1-intro-r/intro-r.html#funciones-3",
+    "title": "Introducción a R base",
+    "section": "Funciones",
+    "text": "Funciones\n\nLa función length() devuelve el largo del input (probemos con un vector):\n\n\nlength(c(10, 20, 30))\n\n[1] 3"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-4",
+    "href": "encuentros/1-intro-r/intro-r.html#funciones-4",
+    "title": "Introducción a R base",
+    "section": "Funciones",
+    "text": "Funciones\n\nLa función mean() calcula el promedio de un input (tiene que ser si o si numérico):\n\n\nmean(c(10, 20, 30))\n\n[1] 20"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-5",
+    "href": "encuentros/1-intro-r/intro-r.html#funciones-5",
+    "title": "Introducción a R base",
+    "section": "Funciones",
+    "text": "Funciones\n\nmean(c(\"10\", \"20\", \"30\"))\n\nWarning in mean.default(c(\"10\", \"20\", \"30\")): argument is not numeric or\nlogical: returning NA\n\n\n[1] NA"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nTodo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-1",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-1",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nTodo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)\nPara guardar algo en un objeto, tengo que seguir la siguiente estructura:\n\nnombre_del_objeto &lt;- algo"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-2",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-2",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nguardo_un_numero &lt;- 1"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-3",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-3",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nguardo_un_numero\n\n[1] 1"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-4",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-4",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nguardo_un_vector &lt;- c(10, 20, 30)"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-5",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-5",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nguardo_un_vector\n\n[1] 10 20 30"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-6",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-6",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nguardo_un_resultado &lt;- mean(c(20, 45, 23))"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-7",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-7",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nguardo_un_resultado\n\n[1] 29.33333"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-8",
+    "href": "encuentros/1-intro-r/intro-r.html#objectos-8",
+    "title": "Introducción a R base",
+    "section": "Objectos",
+    "text": "Objectos\n\nobjeto_como_input &lt;- c(20, 45, 23)\n\nmean(objeto_como_input)\n\n[1] 29.33333"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#ejercitación-1",
+    "href": "encuentros/1-intro-r/intro-r.html#ejercitación-1",
+    "title": "Introducción a R base",
+    "section": "Ejercitación",
+    "text": "Ejercitación\n\nCrear un objeto con los siguientes 5 valores numéricos: 17, 92, 56, 32 y 102, y llamarlo edad_personas.\nCon la función class() chequear de qué tipo es el objeto.\nCon la función length() conocer la longitud de ese objeto (cuántos valores tiene).\nCalcular el promedio de esos valores (la edad promedio)"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#data-frames-1",
+    "href": "encuentros/1-intro-r/intro-r.html#data-frames-1",
+    "title": "Introducción a R base",
+    "section": "Data Frames",
+    "text": "Data Frames\n\nUn Data Frame (o tabla) es la combinación de vectores (variables), que termina conformando una relación entre filas y columnas.\nCada vector es una columna de un dataframe, y cada uno de sus valores, en el orden en que se encuentran, conforman las filas."
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#data-frames-2",
+    "href": "encuentros/1-intro-r/intro-r.html#data-frames-2",
+    "title": "Introducción a R base",
+    "section": "Data Frames",
+    "text": "Data Frames\n\nPara crear un Data Frame puedo utilizar la función data.frame(), cuyos inputs son los vectores:\n\n\nvector_edad &lt;- c(20, 43, 102, 56)\nvector_nombre &lt;- c(\"Pepe\", \"Pepa\", \"Rigoberto\", \"Rodoberta\")\n\nbase_personas &lt;- data.frame(vector_edad,\n                            vector_nombre)"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#data-franes",
+    "href": "encuentros/1-intro-r/intro-r.html#data-franes",
+    "title": "Introducción a R base",
+    "section": "Data Franes",
+    "text": "Data Franes\n\nAsí se ve un data.frame:\n\n\nbase_personas\n\n  vector_edad vector_nombre\n1          20          Pepe\n2          43          Pepa\n3         102     Rigoberto\n4          56     Rodoberta"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frames-1",
+    "href": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frames-1",
+    "title": "Introducción a R base",
+    "section": "Accediendo a un Data Frames",
+    "text": "Accediendo a un Data Frames\n\nCon el comando $ (símbolo peso) puedo acceder a una columna del data frame:"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frane",
+    "href": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frane",
+    "title": "Introducción a R base",
+    "section": "Accediendo a un Data Frane",
+    "text": "Accediendo a un Data Frane\n\nbase_personas$vector_nombre\n\n[1] \"Pepe\"      \"Pepa\"      \"Rigoberto\" \"Rodoberta\""
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frane-1",
+    "href": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frane-1",
+    "title": "Introducción a R base",
+    "section": "Accediendo a un Data Frane",
+    "text": "Accediendo a un Data Frane\nEl resultado de base_personas$vector_nombre es nuevamente un vector, por lo que puedo:\n\nclass(base_personas$vector_nombre)\n\n[1] \"character\"\n\n\n\nlength(base_personas$vector_nombre)\n\n[1] 4"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#ejercitación-3",
+    "href": "encuentros/1-intro-r/intro-r.html#ejercitación-3",
+    "title": "Introducción a R base",
+    "section": "Ejercitación",
+    "text": "Ejercitación\n\nCrear un vector llamado serie, cuyos valores son: \"Berlín\", \"The Crown\" y \"Vikings\".\nCrear un vector llamado puntaje, cuyos valores son (agregar puntaje a gusto),\nCrear un data.frame llamado netflix, que combine los vectores anteriores\nCalcular el puntaje promedio de las series de Netflix."
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html#listo",
+    "href": "encuentros/1-intro-r/intro-r.html#listo",
+    "title": "Introducción a R base",
+    "section": "¡Listo!",
+    "text": "¡Listo!\n\nNos vemos el encuentro que viene.\nSeguimos la comunicación entre clase y clase por Slack\nAcá dejamos más ejercitación para seguir practicando\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r_ejercitacion.html",
+    "href": "encuentros/1-intro-r/intro-r_ejercitacion.html",
+    "title": "Intro a R - Ejercitación",
     "section": "",
-    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
+    "text": "Crear un vector llamado apellido, con los siguientes 7 apellidos:\n\n“García”,\n“Sanchez”,\n“Van Del Sar”,\n“Mihatovich”,\n“Lama”,\n“Lugercio”\n“Messidona”\n\nCrear un vector llamado cantidad, con los siguientes 7 valores, que representen la frecuencia con la que existe cada apellido en nuestra base:\n\n1\n3\n17\n9\n2\n34\n98\n\nCon estos vectores, crear un data.frane que los combine y:\n\nSumar la cantidad de apellidos total que hay en la base (la función sum() puede ayudar al respecto).\nCalcular el apellido que más frecuencia tiene (la función max() puede ayudar al respecto).\nCalcular el apellido que menos frecuencia tiene (la función min() puede ayudar al respecto)"
   },
   {
-    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#abstract",
-    "href": "encuentros/5-reportes/index_ACTIVAR.html#abstract",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "objectID": "encuentros/1-intro-r/intro-r_ejercitacion.html#consignas",
+    "href": "encuentros/1-intro-r/intro-r_ejercitacion.html#consignas",
+    "title": "Intro a R - Ejercitación",
     "section": "",
-    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
+    "text": "Crear un vector llamado apellido, con los siguientes 7 apellidos:\n\n“García”,\n“Sanchez”,\n“Van Del Sar”,\n“Mihatovich”,\n“Lama”,\n“Lugercio”\n“Messidona”\n\nCrear un vector llamado cantidad, con los siguientes 7 valores, que representen la frecuencia con la que existe cada apellido en nuestra base:\n\n1\n3\n17\n9\n2\n34\n98\n\nCon estos vectores, crear un data.frane que los combine y:\n\nSumar la cantidad de apellidos total que hay en la base (la función sum() puede ayudar al respecto).\nCalcular el apellido que más frecuencia tiene (la función max() puede ayudar al respecto).\nCalcular el apellido que menos frecuencia tiene (la función min() puede ayudar al respecto)"
   },
   {
-    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#slides",
-    "href": "encuentros/5-reportes/index_ACTIVAR.html#slides",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "objectID": "encuentros/2-proyectos/index.html",
+    "href": "encuentros/2-proyectos/index.html",
+    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
+    "section": "",
+    "text": "En este encuentro vamos a charlar sobre conceptos básicos a la hora de pensar un flujo de trabajo con datos en clave de proyecto. La búsqueda será la reproducibilidad de nuestro trabajo, hacer nuestros scripts portables (que no dependan ni de nuestra computadora ni de nosotres) y delinear restricciones, sugerencias y consensos a la hora de estructurar nuestra carpeta (y archivos).\nTendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente."
+  },
+  {
+    "objectID": "encuentros/2-proyectos/index.html#descripción",
+    "href": "encuentros/2-proyectos/index.html#descripción",
+    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
+    "section": "",
+    "text": "En este encuentro vamos a charlar sobre conceptos básicos a la hora de pensar un flujo de trabajo con datos en clave de proyecto. La búsqueda será la reproducibilidad de nuestro trabajo, hacer nuestros scripts portables (que no dependan ni de nuestra computadora ni de nosotres) y delinear restricciones, sugerencias y consensos a la hora de estructurar nuestra carpeta (y archivos).\nTendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente."
+  },
+  {
+    "objectID": "encuentros/2-proyectos/index.html#slides",
+    "href": "encuentros/2-proyectos/index.html#slides",
+    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n Descarga las diapositivas"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/index.html#links",
+    "href": "encuentros/2-proyectos/index.html#links",
+    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
+    "section": "Links",
+    "text": "Links\n\nNotas de clase colaborativa: https://docs.google.com/document/d/1Hjy4NxQajOFUMHu1If1L-GEAsgszm2nUbfzonbs993k/edit\nCiencia de Datos para Gente Sociable: https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/una-presentaci%C3%B3n-a-toda-marcha-de-r.html#crear-un-proyecto-en-rstudio\n(en inglés) Rmarkdown for Scientist - Capítulo: Workflow: https://rmd4sci.njtierney.com/workflow.html\nEjercitación de la semana: https://pablotis.github.io/intro-r-quarto/encuentros/2-proyectos/proyectos-r_ejercitacion.html"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/index.html#docente",
+    "href": "encuentros/2-proyectos/index.html#docente",
+    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
+    "section": "Docente",
+    "text": "Docente\n\nPablo Tiscornia"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html",
+    "href": "encuentros/2-proyectos/index_ACTIVAR.html",
+    "title": "Teaching Quarto in Introduction to Data Science Courses",
+    "section": "",
+    "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
+  },
+  {
+    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html#abstract",
+    "href": "encuentros/2-proyectos/index_ACTIVAR.html#abstract",
+    "title": "Teaching Quarto in Introduction to Data Science Courses",
+    "section": "",
+    "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
+  },
+  {
+    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html#slides",
+    "href": "encuentros/2-proyectos/index_ACTIVAR.html#slides",
+    "title": "Teaching Quarto in Introduction to Data Science Courses",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#speaker",
-    "href": "encuentros/5-reportes/index_ACTIVAR.html#speaker",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html#speaker",
+    "href": "encuentros/2-proyectos/index_ACTIVAR.html#speaker",
+    "title": "Teaching Quarto in Introduction to Data Science Courses",
     "section": "Speaker",
-    "text": "Speaker\n\n\n\n\n\nMaria Tackett is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. Her research focuses on understanding factors that impact students’ sense of belonging in introductory math and statistics courses with the aim to identify pedagogies that foster community and a supportive learning environment. She’s an active member of the statistics education community and its effort to make statistics more engaging and accessible for all students."
+    "text": "Speaker\n\nElijah Meyer (elijah.meyer@duke.edu) is currently a teaching postdoctoral associate at Duke University. Taught Quarto in introductory data science at Duke the last fall, spring, and summer sessions. His work focuses on curricula and course creation, as well as studying how to best support newer instructor’s use of active learning."
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-tidyverse_ejercitacion.html",
-    "href": "encuentros/3-tidyverse/r-tidyverse_ejercitacion.html",
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#qué-vimos",
+    "href": "encuentros/2-proyectos/proyectos-r.html#qué-vimos",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "¿Qué vimos?",
+    "text": "¿Qué vimos?\n✅ Valores\n✅ Vectores\n✅ Data frames\n✅ Objetos\n✅ Funciones"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#hoja-de-ruta",
+    "href": "encuentros/2-proyectos/proyectos-r.html#hoja-de-ruta",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Hoja de Ruta",
+    "text": "Hoja de Ruta\n\n\n📌 Paquetes\n📌 Ruta de un archivo (o file path)\n📌 Importar nuestra primera base de datos\n\n📌 Armar un proyecto de trabajo en Rstudio (R project)\n📌 Estructura de carpeta\n  👉🏼 Cómo estructurar la carpeta de trabajo\n\n  👉🏼 Cómo nombrar archivos"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-1",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-1",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-2",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-2",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nLos paquetes o librerías son la potencia de los lenguajes como R y Python\nEs cómo las comunidades pueden hacer crecer al lenguaje\n\n\nLink a Mapa de paquetes"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-3",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-3",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nSe instala (una vez por computadora)\n\ninstall.packages(\"nombre_del_paquete\")\n\n\nSe convoca (por cada sesión de R)\n\nlibrary(nombre_del_paquete)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-4",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-4",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nPara instalar un paquete (install.packages()), el nombre del paquete va siempre entre comillas\n\n\ninstall.packages(\"readr\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-5",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-5",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nPara instalar un paquete (install.packages()), el nombre del paquete va siempre entre comillas\n\n\ninstall.packages(\"readr\")\n\n\n\nPara convocar un paquete (library()) el nombre puede o no llevar comillas (se recomienda sin)\n\n\nlibrary(readr)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-6",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-6",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nInstalemos nuestro primer paquete:\n\ninstall.packages(\"readr\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-7",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-7",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\nInstalemos nuestro primer paquete:\n\ninstall.packages(\"readr\")\n\n¿Mucha letra roja?"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-8",
+    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-8",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Paquetes",
+    "text": "Paquetes\n\n\n\nConvoquemos al paquete\n\n\nlibrary(readr)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#ruta-de-archivos-1",
+    "href": "encuentros/2-proyectos/proyectos-r.html#ruta-de-archivos-1",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Ruta de archivos",
+    "text": "Ruta de archivos\n\nEjemplo diario de seleccionar una ruta de archivo:\n\n{width: “70%”;}"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos",
+    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nVamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.\nBase de datos: Nombre de Personas. Argentina, año 2015.\n\n\nLink"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos-1",
+    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-1",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nVamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.\n\n- Base de datos: Nombre de Personas. Argentina, año 2015.\nLink\n\nTip: Reconocer la extensión del archivo a descargar (.csv, .txt, .sav, .dta, .sas, etc.)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos-2",
+    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-2",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nManos a la obra:\n\nlibrary(readr)\n\nread_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos-3",
+    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-3",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nFalta algo…"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos-4",
+    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-4",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Importar datos",
+    "text": "Importar datos\n\nFalta algo…\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-1",
+    "href": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-1",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Proyectos de trabajo",
+    "text": "Proyectos de trabajo\n\n\n\nCopiar la siguiente sentencia en tu consola o script y ejecutar:\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-2",
+    "href": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-2",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Proyectos de trabajo",
+    "text": "Proyectos de trabajo\n\n\n\n\nSi compartimos el script a otra persona, el código se rompe\nSi cambiamos de computadora, el código se rompe\nSi cambiamos la base de lugar, el código se rompe"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nPaso 1:\n\n–&gt; File (archivo) –&gt; New Project (Nuevo Proyecto…)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-1",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-1",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nPaso 2:\n\n–&gt; New Directory (Nueva carpeta)"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-2",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-2",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nPaso 3:\n\n–&gt; New Project"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-3",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-3",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nResultado:"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-4",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-4",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAsegurarse que estamos en el proyecto, de lo contrario, abrirlo"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-5",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-5",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAsegurarse esta en el proyecto, de lo contrario, abrirlo ✅\nCrear una carpeta nueva llamada datos"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-6",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-6",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAsegurarse esta en el proyecto, de lo contrario, abrirlo ✅\nCrear una carpeta nueva llamada datos ✅\nGuardar la base de personas en la carpeta datos"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-7",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-7",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAsegurarse esta en el proyecto, de lo contrario, abrirlo ✅\nCrear una carpeta nueva llamada datos ✅\nGuardar la base de personas en la carpeta datos ✅\nEjecutar la siguiente sentencia:\n\nlibrary(readr)\n\nbase_personas &lt;- read_csv(\"datos/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-8",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-8",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAntes (sin un proyecto)\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-9",
+    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-9",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Crear un proyecto de Rstudio",
+    "text": "Crear un proyecto de Rstudio\n\nAntes (sin un proyecto)\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")\n\n\nDespués (con un proyecto)\n\nbase_personas &lt;- read_csv(\"datos/nombres-2015.csv\")"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html#estructura-de-carpetas",
+    "href": "encuentros/2-proyectos/proyectos-r.html#estructura-de-carpetas",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "Estructura de carpetas",
+    "text": "Estructura de carpetas\n\n📂 nuevo_proyecto\n\n nuevo_proyecto.Rproj\n📂 datos\n\n⛁ nombres-2015.csv\n\n📂 outputs\n📂 scripts\n\n📄 1_levantar_datos.R\n\n📂 docs_metodologicos\n\n📚 bibliografia.docx\n\n\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r_ejercitacion.html",
+    "href": "encuentros/2-proyectos/proyectos-r_ejercitacion.html",
     "title": "Proyectos R - Ejercitación",
     "section": "",
     "text": "Abrir el proyecto creado en clase, que contiene la base de nombres de personas. En su defecto, crear un proyecto nuevo, con una carpeta en su interior llamada datos y ubicar en esa carpeta la base de nombre de personas para el año 2015, vista en clase.\nUna vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base de nombres de personas - 2015 a nuestro Ambiente (Environment) de Rstudio. Recordar guardar en un objeto esa base.\nEjecutar las siguientes funciones sobre el data frame base_personas y describir con un comentario (#) en el script lo que realiza cada una de ellas.\n\nSugerencia: Intentar describir a ojo lo que está haciendo la función. En caso de dificultad, consultar con el sistema de ayuda de R, anteponiendo el símbolo de cierre de interrogación (?) al nombre de la función.\nEjemplo de ayuda: ?mean()\n\nEjemplo de resolución:\n### dim(): Devuelve la cantidad de dimensiones del data.frame (cantidad de filas x columnas)\ndim(base_personas)"
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-tidyverse_ejercitacion.html#consigna",
-    "href": "encuentros/3-tidyverse/r-tidyverse_ejercitacion.html#consigna",
+    "objectID": "encuentros/2-proyectos/proyectos-r_ejercitacion.html#consigna",
+    "href": "encuentros/2-proyectos/proyectos-r_ejercitacion.html#consigna",
     "title": "Proyectos R - Ejercitación",
     "section": "",
     "text": "Abrir el proyecto creado en clase, que contiene la base de nombres de personas. En su defecto, crear un proyecto nuevo, con una carpeta en su interior llamada datos y ubicar en esa carpeta la base de nombre de personas para el año 2015, vista en clase.\nUna vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base de nombres de personas - 2015 a nuestro Ambiente (Environment) de Rstudio. Recordar guardar en un objeto esa base.\nEjecutar las siguientes funciones sobre el data frame base_personas y describir con un comentario (#) en el script lo que realiza cada una de ellas.\n\nSugerencia: Intentar describir a ojo lo que está haciendo la función. En caso de dificultad, consultar con el sistema de ayuda de R, anteponiendo el símbolo de cierre de interrogación (?) al nombre de la función.\nEjemplo de ayuda: ?mean()\n\nEjemplo de resolución:\n### dim(): Devuelve la cantidad de dimensiones del data.frame (cantidad de filas x columnas)\ndim(base_personas)"
   },
   {
-    "objectID": "encuentros/3-tidyverse/r-tidyverse_ejercitacion.html#lista-de-funciones-a-ejectura",
-    "href": "encuentros/3-tidyverse/r-tidyverse_ejercitacion.html#lista-de-funciones-a-ejectura",
+    "objectID": "encuentros/2-proyectos/proyectos-r_ejercitacion.html#lista-de-funciones-a-ejectura",
+    "href": "encuentros/2-proyectos/proyectos-r_ejercitacion.html#lista-de-funciones-a-ejectura",
     "title": "Proyectos R - Ejercitación",
     "section": "Lista de funciones a ejectura",
     "text": "Lista de funciones a ejectura\n\n\n\n\n\n\n\nFunción\nAcción\n\n\n\n\ndim()\nejecutar sobre un data frame\n\n\ncolnames()\nejecutar sobre un data frame\n\n\nstr()\nejecutar sobre un data frame\n\n\nsummary()\nejecutar sobre un data frame / una columna del df\n\n\nclass()\nejecutar sobre un data frame / una columna del df\n\n\nlength()\nejecutar sobre un data frame / una columna del df\n\n\ntable()\nejecutar sobre una columna del df\n\n\nis.na()\nejecutar sobre una columna del df\n\n\nmean()\nejecutar sobre una columna del df"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/index.html",
+    "href": "encuentros/3-tidyverse/index.html",
+    "title": "Introducción al procesamiento de datos con {tidyverse}.",
+    "section": "",
+    "text": "En este encuentro vamos a recorrer el conjunto de funciones (herramientas) indispensables para el procesamiento de datos. Son esas que acompañan tanto al principiante como al perfil de lo más avanzado.\nDesde elegir con qué columnas (variables) vamos a trabajar; definir cuál es nuestra población de estudio (filas); crear variables nuevas (indicadores) o editar existentes (recodificar); ordenar la base en función de variables específicas y crear cálculos que permitan extraer algunas conclusiones (o más preguntas) en base a la información con la que contamos."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/index.html#descripción",
+    "href": "encuentros/3-tidyverse/index.html#descripción",
+    "title": "Introducción al procesamiento de datos con {tidyverse}.",
+    "section": "",
+    "text": "En este encuentro vamos a recorrer el conjunto de funciones (herramientas) indispensables para el procesamiento de datos. Son esas que acompañan tanto al principiante como al perfil de lo más avanzado.\nDesde elegir con qué columnas (variables) vamos a trabajar; definir cuál es nuestra población de estudio (filas); crear variables nuevas (indicadores) o editar existentes (recodificar); ordenar la base en función de variables específicas y crear cálculos que permitan extraer algunas conclusiones (o más preguntas) en base a la información con la que contamos."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/index.html#slides",
+    "href": "encuentros/3-tidyverse/index.html#slides",
+    "title": "Introducción al procesamiento de datos con {tidyverse}.",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n Descarga las diapositivas"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/index.html#links",
+    "href": "encuentros/3-tidyverse/index.html#links",
+    "title": "Introducción al procesamiento de datos con {tidyverse}.",
+    "section": "Links",
+    "text": "Links\n\nNotas de clase colaborativa: https://docs.google.com/document/d/1tobGulY1LayIkYUnEZrsUYcoxFms2odWoEBGrwFDgac/edit\nCiencia de Datos para Gente Sociable: https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/poniendo-los-datos-en-forma.html#transformando-los-datos\nR para Ciencia de Datos - Capítulo: Explorar - Transformación de datos: https://es.r4ds.hadley.nz/05-transform.html\nEjercitación de la semana: https://pablotis.github.io/intro-r-quarto/encuentros/3-tidyverse/r-tidyverse_ejercitacion.html"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/index.html#docente",
+    "href": "encuentros/3-tidyverse/index.html#docente",
+    "title": "Introducción al procesamiento de datos con {tidyverse}.",
+    "section": "Docente",
+    "text": "Docente\n\nPablo Tiscornia"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html",
+    "title": "Blending R and Python in Quarto documents",
+    "section": "",
+    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#abstract",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#abstract",
+    "title": "Blending R and Python in Quarto documents",
+    "section": "",
+    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#slides",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#slides",
+    "title": "Blending R and Python in Quarto documents",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#links",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#links",
+    "title": "Blending R and Python in Quarto documents",
+    "section": "Links",
+    "text": "Links\ntemplar package: https://www.github.com/r-for-educators/templar\nExample materials: https://github.com/Statistical-Learning-with-R"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#speaker",
+    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#speaker",
+    "title": "Blending R and Python in Quarto documents",
+    "section": "Speaker",
+    "text": "Speaker\n\n\n\n\n\nKelly Bodwin is an Associate Professor of Statistics and Data Science at Cal Poly, in San Luis Obispo, CA. Her research includes R package development, studies of statistical education, and applications in a variety of fields such as history, biology, and viticulture. While R will always be her first love, she is slowly learning to accept python into her life."
   },
   {
     "objectID": "encuentros/3-tidyverse/r-tidyverse.html#qué-vimos",
@@ -186,7 +788,7 @@
     "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-2",
     "title": "Procesando datos con {tidyverse}",
     "section": "{tidyverse}",
-    "text": "{tidyverse}\n\n\nCargo el paquete:\n\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.4.4     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+    "text": "{tidyverse}\n\n\nCargo el paquete:\n\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.2     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.1     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
   },
   {
     "objectID": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-3",
@@ -711,7 +1313,7 @@
     "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-4",
     "title": "Procesando datos con {tidyverse}",
     "section": "tidyverse en acción",
-    "text": "tidyverse en acción\n\n\n\ndf_puna |&gt; \n  select(indice_tiempo, tipo, plazas) |&gt; \n  filter(indice_tiempo %in% c(2021, 2022)) |&gt; \n  mutate(tipo_recod = case_when(tipo == \"Hoteleros\" ~ \"Hoteleros\",\n                                .default = \"Otros\")) |&gt; \n  group_by(indice_tiempo, tipo_recod) |&gt; \n  summarise(cant_plazas = sum(plazas),\n            prom_plazas = mean(plazas))\n\n\n\n\n# A tibble: 4 × 4\n# Groups:   indice_tiempo [2]\n  indice_tiempo tipo_recod cant_plazas prom_plazas\n          &lt;dbl&gt; &lt;chr&gt;            &lt;dbl&gt;       &lt;dbl&gt;\n1          2021 Hoteleros       454631        264.\n2          2021 Otros           325419        102.\n3          2022 Hoteleros       455702        264.\n4          2022 Otros           324575        101."
+    "text": "tidyverse en acción\n\n\n\ndf_puna |&gt; \n  select(indice_tiempo, tipo, plazas) |&gt; \n  filter(indice_tiempo %in% c(2021, 2022)) |&gt; \n  mutate(tipo_recod = case_when(tipo == \"Hoteleros\" ~ \"Hoteleros\",\n                                .default = \"Otros\")) |&gt; \n  group_by(indice_tiempo, tipo_recod) |&gt; \n  summarise(cant_plazas = sum(plazas),\n            prom_plazas = mean(plazas))\n\n\n\n\n`summarise()` has grouped output by 'indice_tiempo'. You can override using the\n`.groups` argument.\n\n\n# A tibble: 4 × 4\n# Groups:   indice_tiempo [2]\n  indice_tiempo tipo_recod cant_plazas prom_plazas\n          &lt;dbl&gt; &lt;chr&gt;            &lt;dbl&gt;       &lt;dbl&gt;\n1          2021 Hoteleros       454631        264.\n2          2021 Otros           325419        102.\n3          2022 Hoteleros       455702        264.\n4          2022 Otros           324575        101."
   },
   {
     "objectID": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-5",
@@ -721,242 +1323,25 @@
     "text": "tidyverse en acción\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
   },
   {
-    "objectID": "encuentros/2-proyectos/proyectos-r_ejercitacion.html",
-    "href": "encuentros/2-proyectos/proyectos-r_ejercitacion.html",
-    "title": "Proyectos R - Ejercitación",
+    "objectID": "encuentros/3-tidyverse/r-tidyverse_ejercitacion.html",
+    "href": "encuentros/3-tidyverse/r-tidyverse_ejercitacion.html",
+    "title": "Tidyverse, parte I - Ejercitación",
     "section": "",
-    "text": "Abrir el proyecto creado en clase, que contiene la base de nombres de personas. En su defecto, crear un proyecto nuevo, con una carpeta en su interior llamada datos y ubicar en esa carpeta la base de nombre de personas para el año 2015, vista en clase.\nUna vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base de nombres de personas - 2015 a nuestro Ambiente (Environment) de Rstudio. Recordar guardar en un objeto esa base.\nEjecutar las siguientes funciones sobre el data frame base_personas y describir con un comentario (#) en el script lo que realiza cada una de ellas.\n\nSugerencia: Intentar describir a ojo lo que está haciendo la función. En caso de dificultad, consultar con el sistema de ayuda de R, anteponiendo el símbolo de cierre de interrogación (?) al nombre de la función.\nEjemplo de ayuda: ?mean()\n\nEjemplo de resolución:\n### dim(): Devuelve la cantidad de dimensiones del data.frame (cantidad de filas x columnas)\ndim(base_personas)"
+    "text": "Estoy necesitando quedarme con los casos de tipo Parahoteleros. Reemplazar el campo ´_______´ de la siguiente sentencia y comprobar que la operación fué exitosa:\n\n### Cargo el paquete\nlibrary(tidyverse)\n\n### Cargo la base de datos\ndf_puna &lt;- read_csv(\"_____/puna_base_agregada.csv\")\n\ndf_parahoteleros &lt;- df_puna %&gt;%\n  ______(indice_tiempo, tipo, plazas) %&gt;%\n  filter(_____ == \"Parahoteleros\")\n \n\nDescargar la base de datos del Padrón Único de Alojamientos y ubicarla en una carpeta, para luego crear un proyecto de Rstudio (o abrir uno ya creado).\n\n\nUna vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base a nuestro Ambiente (Environment) de Rstudio. Recordar guardar en un objeto esa base.\nSobre esa base, crear otro objeto que contenga sólo las variables ´indice_tiempo´, ´localidad´ y ´habitaciones´ y los casos de la localidad de Belen de Escobar, unicamente.\nChequear que la operación fue exitosa (en columnas y filas).\n\npara mí"
   },
   {
-    "objectID": "encuentros/2-proyectos/proyectos-r_ejercitacion.html#consigna",
-    "href": "encuentros/2-proyectos/proyectos-r_ejercitacion.html#consigna",
-    "title": "Proyectos R - Ejercitación",
+    "objectID": "encuentros/3-tidyverse/r-tidyverse_ejercitacion.html#consigna",
+    "href": "encuentros/3-tidyverse/r-tidyverse_ejercitacion.html#consigna",
+    "title": "Tidyverse, parte I - Ejercitación",
     "section": "",
-    "text": "Abrir el proyecto creado en clase, que contiene la base de nombres de personas. En su defecto, crear un proyecto nuevo, con una carpeta en su interior llamada datos y ubicar en esa carpeta la base de nombre de personas para el año 2015, vista en clase.\nUna vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base de nombres de personas - 2015 a nuestro Ambiente (Environment) de Rstudio. Recordar guardar en un objeto esa base.\nEjecutar las siguientes funciones sobre el data frame base_personas y describir con un comentario (#) en el script lo que realiza cada una de ellas.\n\nSugerencia: Intentar describir a ojo lo que está haciendo la función. En caso de dificultad, consultar con el sistema de ayuda de R, anteponiendo el símbolo de cierre de interrogación (?) al nombre de la función.\nEjemplo de ayuda: ?mean()\n\nEjemplo de resolución:\n### dim(): Devuelve la cantidad de dimensiones del data.frame (cantidad de filas x columnas)\ndim(base_personas)"
+    "text": "Estoy necesitando quedarme con los casos de tipo Parahoteleros. Reemplazar el campo ´_______´ de la siguiente sentencia y comprobar que la operación fué exitosa:\n\n### Cargo el paquete\nlibrary(tidyverse)\n\n### Cargo la base de datos\ndf_puna &lt;- read_csv(\"_____/puna_base_agregada.csv\")\n\ndf_parahoteleros &lt;- df_puna %&gt;%\n  ______(indice_tiempo, tipo, plazas) %&gt;%\n  filter(_____ == \"Parahoteleros\")\n \n\nDescargar la base de datos del Padrón Único de Alojamientos y ubicarla en una carpeta, para luego crear un proyecto de Rstudio (o abrir uno ya creado).\n\n\nUna vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base a nuestro Ambiente (Environment) de Rstudio. Recordar guardar en un objeto esa base.\nSobre esa base, crear otro objeto que contenga sólo las variables ´indice_tiempo´, ´localidad´ y ´habitaciones´ y los casos de la localidad de Belen de Escobar, unicamente.\nChequear que la operación fue exitosa (en columnas y filas).\n\npara mí"
   },
   {
-    "objectID": "encuentros/2-proyectos/proyectos-r_ejercitacion.html#lista-de-funciones-a-ejectura",
-    "href": "encuentros/2-proyectos/proyectos-r_ejercitacion.html#lista-de-funciones-a-ejectura",
-    "title": "Proyectos R - Ejercitación",
-    "section": "Lista de funciones a ejectura",
-    "text": "Lista de funciones a ejectura\n\n\n\n\n\n\n\nFunción\nAcción\n\n\n\n\ndim()\nejecutar sobre un data frame\n\n\ncolnames()\nejecutar sobre un data frame\n\n\nstr()\nejecutar sobre un data frame\n\n\nsummary()\nejecutar sobre un data frame / una columna del df\n\n\nclass()\nejecutar sobre un data frame / una columna del df\n\n\nlength()\nejecutar sobre un data frame / una columna del df\n\n\ntable()\nejecutar sobre una columna del df\n\n\nis.na()\nejecutar sobre una columna del df\n\n\nmean()\nejecutar sobre una columna del df"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#qué-vimos",
-    "href": "encuentros/2-proyectos/proyectos-r.html#qué-vimos",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "¿Qué vimos?",
-    "text": "¿Qué vimos?\n✅ Valores\n✅ Vectores\n✅ Data frames\n✅ Objetos\n✅ Funciones"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#hoja-de-ruta",
-    "href": "encuentros/2-proyectos/proyectos-r.html#hoja-de-ruta",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Hoja de Ruta",
-    "text": "Hoja de Ruta\n\n\n📌 Paquetes\n📌 Ruta de un archivo (o file path)\n📌 Importar nuestra primera base de datos\n\n📌 Armar un proyecto de trabajo en Rstudio (R project)\n📌 Estructura de carpeta\n  👉🏼 Cómo estructurar la carpeta de trabajo\n\n  👉🏼 Cómo nombrar archivos"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-1",
-    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-1",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Paquetes",
-    "text": "Paquetes"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-2",
-    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-2",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Paquetes",
-    "text": "Paquetes\n\nLos paquetes o librerías son la potencia de los lenguajes como R y Python\nEs cómo las comunidades pueden hacer crecer al lenguaje\n\n\nLink a Mapa de paquetes"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-3",
-    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-3",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Paquetes",
-    "text": "Paquetes\n\nSe instala (una vez por computadora)\n\ninstall.packages(\"nombre_del_paquete\")\n\n\nSe convoca (por cada sesión de R)\n\nlibrary(nombre_del_paquete)"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-4",
-    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-4",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Paquetes",
-    "text": "Paquetes\n\nPara instalar un paquete (install.packages()), el nombre del paquete va siempre entre comillas\n\n\ninstall.packages(\"readr\")"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-5",
-    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-5",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Paquetes",
-    "text": "Paquetes\n\nPara instalar un paquete (install.packages()), el nombre del paquete va siempre entre comillas\n\n\ninstall.packages(\"readr\")\n\n\n\nPara convocar un paquete (library()) el nombre puede o no llevar comillas (se recomienda sin)\n\n\nlibrary(readr)"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-6",
-    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-6",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Paquetes",
-    "text": "Paquetes\n\nInstalemos nuestro primer paquete:\n\ninstall.packages(\"readr\")"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-7",
-    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-7",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Paquetes",
-    "text": "Paquetes\n\nInstalemos nuestro primer paquete:\n\ninstall.packages(\"readr\")\n\n¿Mucha letra roja?"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-8",
-    "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-8",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Paquetes",
-    "text": "Paquetes\n\n\n\nConvoquemos al paquete\n\n\nlibrary(readr)"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#ruta-de-archivos-1",
-    "href": "encuentros/2-proyectos/proyectos-r.html#ruta-de-archivos-1",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Ruta de archivos",
-    "text": "Ruta de archivos\n\nEjemplo diario de seleccionar una ruta de archivo:\n\n{width: “70%”;}"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos",
-    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Importar datos",
-    "text": "Importar datos\n\nVamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.\nBase de datos: Nombre de Personas. Argentina, año 2015.\n\n\nLink"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos-1",
-    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-1",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Importar datos",
-    "text": "Importar datos\n\nVamos a descargar una base de datos y ubicarla en una carpeta conocida de mi computadora.\n\n- Base de datos: Nombre de Personas. Argentina, año 2015.\nLink\n\nTip: Reconocer la extensión del archivo a descargar (.csv, .txt, .sav, .dta, .sas, etc.)"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos-2",
-    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-2",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Importar datos",
-    "text": "Importar datos\n\nManos a la obra:\n\nlibrary(readr)\n\nread_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos-3",
-    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-3",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Importar datos",
-    "text": "Importar datos\n\nFalta algo…"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos-4",
-    "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-4",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Importar datos",
-    "text": "Importar datos\n\nFalta algo…\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-1",
-    "href": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-1",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Proyectos de trabajo",
-    "text": "Proyectos de trabajo\n\n\n\nCopiar la siguiente sentencia en tu consola o script y ejecutar:\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-2",
-    "href": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-2",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Proyectos de trabajo",
-    "text": "Proyectos de trabajo\n\n\n\n\nSi compartimos el script a otra persona, el código se rompe\nSi cambiamos de computadora, el código se rompe\nSi cambiamos la base de lugar, el código se rompe"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio",
-    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Crear un proyecto de Rstudio",
-    "text": "Crear un proyecto de Rstudio\n\nPaso 1:\n\n–&gt; File (archivo) –&gt; New Project (Nuevo Proyecto…)"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-1",
-    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-1",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Crear un proyecto de Rstudio",
-    "text": "Crear un proyecto de Rstudio\n\nPaso 2:\n\n–&gt; New Directory (Nueva carpeta)"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-2",
-    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-2",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Crear un proyecto de Rstudio",
-    "text": "Crear un proyecto de Rstudio\n\nPaso 3:\n\n–&gt; New Project"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-3",
-    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-3",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Crear un proyecto de Rstudio",
-    "text": "Crear un proyecto de Rstudio\n\nResultado:"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-4",
-    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-4",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Crear un proyecto de Rstudio",
-    "text": "Crear un proyecto de Rstudio\n\nAsegurarse que estamos en el proyecto, de lo contrario, abrirlo"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-5",
-    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-5",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Crear un proyecto de Rstudio",
-    "text": "Crear un proyecto de Rstudio\n\nAsegurarse esta en el proyecto, de lo contrario, abrirlo ✅\nCrear una carpeta nueva llamada datos"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-6",
-    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-6",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Crear un proyecto de Rstudio",
-    "text": "Crear un proyecto de Rstudio\n\nAsegurarse esta en el proyecto, de lo contrario, abrirlo ✅\nCrear una carpeta nueva llamada datos ✅\nGuardar la base de personas en la carpeta datos"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-7",
-    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-7",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Crear un proyecto de Rstudio",
-    "text": "Crear un proyecto de Rstudio\n\nAsegurarse esta en el proyecto, de lo contrario, abrirlo ✅\nCrear una carpeta nueva llamada datos ✅\nGuardar la base de personas en la carpeta datos ✅\nEjecutar la siguiente sentencia:\n\nlibrary(readr)\n\nbase_personas &lt;- read_csv(\"datos/nombres-2015.csv\")"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-8",
-    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-8",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Crear un proyecto de Rstudio",
-    "text": "Crear un proyecto de Rstudio\n\nAntes (sin un proyecto)\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-9",
-    "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-9",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Crear un proyecto de Rstudio",
-    "text": "Crear un proyecto de Rstudio\n\nAntes (sin un proyecto)\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")\n\n\nDespués (con un proyecto)\n\nbase_personas &lt;- read_csv(\"datos/nombres-2015.csv\")"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/proyectos-r.html#estructura-de-carpetas",
-    "href": "encuentros/2-proyectos/proyectos-r.html#estructura-de-carpetas",
-    "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Estructura de carpetas",
-    "text": "Estructura de carpetas\n\n📂 nuevo_proyecto\n\n nuevo_proyecto.Rproj\n📂 datos\n\n⛁ nombres-2015.csv\n\n📂 outputs\n📂 scripts\n\n📄 1_levantar_datos.R\n\n📂 docs_metodologicos\n\n📚 bibliografia.docx\n\n\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r_ejercitacion.html",
-    "href": "encuentros/1-intro-r/intro-r_ejercitacion.html",
-    "title": "Intro a R - Ejercitación",
-    "section": "",
-    "text": "Crear un vector llamado apellido, con los siguientes 7 apellidos:\n\n“García”,\n“Sanchez”,\n“Van Del Sar”,\n“Mihatovich”,\n“Lama”,\n“Lugercio”\n“Messidona”\n\nCrear un vector llamado cantidad, con los siguientes 7 valores, que representen la frecuencia con la que existe cada apellido en nuestra base:\n\n1\n3\n17\n9\n2\n34\n98\n\nCon estos vectores, crear un data.frane que los combine y:\n\nSumar la cantidad de apellidos total que hay en la base (la función sum() puede ayudar al respecto).\nCalcular el apellido que más frecuencia tiene (la función max() puede ayudar al respecto).\nCalcular el apellido que menos frecuencia tiene (la función min() puede ayudar al respecto)"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r_ejercitacion.html#consignas",
-    "href": "encuentros/1-intro-r/intro-r_ejercitacion.html#consignas",
-    "title": "Intro a R - Ejercitación",
-    "section": "",
-    "text": "Crear un vector llamado apellido, con los siguientes 7 apellidos:\n\n“García”,\n“Sanchez”,\n“Van Del Sar”,\n“Mihatovich”,\n“Lama”,\n“Lugercio”\n“Messidona”\n\nCrear un vector llamado cantidad, con los siguientes 7 valores, que representen la frecuencia con la que existe cada apellido en nuestra base:\n\n1\n3\n17\n9\n2\n34\n98\n\nCon estos vectores, crear un data.frane que los combine y:\n\nSumar la cantidad de apellidos total que hay en la base (la función sum() puede ayudar al respecto).\nCalcular el apellido que más frecuencia tiene (la función max() puede ayudar al respecto).\nCalcular el apellido que menos frecuencia tiene (la función min() puede ayudar al respecto)"
+    "objectID": "encuentros/3-tidyverse/r-tidyverse_ejercitacion.html#consigna-1",
+    "href": "encuentros/3-tidyverse/r-tidyverse_ejercitacion.html#consigna-1",
+    "title": "Tidyverse, parte I - Ejercitación",
+    "section": "Consigna:",
+    "text": "Consigna:\n\nEstoy necesitando quedarme con los casos de tipo Parahoteleros. Reemplazar el campo ´______´ de la siguiente sentencia y comprobar que la operación fué exitosa:\n\n### Cargo el paquete\nlibrary(tidyverse)\n\n### Cargo la base de datos\ndf_puna &lt;- read_csv(\"_____/puna_base_agregada.csv\")\n\ndf_parahoteleros &lt;- df_puna %&gt;%\n  ______(indice_tiempo, tipo, plazas) %&gt;%\n  filter(_____ == \"Parahoteleros\")\n \n\nDescargar la base de datos del Padrón Único de Alojamientos y ubicarla en una carpeta, para luego crear un proyecto de Rstudio (o abrir uno ya creado).\n\n\nUna vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base a nuestro Ambiente (Environment) de Rstudio. Recordar guardar en un objeto esa base.\nSobre esa base, crear otro objeto que contenga sólo las variables ´indice_tiempo´, ´localidad´ y ´habitaciones´ y los casos de la localidad de Belen de Escobar, unicamente.\nChequear que la operación fue exitosa (en columnas y filas)."
   },
   {
     "objectID": "encuentros/4-visualizacion/index_ACTIVAR.html",
@@ -987,494 +1372,32 @@
     "text": "Speaker\n\nColin Rundel is Associate Professor of the Practice at Duke University where he has been teaching since 2012. His work focuses on teaching statistical computing to both undergraduate and graduate students in both R and Python."
   },
   {
-    "objectID": "encuentros/1-intro-r/intro-r.html#hoja-de-ruta",
-    "href": "encuentros/1-intro-r/intro-r.html#hoja-de-ruta",
-    "title": "Introducción a R base",
-    "section": "Hoja de Ruta",
-    "text": "Hoja de Ruta\n\n\n📌 ¿Qué es R?\n📌 ¿Qué es la Ciencia de Datos?\n📌 R != Rstudio\n\n📌 Conceptos básicos de R\n  👉🏼 Valores\n\n  👉🏼 Vectores\n\n  👉🏼 Tipos / Clases\n\n  👉🏼 Data Frames"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#primera-impresión",
-    "href": "encuentros/1-intro-r/intro-r.html#primera-impresión",
-    "title": "Introducción a R base",
-    "section": "Primera impresión",
-    "text": "Primera impresión"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#evolución-emocional",
-    "href": "encuentros/1-intro-r/intro-r.html#evolución-emocional",
-    "title": "Introducción a R base",
-    "section": "Evolución emocional",
-    "text": "Evolución emocional"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#r",
-    "href": "encuentros/1-intro-r/intro-r.html#r",
-    "title": "Introducción a R base",
-    "section": "R …",
-    "text": "R …\n\nEs un lenguaje de programación especializado en análisis y visualización de datos."
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#r-1",
-    "href": "encuentros/1-intro-r/intro-r.html#r-1",
-    "title": "Introducción a R base",
-    "section": "R …",
-    "text": "R …\n\nEs de código abierto (se puede usar y modificar sin pagar licencias ni costos de ningún tipo)"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#r-2",
-    "href": "encuentros/1-intro-r/intro-r.html#r-2",
-    "title": "Introducción a R base",
-    "section": "R …",
-    "text": "R …\n\nCrece a partir del aporte de su comunidad (no depende de un departamento de desarrollo):\n\nAcademia (Universidades)\nInvestigación Científica (Centros de investigación, comunidad científica)\nSector privado (Facebook, Google, X, Uber, Airbnb, IBM, New York times)\nGente de a pie (personas o grupos de personas)"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#r-3",
-    "href": "encuentros/1-intro-r/intro-r.html#r-3",
-    "title": "Introducción a R base",
-    "section": "R …",
-    "text": "R …\n\nEn el campo del análisis de datos, es la herramienta por excelencia en muchas universidades, empresas de tecnología, y redacciones de periodismo de datos."
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#qué-es-la-ciencia-de-datos-1",
-    "href": "encuentros/1-intro-r/intro-r.html#qué-es-la-ciencia-de-datos-1",
-    "title": "Introducción a R base",
-    "section": "¿Qué es la Ciencia de Datos?",
-    "text": "¿Qué es la Ciencia de Datos?"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#r-rstudio-1",
-    "href": "encuentros/1-intro-r/intro-r.html#r-rstudio-1",
-    "title": "Introducción a R base",
-    "section": "R != Rstudio",
-    "text": "R != Rstudio"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#r-rstudio-2",
-    "href": "encuentros/1-intro-r/intro-r.html#r-rstudio-2",
-    "title": "Introducción a R base",
-    "section": "R != Rstudio",
-    "text": "R != Rstudio"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#puesta-a-punto",
-    "href": "encuentros/1-intro-r/intro-r.html#puesta-a-punto",
-    "title": "Introducción a R base",
-    "section": "Puesta a punto …",
-    "text": "Puesta a punto …\n\nIdentificar las 4 ventanas principales"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-1",
-    "href": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-1",
-    "title": "Introducción a R base",
-    "section": "Puesta a punto …",
-    "text": "Puesta a punto …\n\nIdentificar las 4 ventanas principales ✅\n\n\n\nCambiar la apariencia de la plataforma"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-2",
-    "href": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-2",
-    "title": "Introducción a R base",
-    "section": "Puesta a punto …",
-    "text": "Puesta a punto …\n\nIdentificar las 4 ventanas principales ✅\n\n\n\nCambiar la apariencia de la plataforma ✅\n\n\n\nSetear en Opciones Globales (Global Options) la configuración General"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-3",
-    "href": "encuentros/1-intro-r/intro-r.html#puesta-a-punto-3",
-    "title": "Introducción a R base",
-    "section": "Puesta a punto …",
-    "text": "Puesta a punto …\n\nIdentificar las 4 ventanas principales ✅\n\n\n\nCambiar la apariencia de la plataforma ✅\n\n\n\nSetear en Opciones Globales (Global Options) la configuración General ✅"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#valores",
-    "href": "encuentros/1-intro-r/intro-r.html#valores",
-    "title": "Introducción a R base",
-    "section": "Valores …",
-    "text": "Valores …"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#valores-1",
-    "href": "encuentros/1-intro-r/intro-r.html#valores-1",
-    "title": "Introducción a R base",
-    "section": "Valores …",
-    "text": "Valores …\nnuméricos\n\n100\n\n[1] 100"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#valores-2",
-    "href": "encuentros/1-intro-r/intro-r.html#valores-2",
-    "title": "Introducción a R base",
-    "section": "Valores …",
-    "text": "Valores …\nde texto\n\n\"cien\"\n\n[1] \"cien\""
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#valores-3",
-    "href": "encuentros/1-intro-r/intro-r.html#valores-3",
-    "title": "Introducción a R base",
-    "section": "Valores …",
-    "text": "Valores …\n¿?\n\"100\""
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables",
-    "href": "encuentros/1-intro-r/intro-r.html#vectores-variables",
-    "title": "Introducción a R base",
-    "section": "Vectores … ¿variables?",
-    "text": "Vectores … ¿variables?"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables-1",
-    "href": "encuentros/1-intro-r/intro-r.html#vectores-variables-1",
-    "title": "Introducción a R base",
-    "section": "Vectores … ¿variables?",
-    "text": "Vectores … ¿variables?\nnuméricos\n\nc(100, 102, 200)\n\n[1] 100 102 200"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables-2",
-    "href": "encuentros/1-intro-r/intro-r.html#vectores-variables-2",
-    "title": "Introducción a R base",
-    "section": "Vectores … ¿variables?",
-    "text": "Vectores … ¿variables?\nde texto\n\nc(\"cien\", \"ciento dos\", \"doscientos\")\n\n[1] \"cien\"       \"ciento dos\" \"doscientos\""
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables-3",
-    "href": "encuentros/1-intro-r/intro-r.html#vectores-variables-3",
-    "title": "Introducción a R base",
-    "section": "Vectores … ¿variables?",
-    "text": "Vectores … ¿variables?\nde texto\n\nc(\"100\", \"102\", \"200\")\n\n[1] \"100\" \"102\" \"200\""
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#funciones",
-    "href": "encuentros/1-intro-r/intro-r.html#funciones",
-    "title": "Introducción a R base",
-    "section": "Funciones",
-    "text": "Funciones\n\nLas funciones en R son el alma mater del lenguaje (de todos los lenguajes)\nellas reciben un input y devuelven un output\nSiempre las encontrarás escrita así:\n\nnombre_de_la_funcion(input)"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-1",
-    "href": "encuentros/1-intro-r/intro-r.html#funciones-1",
-    "title": "Introducción a R base",
-    "section": "Funciones",
-    "text": "Funciones\n\nLa función class() devuelve el tipo del valor o vector que le de (input)\n\n\nclass(1)\n\n[1] \"numeric\""
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-2",
-    "href": "encuentros/1-intro-r/intro-r.html#funciones-2",
-    "title": "Introducción a R base",
-    "section": "Funciones",
-    "text": "Funciones\n\nclass(\"1\")\n\n[1] \"character\""
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-3",
-    "href": "encuentros/1-intro-r/intro-r.html#funciones-3",
-    "title": "Introducción a R base",
-    "section": "Funciones",
-    "text": "Funciones\n\nLa función length() devuelve el largo del input (probemos con un vector):\n\n\nlength(c(10, 20, 30))\n\n[1] 3"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-4",
-    "href": "encuentros/1-intro-r/intro-r.html#funciones-4",
-    "title": "Introducción a R base",
-    "section": "Funciones",
-    "text": "Funciones\n\nLa función mean() calcula el promedio de un input (tiene que ser si o si numérico):\n\n\nmean(c(10, 20, 30))\n\n[1] 20"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#funciones-5",
-    "href": "encuentros/1-intro-r/intro-r.html#funciones-5",
-    "title": "Introducción a R base",
-    "section": "Funciones",
-    "text": "Funciones\n\nmean(c(\"10\", \"20\", \"30\"))\n\n[1] NA"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#objectos",
-    "href": "encuentros/1-intro-r/intro-r.html#objectos",
-    "title": "Introducción a R base",
-    "section": "Objectos",
-    "text": "Objectos\n\nTodo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-1",
-    "href": "encuentros/1-intro-r/intro-r.html#objectos-1",
-    "title": "Introducción a R base",
-    "section": "Objectos",
-    "text": "Objectos\n\nTodo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)\nPara guardar algo en un objeto, tengo que seguir la siguiente estructura:\n\nnombre_del_objeto &lt;- algo"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-2",
-    "href": "encuentros/1-intro-r/intro-r.html#objectos-2",
-    "title": "Introducción a R base",
-    "section": "Objectos",
-    "text": "Objectos\n\nguardo_un_numero &lt;- 1"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-3",
-    "href": "encuentros/1-intro-r/intro-r.html#objectos-3",
-    "title": "Introducción a R base",
-    "section": "Objectos",
-    "text": "Objectos\n\nguardo_un_numero\n\n[1] 1"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-4",
-    "href": "encuentros/1-intro-r/intro-r.html#objectos-4",
-    "title": "Introducción a R base",
-    "section": "Objectos",
-    "text": "Objectos\n\nguardo_un_vector &lt;- c(10, 20, 30)"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-5",
-    "href": "encuentros/1-intro-r/intro-r.html#objectos-5",
-    "title": "Introducción a R base",
-    "section": "Objectos",
-    "text": "Objectos\n\nguardo_un_vector\n\n[1] 10 20 30"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-6",
-    "href": "encuentros/1-intro-r/intro-r.html#objectos-6",
-    "title": "Introducción a R base",
-    "section": "Objectos",
-    "text": "Objectos\n\nguardo_un_resultado &lt;- mean(c(20, 45, 23))"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-7",
-    "href": "encuentros/1-intro-r/intro-r.html#objectos-7",
-    "title": "Introducción a R base",
-    "section": "Objectos",
-    "text": "Objectos\n\nguardo_un_resultado\n\n[1] 29.33333"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#objectos-8",
-    "href": "encuentros/1-intro-r/intro-r.html#objectos-8",
-    "title": "Introducción a R base",
-    "section": "Objectos",
-    "text": "Objectos\n\nobjeto_como_input &lt;- c(20, 45, 23)\n\nmean(objeto_como_input)\n\n[1] 29.33333"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#ejercitación-1",
-    "href": "encuentros/1-intro-r/intro-r.html#ejercitación-1",
-    "title": "Introducción a R base",
-    "section": "Ejercitación",
-    "text": "Ejercitación\n\nCrear un objeto con los siguientes 5 valores numéricos: 17, 92, 56, 32 y 102, y llamarlo edad_personas.\nCon la función class() chequear de qué tipo es el objeto.\nCon la función length() conocer la longitud de ese objeto (cuántos valores tiene).\nCalcular el promedio de esos valores (la edad promedio)"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#data-frames-1",
-    "href": "encuentros/1-intro-r/intro-r.html#data-frames-1",
-    "title": "Introducción a R base",
-    "section": "Data Frames",
-    "text": "Data Frames\n\nUn Data Frame (o tabla) es la combinación de vectores (variables), que termina conformando una relación entre filas y columnas.\nCada vector es una columna de un dataframe, y cada uno de sus valores, en el orden en que se encuentran, conforman las filas."
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#data-frames-2",
-    "href": "encuentros/1-intro-r/intro-r.html#data-frames-2",
-    "title": "Introducción a R base",
-    "section": "Data Frames",
-    "text": "Data Frames\n\nPara crear un Data Frame puedo utilizar la función data.frame(), cuyos inputs son los vectores:\n\n\nvector_edad &lt;- c(20, 43, 102, 56)\nvector_nombre &lt;- c(\"Pepe\", \"Pepa\", \"Rigoberto\", \"Rodoberta\")\n\nbase_personas &lt;- data.frame(vector_edad,\n                            vector_nombre)"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#data-franes",
-    "href": "encuentros/1-intro-r/intro-r.html#data-franes",
-    "title": "Introducción a R base",
-    "section": "Data Franes",
-    "text": "Data Franes\n\nAsí se ve un data.frame:\n\n\nbase_personas\n\n  vector_edad vector_nombre\n1          20          Pepe\n2          43          Pepa\n3         102     Rigoberto\n4          56     Rodoberta"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frames-1",
-    "href": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frames-1",
-    "title": "Introducción a R base",
-    "section": "Accediendo a un Data Frames",
-    "text": "Accediendo a un Data Frames\n\nCon el comando $ (símbolo peso) puedo acceder a una columna del data frame:"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frane",
-    "href": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frane",
-    "title": "Introducción a R base",
-    "section": "Accediendo a un Data Frane",
-    "text": "Accediendo a un Data Frane\n\nbase_personas$vector_nombre\n\n[1] \"Pepe\"      \"Pepa\"      \"Rigoberto\" \"Rodoberta\""
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frane-1",
-    "href": "encuentros/1-intro-r/intro-r.html#accediendo-a-un-data-frane-1",
-    "title": "Introducción a R base",
-    "section": "Accediendo a un Data Frane",
-    "text": "Accediendo a un Data Frane\nEl resultado de base_personas$vector_nombre es nuevamente un vector, por lo que puedo:\n\nclass(base_personas$vector_nombre)\n\n[1] \"character\"\n\n\n\nlength(base_personas$vector_nombre)\n\n[1] 4"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#ejercitación-3",
-    "href": "encuentros/1-intro-r/intro-r.html#ejercitación-3",
-    "title": "Introducción a R base",
-    "section": "Ejercitación",
-    "text": "Ejercitación\n\nCrear un vector llamado serie, cuyos valores son: \"Berlín\", \"The Crown\" y \"Vikings\".\nCrear un vector llamado puntaje, cuyos valores son (agregar puntaje a gusto),\nCrear un data.frame llamado netflix, que combine los vectores anteriores\nCalcular el puntaje promedio de las series de Netflix."
-  },
-  {
-    "objectID": "encuentros/1-intro-r/intro-r.html#listo",
-    "href": "encuentros/1-intro-r/intro-r.html#listo",
-    "title": "Introducción a R base",
-    "section": "¡Listo!",
-    "text": "¡Listo!\n\nNos vemos el encuentro que viene.\nSeguimos la comunicación entre clase y clase por Slack\nAcá dejamos más ejercitación para seguir practicando\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/index.html",
-    "href": "encuentros/1-intro-r/index.html",
-    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
+    "objectID": "encuentros/5-reportes/index_ACTIVAR.html",
+    "href": "encuentros/5-reportes/index_ACTIVAR.html",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "",
-    "text": "En este encuentro vamos a presentar a R, su contexto y su potencia, asi como también introducirnos en sus conceptos básicos, como lo son los valores, vectores, data frames y funciones.\nTendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente."
+    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
   },
   {
-    "objectID": "encuentros/1-intro-r/index.html#descripción",
-    "href": "encuentros/1-intro-r/index.html#descripción",
-    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
+    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#abstract",
+    "href": "encuentros/5-reportes/index_ACTIVAR.html#abstract",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "",
-    "text": "En este encuentro vamos a presentar a R, su contexto y su potencia, asi como también introducirnos en sus conceptos básicos, como lo son los valores, vectores, data frames y funciones.\nTendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente."
+    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
   },
   {
-    "objectID": "encuentros/1-intro-r/index.html#slides",
-    "href": "encuentros/1-intro-r/index.html#slides",
-    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n Descarga las diapositivas"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/index.html#links",
-    "href": "encuentros/1-intro-r/index.html#links",
-    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
-    "section": "Links",
-    "text": "Links\n\nPresentación: https://docs.google.com/document/d/1cM2BpKw4weWxsJ5EvcoJzT02YZPjcIZvxNVoOskEPgY/edit#heading=h.jja0j3hbdd5p\nCiencia de Datos para Gente Sociable: https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/\nEjercitación de la semana: https://pablotis.github.io/intro-r-quarto/encuentros/1-intro-r/intro-r_ejercitacion.html"
-  },
-  {
-    "objectID": "encuentros/1-intro-r/index.html#docente",
-    "href": "encuentros/1-intro-r/index.html#docente",
-    "title": "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje",
-    "section": "Docente",
-    "text": "Docente\n\nPablo Tiscornia"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html",
-    "href": "encuentros/2-proyectos/index_ACTIVAR.html",
-    "title": "Teaching Quarto in Introduction to Data Science Courses",
-    "section": "",
-    "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
-  },
-  {
-    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html#abstract",
-    "href": "encuentros/2-proyectos/index_ACTIVAR.html#abstract",
-    "title": "Teaching Quarto in Introduction to Data Science Courses",
-    "section": "",
-    "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
-  },
-  {
-    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html#slides",
-    "href": "encuentros/2-proyectos/index_ACTIVAR.html#slides",
-    "title": "Teaching Quarto in Introduction to Data Science Courses",
+    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#slides",
+    "href": "encuentros/5-reportes/index_ACTIVAR.html#slides",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "encuentros/2-proyectos/index_ACTIVAR.html#speaker",
-    "href": "encuentros/2-proyectos/index_ACTIVAR.html#speaker",
-    "title": "Teaching Quarto in Introduction to Data Science Courses",
+    "objectID": "encuentros/5-reportes/index_ACTIVAR.html#speaker",
+    "href": "encuentros/5-reportes/index_ACTIVAR.html#speaker",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "Speaker",
-    "text": "Speaker\n\nElijah Meyer (elijah.meyer@duke.edu) is currently a teaching postdoctoral associate at Duke University. Taught Quarto in introductory data science at Duke the last fall, spring, and summer sessions. His work focuses on curricula and course creation, as well as studying how to best support newer instructor’s use of active learning."
-  },
-  {
-    "objectID": "encuentros/2-proyectos/index.html",
-    "href": "encuentros/2-proyectos/index.html",
-    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
-    "section": "",
-    "text": "En este encuentro vamos a charlar sobre conceptos básicos a la hora de pensar un flujo de trabajo con datos en clave de proyecto. La búsqueda será la reproducibilidad de nuestro trabajo, hacer nuestros scripts portables (que no dependan ni de nuestra computadora ni de nosotres) y delinear restricciones, sugerencias y consensos a la hora de estructurar nuestra carpeta (y archivos).\nTendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente."
-  },
-  {
-    "objectID": "encuentros/2-proyectos/index.html#descripción",
-    "href": "encuentros/2-proyectos/index.html#descripción",
-    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
-    "section": "",
-    "text": "En este encuentro vamos a charlar sobre conceptos básicos a la hora de pensar un flujo de trabajo con datos en clave de proyecto. La búsqueda será la reproducibilidad de nuestro trabajo, hacer nuestros scripts portables (que no dependan ni de nuestra computadora ni de nosotres) y delinear restricciones, sugerencias y consensos a la hora de estructurar nuestra carpeta (y archivos).\nTendremos ejercitación para realizar durante el encuentro y se dejará práctica para poder continuar incorporando el lenguaje durante la semana. La entrega de la práctica no es obligatoria, y las resoluciones se darán al comienzo del encuentro siguiente."
-  },
-  {
-    "objectID": "encuentros/2-proyectos/index.html#slides",
-    "href": "encuentros/2-proyectos/index.html#slides",
-    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n Descarga las diapositivas"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/index.html#links",
-    "href": "encuentros/2-proyectos/index.html#links",
-    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
-    "section": "Links",
-    "text": "Links\n\nNotas de clase colaborativa: https://docs.google.com/document/d/1Hjy4NxQajOFUMHu1If1L-GEAsgszm2nUbfzonbs993k/edit\nCiencia de Datos para Gente Sociable: https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/una-presentaci%C3%B3n-a-toda-marcha-de-r.html#crear-un-proyecto-en-rstudio\n(en inglés) Rmarkdown for Scientist - Capítulo: Workflow: https://rmd4sci.njtierney.com/workflow.html\nEjercitación de la semana: https://pablotis.github.io/intro-r-quarto/encuentros/2-proyectos/proyectos-r_ejercitacion.html"
-  },
-  {
-    "objectID": "encuentros/2-proyectos/index.html#docente",
-    "href": "encuentros/2-proyectos/index.html#docente",
-    "title": "Encuentro 2 - Pensando un flujo de trabajo en clave de proyecto",
-    "section": "Docente",
-    "text": "Docente\n\nPablo Tiscornia"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html",
-    "title": "Blending R and Python in Quarto documents",
-    "section": "",
-    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#abstract",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#abstract",
-    "title": "Blending R and Python in Quarto documents",
-    "section": "",
-    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#slides",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#slides",
-    "title": "Blending R and Python in Quarto documents",
-    "section": "Slides",
-    "text": "Slides"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#links",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#links",
-    "title": "Blending R and Python in Quarto documents",
-    "section": "Links",
-    "text": "Links\ntemplar package: https://www.github.com/r-for-educators/templar\nExample materials: https://github.com/Statistical-Learning-with-R"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html#speaker",
-    "href": "encuentros/3-tidyverse/index_ACTIVAR.html#speaker",
-    "title": "Blending R and Python in Quarto documents",
-    "section": "Speaker",
-    "text": "Speaker\n\n\n\n\n\nKelly Bodwin is an Associate Professor of Statistics and Data Science at Cal Poly, in San Luis Obispo, CA. Her research includes R package development, studies of statistical education, and applications in a variety of fields such as history, biology, and viticulture. While R will always be her first love, she is slowly learning to accept python into her life."
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index.html",
-    "href": "encuentros/3-tidyverse/index.html",
-    "title": "Introducción al procesamiento de datos con {tidyverse}.",
-    "section": "",
-    "text": "En este encuentro vamos a recorrer el conjunto de funciones (herramientas) indispensables para el procesamiento de datos. Son esas que acompañan tanto al principiante como al perfil de lo más avanzado.\nDesde elegir con qué columnas (variables) vamos a trabajar; definir cuál es nuestra población de estudio (filas); crear variables nuevas (indicadores) o editar existentes (recodificar); ordenar la base en función de variables específicas y crear cálculos que permitan extraer algunas conclusiones (o más preguntas) en base a la información con la que contamos."
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index.html#descripción",
-    "href": "encuentros/3-tidyverse/index.html#descripción",
-    "title": "Introducción al procesamiento de datos con {tidyverse}.",
-    "section": "",
-    "text": "En este encuentro vamos a recorrer el conjunto de funciones (herramientas) indispensables para el procesamiento de datos. Son esas que acompañan tanto al principiante como al perfil de lo más avanzado.\nDesde elegir con qué columnas (variables) vamos a trabajar; definir cuál es nuestra población de estudio (filas); crear variables nuevas (indicadores) o editar existentes (recodificar); ordenar la base en función de variables específicas y crear cálculos que permitan extraer algunas conclusiones (o más preguntas) en base a la información con la que contamos."
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index.html#slides",
-    "href": "encuentros/3-tidyverse/index.html#slides",
-    "title": "Introducción al procesamiento de datos con {tidyverse}.",
-    "section": "Slides",
-    "text": "Slides\n\n\n\n Descarga las diapositivas"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index.html#links",
-    "href": "encuentros/3-tidyverse/index.html#links",
-    "title": "Introducción al procesamiento de datos con {tidyverse}.",
-    "section": "Links",
-    "text": "Links\n\nNotas de clase colaborativa: https://docs.google.com/document/d/1tobGulY1LayIkYUnEZrsUYcoxFms2odWoEBGrwFDgac/edit\nCiencia de Datos para Gente Sociable: https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/poniendo-los-datos-en-forma.html#transformando-los-datos\nR para Ciencia de Datos - Capítulo: Explorar - Transformación de datos: https://es.r4ds.hadley.nz/05-transform.html\nEjercitación de la semana: https://pablotis.github.io/intro-r-quarto/encuentros/3-tidyverse/r-tidyverse-r_ejercitacion.html"
-  },
-  {
-    "objectID": "encuentros/3-tidyverse/index.html#docente",
-    "href": "encuentros/3-tidyverse/index.html#docente",
-    "title": "Introducción al procesamiento de datos con {tidyverse}.",
-    "section": "Docente",
-    "text": "Docente\n\nPablo Tiscornia"
+    "text": "Speaker\n\n\n\n\n\nMaria Tackett is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. Her research focuses on understanding factors that impact students’ sense of belonging in introductory math and statistics courses with the aim to identify pedagogies that foster community and a supportive learning environment. She’s an active member of the statistics education community and its effort to make statistics more engaging and accessible for all students."
   },
   {
     "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#outline",
@@ -1603,6 +1526,41 @@
     "text": "Learn more!\n\nOrganizing Teaching Materials by Maria Tackett & Mine Çetinkaya-Rundel\nReproducible documents, presentations, and websites with Quarto by Hunter Glanz, Emily Robinson & Allison Theobold\nHello Quarto: Share, Collaborate, Teach, Reimagine by Mine Çetinkaya-Rundel & Julia Lowndes\nquarto.org"
   },
   {
+    "objectID": "index.html#presentación",
+    "href": "index.html#presentación",
+    "title": "Introducción al Procesamiento de datos con R",
+    "section": "Presentación",
+    "text": "Presentación\nEl taller tiene como principal objetivo introducir a los y las participantes en el mundo de R y la programación para producir información estadística descriptiva. La idea es centrarse en cómo encarar un proyecto que involucre meter manos en los datos, desde cómo nombrar las carpetas o archivos, importarlos para acceder a la información, limpiar y procesarla hasta como visualizar, analizar y comunicar los hallazgos."
+  },
+  {
+    "objectID": "index.html#para-quién",
+    "href": "index.html#para-quién",
+    "title": "Introducción al Procesamiento de datos con R",
+    "section": "¿Para quién?",
+    "text": "¿Para quién?\nPara toda aquella persona que quiera / necesite trabajar con datos de una forma más sistemática, ordenada y productiva. No se requiere conocimientos previos de ningún lenguaje de programación en particular, aunque siempre es de ayuda haberse cruzado al menos con una sintaxis o haber utilizado alguna fórmula en Excel."
+  },
+  {
+    "objectID": "index.html#cómo",
+    "href": "index.html#cómo",
+    "title": "Introducción al Procesamiento de datos con R",
+    "section": "¿Cómo?",
+    "text": "¿Cómo?\nLa programación no es un tema de mentes brillantes, sino más bien de aquellas perseverantes. Con este lema bajo el brazo es que se pensó el curso, el cual se focaliza en lo práctico. No sólo se van a ofrecer ejercicios para resolver código entre clase y clase sino que vamos a escribir R durante el encuentro sincrónico, compartiendo pantallas y dudas en vivo!"
+  },
+  {
+    "objectID": "index.html#cronograma",
+    "href": "index.html#cronograma",
+    "title": "Introducción al Procesamiento de datos con R",
+    "section": "Cronograma:",
+    "text": "Cronograma:\nCantidad de encuentros: 7.\nCantidad de horas por encuentro: 2hs.\nDía y horario de cursada: Miércoles, de 18 a 20hs (Hora Argentina, UTC-3).\nFecha de inicio: Miércoles 14 de Febrero.\nFecha de finalización: Miércoles 27 de Marzo."
+  },
+  {
+    "objectID": "index.html#encuentros",
+    "href": "index.html#encuentros",
+    "title": "Introducción al Procesamiento de datos con R",
+    "section": "Encuentros",
+    "text": "Encuentros\n(“Artwork by @allison_horst”)"
+  },
+  {
     "objectID": "index_LANZAMIENTO.html#presentación",
     "href": "index_LANZAMIENTO.html#presentación",
     "title": "Introducción al Procesamiento de datos con R",
@@ -1680,10 +1638,52 @@
     "text": "Mundo R:\nHe participado en la organización y difusión de la comunidad de R en Buenos Aires, en el desarrollo de los paquetes eph, herramientas, comunicacion y evyth.\n📝 Podés encontrar parte de mi recorrido y trabajo con R en mi blog estación-R, buscar Tips sobre R con rtips (twitter)/rtips (Mastodon) y descubrir Asombrosos paquetes de R en Latinoamérica, proyectos que llevo adelante como aporte a la comunidad.\nPodemos cruzarnos en: 𝕏 estacion-r | Mastodon 🦣 | Github | 🇷 estacion-r | 𝕏 pabblo_h"
   },
   {
-    "objectID": "cod_de_conducta.html",
-    "href": "cod_de_conducta.html",
-    "title": "Código de conducta",
+    "objectID": "programa.html",
+    "href": "programa.html",
+    "title": "Programa",
     "section": "",
-    "text": "La comunidad de Estación R, incluyendo sus representantes, deben conocer y seguir este Código de Conducta (basado en el Código de Conducta de R Community) que es establecido con la finalidad de alentar al crecimiento de esta comunidad, participando en un ambiente amigable y partiendo de la base del respeto mutuo.\nEste código de conducta aplica en todos los espacios de participación de Estación R, incluyendo reuniones, Twitter, Slack, listas de correo, tanto online como offline. También es aplicable fuera de los espacios del grupo a quienes actúen en representación del mismo, ya sea online u offline.\nEn cualquier tipo de evento ya sea conferencia, charla, taller, fiesta, reunión, redes sociales y otros medios en línea:\n\nAborde los esfuerzos ajenos con consideración;\nCuando no esté de acuerdo con algo, sea amable al plantear sus problemas;\nEjercite la consideración y el respeto en su discurso y en sus acciones;\nIntente colaborar para evitar conflictos;\nSea consciente de su entorno y del resto de las personas;\nAlerte a quien considere oportuno si nota alguna situación peligrosa, alguien sufriendo una situación comprometedora o violaciones de este Código de Conducta, incluso aunque parezcan poco importantes. Responderemos tan pronto como podamos.\n\nEsperamos que Estación R sea un grupo libre de acoso.\nAcoso incluye, entre otros: insultos, tanto directos como indirectos; daño o perjurio verbal o escrito relacionado con género, orientación sexual, raza, religión, incapacidad; uso inapropiado de imágenes de desnudez (incluyendo presentaciones digitales); intimidación deliberada, acecho o persecución; fotografías o grabaciones abusivas; interrupción sostenida de presentaciones u de otros eventos; contacto físico inapropiado y atención sexual no deseada.\nQuienes violen estas reglas podrían recibir una sanción o explusión del grupo. Si se te pide que detengas cualquier comportamiento que se considere como acoso, esperamos que lo detengas de inmediato.\nSomos receptivos a los comentarios constructivos y las críticas, ya que las experiencias y conjuntos de habilidades de otras personas contribuyen a todos nuestros esfuerzos. Aceptamos a cualquiera que desee participar en nuestras actividades. Fomentanmos un entorno en el que quien lo desee pueda aportar y marcar la diferencia.\n\nVeedores del Código de Conducta\nEste código de conducta será aplicado por integrantes de Estación R. En caso de disputas que involucren a alguien que es parte del grupo designado, ésta persona se hará a un lado en la toma de decisiones.\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Módulo I: Presentación del lenguaje R.\n\nR base.\nData frames (bases de datos)\nPaquetes\nProyectos de trabajo con RStudio\n\n\n\nMódulo II: Procesamiento de datos con el paquete Tidyverse:\n\nImportación de datos (de Excel, SPSS, Stata, archivos de texto, etc.)\nLimpieza: Seleccionar variables, filtrar casos, recodificar, renombrar, ordenar y agrupar información.\nTratamiento de valores faltantes (missing values/ NA´s)\nConstruir medidas de resumen de la información\n\n\n\nMódulo III: Visualización de la información\n\nPaquete ggplot2:\nGráficos de línea, barras, Boxplots\nChapa y pintura: Leyendas, ejes, títulos, notas, colores, escala\n\n\n\nMódulo IV: Introducción al armado de informes/reportes con RMarkdown\n\nAspectos básicos de html\nRecopilación y procesamiento de datos de la web\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "puesta-punto.html",
+    "href": "puesta-punto.html",
+    "title": "Puesta a punto",
+    "section": "",
+    "text": "Este taller está pensado para ser esencialmente práctico. La idea es exponer una presentación por módulo, en donde cada 3 o 4 conceptos se le dedicará un tiempo para poder ejercitar lo visto, previo a continuar con el siguiente contenido.\nSe recomienda seguir las presentaciones durante la exposición ya que de ellas se extraerá el código, haciendo más ágil la cursada."
+  },
+  {
+    "objectID": "puesta-punto.html#dinámica-de-taller",
+    "href": "puesta-punto.html#dinámica-de-taller",
+    "title": "Puesta a punto",
+    "section": "",
+    "text": "Este taller está pensado para ser esencialmente práctico. La idea es exponer una presentación por módulo, en donde cada 3 o 4 conceptos se le dedicará un tiempo para poder ejercitar lo visto, previo a continuar con el siguiente contenido.\nSe recomienda seguir las presentaciones durante la exposición ya que de ellas se extraerá el código, haciendo más ágil la cursada."
+  },
+  {
+    "objectID": "puesta-punto.html#estrategias-metodológicas-y-recursos-didácticos",
+    "href": "puesta-punto.html#estrategias-metodológicas-y-recursos-didácticos",
+    "title": "Puesta a punto",
+    "section": "Estrategias metodológicas y Recursos didácticos",
+    "text": "Estrategias metodológicas y Recursos didácticos\nLas clases del curso serán teórico-prácticas. Por cada presentación temática se irán planteando ejercicios a medida que se avanza en el contenido, abordando las dudas que vayan surgiendo. Se prioriza la utilización del programa durante la clase.\nA lo largo del curso se brindarán sintaxis al estilo “notas de clase”, en las cuales se plasman conjuntamente las líneas de código que se exponen y su correspondiente explicación respecto a los procedimientos realizados. Finalmente, se propondrán ejercicios para resolver fuera de la clase con el objetivo de reforzar los conocimientos vistos en las mismas.\nSe busca que, siempre que se pueda, el contenido, ejemplos y ejercicios representen problemáticas y desafíos propios del campo en el que se encuentran insertos los y las participantes."
+  },
+  {
+    "objectID": "puesta-punto.html#instalación-de-r",
+    "href": "puesta-punto.html#instalación-de-r",
+    "title": "Puesta a punto",
+    "section": "Instalación de R",
+    "text": "Instalación de R\nAsegurate de tener instalado R en tu computadora previo a comenzar el taller. Desde R-project vas a poder hacerte de R.\nSugerencia: Para usuarios y usuarias con Windows en sus computadoras, instalar rtools, herramienta para poder trabajar con el paquete tidyverse.\nDe todas formas, una semana previo al comienzo del curso se enviará un tutorial con todo lo necesario para un arranque sin problemas."
+  },
+  {
+    "objectID": "puesta-punto.html#instalación-de-rstudio",
+    "href": "puesta-punto.html#instalación-de-rstudio",
+    "title": "Puesta a punto",
+    "section": "Instalación de Rstudio",
+    "text": "Instalación de Rstudio\nRstudio es la plataforma desde donde se trabajará durante todo el taller. Si bien debemos tener instalado R, el programa que se abrirá en cada clase y desde donde haremos los ejercicios es Rstudio.\nDescargar Rstudio"
+  },
+  {
+    "objectID": "puesta-punto.html#descarga-de-slack-versión-escritorio",
+    "href": "puesta-punto.html#descarga-de-slack-versión-escritorio",
+    "title": "Puesta a punto",
+    "section": "Descarga de Slack (versión escritorio)",
+    "text": "Descarga de Slack (versión escritorio)\nLa forma de comunicación será principalmente Slack, una plataforma de intercambio que funciona como un chat-foro. Desde allí es posible concentrar la comunicación del curso, difundir material, código y también realizar consultas y respuestas de forma grupal."
   }
 ]

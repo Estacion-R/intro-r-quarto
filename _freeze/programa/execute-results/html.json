@@ -1,5 +1,5 @@
 {
-  "hash": "c65ae5193405974a034c1f0a35832ebe",
+  "hash": "c32e5ce701fa9781ae05607f53f30a72",
   "result": {
     "markdown": "---\ntitle: Programa\nengine: knitr\nlisting:\n  contents: Encuentros/*/index.qmd\n  fields: [image, title, author, subtitle]\n  type: grid\n  sort:\n    - filename\n---\n\n\n![](img/circuito del dato.png)\n\n### Módulo I: Presentación del lenguaje R.\n  \n  + R base.\n  + Data frames (bases de datos)\n  + Paquetes\n  + Proyectos de trabajo con RStudio\n  \n\n### Módulo II: Procesamiento de datos con el paquete `Tidyverse`:\n\n  + Importación de datos (de Excel, SPSS, Stata, archivos de texto, etc.)\n  + Limpieza: Seleccionar variables, filtrar casos, recodificar, renombrar, ordenar y agrupar información.\n  + Tratamiento de valores faltantes (missing values/ NA´s)\n  + Construir medidas de resumen de la información\n\n\n### Módulo III: Visualización de la información\n  \n  + Paquete `ggplot2`: \n  + Gráficos de línea, barras, Boxplots\n  + Chapa y pintura: Leyendas, ejes, títulos, notas, colores, escala\n\n\n### Módulo IV: Introducción al armado de informes/reportes con RMarkdown\n  \n  + Aspectos básicos de html\n  + Recopilación y procesamiento de datos de la web",
     "supporting": [
