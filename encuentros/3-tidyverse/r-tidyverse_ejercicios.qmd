@@ -1,0 +1,37 @@
+---
+title: "Tidyverse, parte I - Ejercitación"
+author: "Estación R"
+---
+
+> Preparación: Para resolver los siguientes ejercicios es necesario abrir un proyecto de trabajo con la base de PUNA cargada en el ambiente.
+
+## Consigna:
+
+a.  Estoy necesitando quedarme con los casos de tipo *Parahoteleros*. Reemplazar el campo ´\_\_\_\_\_´ de la siguiente sentencia y comprobar que la operación fué exitosa:
+
+``` r
+### Cargo el paquete
+library(tidyverse)
+
+### Cargo la base de datos
+df_puna <- read_csv("_____/puna_base_agregada.csv")
+
+df_parahoteleros <- df_puna %>%
+  ______(indice_tiempo, tipo, plazas) %>%
+  filter(_____ == "Parahoteleros")
+ 
+```
+
+b.  Crear otro objeto que contenga sólo las variables ´indice_tiempo´, ´localidad´ y ´habitaciones´ y los casos de la *localidad* de *Belen de Escobar*, unicamente.
+
+-   Chequear que la operación fue exitosa (en columnas y filas).
+
+c.  Crear la variable ´region_agrupada´ que permita analizar al país en unicamente dos nuevas regiones: **Norte** y **Sur**.
+
+-   Las categorías deberán conformarse de la siguiente forma:
+
+    -   Norte: *Norte, Litoral, Cordoba, Buenos Aires y ciudad Autonoma de Buenos Aires*
+
+    -   Sur: *Cuyo y Patagonia*
+
+d.  Crear una variable nueva (llamar a gusto) que unifique las categorías ´Buenos Aires´ y ´Ciudad Autonoma de Buenos Aires´ en una única categoría, llamada ´Buenos Aires´, dejando al resto de las categorías tal como está.

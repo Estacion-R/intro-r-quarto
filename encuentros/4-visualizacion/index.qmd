@@ -7,7 +7,7 @@ description: Conocimientos básicos para armar un gráfico con R
 
 ## Descripción
 
-En este encuentro vamos a recorrer los conceptos y funciones necesarias para poder visuaizar la información que tenemos entre manos, sea para detectar, por ejemplo, casos outliers como para resumir y focalizar el ojo en nuestros hallazgos. 
+En este encuentro vamos a recorrer los conceptos y funciones necesarias para poder visuaizar la información que tenemos entre manos, sea para detectar, por ejemplo, casos outliers como para resumir y focalizar el ojo en nuestros hallazgos.
 
 El concepto a incorporar será el gráfico en clave de capas, ejemplificado en un gráfico de barras y completamente adaptable a otros tipos de visualización de datos.
 
@@ -29,18 +29,29 @@ downloadthis::download_file(
 )
 ```
 
+```{r echo=FALSE}
+downloadthis::download_file(
+  path = here::here("encuentros/4-visualizacion/Notas de clase _script_ - Encuentro visualizacion.R"),
+  output_name = "r-tidyverse-notas_de_clase",
+  button_label = "Descarga las Notas de clase (script)",
+  button_type = "default",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = TRUE
+)
+```
+
 ## Links
 
 -   Notas de clase colaborativa: <https://docs.google.com/document/d/1u-QJieSpin9sMsx6xly7NkaB89ugSAYfJHktOB9NdGY/edit>
 
 -   Ciencia de Datos para Gente Sociable - Capítulo: *Visualización: la exploración gráfica de la información*: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/una-presentaci%C3%B3n-a-toda-marcha-de-r.html#visualizaci%C3%B3n-la-exploraci%C3%B3n-gr%C3%A1fica-de-la-informaci%C3%B3n>
 
-    - Ejercitación: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/visualizaci%C3%B3n.html#ejercicios-2>
+    -   Ejercitación: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/visualizaci%C3%B3n.html#ejercicios-2>
 
 -   R para Ciencia de Datos - Capítulo: *Explorar - Visualización de datos*: <https://es.r4ds.hadley.nz/03-visualize.html>
 
-    - Ejercitación: <https://es.r4ds.hadley.nz/03-visualize.html#ejercicios-1>
-
+    -   Ejercitación: <https://es.r4ds.hadley.nz/03-visualize.html#ejercicios-1>
 
 ## Docente
 

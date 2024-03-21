@@ -197,7 +197,7 @@ execute:
 ```{r echo=FALSE}
 library(countdown)
 
-contador <- countdown(minutes = 10, bottom = 0, warn_when = 60, blink_colon = TRUE, play_sound=here::here("encuentros/1-intro-r/images/inst_adlibs_birdman1.wav"))
+contador <- countdown(minutes = 10, bottom = 0, warn_when = 60, blink_colon = TRUE)
 ```
 
 `r contador`
@@ -217,6 +217,7 @@ contador <- countdown(minutes = 10, bottom = 0, warn_when = 60, blink_colon = TR
 ## Valores ... {.center auto-animate="true"}
 
 #### de texto
+
 ```{r}
 "cien"
 ```
@@ -225,11 +226,9 @@ contador <- countdown(minutes = 10, bottom = 0, warn_when = 60, blink_colon = TR
 
 #### ¿?
 
-```r
+``` r
 "100"
 ```
-
-
 
 ## Vectores ... ¿variables? {.center auto-animate="true"}
 
@@ -244,6 +243,7 @@ c(100, 102, 200)
 ## Vectores ... ¿variables? {.center auto-animate="true"}
 
 #### de texto
+
 ```{r}
 c("cien", "ciento dos", "doscientos")
 ```
@@ -258,18 +258,17 @@ c("100", "102", "200")
 
 ## Funciones
 
-- Las funciones en R son el alma mater del lenguaje (de todos los lenguajes)
+-   Las funciones en R son el alma mater del lenguaje (de todos los lenguajes)
 
-- ellas reciben un [input]{style="color: green;"} y devuelven un [output]{style="color: red;"}
+-   ellas reciben un [input]{style="color: green;"} y devuelven un [output]{style="color: red;"}
 
-- Siempre las encontrarás escrita así:
+-   Siempre las encontrarás escrita así:
 
 `nombre_de_la_funcion(input)`
 
-
 ## Funciones
 
-- La función `class()` devuelve el tipo del valor o vector que le de ([input]{style="color: green;"})
+-   La función `class()` devuelve el tipo del valor o vector que le de ([input]{style="color: green;"})
 
 ```{r}
 class(1)
@@ -283,7 +282,7 @@ class("1")
 
 ## Funciones
 
-- La función `length()` devuelve el largo del input (probemos con un vector):
+-   La función `length()` devuelve el largo del input (probemos con un vector):
 
 ```{r}
 length(c(10, 20, 30))
@@ -291,12 +290,11 @@ length(c(10, 20, 30))
 
 ## Funciones
 
-- La función `mean()` calcula el promedio de un input (tiene que ser si o si numérico):
+-   La función `mean()` calcula el promedio de un input (tiene que ser si o si numérico):
 
 ```{r}
 mean(c(10, 20, 30))
 ```
-
 
 ## Funciones
 
@@ -304,20 +302,17 @@ mean(c(10, 20, 30))
 mean(c("10", "20", "30"))
 ```
 
+## Objectos
 
-
+-   Todo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)
 
 ## Objectos
 
-- Todo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)
+-   Todo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)
 
-## Objectos
+-   Para guardar *algo* en un objeto, tengo que seguir la siguiente estructura:
 
-- Todo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)
-
-- Para guardar _algo_ en un objeto, tengo que seguir la siguiente estructura:
-
-```r
+``` r
 nombre_del_objeto <- algo
 ```
 
@@ -369,26 +364,25 @@ mean(objeto_como_input)
 
 ## Ejercitación
 
-- Crear un objeto con los siguientes **5 valores numéricos: 17, 92, 56, 32 y 102**, y llamarlo `edad_personas`.
+-   Crear un objeto con los siguientes **5 valores numéricos: 17, 92, 56, 32 y 102**, y llamarlo `edad_personas`.
 
-- Con la función `class()` chequear de qué tipo es el objeto.
+-   Con la función `class()` chequear de qué tipo es el objeto.
 
-- Con la función `length()` conocer la longitud de ese objeto (cuántos valores tiene). 
+-   Con la función `length()` conocer la longitud de ese objeto (cuántos valores tiene).
 
-- Calcular el promedio de esos valores (la edad promedio)
+-   Calcular el promedio de esos valores (la edad promedio)
 
 # Data Frames
 
 ## Data Frames
 
-- Un Data Frame (o tabla) es la combinación de vectores (variables), que termina conformando una relación entre filas y columnas.
+-   Un Data Frame (o tabla) es la combinación de vectores (variables), que termina conformando una relación entre filas y columnas.
 
-- Cada **vector** es una columna de un `dataframe`, y cada uno de sus valores, en el orden en que se encuentran, conforman las filas.
-
+-   Cada **vector** es una columna de un `dataframe`, y cada uno de sus valores, en el orden en que se encuentran, conforman las filas.
 
 ## Data Frames
 
-- Para crear un Data Frame puedo utilizar la función `data.frame()`, cuyos inputs son los vectores:
+-   Para crear un Data Frame puedo utilizar la función `data.frame()`, cuyos inputs son los vectores:
 
 ```{r}
 vector_edad <- c(20, 43, 102, 56)
@@ -400,7 +394,7 @@ base_personas <- data.frame(vector_edad,
 
 ## Data Franes
 
-- Así se ve un data.frame:
+-   Así se ve un data.frame:
 
 ```{r}
 base_personas
@@ -412,9 +406,9 @@ base_personas
 
 ## Accediendo a un Data Frames
 
-- Con el comando `$` (símbolo peso) puedo acceder a una columna del data frame:
+-   Con el comando `$` (símbolo peso) puedo acceder a una columna del data frame:
 
-![](images/comnado_peso.png){width=20%}
+![](images/comnado_peso.png){width="20%"}
 
 ## Accediendo a un Data Frane
 
@@ -438,19 +432,18 @@ length(base_personas$vector_nombre)
 
 ## Ejercitación
 
-- Crear un vector llamado `serie`, cuyos valores son: `"Berlín", "The Crown"` y `"Vikings"`.
+-   Crear un vector llamado `serie`, cuyos valores son: `"Berlín", "The Crown"` y `"Vikings"`.
 
-- Crear un vector llamado `puntaje`, cuyos valores son (agregar puntaje a gusto),
+-   Crear un vector llamado `puntaje`, cuyos valores son (agregar puntaje a gusto),
 
-- Crear un `data.frame` llamado `netflix`, que combine los vectores anteriores
+-   Crear un `data.frame` llamado `netflix`, que combine los vectores anteriores
 
-- Calcular el puntaje promedio de las series de Netflix.
+-   Calcular el puntaje promedio de las series de Netflix.
 
+## ¡Listo!
 
-## ¡Listo! 
+-   Nos vemos el encuentro que viene.
 
-- Nos vemos el encuentro que viene.
+-   Seguimos la comunicación entre clase y clase por **Slack**
 
-- Seguimos la comunicación entre clase y clase por **Slack**
-
-- [Acá]() dejamos más ejercitación para seguir practicando
+-   [Acá]() dejamos más ejercitación para seguir practicando

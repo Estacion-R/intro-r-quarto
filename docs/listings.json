@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/cod_de_conducta.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/encuentros/1-intro-r/index.html",
@@ -8,10 +12,6 @@
       "/encuentros/4-visualizacion/index.html",
       "/encuentros/5-reportes/index.html"
     ]
-  },
-  {
-    "listing": "/programa.html",
-    "items": []
   },
   {
     "listing": "/index_LANZAMIENTO.html",
@@ -28,7 +28,7 @@
     "items": []
   },
   {
-    "listing": "/cod_de_conducta.html",
+    "listing": "/programa.html",
     "items": []
   }
 ]

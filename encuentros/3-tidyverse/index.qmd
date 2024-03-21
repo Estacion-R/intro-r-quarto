@@ -28,6 +28,18 @@ downloadthis::download_file(
 )
 ```
 
+```{r echo=FALSE}
+downloadthis::download_file(
+  path = here::here("encuentros/3-tidyverse/Notas de clase _script_ - Encuentro tidyverse.R"),
+  output_name = "r-tidyverse-notas_de_clase",
+  button_label = "Descarga las Notas de clase (script)",
+  button_type = "default",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = TRUE
+)
+```
+
 ## Links
 
 -   Notas de clase colaborativa: <https://docs.google.com/document/d/1tobGulY1LayIkYUnEZrsUYcoxFms2odWoEBGrwFDgac/edit>
@@ -36,7 +48,7 @@ downloadthis::download_file(
 
 -   R para Ciencia de Datos - Capítulo: *Explorar - Transformación de datos*: <https://es.r4ds.hadley.nz/05-transform.html>
 
--   Ejercitación de la semana: <https://pablotis.github.io/intro-r-quarto/encuentros/3-tidyverse/r-tidyverse_ejercitacion.html>
+-   Ejercitación de la semana: <https://pablotis.github.io/intro-r-quarto/encuentros/3-tidyverse/r-tidyverse_ejercicios.html>
 
 ## Docente
 
