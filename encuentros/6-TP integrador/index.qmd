@@ -1,0 +1,38 @@
+---
+title: Trabajo Práctico Integrador. 
+author: Estación R
+image: featured.png
+description: Consigna para la entrega del trabajo
+---
+
+## Tema: 
+
+Ejercicio de análisis con tema libre. Se puede optar por elegir la base de trabajo con la que se desarrolló el curso o una propia (_tip: que no sea una base muy compleja_)
+
+## Eje de análisis: 
+
+Planteo de una pregunta sobre el tema elegido y abordaje de la respuesta con datos.
+
+## Contenido esperado:
+
+- Planteo de la pregunta (sencilla).
+
+- Script(s) con el recorrido por al menos algunas de las siguientes funciones:
+
+    - **Importación** (por ejemplo: read.csv(), read.table(), o aquellas de los paquetes data.table, readxl, readr, haven, foreign, entre otros).  También podemos optar por el paquete {eph} y su función para descargar una base de datos get_microdata().
+    
+    **Limpieza, tratamiento y transformación de datos con tidyverse** (por ejemplo: filter(), select(), mutate(), group_by(), summarise(), pivot_longer/wider()).
+    
+    - **Visualización** de la información con ggplot() y al menos uno o dos gráficos con el geom_ a elección (de los que vimos: geom_histogram(), geom_col(), geom_line() y geom_point()).
+    
+
+## Formato de entrega:
+
+Presentar en informe desde un Rmarkdown. Realizar una breve conclusión respecto a los resultados obtenidos, tanto en lo que refiere a la información producida como a lo enfrentado durante el procesamiento de datos.
+
+- Enviar a _pablotisco@gmail.com_
+
+- **Fecha de entrega**:  Hasta el 15/05/2024.
+
+- **Seguimiento del trabajo**: El slack quedará abierto para que podamos intercambiar y realizar consultas para completar la actividad, no duden en usarlo!
+

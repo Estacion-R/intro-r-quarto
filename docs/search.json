@@ -1568,6 +1568,48 @@
     "text": "Estoy necesitando quedarme con los casos de tipo Parahoteleros. Reemplazar el campo ´_______´ de la siguiente sentencia y comprobar que la operación fué exitosa:\n\n### Cargo el paquete\nlibrary(tidyverse)\n\n### Cargo la base de datos\ndf_puna &lt;- read_csv(\"_____/puna_base_agregada.csv\")\n\ndf_parahoteleros &lt;- df_puna %&gt;%\n  ______(indice_tiempo, tipo, plazas) %&gt;%\n  filter(_____ == \"Parahoteleros\")\n \n\nDescargar la base de datos del Padrón Único de Alojamientos y ubicarla en una carpeta, para luego crear un proyecto de Rstudio (o abrir uno ya creado).\n\n\nUna vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base a nuestro Ambiente (Environment) de Rstudio. Recordar guardar en un objeto esa base.\nSobre esa base, crear otro objeto que contenga sólo las variables ´indice_tiempo´, ´localidad´ y ´habitaciones´ y los casos de la localidad de Belen de Escobar, unicamente.\nChequear que la operación fue exitosa (en columnas y filas).\n\n\nCrear una nueva variable llamada periodo que sea el ingreso por hora de la ocupación principal (P21/PP3E_TOT). Guadar dicha operación en el mismo objeto y chequear que se haya hecho.\n\n3.4. Crear una variable llamada nivel_ed2 que agrupe los niveles educativos de la variable NIVEL_ED en los siguientes 4:\nSin educación, primaria incompleta, o Ns.Nr.\nHasta secundaria incompleta\nHasta universitaria incompleta\nUniversitaria completa\nGuardar dicho resultado en el mismo objeto con el que venimos trabajando y chequear que la operación se haya hecho."
   },
   {
+    "objectID": "encuentros/5-reportes/index.html",
+    "href": "encuentros/5-reportes/index.html",
+    "title": "Introducción a la generación de reportes con {rmarkdown}.",
+    "section": "",
+    "text": "En este encuentro vamos a recorrer los conceptos y secciones que componen a un informe con rmarkdown, lo que permitirá poder redactar texto (introducción, desarrollo, análisis) y escribir código, todo desde la misma plataforma."
+  },
+  {
+    "objectID": "encuentros/5-reportes/index.html#descripción",
+    "href": "encuentros/5-reportes/index.html#descripción",
+    "title": "Introducción a la generación de reportes con {rmarkdown}.",
+    "section": "",
+    "text": "En este encuentro vamos a recorrer los conceptos y secciones que componen a un informe con rmarkdown, lo que permitirá poder redactar texto (introducción, desarrollo, análisis) y escribir código, todo desde la misma plataforma."
+  },
+  {
+    "objectID": "encuentros/5-reportes/index.html#slides",
+    "href": "encuentros/5-reportes/index.html#slides",
+    "title": "Introducción a la generación de reportes con {rmarkdown}.",
+    "section": "Slides",
+    "text": "Slides\n\n\n\n\n Descarga las diapositivas"
+  },
+  {
+    "objectID": "encuentros/5-reportes/index.html#links",
+    "href": "encuentros/5-reportes/index.html#links",
+    "title": "Introducción a la generación de reportes con {rmarkdown}.",
+    "section": "Links",
+    "text": "Links\n\nNotas de clase colaborativa:\nR para Ciencia de Datos - Capítulo: Comunicar - R Markdown\n\nEjercitación: link"
+  },
+  {
+    "objectID": "encuentros/5-reportes/index.html#recursos",
+    "href": "encuentros/5-reportes/index.html#recursos",
+    "title": "Introducción a la generación de reportes con {rmarkdown}.",
+    "section": "Recursos",
+    "text": "Recursos\n\nGuía de comandos para texto en Rmarkdown\nGuía definitiva de Rmarkdown (en inglés)\nMachete Rmarkdown\nCocina de Rmarkdown (en inglés)"
+  },
+  {
+    "objectID": "encuentros/5-reportes/index.html#docente",
+    "href": "encuentros/5-reportes/index.html#docente",
+    "title": "Introducción a la generación de reportes con {rmarkdown}.",
+    "section": "Docente",
+    "text": "Docente\n\nPablo Tiscornia"
+  },
+  {
     "objectID": "encuentros/5-reportes/index_ACTIVAR.html",
     "href": "encuentros/5-reportes/index_ACTIVAR.html",
     "title": "Using Quarto for Making and Organizing Teaching Materials",
@@ -1596,130 +1638,242 @@
     "text": "Speaker\n\n\n\n\n\nMaria Tackett is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. Her research focuses on understanding factors that impact students’ sense of belonging in introductory math and statistics courses with the aim to identify pedagogies that foster community and a supportive learning environment. She’s an active member of the statistics education community and its effort to make statistics more engaging and accessible for all students."
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#outline",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#outline",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Outline",
-    "text": "Outline\n\nWhy use Quarto to make teaching materials?\nWhat teaching materials can I create using Quarto?\nHow do I get started?"
+    "objectID": "encuentros/5-reportes/r-reportes.html#qué-vimos",
+    "href": "encuentros/5-reportes/r-reportes.html#qué-vimos",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "¿Qué vimos?",
+    "text": "¿Qué vimos?\n\n✅ Conceptos básicos de R\n\n✅ Pensar un proyecto de datos con R\n\n✅ Procesamiento de datos con {tidyverse}\n\n✅ Visualización de datos con{ggplot2}"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-instructor",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-instructor",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Benefits for instructor",
-    "text": "Benefits for instructor\n\nReproducible course materials that are easier to update\nIntegrate narrative, executable R code, images, and interactive elements\nEasily share course materials with students and more broadly\nRegularly use the same technology as your students"
+    "objectID": "encuentros/5-reportes/r-reportes.html#hoja-de-ruta",
+    "href": "encuentros/5-reportes/r-reportes.html#hoja-de-ruta",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Hoja de Ruta",
+    "text": "Hoja de Ruta\n\n\n📌️ ¿Qué es Rmarkdown (spoiler: R + Mardown)?\n\n\n\n📌️ Conceptos básicos de Markdown\n\n\n\n📌️ YAML, Chunks y texto"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-students",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#benefits-for-students",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Benefits for students",
-    "text": "Benefits for students\n\nNavigation menu on all documents to easily to find content\nSearch capabilities on website to more easily find content by topic\nOption to export PDF of slides\nRead course materials on multiple devices"
+    "objectID": "encuentros/5-reportes/r-reportes.html#configuración-para-esta-clase",
+    "href": "encuentros/5-reportes/r-reportes.html#configuración-para-esta-clase",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Configuración para esta clase",
+    "text": "Configuración para esta clase\n\n\nTener instalado (o instalar) el paquete rmarkdown:\n\ninstall.packages(\"rmarkdown\")"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Teaching materials in Quarto",
-    "text": "Teaching materials in Quarto\n\n\nCourse websites\n\n\n\n\n\nSlides"
+    "objectID": "encuentros/5-reportes/r-reportes.html#r-rmarkdown",
+    "href": "encuentros/5-reportes/r-reportes.html#r-rmarkdown",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "R + Rmarkdown",
+    "text": "R + Rmarkdown\n\n\nRmarkdown es un formato de Rstudio que permite combinar la sintaxis de Markdown para escritura de texto plano con la sintáxis de R para el procesamiento de datos."
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto-1",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#teaching-materials-in-quarto-1",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Teaching materials in Quarto",
-    "text": "Teaching materials in Quarto\n\n\nLong-form notes\n\n\n\n\n\nAssignment instructions"
+    "objectID": "encuentros/5-reportes/r-reportes.html#hasta-ahora",
+    "href": "encuentros/5-reportes/r-reportes.html#hasta-ahora",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Hasta ahora…",
+    "text": "Hasta ahora…"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-menu",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-menu",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Slide menu",
-    "text": "Slide menu\n\nSlide navigation\nPrint to PDF\nSpeaker view\nAnnotation\nChalkboard"
+    "objectID": "encuentros/5-reportes/r-reportes.html#hasta-ahora-1",
+    "href": "encuentros/5-reportes/r-reportes.html#hasta-ahora-1",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Hasta ahora…",
+    "text": "Hasta ahora…"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-code-output",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-code-output",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Slide with code + output",
-    "text": "Slide with code + output\n\n\nPublished slide\n\n\nSource code\n\n\n\n\n\nSource: SciPy lecture by Colin Rundel"
+    "objectID": "encuentros/5-reportes/r-reportes.html#hasta-ahora-2",
+    "href": "encuentros/5-reportes/r-reportes.html#hasta-ahora-2",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Hasta ahora…",
+    "text": "Hasta ahora…"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-mathematical-notation",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#slide-with-mathematical-notation",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Slide with mathematical notation",
-    "text": "Slide with mathematical notation\n\n\nPublished slide\n\n\nSource code\n\n\n\n\n\nSource: SLR: Mathematical models for inference by Maria Tackett"
+    "objectID": "encuentros/5-reportes/r-reportes.html#hasta-ahora-3",
+    "href": "encuentros/5-reportes/r-reportes.html#hasta-ahora-3",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Hasta ahora…",
+    "text": "Hasta ahora…"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#navigating-course-website",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#navigating-course-website",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Navigating course website",
-    "text": "Navigating course website\n\n\n\nIntroduction to Data Science taught by Mine Çetinkaya-Rundel"
+    "objectID": "encuentros/5-reportes/r-reportes.html#hasta-ahora-4",
+    "href": "encuentros/5-reportes/r-reportes.html#hasta-ahora-4",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Hasta ahora…",
+    "text": "Hasta ahora…"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#example-website-file-structure",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#example-website-file-structure",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Example website file structure",
-    "text": "Example website file structure"
+    "objectID": "encuentros/5-reportes/r-reportes.html#hasta-ahora-5",
+    "href": "encuentros/5-reportes/r-reportes.html#hasta-ahora-5",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Hasta ahora…",
+    "text": "Hasta ahora…"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#interactive-documents-with-webr",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#interactive-documents-with-webr",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Interactive documents with webR",
-    "text": "Interactive documents with webR\n\n“Run R code in the browser without the need for an R server to execute the code”\n\n\n\n\nwebR demo: maria.quarto.pub/webr-demo"
+    "objectID": "encuentros/5-reportes/r-reportes.html#desventajas-del-hasta-ahora",
+    "href": "encuentros/5-reportes/r-reportes.html#desventajas-del-hasta-ahora",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Desventajas del “hasta ahora…”",
+    "text": "Desventajas del “hasta ahora…”\n\n\nDecenas, cientos, miles de versiones. informe_FINAL_FINAL_FINAL_V2_1.doc\nI-rreproducible"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#webr-source-code",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#webr-source-code",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "webR source code",
-    "text": "webR source code\nYAML\n\n---\ntitle: \"webR document\"\nformat: html\nfilters:\n  - webr\nwebr:\n  packages: ['dplyr', 'ggplot2']\n  Cross-Origin-Opener-Policy: same-origin\n  Cross-Origin-Embedder-Policy: require-corp\n---\n\n\nExecutable code chunk\n\n{webr-r}\nmpg |&gt;\n  count(manufacturer, _____)"
+    "objectID": "encuentros/5-reportes/r-reportes.html#desventajas-del-hasta-ahora-1",
+    "href": "encuentros/5-reportes/r-reportes.html#desventajas-del-hasta-ahora-1",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Desventajas del “hasta ahora…”",
+    "text": "Desventajas del “hasta ahora…”\n\nDecenas, cientos, miles de versiones. informe_FINAL_FINAL_FINAL_V2_1.doc\nI-rreproducible\n\n\n\n\n¿Mismo informe con nuevos datos?"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-slides-documents",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-slides-documents",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Getting started: slides + documents",
-    "text": "Getting started: slides + documents\n\n\nBasic\nCustomized\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\nformat: revealjs\n---\n\n\n\n\n\n\n\nTip\n\n\nEasily produce multiple types of documents by changing the format in the YAML.\n\n\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\ndate-format: long\nfooter: \"URL to course website\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: false\n    incremental: false \n    chalkboard: \n    code-link: true\neditor: visual\nexecute: \n  eval: true\n  echo: true\n---"
+    "objectID": "encuentros/5-reportes/r-reportes.html#rmarkdown-1",
+    "href": "encuentros/5-reportes/r-reportes.html#rmarkdown-1",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Rmarkdown",
+    "text": "Rmarkdown\n\n\nAntes:\n\n\n\n\n\n\n\n\nDespués:"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-websites",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#getting-started-websites",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Getting started: websites",
-    "text": "Getting started: websites\n\nMake a website repo on GitHub\nClone the repo and start a new RStudio project\n\nRun the following code in the Terminal\nquarto create-project --type website\n\n\nYou will see the standard files for a new website in the Files pane. See Creating a Website on quarto.org for more information."
+    "objectID": "encuentros/5-reportes/r-reportes.html#rmarkdown---formatos-de-salida",
+    "href": "encuentros/5-reportes/r-reportes.html#rmarkdown---formatos-de-salida",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Rmarkdown - Formatos de salida",
+    "text": "Rmarkdown - Formatos de salida"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#publishing-materials",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#publishing-materials",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Publishing materials",
-    "text": "Publishing materials\nRun the following code in the Terminal\nGitHub pages\nquarto publish gh-pages\nQuarto pub\nquarto publish quarto-pub\nNetlify\nquarto publish netlify\n\nSee Publishing Basics on quarto.org for more information and publishing options."
+    "objectID": "encuentros/5-reportes/r-reportes.html#rmarkdown---nuevo-archivo",
+    "href": "encuentros/5-reportes/r-reportes.html#rmarkdown---nuevo-archivo",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Rmarkdown - Nuevo archivo",
+    "text": "Rmarkdown - Nuevo archivo"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#course-websites-created-with-quarto",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#course-websites-created-with-quarto",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Course websites created with Quarto",
-    "text": "Course websites created with Quarto\n\nIntroduction to Data Science, Elijah Meyer\n\n[website][GitHub repo]\n\n\nRegression Analysis, Maria Tackett\n\n[website][GitHub repo]\n\n\nAdvanced Data Visualization, Mine Çetinkaya-Rundel\n\n[website][GitHub repo]\n\n\nApplied Experimental Design and Regression Models, Allison Theobold\n\n[website][Github repo]"
+    "objectID": "encuentros/5-reportes/r-reportes.html#rmarkdown---componentes",
+    "href": "encuentros/5-reportes/r-reportes.html#rmarkdown---componentes",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Rmarkdown - Componentes",
+    "text": "Rmarkdown - Componentes"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#course-slides-created-with-quarto",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#course-slides-created-with-quarto",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Course slides created with Quarto",
-    "text": "Course slides created with Quarto\n\n\nStatistical Computing and Computation, Colin Rundel\n\n[website][GitHub repo]\n\n\n\nStatistical Learning with R, Kelly Bodwin\n\n[GitHub repo]"
+    "objectID": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código",
+    "href": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "2. Chunk (o bloque de código)",
+    "text": "2. Chunk (o bloque de código)"
   },
   {
-    "objectID": "encuentros/5-reportes/quarto-teaching-materials.html#learn-more",
-    "href": "encuentros/5-reportes/quarto-teaching-materials.html#learn-more",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Learn more!",
-    "text": "Learn more!\n\nOrganizing Teaching Materials by Maria Tackett & Mine Çetinkaya-Rundel\nReproducible documents, presentations, and websites with Quarto by Hunter Glanz, Emily Robinson & Allison Theobold\nHello Quarto: Share, Collaborate, Teach, Reimagine by Mine Çetinkaya-Rundel & Julia Lowndes\nquarto.org"
+    "objectID": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-1",
+    "href": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-1",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "2. Chunk (o bloque de código)",
+    "text": "2. Chunk (o bloque de código)"
+  },
+  {
+    "objectID": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-2",
+    "href": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-2",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "2. Chunk (o bloque de código)",
+    "text": "2. Chunk (o bloque de código)"
+  },
+  {
+    "objectID": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-3",
+    "href": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-3",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "2. Chunk (o bloque de código)",
+    "text": "2. Chunk (o bloque de código)"
+  },
+  {
+    "objectID": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-4",
+    "href": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-4",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "2. Chunk (o bloque de código)",
+    "text": "2. Chunk (o bloque de código)"
+  },
+  {
+    "objectID": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-5",
+    "href": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-5",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "2. Chunk (o bloque de código)",
+    "text": "2. Chunk (o bloque de código)\n\n\n\n\n\n\n\nFunción\nAcción\n\n\n\n\n{r echo = FALSE}\nMuestra sólo resultado del chunk\n\n\n{r echo = TRUE}\nMuestra código y resultado del chunk\n\n\n{r eval = FALSE}\nMuestra código pero no ejecuta\n\n\n{r include = FALSE}\nNo muestra nada (ni código ni resultado) pero ejecuta código\n\n\n{r eval = FALSE, include = FALSE}\nNo muestra nada (ni código ni resultado) - tampoco ejecuta"
+  },
+  {
+    "objectID": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-6",
+    "href": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-6",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "2. Chunk (o bloque de código)",
+    "text": "2. Chunk (o bloque de código)"
+  },
+  {
+    "objectID": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-7",
+    "href": "encuentros/5-reportes/r-reportes.html#chunk-o-bloque-de-código-7",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "2. Chunk (o bloque de código)",
+    "text": "2. Chunk (o bloque de código)"
+  },
+  {
+    "objectID": "encuentros/5-reportes/r-reportes.html#texto-código-en-texto",
+    "href": "encuentros/5-reportes/r-reportes.html#texto-código-en-texto",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "3. Texto + código (en texto)",
+    "text": "3. Texto + código (en texto)"
+  },
+  {
+    "objectID": "encuentros/5-reportes/r-reportes.html#práctica-1",
+    "href": "encuentros/5-reportes/r-reportes.html#práctica-1",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "Práctica",
+    "text": "Práctica\n\nCrear un informe que contenga:\n\n\nEn TEXTO:\n\nUna estructura mínima de texto (Título, consigna, descripción de las tareas realizadas y muy breve conclusión)\n\nEn CÓDIGO:\n\nCarga de librerías (no mostrar el código en el reporte)\nImportación de datos (mostrar el código en el reporte)\nAlgún procesamiento mínimo como filtrar, seleccionar, generar un tabulado, etc. (mostrar el código y el resultado en el reporte)\n\nExtra: Incluir un gráfico"
+  },
+  {
+    "objectID": "encuentros/5-reportes/r-reportes.html#recursos",
+    "href": "encuentros/5-reportes/r-reportes.html#recursos",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "RECURSOS",
+    "text": "RECURSOS\n\nGuía de comandos para texto en Rmarkdown\nGuía definitiva de Rmarkdown (en inglés)\nMachete Rmarkdown\nCocina de Rmarkdown (en inglés)\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+  },
+  {
+    "objectID": "encuentros/5-reportes/r-reportes_ejercitacion.html",
+    "href": "encuentros/5-reportes/r-reportes_ejercitacion.html",
+    "title": "Tidyverse, parte I - Ejercitación",
+    "section": "",
+    "text": "Estoy necesitando quedarme con los casos de tipo Parahoteleros. Reemplazar el campo ´_______´ de la siguiente sentencia y comprobar que la operación fué exitosa:\n\n### Cargo el paquete\nlibrary(tidyverse)\n\n### Cargo la base de datos\ndf_puna &lt;- read_csv(\"_____/puna_base_agregada.csv\")\n\ndf_parahoteleros &lt;- df_puna %&gt;%\n  ______(indice_tiempo, tipo, plazas) %&gt;%\n  filter(_____ == \"Parahoteleros\")\n \n\nDescargar la base de datos del Padrón Único de Alojamientos y ubicarla en una carpeta, para luego crear un proyecto de Rstudio (o abrir uno ya creado).\n\n\nUna vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base a nuestro Ambiente (Environment) de Rstudio. Recordar guardar en un objeto esa base.\nSobre esa base, crear otro objeto que contenga sólo las variables ´indice_tiempo´, ´localidad´ y ´habitaciones´ y los casos de la localidad de Belen de Escobar, unicamente.\nChequear que la operación fue exitosa (en columnas y filas).\n\n\nCrear una nueva variable llamada periodo que sea el ingreso por hora de la ocupación principal (P21/PP3E_TOT). Guadar dicha operación en el mismo objeto y chequear que se haya hecho.\n\n3.4. Crear una variable llamada nivel_ed2 que agrupe los niveles educativos de la variable NIVEL_ED en los siguientes 4:\nSin educación, primaria incompleta, o Ns.Nr.\nHasta secundaria incompleta\nHasta universitaria incompleta\nUniversitaria completa\nGuardar dicho resultado en el mismo objeto con el que venimos trabajando y chequear que la operación se haya hecho."
+  },
+  {
+    "objectID": "encuentros/5-reportes/r-reportes_ejercitacion.html#consigna",
+    "href": "encuentros/5-reportes/r-reportes_ejercitacion.html#consigna",
+    "title": "Tidyverse, parte I - Ejercitación",
+    "section": "",
+    "text": "Estoy necesitando quedarme con los casos de tipo Parahoteleros. Reemplazar el campo ´_______´ de la siguiente sentencia y comprobar que la operación fué exitosa:\n\n### Cargo el paquete\nlibrary(tidyverse)\n\n### Cargo la base de datos\ndf_puna &lt;- read_csv(\"_____/puna_base_agregada.csv\")\n\ndf_parahoteleros &lt;- df_puna %&gt;%\n  ______(indice_tiempo, tipo, plazas) %&gt;%\n  filter(_____ == \"Parahoteleros\")\n \n\nDescargar la base de datos del Padrón Único de Alojamientos y ubicarla en una carpeta, para luego crear un proyecto de Rstudio (o abrir uno ya creado).\n\n\nUna vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base a nuestro Ambiente (Environment) de Rstudio. Recordar guardar en un objeto esa base.\nSobre esa base, crear otro objeto que contenga sólo las variables ´indice_tiempo´, ´localidad´ y ´habitaciones´ y los casos de la localidad de Belen de Escobar, unicamente.\nChequear que la operación fue exitosa (en columnas y filas).\n\n\nCrear una nueva variable llamada periodo que sea el ingreso por hora de la ocupación principal (P21/PP3E_TOT). Guadar dicha operación en el mismo objeto y chequear que se haya hecho.\n\n3.4. Crear una variable llamada nivel_ed2 que agrupe los niveles educativos de la variable NIVEL_ED en los siguientes 4:\nSin educación, primaria incompleta, o Ns.Nr.\nHasta secundaria incompleta\nHasta universitaria incompleta\nUniversitaria completa\nGuardar dicho resultado en el mismo objeto con el que venimos trabajando y chequear que la operación se haya hecho."
+  },
+  {
+    "objectID": "encuentros/6-TP integrador/index.html",
+    "href": "encuentros/6-TP integrador/index.html",
+    "title": "Trabajo Práctico Integrador.",
+    "section": "",
+    "text": "Ejercicio de análisis con tema libre. Se puede optar por elegir la base de trabajo con la que se desarrolló el curso o una propia (tip: que no sea una base muy compleja)"
+  },
+  {
+    "objectID": "encuentros/6-TP integrador/index.html#tema",
+    "href": "encuentros/6-TP integrador/index.html#tema",
+    "title": "Trabajo Práctico Integrador.",
+    "section": "",
+    "text": "Ejercicio de análisis con tema libre. Se puede optar por elegir la base de trabajo con la que se desarrolló el curso o una propia (tip: que no sea una base muy compleja)"
+  },
+  {
+    "objectID": "encuentros/6-TP integrador/index.html#eje-de-análisis",
+    "href": "encuentros/6-TP integrador/index.html#eje-de-análisis",
+    "title": "Trabajo Práctico Integrador.",
+    "section": "Eje de análisis:",
+    "text": "Eje de análisis:\nPlanteo de una pregunta sobre el tema elegido y abordaje de la respuesta con datos."
+  },
+  {
+    "objectID": "encuentros/6-TP integrador/index.html#contenido-esperado",
+    "href": "encuentros/6-TP integrador/index.html#contenido-esperado",
+    "title": "Trabajo Práctico Integrador.",
+    "section": "Contenido esperado:",
+    "text": "Contenido esperado:\n\nPlanteo de la pregunta (sencilla).\nScript(s) con el recorrido por al menos algunas de las siguientes funciones:\n\nImportación (por ejemplo: read.csv(), read.table(), o aquellas de los paquetes data.table, readxl, readr, haven, foreign, entre otros). También podemos optar por el paquete {eph} y su función para descargar una base de datos get_microdata().\n\nLimpieza, tratamiento y transformación de datos con tidyverse (por ejemplo: filter(), select(), mutate(), group_by(), summarise(), pivot_longer/wider()).\n\nVisualización de la información con ggplot() y al menos uno o dos gráficos con el geom_ a elección (de los que vimos: geom_histogram(), geom_col(), geom_line() y geom_point())."
+  },
+  {
+    "objectID": "encuentros/6-TP integrador/index.html#formato-de-entrega",
+    "href": "encuentros/6-TP integrador/index.html#formato-de-entrega",
+    "title": "Trabajo Práctico Integrador.",
+    "section": "Formato de entrega:",
+    "text": "Formato de entrega:\nPresentar en informe desde un Rmarkdown. Realizar una breve conclusión respecto a los resultados obtenidos, tanto en lo que refiere a la información producida como a lo enfrentado durante el procesamiento de datos.\n\nEnviar a pablotisco@gmail.com\nFecha de entrega: Hasta el 15/05/2024.\nSeguimiento del trabajo: El slack quedará abierto para que podamos intercambiar y realizar consultas para completar la actividad, no duden en usarlo!"
   },
   {
     "objectID": "index.html#presentación",

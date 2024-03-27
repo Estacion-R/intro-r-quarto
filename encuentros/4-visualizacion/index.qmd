@@ -16,7 +16,6 @@ El concepto a incorporar será el gráfico en clave de capas, ejemplificado en u
 ```{=html}
 <iframe class="slide-deck" src="/encuentros/4-visualizacion/r-viz-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
-
 ```{r echo=FALSE}
 downloadthis::download_file(
   path = here::here("encuentros/4-visualizacion/Visualizacion de datos con ggplot2.pdf"),
@@ -32,7 +31,7 @@ downloadthis::download_file(
 ```{r echo=FALSE}
 downloadthis::download_file(
   path = here::here("encuentros/4-visualizacion/Notas de clase _script_ - Encuentro visualizacion.R"),
-  output_name = "r-tidyverse-notas_de_clase",
+  output_name = "r-viz-notas_de_clase",
   button_label = "Descarga las Notas de clase (script)",
   button_type = "default",
   has_icon = TRUE,

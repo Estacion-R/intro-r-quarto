@@ -1,6 +1,63 @@
 ---
-title: Reportes con Rmarkdown
-author: Pablo Tiscornia
+title: Introducción a la generación de reportes con {rmarkdown}. 
+author: Estación R
 image: featured.png
-description: Introducción a la comunicación del dato estadístico. Informes y reportes con Rmarkdown
+description: Conocimientos básicos para armar un reporte con R
 ---
+
+## Descripción
+
+En este encuentro vamos a recorrer los conceptos y secciones que componen a un informe con `rmarkdown`, lo que permitirá poder redactar texto (introducción, desarrollo, análisis) y escribir código, todo desde la misma plataforma.
+
+## Slides
+
+```{=html}
+<iframe class="slide-deck" src="/encuentros/5-reportes/r-reportes-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+```{r echo=FALSE}
+downloadthis::download_file(
+  path = here::here("encuentros/5-reportes/Generación de reportes con -rmarkdown-.pdf"),
+  output_name = "r-reportes",
+  button_label = "Descarga las diapositivas",
+  button_type = "success",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = TRUE
+)
+```
+
+```{r echo=FALSE}
+# downloadthis::download_file(
+#   path = here::here("encuentros/5-reportes/Notas de clase _script_ - Encuentro reportes.R"),
+#   output_name = "r-viz-notas_de_clase",
+#   button_label = "Descarga las Notas de clase (script)",
+#   button_type = "default",
+#   has_icon = TRUE,
+#   icon = "fa fa-save",
+#   self_contained = TRUE
+# )
+```
+
+## Links
+
+-   [Notas de clase colaborativa:](https://docs.google.com/document/d/1oDscogp6A1VIL35fYnhpljzyGJMdhzMf5r_FDZDCmRM/edit)
+
+-   R para Ciencia de Datos - Capítulo: [*Comunicar - R Markdown*](https://es.r4ds.hadley.nz/26-communicate.html)
+
+    -   Ejercitación: [link](https://es.r4ds.hadley.nz/27-rmarkdown.html#ejercicios)
+    
+## Recursos
+
+- [Guía de comandos para texto en Rmarkdown](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.157796986.1542626288.1625161001-1806201684.1624641897)
+
+- [Guía definitiva de Rmarkdown (en inglés)](https://bookdown.org/yihui/rmarkdown/)
+
+- [Machete Rmarkdown](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf)
+
+- [Cocina de Rmarkdown (en inglés)](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+## Docente
+
+![](../../img/foto_perfil.jpeg){style="float: right; padding-left: 10px;" fig-alt="Foto de Pablo Tiscornia" width="180"}
+
+[Pablo Tiscornia](https://pablotis.github.io/intro-r-quarto/profesor.html)
