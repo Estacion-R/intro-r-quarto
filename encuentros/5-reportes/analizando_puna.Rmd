@@ -1,0 +1,51 @@
+---
+title: "Analisis PUNA"
+author: Estación R
+output: html_document
+date: "2024-03-27"
+---
+
+## Analizando la base PUNA
+
+### Cargo librería
+
+```{r}
+library(tidyverse)
+```
+
+### Cargo base de datos
+
+```{r}
+df_puna <- read.csv("../../data/puna_base_agregada.csv", encoding = "latin1")
+```
+
+### Armo tabla
+
+```{r}
+tabla <- df_puna %>%
+  filter(indice_tiempo == 2022) %>%
+  group_by(tipo) %>%
+  summarise(cant_habitantes = sum(habitaciones, na.rm = TRUE)) %>%
+  mutate(porc_habitantes = round(cant_habitantes / sum(cant_habitantes) * 100, 1))
+
+tabla
+```
+
+### Armo gráfico
+
+```{r}
+ggplot(data = tabla, 
+       aes(y = cant_habitantes, x = fct_reorder(tipo, -cant_habitantes))) +
+  geom_col(aes(fill = tipo)) +
+  # geom_text(aes(label = format(cant_habitantes, big.mark = ".")),
+  #           vjust = "inward") +
+  geom_text(aes(label = paste0(format(cant_habitantes,
+                                      big.mark = "."), "(",porc_habitantes, "%)")),
+            vjust = "inward") +
+  geom_hline(yintercept = 0, color = "grey") + 
+  scale_fill_brewer(type = "qual", 
+                    palette = 3) +
+  theme_classic() +
+  theme(legend.position = "none")
+
+```

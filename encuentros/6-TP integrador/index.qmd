@@ -5,34 +5,37 @@ image: featured.png
 description: Consigna para la entrega del trabajo
 ---
 
-## Tema: 
+## Tema:
 
-Ejercicio de análisis con tema libre. Se puede optar por elegir la base de trabajo con la que se desarrolló el curso o una propia (_tip: que no sea una base muy compleja_)
+Ejercicio de análisis con tema libre. Se puede optar por elegir la base de trabajo con la que se desarrolló el curso o una propia (*tip: que no sea una base muy compleja*)
 
-## Eje de análisis: 
+## Eje de análisis:
 
 Planteo de una pregunta sobre el tema elegido y abordaje de la respuesta con datos.
 
 ## Contenido esperado:
 
-- Planteo de la pregunta (sencilla).
+-   Planteo de la pregunta (sencilla).
 
-- Script(s) con el recorrido por al menos algunas de las siguientes funciones:
+-   rmarkdown con el recorrido de lo visto en el curso:
 
-    - **Importación** (por ejemplo: read.csv(), read.table(), o aquellas de los paquetes data.table, readxl, readr, haven, foreign, entre otros).  También podemos optar por el paquete {eph} y su función para descargar una base de datos get_microdata().
+    -   **Importación** (por ejemplo: read.csv(), read.table(), o aquellas de los paquetes data.table, readxl, readr, haven, foreign, entre otros). También podemos optar por el paquete {eph} y su función para descargar una base de datos get_microdata().
+
+    -   **Limpieza, tratamiento y transformación de datos con tidyverse** (por ejemplo: filter(), select(), mutate(), group_by(), summarise(), pivot_longer/wider()).
+
+    -   **Visualización** de la información con ggplot() y al menos uno o dos gráficos con el geom\_ a elección (de los que vimos: geom_histogram(), geom_col(), geom_line() y geom_point()).
     
-    **Limpieza, tratamiento y transformación de datos con tidyverse** (por ejemplo: filter(), select(), mutate(), group_by(), summarise(), pivot_longer/wider()).
-    
-    - **Visualización** de la información con ggplot() y al menos uno o dos gráficos con el geom_ a elección (de los que vimos: geom_histogram(), geom_col(), geom_line() y geom_point()).
-    
+- Breve análisis de los hallazgos identificados o del proceso mismo del flujo de trabajo.
+
 
 ## Formato de entrega:
 
-Presentar en informe desde un Rmarkdown. Realizar una breve conclusión respecto a los resultados obtenidos, tanto en lo que refiere a la información producida como a lo enfrentado durante el procesamiento de datos.
+Enviar un **proyecto de Rstudio** (la carpeta completa, con sus subcarpetas y archivos), que contenga el informe elaborado con Rmarkdown. Lo que se evaluará es el flujo de trabajo recorrido y que, al final, el Rmarkdown corra sin problema.
 
-- Enviar a _pablotisco@gmail.com_
+En el desarrollo del informe es necesario realizar una breve conclusión respecto a los resultados obtenidos, tanto en lo que refiere a la información producida como a lo enfrentado durante el procesamiento de datos.
 
-- **Fecha de entrega**:  Hasta el 15/05/2024.
+-   Enviar a *pablotisco\@gmail.com*
 
-- **Seguimiento del trabajo**: El slack quedará abierto para que podamos intercambiar y realizar consultas para completar la actividad, no duden en usarlo!
+-   **Fecha de entrega**: Hasta el 15/05/2024.
 
+-   **Seguimiento del trabajo**: El slack quedará abierto para que podamos intercambiar y realizar consultas para completar la actividad, no duden en usarlo!

@@ -27,15 +27,15 @@ downloadthis::download_file(
 ```
 
 ```{r echo=FALSE}
-# downloadthis::download_file(
-#   path = here::here("encuentros/5-reportes/Notas de clase _script_ - Encuentro reportes.R"),
-#   output_name = "r-viz-notas_de_clase",
-#   button_label = "Descarga las Notas de clase (script)",
-#   button_type = "default",
-#   has_icon = TRUE,
-#   icon = "fa fa-save",
-#   self_contained = TRUE
-# )
+downloadthis::download_file(
+  path = here::here("encuentros/5-reportes/analizando_puna.Rmd"),
+  output_name = "r-viz-notas_de_clase",
+  button_label = "Descarga las Notas de clase (script)",
+  button_type = "default",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = TRUE
+)
 ```
 
 ## Links
@@ -45,16 +45,16 @@ downloadthis::download_file(
 -   R para Ciencia de Datos - Capítulo: [*Comunicar - R Markdown*](https://es.r4ds.hadley.nz/26-communicate.html)
 
     -   Ejercitación: [link](https://es.r4ds.hadley.nz/27-rmarkdown.html#ejercicios)
-    
+
 ## Recursos
 
-- [Guía de comandos para texto en Rmarkdown](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.157796986.1542626288.1625161001-1806201684.1624641897)
+-   [Guía de comandos para texto en Rmarkdown](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.157796986.1542626288.1625161001-1806201684.1624641897)
 
-- [Guía definitiva de Rmarkdown (en inglés)](https://bookdown.org/yihui/rmarkdown/)
+-   [Guía definitiva de Rmarkdown (en inglés)](https://bookdown.org/yihui/rmarkdown/)
 
-- [Machete Rmarkdown](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf)
+-   [Machete Rmarkdown](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf)
 
-- [Cocina de Rmarkdown (en inglés)](https://bookdown.org/yihui/rmarkdown-cookbook/)
+-   [Cocina de Rmarkdown (en inglés)](https://bookdown.org/yihui/rmarkdown-cookbook/)
 
 ## Docente
 

@@ -1,0 +1,16 @@
+{
+  "hash": "c4a043b6aa41e1c955fc25896e781fa9",
+  "result": {
+    "markdown": "---\ntitle: \"Analisis PUNA\"\nauthor: Estación R\noutput: html_document\ndate: \"2024-03-27\"\n---\n\n\n## Analizando la base PUNA\n\n### Cargo librería\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.2     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.1     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors\n```\n:::\n:::\n\n\n### Cargo base de datos\n\n\n::: {.cell}\n\n```{.r .cell-code}\ndf_puna <- read.csv(\"../../data/puna_base_agregada.csv\", encoding = \"latin1\")\n```\n:::\n\n\n### Armo tabla\n\n\n::: {.cell}\n\n```{.r .cell-code}\ntabla <- df_puna %>%\n  filter(indice_tiempo == 2022) %>%\n  group_by(tipo) %>%\n  summarise(cant_habitantes = sum(habitaciones, na.rm = TRUE)) %>%\n  mutate(porc_habitantes = round(cant_habitantes / sum(cant_habitantes) * 100, 1))\n\ntabla\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n# A tibble: 3 × 3\n  tipo             cant_habitantes porc_habitantes\n  <chr>                      <int>           <dbl>\n1 Hoteleros                 185351            75.1\n2 Otros colectivos            2810             1.1\n3 Parahoteleros              58490            23.7\n```\n:::\n:::\n\n\n### Armo gráfico\n\n\n::: {.cell}\n\n```{.r .cell-code}\nggplot(data = tabla, \n       aes(y = cant_habitantes, x = fct_reorder(tipo, -cant_habitantes))) +\n  geom_col(aes(fill = tipo)) +\n  # geom_text(aes(label = format(cant_habitantes, big.mark = \".\")),\n  #           vjust = \"inward\") +\n  geom_text(aes(label = paste0(format(cant_habitantes,\n                                      big.mark = \".\"), \"(\",porc_habitantes, \"%)\")),\n            vjust = \"inward\") +\n  geom_hline(yintercept = 0, color = \"grey\") + \n  scale_fill_brewer(type = \"qual\", \n                    palette = 3) +\n  theme_classic() +\n  theme(legend.position = \"none\")\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nWarning in prettyNum(.Internal(format(x, trim, digits, nsmall, width, 3L, :\n'big.mark' and 'decimal.mark' are both '.', which could be confusing\n\nWarning in prettyNum(.Internal(format(x, trim, digits, nsmall, width, 3L, :\n'big.mark' and 'decimal.mark' are both '.', which could be confusing\n```\n:::\n\n::: {.cell-output-display}\n![](analizando_puna_files/figure-html/unnamed-chunk-4-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "analizando_puna_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
