@@ -2,7 +2,7 @@
 title: Código de conducta
 engine: knitr
 listing:
-  contents: Encuentros/*/index.qmd
+  contents: encuentros/*/index.qmd
   fields: [image, title, author, subtitle]
   type: grid
   sort:

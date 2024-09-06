@@ -2,7 +2,7 @@
 title: Docente
 engine: knitr
 listing:
-  contents: Encuentros/*/index.qmd
+  contents: encuentros/*/index.qmd
   fields: [image, title, author, subtitle]
   type: grid
   sort:
@@ -15,7 +15,7 @@ Sociólogo y Científico de Datos. Especializado en metodología, producción, p
 
 ## Docencia y R:
 
-- Instructor Certificado de [The Carpentries](https://carpentries.org/)
+-   Instructor Certificado de [The Carpentries](https://carpentries.org/)
 
 Van ya más de `r lubridate::year(lubridate::today()) - 2019` años diseñando y llevando adelante cursos de R, algunos de ellos son:
 
