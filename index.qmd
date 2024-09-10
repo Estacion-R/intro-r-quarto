@@ -33,11 +33,13 @@ La programación no es un tema de mentes brillantes, sino más bien de aquellas 
 
 **Cantidad de horas por encuentro:** 2:30hs.
 
-**Día y horario de cursada:** Jueves, de 18 a 20hs (Hora Argentina, UTC-3).
+**Día y horario de cursada:** Jueves, de 18 a 20:30hs (Hora Argentina, UTC-3).
 
 **Fecha de inicio**: Jueves 17 de octubre
 
 **Fecha de finalización**: Jueves 5 de diciembre.
+
+**Cronograma de clases:** 17/10 - 24/10 - 31/10 - 07/11 - (descanso el 14/11) - 21/11 - 28/11 - 05/12
 
 
 ## Inscripción:
