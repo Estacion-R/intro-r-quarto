@@ -5,7 +5,7 @@ author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
 date: 2024-02-14
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
-logo: ../../img/background-estacion_r_v2.png
+logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 #title-slide-attributes:
   #data-background-image: images/horst-teach-quarto.png
   #data-background-size: stretch

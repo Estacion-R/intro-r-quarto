@@ -9,7 +9,7 @@ listing:
     - filename
 ---
 
-![](img/logo-estacion_r_v2.png){style="float: right;" fig-alt="Logo Estación R" width="150"}
+![](img/Logo_PNG_Baja_Mesa%20de%20trabajo%201%20copia%203.png){style="float: right;" fig-alt="Logo Estación R" width="150"}
 
 > Modalidad 100% virtual sincrónica.
 

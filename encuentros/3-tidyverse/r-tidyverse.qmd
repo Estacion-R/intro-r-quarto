@@ -5,7 +5,7 @@ author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
 date: 2024-02-21
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
-logo: ../../img/background-estacion_r_v2.png
+logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
   revealjs: 
     width: 1600
@@ -894,7 +894,6 @@ base_de_datos %>%
 
 -   Para ello, podemos crear una variable que contenga este resultado:
 
-
 ## `mutate()` - Caso práctico
 
 <br>
@@ -917,7 +916,6 @@ df_puna |>
 ```
 :::
 :::
-
 
 ## `mutate()` - Caso práctico
 
@@ -944,13 +942,11 @@ df_puna |>
 :::
 :::
 
-
 ## `mutate()` + `case_when()` = Recodificación
 
-<br> 
-<br> 
+<br> <br>
 
-- Necesito agregarle una etiqueta a la variable `indice_tiempo` (pasar de `2020` a `"Año 2020"`)
+-   Necesito agregarle una etiqueta a la variable `indice_tiempo` (pasar de `2020` a `"Año 2020"`)
 
 ## `mutate()` + `case_when()` = Recodificación
 
@@ -1004,13 +1000,11 @@ df_puna |>
 :::
 :::
 
-
 ## `mutate()` + `case_when()` = Recodificación
 
-<br>
-<br>
+<br> <br>
 
-- Necesito caracterizar al sector hotelero y compararlo con el resto de los alojamientos
+-   Necesito caracterizar al sector hotelero y compararlo con el resto de los alojamientos
 
 ## `mutate()` + `case_when()` = Recodificación
 
@@ -1039,14 +1033,11 @@ df_puna |>
 :::
 :::
 
-
 ## `mutate()` + `case_when()` = Recodificación
 
-<br>
-<br>
+<br> <br>
 
-- Necesito Reagrupar unicamente a los hoteles de 1, 2 y 3 estrellas, para compararlos frente al resto:
-
+-   Necesito Reagrupar unicamente a los hoteles de 1, 2 y 3 estrellas, para compararlos frente al resto:
 
 ## `mutate()` + `case_when()` = Recodificación
 
@@ -1085,21 +1076,20 @@ df_puna |>
 
 ## Ejercitación
 
-- Necesito reagrupar la variable `clasificacion_minturdep` para quedarme con 2 categorìas:
-    
-    - `Camping`
-    
-    - `Otros`
+-   Necesito reagrupar la variable `clasificacion_minturdep` para quedarme con 2 categorìas:
+
+    -   `Camping`
+
+    -   `Otros`
 
 Dada la consigna anterior, rellenar en el campo marcado con `______` con el código necesario para ejecutar la sentencia:
 
-```r
+``` r
 df_puna |> 
   select(localidad, ________) |> 
   mutate(nueva_clasificacion = case_when(________ == "Camping" ~ "Camping",
                                          .default = "Otros"))
 ```
-
 
 # **summarise()**
 
@@ -1116,12 +1106,11 @@ df_puna |>
 ```
 </html>
 
-
 ## `summarise()`
 
 <br>
 
-- Antes:
+-   Antes:
 
 ```{r}
 sum(df_puna$plazas)
@@ -1131,7 +1120,7 @@ sum(df_puna$plazas)
 
 <br>
 
-- Ahora:
+-   Ahora:
 
 ```{r}
 #| code-line-numbers: "2"
@@ -1143,7 +1132,7 @@ df_puna |>
 
 <br>
 
-- Ahora:
+-   Ahora:
 
 ```{r}
 #| code-line-numbers: "2,3"
@@ -1156,7 +1145,7 @@ df_puna |>
 
 <br>
 
-- Ahora:
+-   Ahora:
 
 ```{r}
 #| code-line-numbers: "2:5"
@@ -1166,8 +1155,6 @@ df_puna |>
             min_plazas  = min(plazas),
             max_plazas  = max(plazas))
 ```
-
-
 
 # **group_by()**
 
@@ -1184,12 +1171,11 @@ df_puna |>
 ```
 </html>
 
-
-## `group_by()` 
+## `group_by()`
 
 <br>
 
-- Antes:
+-   Antes:
 
 ```{r}
 #| code-line-numbers: "2:5"
@@ -1200,12 +1186,11 @@ df_puna |>
             max_plazas  = max(plazas))
 ```
 
-
-## `group_by()` 
+## `group_by()`
 
 <br>
 
-- Después:
+-   Después:
 
 ```{r}
 #| code-line-numbers: "2"
@@ -1223,15 +1208,11 @@ df_puna |>
 
 ::: columns
 ::: {.column width="50%"}
-
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHJ6NDl6MGtpbnE4bng3dGM5aDFtdDlpMXBpcDN3ZHlheWh5OWY3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/adNxtO8PpNOPS/giphy.gif)
-
 :::
 
 ::: {.column width="50%"}
-
-- Toda función tiene un `input` (ingredientes 🧂🌾🧄) y un `output` (la torta 🎂)
-
+-   Toda función tiene un `input` (ingredientes 🧂🌾🧄) y un `output` (la torta 🎂)
 :::
 :::
 
@@ -1239,7 +1220,7 @@ df_puna |>
 
 <br>
 
-- ¿Cuál es el output del `summarise()`?
+-   ¿Cuál es el output del `summarise()`?
 
 ## input / output
 
@@ -1262,15 +1243,14 @@ class(tabla_puna)
 
 <br>
 
-- ¿Y qué puedo hacer sobre un data frame?
-
+-   ¿Y qué puedo hacer sobre un data frame?
 
 ## input / output
 
 <br>
 
 ::: columns
-:::{.column widt="50%}
+::: {.column widt="\"50%"}
 ```{r}
 #| code-line-numbers: "2"
 #| eval: false
@@ -1279,7 +1259,7 @@ tabla_puna |>
 ```
 :::
 
-:::{.column widt="50%}
+::: {.column widt="\"50%"}
 ```{r}
 #| echo: false
 tabla_puna |> 
@@ -1293,7 +1273,7 @@ tabla_puna |>
 <br>
 
 ::: columns
-:::{.column widt="50%}
+::: {.column widt="\"50%"}
 ```{r}
 #| code-line-numbers: "3"
 #| eval: false
@@ -1303,7 +1283,7 @@ tabla_puna |>
 ```
 :::
 
-:::{.column widt="50%}
+::: {.column widt="\"50%"}
 ```{r}
 #| echo: false
 tabla_puna |> 
@@ -1312,7 +1292,6 @@ tabla_puna |>
 ```
 :::
 :::
-
 
 ## `tidyverse` en acción
 
@@ -1323,7 +1302,7 @@ tabla_puna |>
 ## `tidyverse` en acción
 
 ::: columns
-:::{.column widt="50%}
+::: {.column widt="\"50%"}
 ```{r}
 #| code-line-numbers: "2"
 #| eval: false
@@ -1332,7 +1311,7 @@ df_puna |>
 ```
 :::
 
-:::{.column widt="50%}
+::: {.column widt="\"50%"}
 ```{r}
 #| echo: false
 df_puna |> 
@@ -1341,11 +1320,10 @@ df_puna |>
 :::
 :::
 
-
 ## `tidyverse` en acción
 
 ::: columns
-:::{.column widt="50%}
+::: {.column widt="\"50%"}
 ```{r}
 #| code-line-numbers: "3"
 #| eval: false
@@ -1355,7 +1333,7 @@ df_puna |>
 ```
 :::
 
-:::{.column widt="50%}
+::: {.column widt="\"50%"}
 ```{r}
 #| echo: false
 df_puna |> 
@@ -1365,11 +1343,10 @@ df_puna |>
 :::
 :::
 
-
 ## `tidyverse` en acción
 
 ::: columns
-:::{.column widt="50%}
+::: {.column widt="\"50%"}
 ```{r}
 #| code-line-numbers: "4"
 #| eval: false
@@ -1381,7 +1358,7 @@ df_puna |>
 ```
 :::
 
-:::{.column widt="50%}
+::: {.column widt="\"50%"}
 ```{r}
 #| echo: false
 df_puna |> 
@@ -1396,7 +1373,7 @@ df_puna |>
 ## `tidyverse` en acción
 
 ::: columns
-:::{.column widt="50%}
+::: {.column widt="\"50%"}
 ```{r}
 #| code-line-numbers: "6,7,8"
 #| eval: false
@@ -1411,7 +1388,7 @@ df_puna |>
 ```
 :::
 
-:::{.column widt="50%}
+::: {.column widt="\"50%"}
 ```{r}
 #| echo: false
 df_puna |> 
@@ -1426,8 +1403,6 @@ df_puna |>
 :::
 :::
 
-
-## `tidyverse` en acción 
+## `tidyverse` en acción
 
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXBmYmR4Nno1eDNrNjYwbnA1OG83cXRteXVibDNqd3h2aDdsbjRobCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hXDrTueJWAscK3xWQ2/giphy.gif)
-

@@ -1,19 +1,19 @@
 ---
 title: Introducción al Procesamiento de datos con R
-#subtitle: JSM 2023
-listing:
-  contents: encuentros/*/index.qmd
-  fields: [image, title, author, subtitle]
-  type: grid
-  sort:
-    - filename
+# listing:
+#   contents: encuentros/*/index.qmd
+#   fields: [image, title, author, subtitle]
+#   type: grid
+#   sort:
+#     - filename
 ---
 
-![](img/logo-estacion_r_v2.png){style="float: right;" fig-alt="Logo Estación R" width="150"}
+![](img/Logo_PNG_Baja_Mesa%20de%20trabajo%201.png){style="float: right;" fig-alt="Logo Estación R" width="150"}
 
 > Modalidad 100% virtual sincrónica.
 
 ## Presentación
+
 
 El taller tiene como principal objetivo introducir a los y las participantes en el mundo de R y la programación para producir información estadística descriptiva. La idea es centrarse en cómo encarar un proyecto que involucre meter manos en los datos, desde cómo nombrar las carpetas o archivos, importarlos para acceder a la información, limpiar y procesarla hasta como visualizar, analizar y comunicar los hallazgos.
 
@@ -31,14 +31,22 @@ La programación no es un tema de mentes brillantes, sino más bien de aquellas 
 
 **Cantidad de encuentros:** 7.
 
-**Cantidad de horas por encuentro:** 2hs.
+**Cantidad de horas por encuentro:** 2:30hs.
 
-**Día y horario de cursada:** Miércoles, de 18 a 20hs (Hora Argentina, UTC-3).
+**Día y horario de cursada:** Jueves, de 18 a 20hs (Hora Argentina, UTC-3).
 
-**Fecha de inicio**: Miércoles 14 de Febrero.
+**Fecha de inicio**: Jueves 17 de octubre
 
-**Fecha de finalización**: Miércoles 27 de Marzo.
+**Fecha de finalización**: Jueves 5 de diciembre.
+
+
+## Inscripción:
+
++ Info y registro: https://forms.gle/mYXSgqYu8urZNtGz8
 
 ## Encuentros
+
+
+
 
 *("Artwork by @allison_horst")*
