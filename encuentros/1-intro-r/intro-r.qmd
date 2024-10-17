@@ -446,4 +446,4 @@ length(base_personas$vector_nombre)
 
 -   Seguimos la comunicación entre clase y clase por **Slack**
 
--   [Acá]() dejamos más ejercitación para seguir practicando
+-   [Acá](encuentros/1-intro-r/intro-r_ejercitacion) dejamos más ejercitación para seguir practicando
