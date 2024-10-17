@@ -1,7 +1,7 @@
 ---
 title: "Encuentro 1 - Introducción a R y conceptos básicos del lenguaje"
 author: Estación R
-image: ../../img/r-logo.png
+image: featured.png
 description: ¿Qué es R? ¿Qué es la Ciencia de Datos? ¿Valores? ¿Vectores? ¿Funciones?
 ---
 
@@ -13,9 +13,10 @@ Tendremos ejercitación para realizar durante el encuentro y se dejará práctic
 
 ## Slides
 
-```{=html}
-<iframe class="slide-deck" src="/encuentros/1-intro-r/intro-r-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
-```
+<iframe class="slide-deck" src="/encuentros/1-intro-r/intro-r-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;">
+
+</iframe>
+
 ```{r echo=FALSE}
 downloadthis::download_file(
   path = here::here("encuentros/1-intro-r/Introducción a R base.pdf"),
@@ -34,7 +35,7 @@ downloadthis::download_file(
 
 -   Ciencia de Datos para Gente Sociable: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/>
 
--   Ejercitación de la semana: <https://pablotis.github.io/intro-r-quarto/encuentros/1-intro-r/intro-r_ejercitacion.html>
+-   Ejercitación de la semana: <https://Estacion-R.github.io/intro-r-quarto/encuentros/1-intro-r/intro-r_ejercitacion.html>
 
 ## Docente
 

@@ -1,12 +1,12 @@
 ---
 title: Docente
 engine: knitr
-listing:
-  contents: encuentros/*/index.qmd
-  fields: [image, title, author, subtitle]
-  type: grid
-  sort:
-    - filename
+# listing:
+#   contents: encuentros/*/index.qmd
+#   fields: [image, title, author, subtitle]
+#   type: grid
+#   sort:
+#     - filename
 ---
 
 **PABLO TISCORNIA**

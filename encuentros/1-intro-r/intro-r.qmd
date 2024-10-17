@@ -3,7 +3,7 @@ title: Introducción a R base
 subtitle: Fundamentos básicos del lenguaje
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2024-02-14
+date: 2024-10-17
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
 logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 #title-slide-attributes:
@@ -30,9 +30,9 @@ execute:
 
 # Bienvenidos y bienvenidas a Estación R
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
-💬 [Slack](https://join.slack.com/t/estacion-r/shared_invite/zt-2cktmesg3-11HhUxMFmynQe18ZsBkVpA)
+💬 [Slack](https://join.slack.com/t/estacion-r/shared_invite/zt-2smy7t4ae-1KDZLHN1aqXmZXdKbc5buA)
 
 🔗 [Web](https://estacion-r.netlify.app/)
 
@@ -40,7 +40,7 @@ execute:
 
 𝕏 [X](https://twitter.com/estacion_erre)
 
-✉️ [Correo](mailto:pablotisco@gmail.com)
+✉️ [Correo](mailto:pablotiscornia@estacion-r.com)
 :::
 
 ::: {.column width="50%"}
@@ -48,7 +48,7 @@ execute:
 
 [LinkedIn](https://www.linkedin.com/company/estacion-r/)
 :::
-:::
+:::::
 
 # Sobre el curso
 
@@ -64,11 +64,11 @@ execute:
 
 # Presentación
 
-👋 Presentate [acá](https://docs.google.com/document/d/1cM2BpKw4weWxsJ5EvcoJzT02YZPjcIZvxNVoOskEPgY/edit#heading=h.jja0j3hbdd5p)
+👋 Presentate [acá](https://docs.google.com/document/d/17SKdiXxwbqve83sorSp0TsBLFoRb6Fs_6b7F25llE68/edit?tab=t.0)
 
 ## Hoja de Ruta
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 📌 ¿Qué es R?
 
@@ -90,7 +90,7 @@ execute:
   👉🏼 Data Frames
 ```
 :::
-:::
+:::::
 
 # ¿Qué es R?
 
@@ -132,7 +132,7 @@ execute:
 
 ## R != Rstudio
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/r_console.png){fig-alt="r project console"}
 :::
@@ -140,11 +140,11 @@ execute:
 ::: {.column width="50%"}
 ![](images/consola_r_studio.png){fig-alt="R studio console"}
 :::
-:::
+:::::
 
 ## R != Rstudio
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/r_console.png){fig-alt="r project console"}
 :::
@@ -152,7 +152,7 @@ execute:
 ::: {.column width="50%"}
 ![](images/consola_r_studio_ok.png){fig-alt="R studio console"}
 :::
-:::
+:::::
 
 # Vamos a Rstudio!
 

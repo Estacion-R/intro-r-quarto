@@ -13,9 +13,8 @@ Tendremos ejercitación para realizar durante el encuentro y se dejará práctic
 
 ## Slides
 
-```{=html}
 <iframe class="slide-deck" src="/encuentros/2-proyectos/proyectos-r-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
-```
+
 ```{r echo=FALSE}
 downloadthis::download_file(
   path = here::here("encuentros/2-proyectos/Proyectos de R, organizando la mesa de Trabajo.pdf"),

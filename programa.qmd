@@ -1,12 +1,12 @@
 ---
 title: Programa
 engine: knitr
-listing:
-  contents: encuentros/*/index.qmd
-  fields: [image, title, author, subtitle]
-  type: grid
-  sort:
-    - filename
+# listing:
+#   contents: encuentros/*/index.qmd
+#   fields: [image, title, author, subtitle]
+#   type: grid
+#   sort:
+#     - filename
 ---
 
 ![](img/circuito%20del%20dato.png)
