@@ -28,12 +28,12 @@ website:
           - text: "Encuentro 2: Proyectos de trabajo"
             href: encuentros/2-proyectos/index.qmd
           - text: "Encuentro 3: Procesamiento de datos con {tidyverse}"
-            #href: encuentros/3-tidyverse/index.qmd
-          #- text: "Encuentro 4: Visualización de datos con {ggplot2}"
+            href: encuentros/3-tidyverse/index.qmd
+          - text: "Encuentro 4: Visualización de datos con {ggplot2}"
             #href: encuentros/4-visualizacion/index.qmd
-          #- text: "Encuentro 5: Reportes con {rmarkdown}"
+          - text: "Encuentro 5: Reportes con {rmarkdown}"
             #href: encuentros/5-reportes/index.qmd
-          #- text: "Encuentro 6: Trabajo integrador"
+          - text: "Encuentro 6: Trabajo integrador"
             #href: encuentros/6-TP integrador/index.qmd
       - text: "Ejercitación"
         menu: 

@@ -3,7 +3,7 @@ title: "Procesando datos con `{tidyverse}`"
 subtitle: "Principales herramientas (funciones) para el tratamiento de datos"
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2024-02-21
+date: 2024-10-31
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
 logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
@@ -27,7 +27,7 @@ execute:
 
 # Bienvenidos y bienvenidas a Estación R
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 💬 [Slack](https://join.slack.com/t/estacion-r/shared_invite/zt-2cktmesg3-11HhUxMFmynQe18ZsBkVpA)
 
@@ -45,7 +45,7 @@ execute:
 
 [LinkedIn](https://www.linkedin.com/company/estacion-r/)
 :::
-:::
+:::::
 
 ------------------------------------------------------------------------
 
@@ -65,7 +65,7 @@ execute:
 
 ## Hoja de Ruta
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 📌 ¿Qué es la Ciencia de Datos?
 
@@ -97,7 +97,7 @@ execute:
 🔧 `pivot_longer()` 🔧 `pivot_wider()`  
 ```
 :::
-:::
+:::::
 
 ## Configuración para esta clase
 
@@ -185,7 +185,7 @@ library(ggplot2)
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -200,7 +200,7 @@ base_de_datos |>
 ::: {.column width="50%"}
 ![](images/pipa.gif)
 :::
-:::
+:::::
 
 ## Un operador llamado `pipa`
 
@@ -277,9 +277,8 @@ knitr::include_graphics("images/logo dplyr.png")
 
 <html>
 
-```{=html}
 <p style="color:grey;" align:"left">Elige o descarta columnas de una base de datos</p>
-```
+
 </html>
 
 ## `select()`
@@ -620,9 +619,8 @@ colnames(df_puna_select_tuto)
 
 <html>
 
-```{=html}
 <p style="color:grey;" align:"left">Define los casos (filas) en base a una condición</p>
-```
+
 </html>
 
 ## `filter()`
@@ -712,7 +710,7 @@ unique(df_filtrada$clasificacion_minturdep)
 
 ## `filter()`
 
-::: columns
+::::: columns
 ::: {.column width="50%" style="font-size: 0.68"}
 | Condición | Acción              |
 |:----------|:--------------------|
@@ -731,7 +729,7 @@ unique(df_filtrada$clasificacion_minturdep)
 | `&`      | *y* - Cuando se cumplen ambas condiciones   |
 | \|       | *o* - Cuando se cumple una u otra condición |
 :::
-:::
+:::::
 
 ## Caso práctico
 
@@ -795,7 +793,7 @@ unique(df_camping_y_hoteles3estrellas$clasificacion_minturdep)
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 ```{r}
 #| eval: false
@@ -813,13 +811,13 @@ df_puna |>
   select(localidad, clasificacion_minturdep)
 ```
 :::
-:::
+:::::
 
 ## `select()` + `filter()`
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 ```{r}
 #| eval: false
@@ -839,7 +837,7 @@ df_puna |>
   filter(clasificacion_minturdep %in% c("Camping", "Hotel 3 estrellas"))
 ```
 :::
-:::
+:::::
 
 # Ejercitación grupal
 
@@ -864,9 +862,8 @@ df_puna |>
 
 <html>
 
-```{=html}
 <p style="color:grey;" align:"left">Crea / edita variables (columnas)</p>
-```
+
 </html>
 
 ## `mutate()`
@@ -898,7 +895,7 @@ base_de_datos %>%
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 ```{r}
 #| eval: false
@@ -915,13 +912,13 @@ df_puna |>
   select(localidad, habitaciones, plazas) 
 ```
 :::
-:::
+:::::
 
 ## `mutate()` - Caso práctico
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 ```{r}
 #| eval: false
@@ -940,7 +937,7 @@ df_puna |>
   mutate(lugar_disponible = habitaciones + plazas)
 ```
 :::
-:::
+:::::
 
 ## `mutate()` + `case_when()` = Recodificación
 
@@ -952,7 +949,7 @@ df_puna |>
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 ```{r}
 #| eval: false
@@ -969,13 +966,13 @@ df_puna |>
   select(indice_tiempo, localidad, plazas)
 ```
 :::
-:::
+:::::
 
 ## `mutate()` + `case_when()` = Recodificación
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 ```{r}
 #| eval: false
@@ -998,7 +995,7 @@ df_puna |>
                                       indice_tiempo == 2022 ~ "Año 2022"))
 ```
 :::
-:::
+:::::
 
 ## `mutate()` + `case_when()` = Recodificación
 
@@ -1010,7 +1007,7 @@ df_puna |>
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 ```{r}
 #| eval: false
@@ -1031,7 +1028,7 @@ df_puna |>
                                    .default = "Otros"))
 ```
 :::
-:::
+:::::
 
 ## `mutate()` + `case_when()` = Recodificación
 
@@ -1043,7 +1040,7 @@ df_puna |>
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 ```{r}
 #| eval: false
@@ -1070,7 +1067,7 @@ df_puna |>
     .default = "Otros"))
 ```
 :::
-:::
+:::::
 
 # Ejercitación grupal
 
@@ -1101,9 +1098,8 @@ df_puna |>
 
 <html>
 
-```{=html}
 <p style="color:grey;" align:"left">Resume información y realiza cálculos</p>
-```
+
 </html>
 
 ## `summarise()`
@@ -1166,9 +1162,8 @@ df_puna |>
 
 <html>
 
-```{=html}
 <p style="color:grey;" align:"left">Ayuda a ejecutar una función de forma agrupada</p>
-```
+
 </html>
 
 ## `group_by()`
@@ -1206,7 +1201,7 @@ df_puna |>
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHJ6NDl6MGtpbnE4bng3dGM5aDFtdDlpMXBpcDN3ZHlheWh5OWY3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/adNxtO8PpNOPS/giphy.gif)
 :::
@@ -1214,7 +1209,7 @@ df_puna |>
 ::: {.column width="50%"}
 -   Toda función tiene un `input` (ingredientes 🧂🌾🧄) y un `output` (la torta 🎂)
 :::
-:::
+:::::
 
 ## input / output
 
@@ -1249,7 +1244,7 @@ class(tabla_puna)
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column widt="\"50%"}
 ```{r}
 #| code-line-numbers: "2"
@@ -1266,13 +1261,13 @@ tabla_puna |>
   filter(indice_tiempo == 2022)
 ```
 :::
-:::
+:::::
 
 ## input / output
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column widt="\"50%"}
 ```{r}
 #| code-line-numbers: "3"
@@ -1291,7 +1286,7 @@ tabla_puna |>
   select(indice_tiempo, cant_plazas)
 ```
 :::
-:::
+:::::
 
 ## `tidyverse` en acción
 
@@ -1301,7 +1296,7 @@ tabla_puna |>
 
 ## `tidyverse` en acción
 
-::: columns
+::::: columns
 ::: {.column widt="\"50%"}
 ```{r}
 #| code-line-numbers: "2"
@@ -1318,11 +1313,11 @@ df_puna |>
   select(indice_tiempo, tipo, plazas)
 ```
 :::
-:::
+:::::
 
 ## `tidyverse` en acción
 
-::: columns
+::::: columns
 ::: {.column widt="\"50%"}
 ```{r}
 #| code-line-numbers: "3"
@@ -1341,11 +1336,11 @@ df_puna |>
   filter(indice_tiempo %in% c(2021, 2022))
 ```
 :::
-:::
+:::::
 
 ## `tidyverse` en acción
 
-::: columns
+::::: columns
 ::: {.column widt="\"50%"}
 ```{r}
 #| code-line-numbers: "4"
@@ -1368,11 +1363,11 @@ df_puna |>
                                 .default = "Otros"))
 ```
 :::
-:::
+:::::
 
 ## `tidyverse` en acción
 
-::: columns
+::::: columns
 ::: {.column widt="\"50%"}
 ```{r}
 #| code-line-numbers: "6,7,8"
@@ -1401,7 +1396,7 @@ df_puna |>
             prom_plazas = mean(plazas))
 ```
 :::
-:::
+:::::
 
 ## `tidyverse` en acción
 
