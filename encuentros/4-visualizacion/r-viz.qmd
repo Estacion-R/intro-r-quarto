@@ -5,7 +5,7 @@ author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
 date: 2024-03-20
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
-logo: ../../img/background-estacion_r_v2.png
+logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
   revealjs: 
     width: 1600
@@ -47,7 +47,6 @@ execute:
 
 ✅ Procesamiento de datos con `{tidyverse}`
 
-
 ## Hoja de Ruta
 
 <br>
@@ -56,15 +55,17 @@ execute:
 
 📌 Gramática de los gráficos y `{ggplot2}`
 
-      - Capas y el operador `+` (más)
+```         
+  - Capas y el operador `+` (más)
+```
 
 📌 Armando un gráfico de barras (columnas)
 
-      - Función `geom_col()`
+```         
+  - Función `geom_col()`
+```
 
-📌 Chapa y pintura de un gráfico (atributos)    
-
-
+📌 Chapa y pintura de un gráfico (atributos)
 
 ## Configuración para esta clase
 
@@ -78,8 +79,6 @@ execute:
 
 -   Carga la librería `{tidyverse}`
 
-
-
 # ¿Por qué visualizar datos?
 
 <html>
@@ -88,27 +87,23 @@ execute:
 
 </html>
 
-
-
 ## ¿Por qué visualizar?
 
-<br> 
-
-- _"La visualización es el proceso de hacer visibles los contrastes, ritmos y eventos que los datos expresan, que no podemos percibir cuando vienen en forma de áridas listas de números y categorías."_ [^1]
-
-<br>
-  
-- Interpretar / decodificar la información de forma visual
-
 <br>
 
-- Guiar hacia el hallazago
-
-<br>
+-   *"La visualización es el proceso de hacer visibles los contrastes, ritmos y eventos que los datos expresan, que no podemos percibir cuando vienen en forma de áridas listas de números y categorías."* [^1]
 
 [^1]: https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/visualizacion.html
 
+<br>
 
+-   Interpretar / decodificar la información de forma visual
+
+<br>
+
+-   Guiar hacia el hallazago
+
+<br>
 
 # ggplot2
 
@@ -129,38 +124,33 @@ execute:
 ![](img/ggplot_icon.png){fig-align="center"}
 :::
 
-
-## __¿Qué es `{ggplot2}`?__
-
+## **¿Qué es `{ggplot2}`?**
 
 <br>
 
-- Una implementación del sistema **Grammar of graphics** (Wilkinson, 2005).
+-   Una implementación del sistema **Grammar of graphics** (Wilkinson, 2005).
 
 <br>
 
-- Un esquema pensado en capas (datos --> plano (ejes **x** e **y**) --> geometrías)
+-   Un esquema pensado en capas (datos --\> plano (ejes **x** e **y**) --\> geometrías)
 
 <br>
 
-- Un paquete de funciones de aplicación intuitiva.
+-   Un paquete de funciones de aplicación intuitiva.
 
-
-## __¿Por qué `{ggplot2}`?__
-
+## **¿Por qué `{ggplot2}`?**
 
 ::: incremental
 
-- Tiene un marco de referencia (El grammar of graphics)
+-   Tiene un marco de referencia (El grammar of graphics)
 
-- Flexible, con especificaciones a nivel de capas.
+-   Flexible, con especificaciones a nivel de capas.
 
-- Sistema de `themes`, que permiten _pulir_ la apariencia del gráfico
+-   Sistema de `themes`, que permiten *pulir* la apariencia del gráfico
 
-- Decenas de extensiones para ampliar la potencia del paquete
+-   Decenas de extensiones para ampliar la potencia del paquete
 
-- Comunidad activa y con mucha predisposición a ayudar.
-
+-   Comunidad activa y con mucha predisposición a ayudar.
 
 # ¿A dónde vamos?
 
@@ -169,7 +159,6 @@ execute:
 library(tidyverse)
 df_puna <- read_csv("../../data/puna_base_agregada.csv")
 ```
-
 
 ::: panel-tabset
 ### Graphic
@@ -212,7 +201,6 @@ ggplot(data = df_habitaciones_2022,
 ```
 :::
 
-
 # ¿Por dónde empezamos?
 
 ## Cargamos el paquete
@@ -237,59 +225,55 @@ library(tidyverse)
 
 3 Capas son las indispensables al pensar nuestro gráfico:
 
+## Gráfico en clave de capas
+
+<br>
+
+-   Los **datos** (argumento: `data =`):
+
+    -   El dataframe que sirve de insumo
+
+<br>
 
 ## Gráfico en clave de capas
 
 <br>
 
-- Los **datos** (argumento: `data =`):
-    
-    - El dataframe que sirve de insumo    
+-   Los **datos** (argumento: `data =`):
+
+    -   El dataframe que sirve de insumo
 
 <br>
+
+-   Las **aesthetics** (función `aes()`:
+
+    -   Defino el vínculo entre los datos y las propiedades visuales (ejes x e y, por ej.)
 
 ## Gráfico en clave de capas
 
 <br>
 
-- Los **datos** (argumento: `data =`):
-    
-    - El dataframe que sirve de insumo    
+-   Los **datos** (argumento: `data =`):
+
+    -   El dataframe que sirve de insumo
 
 <br>
 
-- Las **aesthetics** (función `aes()`:
-    
-    - Defino el vínculo entre los datos y las propiedades visuales (ejes x e y, por ej.)
+-   Las **aesthetics** (función `aes()`:
 
-    
+    -   Defino el vínculo entre los datos y las propiedades visuales (ejes x e y, por ej.)
+
+<br>
+
+-   Las **geometrías** (función `geom_*()`:
+
+    -   La geometría con la que se representan los datos
+
 ## Gráfico en clave de capas
 
 <br>
 
-- Los **datos** (argumento: `data =`):
-    
-    - El dataframe que sirve de insumo    
-
-<br>
-
-- Las **aesthetics** (función `aes()`:
-    
-    - Defino el vínculo entre los datos y las propiedades visuales (ejes x e y, por ej.)
-
-<br>
-
-- Las **geometrías** (función `geom_*()`:
-    
-    - La geometría con la que se representan los datos
-
-
-
-## Gráfico en clave de capas
-
-<br> 
-
-- Pregunta-problema: Quiero representar la cantidad de **habitaciones** por **tipo de alojamiento**, para el **año 2022**
+-   Pregunta-problema: Quiero representar la cantidad de **habitaciones** por **tipo de alojamiento**, para el **año 2022**
 
 Preparo los datos:
 
@@ -318,15 +302,13 @@ df_habitaciones_2022 <- df_puna |>
 
 <br>
 
-- Así queda nuestra tabla:
+-   Así queda nuestra tabla:
 
 ```{r}
 df_habitaciones_2022
 ```
 
 ## Gráfico en clave de capas
-
-
 
 ```{r}
 #| label: ggplot-aesthetics-outside
@@ -350,7 +332,6 @@ ggplot(data = df_habitaciones_2022,
 ```
 
 # Chapa y pintura
-
 
 ## Chapa y pintura - Relleno
 

@@ -3,9 +3,9 @@ title: "Proyectos de R, organizando la mesa de Trabajo"
 subtitle: "Buenas prácticas para organizar un proyecto de trabajo con datos"
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2024-02-21
+date: 2024-10-24
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
-logo: ../../img/background-estacion_r_v2.png
+logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
   revealjs: 
     theme: ../estilo_diapos.scss
@@ -26,7 +26,7 @@ execute:
 
 # Bienvenidos y bienvenidas a Estación R
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 💬 [Slack](https://join.slack.com/t/estacion-r/shared_invite/zt-2cktmesg3-11HhUxMFmynQe18ZsBkVpA)
 
@@ -44,7 +44,7 @@ execute:
 
 [LinkedIn](https://www.linkedin.com/company/estacion-r/)
 :::
-:::
+:::::
 
 ------------------------------------------------------------------------
 
@@ -62,7 +62,7 @@ execute:
 
 ## Hoja de Ruta
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 📌 Paquetes
 
@@ -82,7 +82,7 @@ execute:
   👉🏼 Cómo nombrar archivos
 ```
 :::
-:::
+:::::
 
 # Paquetes
 
@@ -160,7 +160,7 @@ install.packages("readr")
 
 ## Paquetes
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   Convoquemos al paquete
 
@@ -174,7 +174,7 @@ library(readr)
 
 ![](https://helios-i.mashable.com/imagery/articles/03wZYjQKEeZIUvKsxYtn73r/hero-image.fill.size_1200x900.v1611609729.jpg)
 :::
-:::
+:::::
 
 # Ruta de archivos
 

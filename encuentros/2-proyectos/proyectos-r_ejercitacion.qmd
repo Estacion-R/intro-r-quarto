@@ -5,13 +5,22 @@ author: "Estación R"
 
 ## Consigna:
 
-- Abrir el proyecto creado en clase, que contiene la base de nombres de personas. En su defecto, crear un proyecto nuevo, con una carpeta en su interior llamada `datos` y ubicar en esa carpeta la base de nombre de personas para el año 2015, vista en clase.
+### Paquetes
 
-- Una vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base de nombres de personas - 2015 a nuestro Ambiente (*Environment*) de Rstudio. _Recordar guardar en un objeto esa base._
+- Ejercicio 1: Instalar los paquetes `tidyverse`,  `rio` y èph` (si aún no los tienen instalados) y luego cargarlos en el entorno de R (`library()`). Comprobar que al cargarlos no surja ningún error.
 
-- Ejecutar las siguientes funciones sobre el data frame `base_personas` y describir con un comentario (`#`) en el script lo que realiza cada una de ellas. 
+- Ejericio 2: Luego de haber cargado los paquetes, escribe en la consola o en el script la siguiente sentencia: `?import` para ver la documentación de la función `import()`. ¿Qué hace esta función?
 
-_Sugerencia:_ Intentar describir _a ojo_ lo que está haciendo la función. En caso de dificultad, consultar con el sistema de ayuda de R, anteponiendo el símbolo de cierre de interrogación (`?`) al nombre de la función. 
+
+### Proyectos y lectura de bases
+
+Ejercicio 1: Abrir el proyecto creado en clase, que contiene la base de nombres de personas. En su defecto, crear un proyecto nuevo, con una carpeta en su interior llamada `datos` y ubicar en esa carpeta la base de nombre de personas para el año 2015, vista en clase.
+
+Ejercicio 2: Una vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base de nombres de personas - 2015 a nuestro Ambiente (*Environment*) de Rstudio. *Recordar guardar en un objeto esa base.*
+
+Ejercicio 3: Ejecutar las siguientes funciones sobre el data frame `base_personas` y describir con un comentario (`#`) en el script lo que realiza cada una de ellas.
+
+*Sugerencia:* Intentar describir *a ojo* lo que está haciendo la función. En caso de dificultad, consultar con el sistema de ayuda de R, anteponiendo el símbolo de cierre de interrogación (`?`) al nombre de la función.
 
 Ejemplo de ayuda: `?mean()`
 
@@ -19,22 +28,21 @@ Ejemplo de ayuda: `?mean()`
 
 **Ejemplo de resolución:**
 
-```r
+``` r
 ### dim(): Devuelve la cantidad de dimensiones del data.frame (cantidad de filas x columnas)
 dim(base_personas)
 ```
 
-
 ## Lista de funciones a ejectura
 
-| __Función__       | __Acción__ |
-| :---              | :---   |
-| `dim()`           | _ejecutar sobre un data frame_|
-| `colnames()`      | _ejecutar sobre un data frame_|
-| `str()`           | _ejecutar sobre un data frame_|
-| `summary()`       | _ejecutar sobre un data frame / una columna del df_|
-| `class()`         | _ejecutar sobre un data frame / una columna del df_|
-| `length()`        | _ejecutar sobre un data frame / una columna del df_|
-| `table()`         | _ejecutar sobre una columna del df_|
-| `is.na()`         | _ejecutar sobre una columna del df_|
-| `mean()`          | _ejecutar sobre una columna del df_|
+| **Función**  | **Acción**                                          |
+|:-------------|:----------------------------------------------------|
+| `dim()`      | *ejecutar sobre un data frame*                      |
+| `colnames()` | *ejecutar sobre un data frame*                      |
+| `str()`      | *ejecutar sobre un data frame*                      |
+| `summary()`  | *ejecutar sobre un data frame / una columna del df* |
+| `class()`    | *ejecutar sobre un data frame / una columna del df* |
+| `length()`   | *ejecutar sobre un data frame / una columna del df* |
+| `table()`    | *ejecutar sobre una columna del df*                 |
+| `is.na()`    | *ejecutar sobre una columna del df*                 |
+| `mean()`     | *ejecutar sobre una columna del df*                 |

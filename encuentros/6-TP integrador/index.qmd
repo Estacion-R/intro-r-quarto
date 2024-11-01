@@ -24,9 +24,8 @@ Planteo de una pregunta sobre el tema elegido y abordaje de la respuesta con dat
     -   **Limpieza, tratamiento y transformación de datos con tidyverse** (por ejemplo: filter(), select(), mutate(), group_by(), summarise(), pivot_longer/wider()).
 
     -   **Visualización** de la información con ggplot() y al menos uno o dos gráficos con el geom\_ a elección (de los que vimos: geom_histogram(), geom_col(), geom_line() y geom_point()).
-    
-- Breve análisis de los hallazgos identificados o del proceso mismo del flujo de trabajo.
 
+-   Breve análisis de los hallazgos identificados o del proceso mismo del flujo de trabajo.
 
 ## Formato de entrega:
 

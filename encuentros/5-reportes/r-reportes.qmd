@@ -5,7 +5,7 @@ author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
 date: 2024-03-20
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
-logo: ../../img/background-estacion_r_v2.png
+logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
   revealjs: 
     width: 1600
@@ -51,21 +51,19 @@ execute:
 
 ✅ Visualización de datos con`{ggplot2}`
 
-
 ## Hoja de Ruta
 
 <br>
 
-- 📌️ ¿Qué es Rmarkdown (_spoiler: R + Mardown_)?
+-   📌️ ¿Qué es Rmarkdown (*spoiler: R + Mardown*)?
 
 <br>
 
-- 📌️ Conceptos básicos de Markdown
+-   📌️ Conceptos básicos de Markdown
 
 <br>
 
-- 📌️ YAML, Chunks y texto
-
+-   📌️ YAML, Chunks y texto
 
 ## Configuración para esta clase
 
@@ -73,17 +71,15 @@ execute:
 
 -   Tener instalado (o instalar) el paquete `rmarkdown`:
 
-```
+```         
 install.packages("rmarkdown")
 ```
-
 
 # Flujo de trabajo para la Ciencia de Datos
 
 ::: {layout-valign="center"}
-![](img/circuito_del_dato_tidy.png){fig-align="center" width=80%}
+![](img/circuito_del_dato_tidy.png){fig-align="center" width="80%"}
 :::
-
 
 # Rmarkdown
 
@@ -111,124 +107,106 @@ install.packages("rmarkdown")
 > Rmarkdown es un formato de Rstudio que permite combinar la **sintaxis de Markdown** para escritura de texto plano con la **sintáxis de R** para el procesamiento de datos.
 
 ::: {layout-valign="center"}
-![](img/rmarkdown_proceso.png){fig-align="center" width=50%}
-:::
-
-
-## Hasta ahora...
-
-
-::: {layout-valign="center"}
-![](img/informe_0.jpg){fig-align="center" width=35%}
+![](img/rmarkdown_proceso.png){fig-align="center" width="50%"}
 :::
 
 ## Hasta ahora...
 
 ::: {layout-valign="center"}
-![](img/informe_1.jpg){fig-align="center" width=35%}
-:::
-
-
-## Hasta ahora...
-
-::: {layout-valign="center"}
-![](img/informe_2.jpg){fig-align="center" width=35%}
+![](img/informe_0.jpg){fig-align="center" width="35%"}
 :::
 
 ## Hasta ahora...
 
 ::: {layout-valign="center"}
-![](img/informe_3.jpg){fig-align="center" width=45%}
+![](img/informe_1.jpg){fig-align="center" width="35%"}
 :::
 
 ## Hasta ahora...
 
 ::: {layout-valign="center"}
-![](img/informe_4.jpg){fig-align="center" width=45%}
+![](img/informe_2.jpg){fig-align="center" width="35%"}
+:::
+
+## Hasta ahora...
+
+::: {layout-valign="center"}
+![](img/informe_3.jpg){fig-align="center" width="45%"}
+:::
+
+## Hasta ahora...
+
+::: {layout-valign="center"}
+![](img/informe_4.jpg){fig-align="center" width="45%"}
 :::
 
 ## Hasta ahora...
 
 ::: columns
 ::: {.column width="50%"}
-
 ::: {layout-valign="center"}
 ![](img/informe_5.jpg){fig-align="center"}
 :::
 :::
 
 ::: {.column width="50%"}
-
 ::: {layout-valign="center"}
-![](img/you-shall-not-pass-gandalf.gif){fig-align="center" width=150%}
+![](img/you-shall-not-pass-gandalf.gif){fig-align="center" width="150%"}
 :::
-
 :::
 :::
 
 ## Desventajas del "hasta ahora..."
 
 ::: incremental
+-   Decenas, cientos, miles de versiones. `informe_FINAL_FINAL_FINAL_V2_1.doc`
 
-- Decenas, cientos, miles de versiones. `informe_FINAL_FINAL_FINAL_V2_1.doc`
-
-- I-rreproducible
-
+-   I-rreproducible
 :::
 
 ## Desventajas del "hasta ahora..."
 
+-   Decenas, cientos, miles de versiones. `informe_FINAL_FINAL_FINAL_V2_1.doc`
 
-- Decenas, cientos, miles de versiones. `informe_FINAL_FINAL_FINAL_V2_1.doc`
-
-- I-rreproducible
+-   I-rreproducible
 
 ::: columns
-::: {.column widht=50%}
-
-- ¿Mismo informe con nuevos datos?
-
+::: {.column widht="50%"}
+-   ¿Mismo informe con nuevos datos?
 :::
 
-::: {.column widht=50%}
-
+::: {.column widht="50%"}
 ::: {layout-valign="center"}
-![](img/no_de_nuevo_decia.png){fig-align="center" width=70%}
+![](img/no_de_nuevo_decia.png){fig-align="center" width="70%"}
 :::
-
 :::
 :::
 
 ## Rmarkdown
 
 ::: columns
-
-::: {.column width=50%}
-
+::: {.column width="50%"}
 #### Antes:
 
 ::: {layout-valign="center"}
-![](img/r_word_markdown.png){fig-align="center" width=110%}
+![](img/r_word_markdown.png){fig-align="center" width="110%"}
 :::
 :::
 
-::: {.column width=50%}
-
+::: {.column width="50%"}
 #### Después:
 
 ::: {layout-valign="center"}
-![](img/rmardown_previz.png){fig-align="center" width=110%}
+![](img/rmardown_previz.png){fig-align="center" width="110%"}
 :::
-
 :::
 :::
 
 ## Rmarkdown - Formatos de salida
 
 ::: {layout-valign="center"}
-![](img/rmarkdown_salidas.png){fig-align="center" width=50%}
+![](img/rmarkdown_salidas.png){fig-align="center" width="50%"}
 :::
-
 
 ## Rmarkdown - Nuevo archivo
 
@@ -242,7 +220,6 @@ install.packages("rmarkdown")
 ![](img/rmarkdown_tripartito.png)
 :::
 
-
 # 1. YAML (metadata o encabezado)
 
 <br><br>
@@ -253,7 +230,6 @@ install.packages("rmarkdown")
 
 ## 2. Chunk (o bloque de código)
 
-
 <br><br>
 
 ::: {layout-valign="center"}
@@ -262,7 +238,6 @@ install.packages("rmarkdown")
 
 ## 2. Chunk (o bloque de código)
 
-
 <br><br>
 
 ::: {layout-valign="center"}
@@ -270,7 +245,6 @@ install.packages("rmarkdown")
 :::
 
 ## 2. Chunk (o bloque de código)
-
 
 <br><br>
 
@@ -292,72 +266,64 @@ install.packages("rmarkdown")
 
 ## 2. Chunk (o bloque de código)
 
-| __Función__                     | __Acción__ |
-| :---                            | :---       |
-| `{r echo = FALSE}`              | *Muestra sólo resultado del chunk*|
-| `{r echo = TRUE}`               | *Muestra código y resultado del chunk*|
-| `{r eval = FALSE}`              | *Muestra código pero no ejecuta*|
-| `{r include = FALSE}`           | *No muestra nada (ni código ni resultado) pero ejecuta código*|
-| `{r eval = FALSE, include = FALSE}` | *No muestra nada (ni código ni resultado) - tampoco ejecuta*|
+| **Función**                         | **Acción**                                                     |
+|:------------------------------------|:---------------------------------------------------------------|
+| `{r echo = FALSE}`                  | *Muestra sólo resultado del chunk*                             |
+| `{r echo = TRUE}`                   | *Muestra código y resultado del chunk*                         |
+| `{r eval = FALSE}`                  | *Muestra código pero no ejecuta*                               |
+| `{r include = FALSE}`               | *No muestra nada (ni código ni resultado) pero ejecuta código* |
+| `{r eval = FALSE, include = FALSE}` | *No muestra nada (ni código ni resultado) - tampoco ejecuta*   |
 
 ## 2. Chunk (o bloque de código)
 
 ::: incremental
-
 ::: {layout-valign="center"}
-- ![](img/chunk_corro_uno.png){fig-align="center" width=60%}
+-   ![](img/chunk_corro_uno.png){fig-align="center" width="60%"}
 :::
 
-
 ::: {layout-valign="center"}
-- ![](img/chunk_corro_hasta_aca.png){fig-align="center" width=60%}
+-   ![](img/chunk_corro_hasta_aca.png){fig-align="center" width="60%"}
 :::
-
 :::
 
 ## 2. Chunk (o bloque de código)
 
-
 ::: {layout-valign="center"}
-![](img/chunk_etiquetas.png){fig-align="center" width=60%}
+![](img/chunk_etiquetas.png){fig-align="center" width="60%"}
 :::
 
 # 3. Texto
 
 ::: {layout-valign="center"}
-![](img/rmarkdown_codigo_salida.png){fig-align="center" width=60%}
+![](img/rmarkdown_codigo_salida.png){fig-align="center" width="60%"}
 :::
 
 ## 3. Texto + código (en texto)
 
-
 ::: {layout-valign="center"}
-![](img/codigo_en_texto.png){fig-align="center" width=60%}
+![](img/codigo_en_texto.png){fig-align="center" width="60%"}
 :::
 
 # Práctica
 
 ## Práctica
 
-1) Crear un informe que contenga:
+1)  Crear un informe que contenga:
 
-- **En TEXTO:**
-  - Una estructura mínima de texto (Título, consigna, descripción de las tareas realizadas y muy breve conclusión)
-
-- **En CÓDIGO:**
-  - Carga de librerías (no mostrar el código en el reporte)
-  - Importación de datos (mostrar el código en el reporte)
-  - Algún procesamiento mínimo como filtrar, seleccionar, generar un tabulado, etc. (mostrar el código y el resultado en el reporte)
-
-- _Extra_: Incluir un gráfico
-
+-   **En TEXTO:**
+    -   Una estructura mínima de texto (Título, consigna, descripción de las tareas realizadas y muy breve conclusión)
+-   **En CÓDIGO:**
+    -   Carga de librerías (no mostrar el código en el reporte)
+    -   Importación de datos (mostrar el código en el reporte)
+    -   Algún procesamiento mínimo como filtrar, seleccionar, generar un tabulado, etc. (mostrar el código y el resultado en el reporte)
+-   *Extra*: Incluir un gráfico
 
 ## RECURSOS
 
-- [Guía de comandos para texto en Rmarkdown](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.157796986.1542626288.1625161001-1806201684.1624641897)
+-   [Guía de comandos para texto en Rmarkdown](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf?_ga=2.157796986.1542626288.1625161001-1806201684.1624641897)
 
-- [Guía definitiva de Rmarkdown (en inglés)](https://bookdown.org/yihui/rmarkdown/)
+-   [Guía definitiva de Rmarkdown (en inglés)](https://bookdown.org/yihui/rmarkdown/)
 
-- [Machete Rmarkdown](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf)
+-   [Machete Rmarkdown](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf)
 
-- [Cocina de Rmarkdown (en inglés)](https://bookdown.org/yihui/rmarkdown-cookbook/)
+-   [Cocina de Rmarkdown (en inglés)](https://bookdown.org/yihui/rmarkdown-cookbook/)
