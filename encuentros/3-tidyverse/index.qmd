@@ -13,7 +13,9 @@ Desde elegir con qué columnas (variables) vamos a trabajar; definir cuál es nu
 
 ## Slides
 
-<iframe class="slide-deck" src="/encuentros/3-tidyverse/r-tidyverse-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="/encuentros/3-tidyverse/r-tidyverse-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;">
+
+</iframe>
 
 ```{r echo=FALSE}
 downloadthis::download_file(
@@ -47,7 +49,7 @@ downloadthis::download_file(
 
 -   R para Ciencia de Datos - Capítulo: *Explorar - Transformación de datos*: <https://es.r4ds.hadley.nz/05-transform.html>
 
--   Ejercitación de la semana: <https://pablotis.github.io/intro-r-quarto/encuentros/3-tidyverse/r-tidyverse_ejercicios.html>
+-   Ejercitación de la semana: <https://Estacion-R.github.io/intro-r-quarto/encuentros/3-tidyverse/r-tidyverse_ejercicios.html>
 
 ## Docente
 

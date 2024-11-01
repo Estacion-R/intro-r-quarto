@@ -7,7 +7,7 @@ author: "Estación R"
 
 ### Paquetes
 
-- Ejercicio 1: Instalar los paquetes `tidyverse`,  `rio` y èph` (si aún no los tienen instalados) y luego cargarlos en el entorno de R (`library()`). Comprobar que al cargarlos no surja ningún error.
+- Ejercicio 1: Instalar los paquetes `tidyverse`,  `rio` y `eph` (si aún no los tienen instalados) y luego cargarlos en el entorno de R (`library()`). Comprobar que al cargarlos no surja ningún error.
 
 - Ejericio 2: Luego de haber cargado los paquetes, escribe en la consola o en el script la siguiente sentencia: `?import` para ver la documentación de la función `import()`. ¿Qué hace esta función?
 
