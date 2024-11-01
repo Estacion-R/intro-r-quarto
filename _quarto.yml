@@ -39,6 +39,10 @@ website:
         menu: 
           - text: "Encuentro 1: Intro a R"
             href: encuentros/1-intro-r/intro-r_ejercitacion
+          - text: "Encuentro 2: Proyectos de trabajoy paquetes"
+            href: encuentros/2-proyectos/proyectos-r_ejercitacion
+          - text: "Encuentro 3: Intro a tidyverse"
+            href: encuentros/3-tidyverse/r-tidyverse_ejercitacion
     right: 
       - href: cod_de_conducta.qmd
         text: Código de conducta
