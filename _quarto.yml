@@ -30,7 +30,7 @@ website:
           - text: "Módulo 3: Procesamiento de datos con {tidyverse}"
             href: encuentros/3-tidyverse/index.qmd
           - text: "Módulo 4: Visualización de datos con {ggplot2}"
-            #href: encuentros/4-visualizacion/index.qmd
+            href: encuentros/4-visualizacion/index.qmd
           - text: "Módulo 5: Reportes con {rmarkdown}"
             #href: encuentros/5-reportes/index.qmd
           - text: "Módulo 6: Trabajo integrador"

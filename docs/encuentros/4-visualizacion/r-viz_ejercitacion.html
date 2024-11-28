@@ -155,7 +155,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="dropdown-item" href="../../encuentros/3-tidyverse/index.html">
  <span class="dropdown-text">Módulo 3: Procesamiento de datos con {tidyverse}</span></a>
   </li>  
-        <li class="dropdown-header">Módulo 4: Visualización de datos con {ggplot2}</li>
+        <li>
+    <a class="dropdown-item" href="../../encuentros/4-visualizacion/index.html">
+ <span class="dropdown-text">Módulo 4: Visualización de datos con {ggplot2}</span></a>
+  </li>  
         <li class="dropdown-header">Módulo 5: Reportes con {rmarkdown}</li>
         <li class="dropdown-header">Módulo 6: Trabajo integrador</li>
     </ul>
@@ -253,19 +256,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Descargar la base de datos del <a href="https://datos.yvera.gob.ar/dataset/padron-unico-nacional-alojamiento">Padrón Único de Alojamientos</a> y ubicarla en una carpeta, para luego crear un proyecto de Rstudio (o abrir uno ya creado).</li>
 </ol>
 <ul>
-<li><p>Una vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base a nuestro Ambiente (<em>Environment</em>) de Rstudio. <em>Recordar guardar en un objeto esa base.</em></p></li>
-<li><p>Sobre esa base, crear otro objeto que contenga sólo las variables ´indice_tiempo´, ´localidad´ y ´habitaciones´ y los casos de la <em>localidad</em> de <em>Belen de Escobar</em>, unicamente.</p></li>
+<li><p>Una vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base. <em>Recordar guardar en un objeto esa base.</em></p></li>
+<li><p>Crear otro objeto que contenga sólo las variables ´indice_tiempo´, ´localidad´ y ´habitaciones´ y los casos de la <em>localidad</em> de <em>Belen de Escobar</em>, unicamente.</p></li>
 <li><p>Chequear que la operación fue exitosa (en columnas y filas).</p></li>
 </ul>
-<ol start="3" type="a">
-<li>Crear una nueva variable llamada <code>periodo</code> que sea el ingreso por hora de la ocupación principal (P21/PP3E_TOT). Guadar dicha operación en el mismo objeto y chequear que se haya hecho.</li>
-</ol>
-<p>3.4. Crear una variable llamada nivel_ed2 que agrupe los niveles educativos de la variable NIVEL_ED en los siguientes 4:</p>
-<pre><code>Sin educación, primaria incompleta, o Ns.Nr.
-Hasta secundaria incompleta
-Hasta universitaria incompleta
-Universitaria completa</code></pre>
-<p>Guardar dicho resultado en el mismo objeto con el que venimos trabajando y chequear que la operación se haya hecho.</p>
 
 
 </section>

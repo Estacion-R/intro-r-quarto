@@ -13,9 +13,8 @@ El concepto a incorporar será el gráfico en clave de capas, ejemplificado en u
 
 ## Slides
 
-```{=html}
 <iframe class="slide-deck" src="/encuentros/4-visualizacion/r-viz-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
-```
+
 ```{r echo=FALSE}
 downloadthis::download_file(
   path = here::here("encuentros/4-visualizacion/Visualizacion de datos con ggplot2.pdf"),
@@ -42,7 +41,7 @@ downloadthis::download_file(
 
 ## Links
 
--   Notas de clase colaborativa: <https://docs.google.com/document/d/1u-QJieSpin9sMsx6xly7NkaB89ugSAYfJHktOB9NdGY/edit>
+<!-- -   Notas de clase colaborativa: <https://docs.google.com/document/d/1u-QJieSpin9sMsx6xly7NkaB89ugSAYfJHktOB9NdGY/edit> -->
 
 -   Ciencia de Datos para Gente Sociable - Capítulo: *Visualización: la exploración gráfica de la información*: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/una-presentaci%C3%B3n-a-toda-marcha-de-r.html#visualizaci%C3%B3n-la-exploraci%C3%B3n-gr%C3%A1fica-de-la-informaci%C3%B3n>
 

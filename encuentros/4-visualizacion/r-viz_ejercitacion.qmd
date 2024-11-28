@@ -22,21 +22,9 @@ df_parahoteleros <- df_puna %>%
 
 b.  Descargar la base de datos del [Padrón Único de Alojamientos](https://datos.yvera.gob.ar/dataset/padron-unico-nacional-alojamiento) y ubicarla en una carpeta, para luego crear un proyecto de Rstudio (o abrir uno ya creado).
 
--   Una vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base a nuestro Ambiente (*Environment*) de Rstudio. *Recordar guardar en un objeto esa base.*
+-   Una vez en el proyecto, crear un script nuevo y en él escribir la sentencia necesaria para importar la base. *Recordar guardar en un objeto esa base.*
 
--   Sobre esa base, crear otro objeto que contenga sólo las variables ´indice_tiempo´, ´localidad´ y ´habitaciones´ y los casos de la *localidad* de *Belen de Escobar*, unicamente.
+-   Crear otro objeto que contenga sólo las variables ´indice_tiempo´, ´localidad´ y ´habitaciones´ y los casos de la *localidad* de *Belen de Escobar*, unicamente.
 
 -   Chequear que la operación fue exitosa (en columnas y filas).
 
-
-c. Crear una nueva variable llamada `periodo` que sea el ingreso por hora de la ocupación principal (P21/PP3E_TOT). Guadar dicha operación en el mismo objeto y chequear que se haya hecho.
-
-
-3.4. Crear una variable llamada nivel_ed2 que agrupe los niveles educativos de la variable NIVEL_ED en los siguientes 4:
-
-    Sin educación, primaria incompleta, o Ns.Nr.
-    Hasta secundaria incompleta
-    Hasta universitaria incompleta
-    Universitaria completa
-
-Guardar dicho resultado en el mismo objeto con el que venimos trabajando y chequear que la operación se haya hecho.
