@@ -31,10 +31,12 @@ Planteo de una pregunta sobre el tema elegido y abordaje de la respuesta con dat
 
 Enviar un **proyecto de Rstudio** (la carpeta completa, con sus subcarpetas y archivos), que contenga el informe elaborado con Rmarkdown. Lo que se evaluará es el flujo de trabajo recorrido y que, al final, el Rmarkdown corra sin problema.
 
+Pueden crear una carpeta en Google Drive (o espacio en la nube a gusto) y enviarme el link con el permiso de acceso para el correo pablotiscornia@estacion-r.com).
+
 En el desarrollo del informe es necesario realizar una breve conclusión respecto a los resultados obtenidos, tanto en lo que refiere a la información producida como a lo enfrentado durante el procesamiento de datos.
 
--   Enviar a *pablotisco\@gmail.com*
+-   Enviar a *pablotiscornia\@estacion-r.com*
 
--   **Fecha de entrega**: Hasta el 15/05/2024.
+-   **Fecha de entrega**: Hasta el 27/12/2024.
 
 -   **Seguimiento del trabajo**: El slack quedará abierto para que podamos intercambiar y realizar consultas para completar la actividad, no duden en usarlo!

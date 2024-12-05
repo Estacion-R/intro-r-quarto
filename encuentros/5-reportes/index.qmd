@@ -14,6 +14,7 @@ En este encuentro vamos a recorrer los conceptos y secciones que componen a un i
 ```{=html}
 <iframe class="slide-deck" src="/encuentros/5-reportes/r-reportes-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
+
 ```{r echo=FALSE}
 downloadthis::download_file(
   path = here::here("encuentros/5-reportes/Generación de reportes con -rmarkdown-.pdf"),
@@ -40,8 +41,6 @@ downloadthis::download_file(
 
 ## Links
 
--   [Notas de clase colaborativa:](https://docs.google.com/document/d/1oDscogp6A1VIL35fYnhpljzyGJMdhzMf5r_FDZDCmRM/edit)
-
 -   R para Ciencia de Datos - Capítulo: [*Comunicar - R Markdown*](https://es.r4ds.hadley.nz/26-communicate.html)
 
     -   Ejercitación: [link](https://es.r4ds.hadley.nz/27-rmarkdown.html#ejercicios)
@@ -56,8 +55,3 @@ downloadthis::download_file(
 
 -   [Cocina de Rmarkdown (en inglés)](https://bookdown.org/yihui/rmarkdown-cookbook/)
 
-## Docente
-
-![](../../img/foto_perfil.jpeg){style="float: right; padding-left: 10px;" fig-alt="Foto de Pablo Tiscornia" width="180"}
-
-[Pablo Tiscornia](https://pablotis.github.io/intro-r-quarto/profesor.html)

@@ -116,7 +116,7 @@
     "href": "encuentros/5-reportes/index.html#links",
     "title": "Introducción a la generación de reportes con {rmarkdown}.",
     "section": "Links",
-    "text": "Links\n\nNotas de clase colaborativa:\nR para Ciencia de Datos - Capítulo: Comunicar - R Markdown\n\nEjercitación: link"
+    "text": "Links\n\nR para Ciencia de Datos - Capítulo: Comunicar - R Markdown\n\nEjercitación: link"
   },
   {
     "objectID": "encuentros/5-reportes/index.html#recursos",
@@ -124,13 +124,6 @@
     "title": "Introducción a la generación de reportes con {rmarkdown}.",
     "section": "Recursos",
     "text": "Recursos\n\nGuía de comandos para texto en Rmarkdown\nGuía definitiva de Rmarkdown (en inglés)\nMachete Rmarkdown\nCocina de Rmarkdown (en inglés)"
-  },
-  {
-    "objectID": "encuentros/5-reportes/index.html#docente",
-    "href": "encuentros/5-reportes/index.html#docente",
-    "title": "Introducción a la generación de reportes con {rmarkdown}.",
-    "section": "Docente",
-    "text": "Docente\n\nPablo Tiscornia"
   },
   {
     "objectID": "encuentros/5-reportes/r-reportes.html#qué-vimos",
@@ -1250,7 +1243,7 @@
     "href": "encuentros/6-TP integrador/index.html#formato-de-entrega",
     "title": "Trabajo Práctico Integrador.",
     "section": "Formato de entrega:",
-    "text": "Formato de entrega:\nEnviar un proyecto de Rstudio (la carpeta completa, con sus subcarpetas y archivos), que contenga el informe elaborado con Rmarkdown. Lo que se evaluará es el flujo de trabajo recorrido y que, al final, el Rmarkdown corra sin problema.\nEn el desarrollo del informe es necesario realizar una breve conclusión respecto a los resultados obtenidos, tanto en lo que refiere a la información producida como a lo enfrentado durante el procesamiento de datos.\n\nEnviar a pablotisco@gmail.com\nFecha de entrega: Hasta el 15/05/2024.\nSeguimiento del trabajo: El slack quedará abierto para que podamos intercambiar y realizar consultas para completar la actividad, no duden en usarlo!"
+    "text": "Formato de entrega:\nEnviar un proyecto de Rstudio (la carpeta completa, con sus subcarpetas y archivos), que contenga el informe elaborado con Rmarkdown. Lo que se evaluará es el flujo de trabajo recorrido y que, al final, el Rmarkdown corra sin problema.\nPueden crear una carpeta en Google Drive (o espacio en la nube a gusto) y enviarme el link con el permiso de acceso para el correo pablotiscornia@estacion-r.com).\nEn el desarrollo del informe es necesario realizar una breve conclusión respecto a los resultados obtenidos, tanto en lo que refiere a la información producida como a lo enfrentado durante el procesamiento de datos.\n\nEnviar a pablotiscornia@estacion-r.com\nFecha de entrega: Hasta el 27/12/2024.\nSeguimiento del trabajo: El slack quedará abierto para que podamos intercambiar y realizar consultas para completar la actividad, no duden en usarlo!"
   },
   {
     "objectID": "encuentros/2-proyectos/index_ACTIVAR.html",

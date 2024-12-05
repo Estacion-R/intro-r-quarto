@@ -3,7 +3,7 @@ title: "Generación de reportes con `{rmarkdown}`"
 subtitle: "Principales conceptos y secciones para armar un reporte con R"
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2024-03-20
+date: 2024-11-05
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
 logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
@@ -94,6 +94,7 @@ install.packages("rmarkdown")
 ```{=html}
 <p style="color:grey;" align:"left">Generación de reportes</p>
 ```
+
 </html>
 
 ::: {layout-valign="center"}
@@ -142,19 +143,19 @@ install.packages("rmarkdown")
 
 ## Hasta ahora...
 
-::: columns
-::: {.column width="50%"}
+::::::: columns
+:::: {.column width="50%"}
 ::: {layout-valign="center"}
 ![](img/informe_5.jpg){fig-align="center"}
 :::
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 ::: {layout-valign="center"}
 ![](img/you-shall-not-pass-gandalf.gif){fig-align="center" width="150%"}
 :::
-:::
-:::
+::::
+:::::::
 
 ## Desventajas del "hasta ahora..."
 
@@ -170,37 +171,37 @@ install.packages("rmarkdown")
 
 -   I-rreproducible
 
-::: columns
+:::::: columns
 ::: {.column widht="50%"}
 -   ¿Mismo informe con nuevos datos?
 :::
 
-::: {.column widht="50%"}
+:::: {.column widht="50%"}
 ::: {layout-valign="center"}
 ![](img/no_de_nuevo_decia.png){fig-align="center" width="70%"}
 :::
-:::
-:::
+::::
+::::::
 
 ## Rmarkdown
 
-::: columns
-::: {.column width="50%"}
+::::::: columns
+:::: {.column width="50%"}
 #### Antes:
 
 ::: {layout-valign="center"}
 ![](img/r_word_markdown.png){fig-align="center" width="110%"}
 :::
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 #### Después:
 
 ::: {layout-valign="center"}
 ![](img/rmardown_previz.png){fig-align="center" width="110%"}
 :::
-:::
-:::
+::::
+:::::::
 
 ## Rmarkdown - Formatos de salida
 
@@ -266,17 +267,17 @@ install.packages("rmarkdown")
 
 ## 2. Chunk (o bloque de código)
 
-| **Función**                         | **Acción**                                                     |
-|:------------------------------------|:---------------------------------------------------------------|
-| `{r echo = FALSE}`                  | *Muestra sólo resultado del chunk*                             |
-| `{r echo = TRUE}`                   | *Muestra código y resultado del chunk*                         |
-| `{r eval = FALSE}`                  | *Muestra código pero no ejecuta*                               |
-| `{r include = FALSE}`               | *No muestra nada (ni código ni resultado) pero ejecuta código* |
-| `{r eval = FALSE, include = FALSE}` | *No muestra nada (ni código ni resultado) - tampoco ejecuta*   |
+| **Función** | **Acción** |
+|:--------------------------|:--------------------------------------------|
+| `{r echo = FALSE}` | *Muestra sólo resultado del chunk* |
+| `{r echo = TRUE}` | *Muestra código y resultado del chunk* |
+| `{r eval = FALSE}` | *Muestra código pero no ejecuta* |
+| `{r include = FALSE}` | *No muestra nada (ni código ni resultado) pero ejecuta código* |
+| `{r eval = FALSE, include = FALSE}` | *No muestra nada (ni código ni resultado) - tampoco ejecuta* |
 
 ## 2. Chunk (o bloque de código)
 
-::: incremental
+::::: incremental
 ::: {layout-valign="center"}
 -   ![](img/chunk_corro_uno.png){fig-align="center" width="60%"}
 :::
@@ -284,7 +285,7 @@ install.packages("rmarkdown")
 ::: {layout-valign="center"}
 -   ![](img/chunk_corro_hasta_aca.png){fig-align="center" width="60%"}
 :::
-:::
+:::::
 
 ## 2. Chunk (o bloque de código)
 

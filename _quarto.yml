@@ -32,9 +32,9 @@ website:
           - text: "Módulo 4: Visualización de datos con {ggplot2}"
             href: encuentros/4-visualizacion/index.qmd
           - text: "Módulo 5: Reportes con {rmarkdown}"
-            #href: encuentros/5-reportes/index.qmd
+            href: encuentros/5-reportes/index.qmd
           - text: "Módulo 6: Trabajo integrador"
-            #href: encuentros/6-TP integrador/index.qmd
+            href: encuentros/6-TP integrador/index.qmd
       - text: "Ejercitación"
         menu: 
           - text: "Encuentro 1: Intro a R"
