@@ -103,56 +103,16 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./profesor.html" aria-current="page"> 
 <span class="menu-text">Docente</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-encuentros" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Encuentros</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-encuentros">    
-        <li>
-    <a class="dropdown-item" href="./encuentros/1-intro-r/index.html">
- <span class="dropdown-text">Módulo 1: Intro a R</span></a>
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">Encuentros</span>
+    </span>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./encuentros/2-proyectos/index.html">
- <span class="dropdown-text">Módulo 2: Proyectos de trabajo</span></a>
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">Ejercitación</span>
+    </span>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./encuentros/3-tidyverse/index.html">
- <span class="dropdown-text">Módulo 3: Procesamiento de datos con {tidyverse}</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./encuentros/4-visualizacion/index.html">
- <span class="dropdown-text">Módulo 4: Visualización de datos con {ggplot2}</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./encuentros/5-reportes/index.html">
- <span class="dropdown-text">Módulo 5: Reportes con {rmarkdown}</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./encuentros/6-TP integrador/index.html">
- <span class="dropdown-text">Módulo 6: Trabajo integrador</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ejercitación" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Ejercitación</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-ejercitación">    
-        <li>
-    <a class="dropdown-item" href="./encuentros/1-intro-r/intro-r_ejercitacion">
- <span class="dropdown-text">Encuentro 1: Intro a R</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./encuentros/2-proyectos/proyectos-r_ejercitacion">
- <span class="dropdown-text">Encuentro 2: Proyectos de trabajoy paquetes</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./encuentros/3-tidyverse/r-tidyverse_ejercicios">
- <span class="dropdown-text">Encuentro 3: Intro a tidyverse</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -162,7 +122,6 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/Estacion-R/intro-r-quarto" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -171,15 +130,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#docencia-y-r" id="toc-docencia-y-r" class="nav-link active" data-scroll-target="#docencia-y-r">Docencia y R:</a></li>
-  <li><a href="#mundo-r" id="toc-mundo-r" class="nav-link" data-scroll-target="#mundo-r">Mundo R:</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -203,31 +155,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>PABLO TISCORNIA</strong></p>
-<p>Sociólogo y Científico de Datos. Especializado en metodología, producción, procesamiento y comunicación de información estadística. Trabajé como analista y procesador de datos en las oficinas estadísticas de la Ciudad de Buenos Aires (<a href="https://www.estadisticaciudad.gob.ar/eyc/">DGEyC</a>) y Argentina (<a href="https://www.indec.gob.ar/">INDEC</a>), y como Coordinador de Datos en la Dirección Nacional de Mercados y Estadística (<a href="https://www.yvera.tur.ar/sinta/">DNMYE</a>), del Ministerio de Turismo y Deportes de la Nación. Actualmente estoy trabajando como Científico de datos para <a href="https://www.c40.org/">C40 Cities</a>.</p>
-<section id="docencia-y-r" class="level2">
-<h2 class="anchored" data-anchor-id="docencia-y-r">Docencia y R:</h2>
-<ul>
-<li>Instructor Certificado de <a href="https://carpentries.org/">The Carpentries</a></li>
-</ul>
-<p>Van ya más de 5 años diseñando y llevando adelante cursos de R, algunos de ellos son:</p>
-<ul>
-<li><p><a href="https://noticias.unsam.edu.ar/wp-content/uploads/2022/02/Cs-Computacionales-dga2022.pdf">Ciencias Sociales Computacionales y Humanidades Digitales (IDAES-UNSAM)</a>. Módulo 1. Introducción a la Ciencia de Datos para Científicos Sociales</p></li>
-<li><p><a href="https://www.flacso.org.ar/formacion-academica/big-data-e-inteligencia-territorial/">Big Data e Inteligencia Territorial (FLACSO) - Módulo Ciencia de Datos I</a></p></li>
-<li><p><a href="https://tuqmano.github.io/geo_utdt/index.html">Instrumentos de Análisis Urbanos II (UTDT)</a></p></li>
-<li><p><a href="https://pablotis.github.io/r_iigg/">Introducción a R para Ciencias Sociales - IIGG</a></p></li>
-<li><p><a href="https://github.com/pablotis/Curso_R_INDEC">Software estadístico R, aplicado al análisis y procesamiento de la información estadística del INDEC.</a></p></li>
-</ul>
-</section>
-<section id="mundo-r" class="level2">
-<h2 class="anchored" data-anchor-id="mundo-r">Mundo R:</h2>
-<p>He participado en la organización y difusión de la comunidad de <a href="https://renbaires.github.io/">R en Buenos Aires</a>, en el desarrollo de los paquetes <a href="https://holatam.github.io/eph/">eph</a>, <a href="https://dnme-minturdep.r-universe.dev/herramientas">herramientas</a>, <a href="https://dnme-minturdep.r-universe.dev/comunicacion">comunicacion</a> y <a href="https://dnme-minturdep.r-universe.dev/evyth">evyth</a>.</p>
-<p>📝 Podés encontrar parte de mi recorrido y trabajo con R en mi blog <a href="https://estacion-r.netlify.app/">estación-R</a>, buscar Tips sobre R con <a href="https://twitter.com/r_tipss">rtips (twitter)</a>/<a href="@r_tips@botsin.space">rtips (Mastodon)</a> y descubrir <a href="https://github.com/pablotis/asombrosos-paquetes-r-latinoamerica">Asombrosos paquetes de R en Latinoamérica</a>, proyectos que llevo adelante como aporte a la comunidad.</p>
-<p>Podemos cruzarnos en: <a href="https://twitter.com/r_tips">𝕏 estacion-r</a> | <a href="https://mastodon.social/deck/@r_tips@botsin.space">Mastodon 🦣</a> | <a href="https://github.com/pablotis">Github</a> | <a href="https://estacion-r.netlify.app/">🇷 estacion-r</a> | <a href="https://twitter.com/pabblo_h">𝕏 pabblo_h</a></p>
+<p><strong>Federico (Fede) Baraghian</strong></p>
+<p>👋🏻 Licenciado en Sociología por la Universidad de Buenos Aires (UBA) y especialista en análisis de datos con amplia experiencia en el sector público y privado.</p>
+<p>🔍 Experiencia profesional:</p>
+<pre><code>Trabajó en el Instituto Nacional de Estadística y Censos (INDEC) y en el Ministerio de Obras Públicas de la Nación (MOP), donde se especializó en el análisis de datos provenientes de encuestas a hogares, registros de obras y proyectos, y la producción de indicadores clave (pobreza, ingresos, proyecciones de obra pública, entre otros).
+
+Utilizó R como herramienta principal para el análisis y visualización de datos, contribuyendo a una gestión pública basada en evidencia y de alta calidad.
+
+Actualmente se desempeña en una empresa de opinión pública, donde continúa aplicando su expertise en el análisis de datos para generar información estratégica y de alto valor.</code></pre>
+<p>📊 Enfoque del curso:</p>
+<p>Con una sólida trayectoria en el uso de R para el procesamiento y análisis de datos, Federico combina su experiencia práctica con un enfoque didáctico, asegurando que los participantes adquieran habilidades concretas y aplicables en el mundo real.</p>
 <hr>
 
 
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

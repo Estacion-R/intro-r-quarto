@@ -9,32 +9,20 @@ engine: knitr
 #     - filename
 ---
 
-**PABLO TISCORNIA**
+**Federico (Fede) Baraghian**
 
-Sociólogo y Científico de Datos. Especializado en metodología, producción, procesamiento y comunicación de información estadística. Trabajé como analista y procesador de datos en las oficinas estadísticas de la Ciudad de Buenos Aires ([DGEyC](https://www.estadisticaciudad.gob.ar/eyc/)) y Argentina ([INDEC](https://www.indec.gob.ar/)), y como Coordinador de Datos en la Dirección Nacional de Mercados y Estadística ([DNMYE](https://www.yvera.tur.ar/sinta/)), del Ministerio de Turismo y Deportes de la Nación. Actualmente estoy trabajando como Científico de datos para [C40 Cities](https://www.c40.org/).
+👋🏻 Licenciado en Sociología por la Universidad de Buenos Aires (UBA) y especialista en análisis de datos con amplia experiencia en el sector público y privado.
 
-## Docencia y R:
+🔍 Experiencia profesional:
 
--   Instructor Certificado de [The Carpentries](https://carpentries.org/)
+    Trabajó en el Instituto Nacional de Estadística y Censos (INDEC) y en el Ministerio de Obras Públicas de la Nación (MOP), donde se especializó en el análisis de datos provenientes de encuestas a hogares, registros de obras y proyectos, y la producción de indicadores clave (pobreza, ingresos, proyecciones de obra pública, entre otros).
 
-Van ya más de `r lubridate::year(lubridate::today()) - 2019` años diseñando y llevando adelante cursos de R, algunos de ellos son:
+    Utilizó R como herramienta principal para el análisis y visualización de datos, contribuyendo a una gestión pública basada en evidencia y de alta calidad.
 
--   [Ciencias Sociales Computacionales y Humanidades Digitales (IDAES-UNSAM)](https://noticias.unsam.edu.ar/wp-content/uploads/2022/02/Cs-Computacionales-dga2022.pdf). Módulo 1. Introducción a la Ciencia de Datos para Científicos Sociales
+    Actualmente se desempeña en una empresa de opinión pública, donde continúa aplicando su expertise en el análisis de datos para generar información estratégica y de alto valor.
 
--   [Big Data e Inteligencia Territorial (FLACSO) - Módulo Ciencia de Datos I](https://www.flacso.org.ar/formacion-academica/big-data-e-inteligencia-territorial/)
+📊 Enfoque del curso:
 
--   [Instrumentos de Análisis Urbanos II (UTDT)](https://tuqmano.github.io/geo_utdt/index.html)
-
--   [Introducción a R para Ciencias Sociales - IIGG](https://pablotis.github.io/r_iigg/)
-
--   [Software estadístico R, aplicado al análisis y procesamiento de la información estadística del INDEC.](https://github.com/pablotis/Curso_R_INDEC)
-
-## Mundo R:
-
-He participado en la organización y difusión de la comunidad de [R en Buenos Aires](https://renbaires.github.io/), en el desarrollo de los paquetes [eph](https://holatam.github.io/eph/), [herramientas](https://dnme-minturdep.r-universe.dev/herramientas), [comunicacion](https://dnme-minturdep.r-universe.dev/comunicacion) y [evyth](https://dnme-minturdep.r-universe.dev/evyth).
-
-📝 Podés encontrar parte de mi recorrido y trabajo con R en mi blog [estación-R](https://estacion-r.netlify.app/), buscar Tips sobre R con [rtips (twitter)](https://twitter.com/r_tipss)/[rtips (Mastodon)](@r_tips@botsin.space) y descubrir [Asombrosos paquetes de R en Latinoamérica](https://github.com/pablotis/asombrosos-paquetes-r-latinoamerica), proyectos que llevo adelante como aporte a la comunidad.
-
-Podemos cruzarnos en: [𝕏 estacion-r](https://twitter.com/r_tips) \| [Mastodon 🦣](https://mastodon.social/deck/@r_tips@botsin.space) \| [Github](https://github.com/pablotis) \| [🇷 estacion-r](https://estacion-r.netlify.app/) \| [𝕏 pabblo_h](https://twitter.com/pabblo_h)
+Con una sólida trayectoria en el uso de R para el procesamiento y análisis de datos, Federico combina su experiencia práctica con un enfoque didáctico, asegurando que los participantes adquieran habilidades concretas y aplicables en el mundo real.
 
 ------------------------------------------------------------------------
