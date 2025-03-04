@@ -31,7 +31,7 @@ downloadthis::download_file(
 
 ## Links
 
--   Presentación: <https://docs.google.com/document/d/17SKdiXxwbqve83sorSp0TsBLFoRb6Fs_6b7F25llE68/edit?usp=sharing>
+-   Presentación: <https://docs.google.com/document/d/10MfUrYuR66ZB1e9OznpzsKQQBXtdPO1GTy_4aPhRLf4/edit?usp=sharing>
 
 -   Ciencia de Datos para Gente Sociable: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/>
 

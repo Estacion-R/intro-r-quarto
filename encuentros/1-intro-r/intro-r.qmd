@@ -64,7 +64,7 @@ execute:
 
 # Presentación
 
-👋 Presentate [acá](https://docs.google.com/document/d/17SKdiXxwbqve83sorSp0TsBLFoRb6Fs_6b7F25llE68/edit?tab=t.0)
+👋 Presentate [acá](https://docs.google.com/document/d/10MfUrYuR66ZB1e9OznpzsKQQBXtdPO1GTy_4aPhRLf4/edit?usp=sharing)
 
 ## Hoja de Ruta
 
