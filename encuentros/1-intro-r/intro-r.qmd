@@ -30,7 +30,7 @@ execute:
 
 # Bienvenidos y bienvenidas a Estación R
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 💬 [Slack](https://join.slack.com/t/estacion-r/shared_invite/zt-2smy7t4ae-1KDZLHN1aqXmZXdKbc5buA)
 
@@ -48,7 +48,7 @@ execute:
 
 [LinkedIn](https://www.linkedin.com/company/estacion-r/)
 :::
-:::::
+:::
 
 # Sobre el curso
 
@@ -68,7 +68,7 @@ execute:
 
 ## Hoja de Ruta
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 📌 ¿Qué es R?
 
@@ -90,7 +90,7 @@ execute:
   👉🏼 Data Frames
 ```
 :::
-:::::
+:::
 
 # ¿Qué es R?
 
@@ -132,7 +132,7 @@ execute:
 
 ## R != Rstudio
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ![](images/r_console.png){fig-alt="r project console"}
 :::
@@ -140,11 +140,11 @@ execute:
 ::: {.column width="50%"}
 ![](images/consola_r_studio.png){fig-alt="R studio console"}
 :::
-:::::
+:::
 
 ## R != Rstudio
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ![](images/r_console.png){fig-alt="r project console"}
 :::
@@ -152,7 +152,7 @@ execute:
 ::: {.column width="50%"}
 ![](images/consola_r_studio_ok.png){fig-alt="R studio console"}
 :::
-:::::
+:::
 
 # Vamos a Rstudio!
 
@@ -302,11 +302,11 @@ mean(c(10, 20, 30))
 mean(c("10", "20", "30"))
 ```
 
-## Objectos
+## Objetos
 
 -   Todo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)
 
-## Objectos
+## Objetos
 
 -   Todo en R puede ser guardado en un objeto (un valor, un vector, el resutlado de una función, y más)
 
@@ -316,43 +316,43 @@ mean(c("10", "20", "30"))
 nombre_del_objeto <- algo
 ```
 
-## Objectos
+## Objetos
 
 ```{r}
 guardo_un_numero <- 1
 ```
 
-## Objectos
+## Objetos
 
 ```{r}
 guardo_un_numero
 ```
 
-## Objectos
+## Objetos
 
 ```{r}
 guardo_un_vector <- c(10, 20, 30)
 ```
 
-## Objectos
+## Objetos
 
 ```{r}
 guardo_un_vector
 ```
 
-## Objectos
+## Objetos
 
 ```{r}
 guardo_un_resultado <- mean(c(20, 45, 23))
 ```
 
-## Objectos
+## Objetos
 
 ```{r}
 guardo_un_resultado
 ```
 
-## Objectos
+## Objetos
 
 ```{r}
 objeto_como_input <- c(20, 45, 23)
@@ -392,7 +392,7 @@ base_personas <- data.frame(vector_edad,
                             vector_nombre)
 ```
 
-## Data Franes
+## Data Frames
 
 -   Así se ve un data.frame:
 
@@ -400,23 +400,23 @@ base_personas <- data.frame(vector_edad,
 base_personas
 ```
 
-# Accediendo a un Data Frames {.center}
+# Accediendo a un Data Frame {.center}
 
 > Recordar este comando: `$`
 
-## Accediendo a un Data Frames
+## Accediendo a un Data Frame
 
 -   Con el comando `$` (símbolo peso) puedo acceder a una columna del data frame:
 
 ![](images/comnado_peso.png){width="20%"}
 
-## Accediendo a un Data Frane
+## Accediendo a un Data Frame
 
 ```{r}
 base_personas$vector_nombre
 ```
 
-## Accediendo a un Data Frane
+## Accediendo a un Data Frame
 
 El resultado de `base_personas$vector_nombre` es nuevamente un vector, por lo que puedo:
 

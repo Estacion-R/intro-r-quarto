@@ -31,7 +31,7 @@ downloadthis::download_file(
 
 ## Links
 
--   Presentación: <https://docs.google.com/document/d/1cM2BpKw4weWxsJ5EvcoJzT02YZPjcIZvxNVoOskEPgY/edit#heading=h.jja0j3hbdd5p>
+-   Presentación: <https://docs.google.com/document/d/17SKdiXxwbqve83sorSp0TsBLFoRb6Fs_6b7F25llE68/edit?usp=sharing>
 
 -   Ciencia de Datos para Gente Sociable: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/>
 
@@ -39,6 +39,6 @@ downloadthis::download_file(
 
 ## Docente
 
-![](../../img/foto_perfil.jpeg){style="float: right; padding-left: 10px;" fig-alt="Foto de Pablo Tiscornia" width="180"}
+![](images/docente.jpg){style="float: right; padding-left: 10px;" fig-alt="Foto de Pablo Tiscornia" width="180"}
 
-[Pablo Tiscornia](https://pablotis.github.io/intro-r-quarto/profesor.html)
+[Federico Baraghian](https://www.linkedin.com/in/federico-baraghian/)

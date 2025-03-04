@@ -5,31 +5,30 @@ author: "Estación R"
 
 ## Consignas:
 
-1. Crear un vector llamado `apellido`, con los siguientes 7 apellidos:
+1.  Crear un vector llamado `apellido`, con los siguientes 7 apellidos:
 
-    - "García",
-    - "Sanchez",
-    - "Van Del Sar",
-    - "Mihatovich",
-    - "Lama",
-    - "Lugercio"
-    - "Messidona"
+    -   "García",
+    -   "Sanchez",
+    -   "Van Del Sar",
+    -   "Mihatovich",
+    -   "Lama",
+    -   "Lugercio"
+    -   "Messidona"
 
-1. Crear un vector llamado `cantidad`, con los siguientes 7 valores, que representen la frecuencia con la que existe cada apellido en nuestra base:
+2.  Crear un vector llamado `cantidad`, con los siguientes 7 valores, que representen la frecuencia con la que existe cada apellido en nuestra base:
 
-    - 1
-    - 3
-    - 17
-    - 9
-    - 2
-    - 34
-    - 98
-    
-    
-1. Con estos vectores, crear un `data.frane` que los combine y:
+    -   1
+    -   3
+    -   17
+    -   9
+    -   2
+    -   34
+    -   98
 
-    a. Sumar la cantidad de apellidos total que hay en la base (la función `sum()` puede ayudar al respecto).
-    
-    a. Calcular el apellido que más frecuencia tiene (la función `max()` puede ayudar al respecto).
-    
-    a. Calcular el apellido que menos frecuencia tiene (la función `min()` puede ayudar al respecto)
+3.  Con estos vectores, crear un `data.frame` que los combine y:
+
+    a.  Sumar la cantidad de apellidos total que hay en la base (la función `sum()` puede ayudar al respecto).
+
+    b.  Calcular el apellido que más frecuencia tiene (la función `max()` puede ayudar al respecto).
+
+    c.  Calcular el apellido que menos frecuencia tiene (la función `min()` puede ayudar al respecto)

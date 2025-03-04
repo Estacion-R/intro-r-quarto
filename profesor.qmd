@@ -9,19 +9,17 @@ engine: knitr
 #     - filename
 ---
 
-**Federico (Fede) Baraghian**
+**Federico Baraghian**
 
 👋🏻 Licenciado en Sociología por la Universidad de Buenos Aires (UBA) y especialista en análisis de datos con amplia experiencia en el sector público y privado.
 
 🔍 Experiencia profesional:
 
-        
 Trabajó en el Instituto Nacional de Estadística y Censos (INDEC) y en el Ministerio de Obras Públicas de la Nación (MOP), donde se especializó en el análisis de datos provenientes de encuestas a hogares, registros de obras y proyectos, y la producción de indicadores clave (pobreza, ingresos, proyecciones de obra pública, entre otros).
 
 Utilizó R como herramienta principal para el análisis y visualización de datos, contribuyendo a una gestión pública basada en evidencia y de alta calidad.
 
 Actualmente se desempeña en una empresa de opinión pública, donde continúa aplicando su expertise en el análisis de datos para generar información estratégica y de alto valor.
-
 
 📊 Enfoque del curso:
 
