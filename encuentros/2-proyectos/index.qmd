@@ -13,7 +13,9 @@ Tendremos ejercitación para realizar durante el encuentro y se dejará práctic
 
 ## Slides
 
-<iframe class="slide-deck" src="/encuentros/2-proyectos/proyectos-r-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="/encuentros/2-proyectos/proyectos-r-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;">
+
+</iframe>
 
 ```{r echo=FALSE}
 downloadthis::download_file(
@@ -29,7 +31,7 @@ downloadthis::download_file(
 
 ## Links
 
--   Notas de clase colaborativa: <https://docs.google.com/document/d/1Hjy4NxQajOFUMHu1If1L-GEAsgszm2nUbfzonbs993k/edit>
+<!-- -   Notas de clase colaborativa: <https://docs.google.com/document/d/1Hjy4NxQajOFUMHu1If1L-GEAsgszm2nUbfzonbs993k/edit> -->
 
 -   Ciencia de Datos para Gente Sociable: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/una-presentaci%C3%B3n-a-toda-marcha-de-r.html#crear-un-proyecto-en-rstudio>
 
@@ -39,6 +41,6 @@ downloadthis::download_file(
 
 ## Docente
 
-![](../../img/foto_perfil.jpeg){style="float: right; padding-left: 10px;" fig-alt="Foto de Pablo Tiscornia" width="180"}
+![](images/docente.jpg){style="float: right; padding-left: 10px;" fig-alt="Foto de Pablo Tiscornia" width="180"}
 
-[Pablo Tiscornia](https://pablotis.github.io/intro-r-quarto/profesor.html)
+[Federico Baraghian](https://www.linkedin.com/in/federico-baraghian/)
