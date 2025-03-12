@@ -39,6 +39,6 @@ downloadthis::download_file(
 
 ## Docente
 
-![](images/docente.jpg){style="float: right; padding-left: 10px;" fig-alt="Foto de Federico Baraghian width="180"}
+![](images/docente.jpg){style="float: right; padding-left: 10px;" fig-alt="Foto de Federico Baraghian" width="180"}
 
 [Federico Baraghian](https://www.linkedin.com/in/federico-baraghian/)
