@@ -711,21 +711,21 @@
     "href": "encuentros/3-tidyverse/index.html#slides",
     "title": "Introducción al procesamiento de datos con {tidyverse}.",
     "section": "Slides",
-    "text": "Slides\n\n\n\n\n Descarga las diapositivas\n\n\n\n\n Descarga las Notas de clase (script)"
+    "text": "Slides\n\n\n\n\n Descarga las diapositivas"
   },
   {
     "objectID": "encuentros/3-tidyverse/index.html#links",
     "href": "encuentros/3-tidyverse/index.html#links",
     "title": "Introducción al procesamiento de datos con {tidyverse}.",
     "section": "Links",
-    "text": "Links\n\nNotas de clase colaborativa: https://docs.google.com/document/d/1tobGulY1LayIkYUnEZrsUYcoxFms2odWoEBGrwFDgac/edit\nCiencia de Datos para Gente Sociable: https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/poniendo-los-datos-en-forma.html#transformando-los-datos\nR para Ciencia de Datos - Capítulo: Explorar - Transformación de datos: https://es.r4ds.hadley.nz/05-transform.html\nEjercitación de la semana: https://Estacion-R.github.io/intro-r-quarto/encuentros/3-tidyverse/r-tidyverse_ejercicios.html"
+    "text": "Links\n\n\nCiencia de Datos para Gente Sociable: https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/poniendo-los-datos-en-forma.html#transformando-los-datos\nR para Ciencia de Datos - Capítulo: Explorar - Transformación de datos: https://es.r4ds.hadley.nz/05-transform.html\nEjercitación de la semana: https://Estacion-R.github.io/intro-r-quarto/encuentros/3-tidyverse/r-tidyverse_ejercicios.html"
   },
   {
     "objectID": "encuentros/3-tidyverse/index.html#docente",
     "href": "encuentros/3-tidyverse/index.html#docente",
     "title": "Introducción al procesamiento de datos con {tidyverse}.",
     "section": "Docente",
-    "text": "Docente\n\nPablo Tiscornia"
+    "text": "Docente\n\nFederico Baraghian"
   },
   {
     "objectID": "encuentros/3-tidyverse/index_ACTIVAR.html",
@@ -816,7 +816,7 @@
     "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-2",
     "title": "Procesando datos con {tidyverse}",
     "section": "{tidyverse}",
-    "text": "{tidyverse}\n\n\nCargo el paquete:\n\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+    "text": "{tidyverse}\n\n\nCargo el paquete:\n\n\nlibrary(tidyverse)\n\nWarning: package 'readr' was built under R version 4.4.3\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
   },
   {
     "objectID": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-3",

@@ -112,6 +112,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="../../encuentros/2-proyectos/index.html" rel="" target="">
  <span class="dropdown-text">Módulo 2: Proyectos de trabajo</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../encuentros/3-tidyverse/index.html" rel="" target="">
+ <span class="dropdown-text">Módulo 3: Procesamiento de datos con {tidyverse}</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -228,41 +232,11 @@ ul.task-list li input[type="checkbox"] {
   "><i class="fa fa-save"></i> Descarga las diapositivas</button>
 </div>
 </div>
-<div class="cell">
-<div class="cell-output-display">
-<button class="btn btn-default" onclick="
-    async function downloadFile(event) {
-      event.preventDefault();
-      try {
-        const response = await fetch('data:text/plain;base64,DQojI35+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fg0KIyMgICAgICAgICAgICAgICAgICAgIE5vdGFzIChzY3JpcHQpIGRlIGNsYXNlIC0gRW5jdWVudHJvIDUgICAgICAgICAgICAgICAgIC0tLS0NCiMjfn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+DQoNCiMjIyBDYXJnbyBsaWJyZXLDrWENCmxpYnJhcnkodGlkeXZlcnNlKQ0KDQpkZl9wdW5hIDwtIHJlYWRfY3N2KCJkYXRvcy9wdW5hX2Jhc2VfYWdyZWdhZGEuY3N2IikNCg0KDQojIyMgU2VsZWNjaW9ubyBjb2x1bW5hcyB5IGNyZW8gbnVldmEgdmFyaWFibGUNCmRmX2x1Z2FyX3RvdCA8LSBkZl9wdW5hIHw+IA0KICBzZWxlY3QobG9jYWxpZGFkLCBoYWJpdGFjaW9uZXMsIHBsYXphcykgfD4gDQogIG11dGF0ZShsdWdhcl9kaXNwb25pYmxlID0gaGFiaXRhY2lvbmVzICsgcGxhemFzKQ0KDQoNCiMjIyBDcmVvIHZhcmlhYmxlIGNvbiBsYSBmdW5jacOzbiBwYXN0ZSgpIGRlIGF5dWRhDQpkZl9sdWdhcl9lajEgPC0gZGZfcHVuYSAlPiUgDQogIHNlbGVjdChsb2NhbGlkYWQsIHJlZ2lvbiwgcnV0YV9uYXR1cmFsKSAlPiUgDQogIG11dGF0ZShyZWdpb25fcnV0YSA9IHBhc3RlKHJlZ2lvbiwgcnV0YV9uYXR1cmFsLCBzZXAgPSAiLSIpKQ0KDQojIyMgRWplbXBsbyBkZSB1c2UgcGFzdGUoKQ0KYW5pbyA8LSBjKDIwMjAsIDIwMjAsIDIxMDAsIDMwMDApDQptZXMgPC0gYygiZW5lcm8iLCAiZW5lcm8iLCAiZGljaWVtYnJlIiwgIkFicmlsIikNCg0KYmFzZSA8LSBkYXRhLmZyYW1lKGFuaW8sIG1lcykNCg0KYmFzZV9udWV2YV92YXIgPC0gYmFzZSAlPiUgDQogIG11dGF0ZShwZXJpb2RvID0gcGFzdGUoYW5pbywgbWVzLCBzZXAgPSAiLSIpKQ0KDQoNCiMjIyBSZWNvZGlmaWNhY2nDs24NCmRmX3B1bmFfYWdydXAgPC0gZGZfcHVuYSB8PiANCiAgc2VsZWN0KHRpcG8sIHBsYXphcykgfD4gDQogIG11dGF0ZSh0aXBvX2FncnVwYWRvID0gY2FzZV93aGVuKHRpcG8gPT0gIkhvdGVsZXJvcyIgfiAiSG90ZWxlcm9zIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmRlZmF1bHQgPSAiT3Ryb3MiKSkNCg0KIyMjIENhbGN1bG8gZnJlY3VlbmNpYQ0KZGZfcHVuYV9hZ3J1cCAlPiUgDQogIGNvdW50KHRpcG9fYWdydXBhZG8pDQoNCg0KIyAgUmVjb2RpZmljYWNpw7NuIC0tPiBVc28gZGVsIC5kZWZhdWx0ID0gcGFyYSAidG9kbyBlbCByZXN0byIgfn5+DQojfn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fg0KZGZfcHVuYV9hZ3J1cF9ob3RlbCA8LSBkZl9wdW5hIHw+IA0KICBzZWxlY3QoY2xhc2lmaWNhY2lvbl9taW50dXJkZXAsIHBsYXphcykgfD4gDQogIG11dGF0ZShjbGFzaWZfYWdydXBhZG8gPSBjYXNlX3doZW4oDQogICAgY2xhc2lmaWNhY2lvbl9taW50dXJkZXAgJWluJSBjKCJIb3RlbCAxIGVzdHJlbGxhIiwgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJIb3RlbCAyIGVzdHJlbGxhcyIsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJIb3RlbCAzIGVzdHJlbGxhcyIpIH4gIkhvdGVsIGhhc3RhIDMgZXN0cmVsbGFzIiwNCiAgICAuZGVmYXVsdCA9ICJPdHJvcyIpKQ0KDQoNCg0KZGZfZGllZ28gPC0gZGZfcHVuYSAlPiUgDQogIHNlbGVjdChsb2NhbGlkYWQsIGNsYXNpZmljYWNpb25fbWludHVyZGVwKSAlPiUgIA0KICBtdXRhdGUobnVldmFfY2xhc2lmaWNhY2lvbiA9IGNhc2Vfd2hlbihjbGFzaWZpY2FjaW9uX21pbnR1cmRlcCA9PSAiQ2FtcGluZyIgfiAiQ2FtcGluZyIsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5kZWZhdWx0ID0gIk90cm9zIikpDQoNCnVuaXF1ZShkZl9kaWVnbyRudWV2YV9jbGFzaWZpY2FjaW9uKQ0KDQoNCg0KDQoNCiMgICAgICAgICAgICAgICAgICAgICAgICBGbHVqbyBjb21wbGV0byAgICAgICAgICAgICAgICAgICAgICAgfn5+DQojfn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fg0KIyMgQXJtbyBiYXNlDQp1bmlxdWUoZGZfcHVuYSRjbGFzaWZpY2FjaW9uX21pbnR1cmRlcCkNCmRmX2ppbWVuYSA8LSBkZl9wdW5hICU+JSANCiAgZmlsdGVyKGluZGljZV90aWVtcG8gPT0gMjAyMCkgJT4lIA0KICBzZWxlY3QobG9jYWxpZGFkLGNsYXNpZmljYWNpb25fbWludHVyZGVwKSAlPiUgDQogIG11dGF0ZSAobnVldmFfY2xhc2lmID0gY2FzZV93aGVuKGNsYXNpZmljYWNpb25fbWludHVyZGVwPT0iSG90ZWwgMSBlc3RyZWxsYSIgfiJIb3RlbCAxIGVzdHJlbGxhIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmRlZmF1bHQ9ICJPdHJvcyIpKQ0KDQoNCiMjIENhbGN1bG8gbiB5IHBvcmNlbnRhamUNCnRhYmxhX2hvdGVsZXNfMV9lc3RyIDwtIGRmX2ppbWVuYSAlPiUgDQogIGNvdW50KG51ZXZhX2NsYXNpZikgJT4lIA0KICBtdXRhdGUocG9yY2VudGFqZSA9IG4gLyBzdW0obikgKiAxMDApDQoNCg0KIyAgICAgICAgICAgICAgICBHcmFiYXIgbyBlc2NyaWJpciBkYXRvcyBlbiBjc3YgICAgICAgICAgICAgICB+fn4NCiN+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+DQp3cml0ZV9jc3YodGFibGEsICJkYXRvcy90YWJsYV9jYW1waW5nLmNzdiIpDQoNCg0KDQojLi4uLi4uLi4uRGFyIGZvcm1hdG8gYSB2YWxvcmVzIGNvbiBsYSBmdW5jacOzbiAnZm9ybWF0KCkuLi4uLi4uLi4NCnRhYmxhX2Zpbl9tdW5kb19wcm92IDwtIGRmX3B1bmEgfD4NCiAgZmlsdGVyKHJ1dGFfbmF0dXJhbCA9PSAiRGVzaWVydG9zIHkgVm9sY2FuZXMiKSAlPiUgDQogIGdyb3VwX2J5KHByb3ZpbmNpYV9ub21icmUsIGluZGljZV90aWVtcG8pICU+JSANCiAgc3VtbWFyaXNlKGNhbnRfcGxhemFzID0gc3VtKHBsYXphcyksDQogICAgICAgICAgICBwcm9tX3BsYXphcyA9IGZvcm1hdChtZWFuKHBsYXphcyksIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmlnLm1hcmsgPSAiLiIsIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVjaW1hbC5tYXJrID0gIiwiLCANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpZ2l0cyA9IDMpLA0KICAgICAgICAgICAgbWluX3BsYXphcyAgPSBtaW4ocGxhemFzKSwNCiAgICAgICAgICAgIG1heF9wbGF6YXMgID0gbWF4KHBsYXphcykpICU+JSANCiAgbXV0YXRlKHBvcmNlbnRhamUgPSByb3VuZChjYW50X3BsYXphcyAvIHN1bShjYW50X3BsYXphcykgKiAxMDAsIGRpZ2l0cyA9IDIpKSAlPiUgDQogIGZpbHRlcihwcm92aW5jaWFfbm9tYnJlID09ICJDYXRhbWFyY2EiKSAlPiUgDQogIHNlbGVjdCgtbWluX3BsYXphcykNCg0KDQpzdW0odGFibGFfZmluX211bmRvX3Byb3YkcHJvbV9wbGF6YXMpDQoNCg0KIyAgICAgICAgICBBcm1hZG8gZGUgdGFibGFzIGNvbiBlbCBwYXF1ZXRlIHtqYW5pdG9yfSAgICAgICAgICB+fn4NCiN+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+DQojIGluc3RhbGwucGFja2FnZXMoImphbml0b3IiKQ0KbGlicmFyeShqYW5pdG9yKQ0KDQp0YWJsYV9udWV2YSA8LSBkZl9wdW5hICU+JSANCiAgbXV0YXRlKGFuaW9fYWdydXAgPSBjYXNlX3doZW4oaW5kaWNlX3RpZW1wbyAlaW4lIGMoMjAyMCwgMjAyMSkgfiAxLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbmRpY2VfdGllbXBvID09IDIwMjIgfiAyKSkNCg0KDQp0YWJsYV9udWV2YSAlPiUgDQogIGNvdW50KGFuaW9fYWdydXApICU+JSANCiAgYWRvcm5fdG90YWxzKCkNCg0KdGFibGFfbnVldmEgJT4lDQogIHRhYnlsKGFuaW9fYWdydXApICU+JQ0KICBhZG9ybl90b3RhbHMoInJvdyIpICU+JSANCiAgYWRvcm5fcGN0X2Zvcm1hdHRpbmcoKQ0KDQoNCg0KDQo=');
-        if (!response.ok) throw new Error('Network response failed');
-        const blob = await response.blob();
-        const blobUrl = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = blobUrl;
-        a.download = 'r-tidyverse-notas_de_clase.R';
-        a.style.display = 'none';
-        document.body.appendChild(a);
-        a.dispatchEvent(new MouseEvent('click'));
-        document.body.removeChild(a);
-        setTimeout(() => {
-          window.URL.revokeObjectURL(blobUrl);
-        }, 100);
-        return false;
-      } catch (error) {
-        console.error('Download failed:', error);
-        alert('Download failed. Please try again.');
-      }
-    }
-    downloadFile(event);
-  "><i class="fa fa-save"></i> Descarga las Notas de clase (script)</button>
-</div>
-</div>
 </section>
 <section id="links" class="level2">
 <h2 class="anchored" data-anchor-id="links">Links</h2>
+<!-- -   Notas de clase colaborativa: <https://docs.google.com/document/d/1tobGulY1LayIkYUnEZrsUYcoxFms2odWoEBGrwFDgac/edit> -->
 <ul>
-<li><p>Notas de clase colaborativa: <a href="https://docs.google.com/document/d/1tobGulY1LayIkYUnEZrsUYcoxFms2odWoEBGrwFDgac/edit" class="uri">https://docs.google.com/document/d/1tobGulY1LayIkYUnEZrsUYcoxFms2odWoEBGrwFDgac/edit</a></p></li>
 <li><p>Ciencia de Datos para Gente Sociable: <a href="https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/poniendo-los-datos-en-forma.html#transformando-los-datos" class="uri">https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/poniendo-los-datos-en-forma.html#transformando-los-datos</a></p></li>
 <li><p>R para Ciencia de Datos - Capítulo: <em>Explorar - Transformación de datos</em>: <a href="https://es.r4ds.hadley.nz/05-transform.html" class="uri">https://es.r4ds.hadley.nz/05-transform.html</a></p></li>
 <li><p>Ejercitación de la semana: <a href="https://Estacion-R.github.io/intro-r-quarto/encuentros/3-tidyverse/r-tidyverse_ejercicios.html" class="uri">https://Estacion-R.github.io/intro-r-quarto/encuentros/3-tidyverse/r-tidyverse_ejercicios.html</a></p></li>
@@ -270,8 +244,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="docente" class="level2">
 <h2 class="anchored" data-anchor-id="docente">Docente</h2>
-<p><img src="../../img/foto_perfil.jpeg" class="img-fluid" style="float: right; padding-left: 10px;" alt="Foto de Pablo Tiscornia" width="180"></p>
-<p><a href="https://pablotis.github.io/intro-r-quarto/profesor.html">Pablo Tiscornia</a></p>
+<p><img src="images/docente.jpg" class="img-fluid" style="float: right; padding-left: 10px;" alt="Foto de Pablo Tiscornia" width="180"></p>
+<p><a href="https://www.linkedin.com/in/federico-baraghian/">Federico Baraghian</a></p>
 
 
 </section>
