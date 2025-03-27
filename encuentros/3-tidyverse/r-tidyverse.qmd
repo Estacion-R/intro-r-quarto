@@ -3,7 +3,7 @@ title: "Procesando datos con `{tidyverse}`"
 subtitle: "Principales herramientas (funciones) para el tratamiento de datos"
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2024-10-31
+date: 2025-03-18
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
 logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
@@ -684,7 +684,7 @@ knitr::include_graphics("images/filter_presentacion.png")
 -   Chequeo con qué tipos de alojamiento cuento en la base:
 
 ```{r}
-unique(df_puna$clasificacion_minturdep)
+unique(df_puna$clasificacion)
 ```
 
 ## Caso práctico
@@ -697,7 +697,7 @@ unique(df_puna$clasificacion_minturdep)
 library(tidyverse)
 
 df_filtrada <- df_puna |> 
-  filter(clasificacion_minturdep == "Camping")
+  filter(clasificacion == "Camping")
 ```
 
 ## Caso práctico
@@ -707,7 +707,7 @@ df_filtrada <- df_puna |>
 -   Chequeo filtro
 
 ```{r}
-unique(df_filtrada$clasificacion_minturdep)
+unique(df_filtrada$clasificacion)
 ```
 
 ## `filter()`
@@ -743,10 +743,10 @@ unique(df_filtrada$clasificacion_minturdep)
 
 <br>
 
--   Chequeo las categorías de la variable `clasificacion_minturdep`
+-   Chequeo las categorías de la variable `clasificacion`
 
 ```{r}
-unique(df_puna$clasificacion_minturdep)
+unique(df_puna$clasificacion)
 ```
 
 ## Caso práctico
@@ -757,7 +757,7 @@ unique(df_puna$clasificacion_minturdep)
 
 ```{r}
 df_camping_y_hoteles3estrellas <- df_puna |> 
-  filter(clasificacion_minturdep == "Camping" | clasificacion_minturdep == "Hotel 3 estrellas")
+  filter(clasificacion == "Camping" | clasificacion == "Hotel 3 estrellas")
 ```
 
 ## Caso práctico
@@ -767,7 +767,7 @@ df_camping_y_hoteles3estrellas <- df_puna |>
 -   Chequeo filtro
 
 ```{r}
-unique(df_camping_y_hoteles3estrellas$clasificacion_minturdep)
+unique(df_camping_y_hoteles3estrellas$clasificacion)
 ```
 
 ## Caso práctico
@@ -778,7 +778,7 @@ unique(df_camping_y_hoteles3estrellas$clasificacion_minturdep)
 
 ```{r}
 df_camping_y_hoteles3estrellas <- df_puna |> 
-  filter(clasificacion_minturdep %in% c("Camping", "Hotel 3 estrellas"))
+  filter(clasificacion %in% c("Camping", "Hotel 3 estrellas"))
 ```
 
 ## Caso práctico
@@ -788,7 +788,7 @@ df_camping_y_hoteles3estrellas <- df_puna |>
 -   Chequeo filtro
 
 ```{r}
-unique(df_camping_y_hoteles3estrellas$clasificacion_minturdep)
+unique(df_camping_y_hoteles3estrellas$clasificacion)
 ```
 
 ## `select()` + `filter()`
@@ -802,7 +802,7 @@ unique(df_camping_y_hoteles3estrellas$clasificacion_minturdep)
 #| code-line-numbers: "2,3"
 df_puna |> 
   select(localidad, 
-         clasificacion_minturdep)
+         clasificacion)
 ```
 :::
 
@@ -810,7 +810,7 @@ df_puna |>
 ```{r}
 #| echo: false
 df_puna |> 
-  select(localidad, clasificacion_minturdep)
+  select(localidad, clasificacion)
 ```
 :::
 :::
@@ -826,8 +826,8 @@ df_puna |>
 #| code-line-numbers: "4"
 df_puna |> 
   select(localidad, 
-         clasificacion_minturdep) |> 
-  filter(clasificacion_minturdep %in% c("Camping", "Hotel 3 estrellas"))
+         clasificacion) |> 
+  filter(clasificacion %in% c("Camping", "Hotel 3 estrellas"))
 ```
 :::
 
@@ -835,8 +835,8 @@ df_puna |>
 ```{r}
 #| echo: false
 df_puna |> 
-  select(localidad, clasificacion_minturdep) |> 
-  filter(clasificacion_minturdep %in% c("Camping", "Hotel 3 estrellas"))
+  select(localidad, clasificacion) |> 
+  filter(clasificacion %in% c("Camping", "Hotel 3 estrellas"))
 ```
 :::
 :::
@@ -1049,9 +1049,9 @@ df_puna |>
 #| eval: false
 #| code-line-numbers: "3,4,5,6"
 df_puna_agrup_hotel <- df_puna |> 
-  select(clasificacion_minturdep, plazas) |> 
+  select(clasificacion, plazas) |> 
   mutate(clasif_agrupado = case_when(
-    clasificacion_minturdep %in% c("Hotel 1 estrella", 
+    clasificacion %in% c("Hotel 1 estrella", 
                                    "Hotel 2 estrellas",
                                    "Hotel 3 estrellas") ~ "Hotel hasta 3 estrellas",
     .default = "Otros"))
@@ -1062,9 +1062,9 @@ df_puna_agrup_hotel <- df_puna |>
 ```{r}
 #| echo: false
 df_puna |> 
-  select(clasificacion_minturdep, plazas) |> 
+  select(clasificacion, plazas) |> 
   mutate(clasif_agrupado = case_when(
-    clasificacion_minturdep %in% c("Hotel 1 estrella", 
+    clasificacion %in% c("Hotel 1 estrella", 
                                    "Hotel 2 estrellas",
                                    "Hotel 3 estrellas") ~ "Hotel hasta 3 estrellas",
     .default = "Otros"))
@@ -1076,7 +1076,7 @@ df_puna |>
 
 ## Ejercitación
 
--   Necesito reagrupar la variable `clasificacion_minturdep` para quedarme con 2 categorìas:
+-   Necesito reagrupar la variable `clasificacion` para quedarme con 2 categorìas:
 
     -   `Camping`
 
