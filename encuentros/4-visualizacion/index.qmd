@@ -13,7 +13,9 @@ El concepto a incorporar será el gráfico en clave de capas, ejemplificado en u
 
 ## Slides
 
-<iframe class="slide-deck" src="/encuentros/4-visualizacion/r-viz-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="/encuentros/4-visualizacion/r-viz-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;">
+
+</iframe>
 
 ```{r echo=FALSE}
 downloadthis::download_file(
@@ -53,6 +55,6 @@ downloadthis::download_file(
 
 ## Docente
 
-![](../../img/foto_perfil.jpeg){style="float: right; padding-left: 10px;" fig-alt="Foto de Pablo Tiscornia" width="180"}
+![](img/docente.jpg){style="float: right; padding-left: 10px;" fig-alt="Foto de Pablo Tiscornia" width="180"}
 
-[Pablo Tiscornia](https://pablotis.github.io/intro-r-quarto/profesor.html)
+[Federico Baraghian](https://www.linkedin.com/in/federico-baraghian/)

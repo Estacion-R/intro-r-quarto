@@ -3,7 +3,7 @@ title: "Visualización de datos con `{ggplot2}`"
 subtitle: "Principales conceptos y funciones para visualizar datos con R"
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2024-11-28
+date: 2025-04-08
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
 logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
@@ -115,8 +115,9 @@ execute:
 
 <html>
 
+```{=html}
 <p style="color:grey;" align:"left">Una forma de visualizar</p>
-
+```
 </html>
 
 ::: {layout-valign="center"}
@@ -139,7 +140,7 @@ execute:
 
 ## **¿Por qué `{ggplot2}`?**
 
-:::: incremental
+::: incremental
 -   Tiene un marco de referencia (El grammar of graphics)
 
 -   Flexible, con especificaciones a nivel de capas.
@@ -201,7 +202,6 @@ ggplot(data = df_habitaciones_2022,
 #| eval: false
 ```
 :::
-
 
 # ¿Por dónde empezamos?
 
@@ -437,4 +437,5 @@ ggplot(data = df_habitaciones_2022,
   theme_minimal() + 
   theme(legend.position = "none")
 ```
+
 ::::
