@@ -14,7 +14,6 @@ En este encuentro vamos a recorrer los conceptos y secciones que componen a un i
 ```{=html}
 <iframe class="slide-deck" src="/encuentros/5-reportes/r-reportes-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
-
 ```{r echo=FALSE}
 downloadthis::download_file(
   path = here::here("encuentros/5-reportes/Generación de reportes con -rmarkdown-.pdf"),
@@ -54,4 +53,3 @@ downloadthis::download_file(
 -   [Machete Rmarkdown](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf)
 
 -   [Cocina de Rmarkdown (en inglés)](https://bookdown.org/yihui/rmarkdown-cookbook/)
-
