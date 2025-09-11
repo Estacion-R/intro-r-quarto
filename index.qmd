@@ -32,31 +32,31 @@ La programación no es un tema de mentes brillantes, sino más bien de aquellas 
 
 **Cantidad de horas por encuentro:** 2:30hs.
 
-**Día y horario de cursada:** Martes, de 19 a 21:30hs (Hora Argentina, UTC-3).
+**Día y horario de cursada:** Jueves, de 19 a 21:30hs (Hora Argentina, UTC-3).
 
-**Fecha de inicio**: Martes 04 de Marzo
+**Fecha de inicio**: Jueves 11 de Septiembre.
 
-**Fecha de finalización**: Martes 15 de Abril.
+**Fecha de finalización**: Jueves 23 de Octubre.
 
 **Cronograma de clases:**
 
--   Clase 1: 04/03
+-   Clase 1: 11/09
 
--   Clase 2: 11/03
+-   Clase 2: 18/09
 
--   Clase 3: 18/03
+-   Clase 3: 25/09
 
--   Clase 4: 25/03
+-   Clase 4: 02/10
 
--   Clase 5: 01/04
+-   Clase 5: 09/10
 
--   Clase 6: 08/04
+-   Clase 6: 16/10
 
--   Clase 7: 15/04
+-   Clase 7: 23/10
 
-## Inscripción:
+<!-- ## Inscripción: -->
 
--   Info y registro: [https://forms.gle/mYXSgqYu8urZNtGz8](https://forms.gle/TyEiRJcbMV3o7HLo7)
+<!-- -   Info y registro: [https://forms.gle/mYXSgqYu8urZNtGz8](https://forms.gle/TyEiRJcbMV3o7HLo7) -->
 
 <!-- ## Encuentros -->
 
