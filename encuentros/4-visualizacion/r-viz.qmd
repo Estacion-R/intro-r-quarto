@@ -3,7 +3,7 @@ title: "Visualización de datos con `{ggplot2}`"
 subtitle: "Principales conceptos y funciones para visualizar datos con R"
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2025-04-08
+date: 2025-10-09
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
 logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
