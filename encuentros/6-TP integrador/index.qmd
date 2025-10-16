@@ -21,7 +21,7 @@ Planteo de una pregunta sobre el tema elegido y abordaje de la respuesta con dat
 
     -   **Importación** (por ejemplo: read.csv(), read.table(), o aquellas de los paquetes data.table, readxl, readr, haven, foreign, entre otros). También podemos optar por el paquete {eph} y su función para descargar una base de datos get_microdata().
 
-    -   **Limpieza, tratamiento y transformación de datos con tidyverse** (por ejemplo: filter(), select(), mutate(), group_by(), summarise(), pivot_longer/wider()).
+    -   **Limpieza, tratamiento y transformación de datos con tidyverse** (por ejemplo: filter(), select(), mutate(), group_by(), summarise()).
 
     -   **Visualización** de la información con ggplot() y al menos uno o dos gráficos con el geom\_ a elección (focalizamos en geom_col()).
 
@@ -37,6 +37,6 @@ En el desarrollo del informe es necesario realizar una breve conclusión respect
 
 -   Enviar a *federicobaraghian\@gmail.com*
 
--   **Fecha de entrega**: Hasta el 15/05/2025.
+-   **Fecha de entrega**: Hasta el 17/11/2025.
 
 -   **Seguimiento del trabajo**: El slack quedará abierto para que podamos intercambiar y realizar consultas para completar la actividad, no duden en usarlo!
