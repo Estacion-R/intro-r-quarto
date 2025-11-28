@@ -179,21 +179,21 @@
     "href": "encuentros/1-intro-r/intro-r.html#valores-1",
     "title": "Introducción a R base",
     "section": "Valores …",
-    "text": "Valores …\nnuméricos\n\n100\n\n[1] 100"
+    "text": "Valores …\n\nnuméricos\n\n100\n\n[1] 100"
   },
   {
     "objectID": "encuentros/1-intro-r/intro-r.html#valores-2",
     "href": "encuentros/1-intro-r/intro-r.html#valores-2",
     "title": "Introducción a R base",
     "section": "Valores …",
-    "text": "Valores …\nde texto\n\n\"cien\"\n\n[1] \"cien\""
+    "text": "Valores …\n\nde texto\n\n\"cien\"\n\n[1] \"cien\""
   },
   {
     "objectID": "encuentros/1-intro-r/intro-r.html#valores-3",
     "href": "encuentros/1-intro-r/intro-r.html#valores-3",
     "title": "Introducción a R base",
     "section": "Valores …",
-    "text": "Valores …\n¿?\n\"100\""
+    "text": "Valores …\n\n¿?\n\"100\""
   },
   {
     "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables",
@@ -207,21 +207,21 @@
     "href": "encuentros/1-intro-r/intro-r.html#vectores-variables-1",
     "title": "Introducción a R base",
     "section": "Vectores … ¿variables?",
-    "text": "Vectores … ¿variables?\nnuméricos\n\nc(100, 102, 200)\n\n[1] 100 102 200"
+    "text": "Vectores … ¿variables?\n\nnuméricos\n\nc(100, 102, 200)\n\n[1] 100 102 200"
   },
   {
     "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables-2",
     "href": "encuentros/1-intro-r/intro-r.html#vectores-variables-2",
     "title": "Introducción a R base",
     "section": "Vectores … ¿variables?",
-    "text": "Vectores … ¿variables?\nde texto\n\nc(\"cien\", \"ciento dos\", \"doscientos\")\n\n[1] \"cien\"       \"ciento dos\" \"doscientos\""
+    "text": "Vectores … ¿variables?\n\nde texto\n\nc(\"cien\", \"ciento dos\", \"doscientos\")\n\n[1] \"cien\"       \"ciento dos\" \"doscientos\""
   },
   {
     "objectID": "encuentros/1-intro-r/intro-r.html#vectores-variables-3",
     "href": "encuentros/1-intro-r/intro-r.html#vectores-variables-3",
     "title": "Introducción a R base",
     "section": "Vectores … ¿variables?",
-    "text": "Vectores … ¿variables?\nde texto\n\nc(\"100\", \"102\", \"200\")\n\n[1] \"100\" \"102\" \"200\""
+    "text": "Vectores … ¿variables?\n\nde texto\n\nc(\"100\", \"102\", \"200\")\n\n[1] \"100\" \"102\" \"200\""
   },
   {
     "objectID": "encuentros/1-intro-r/intro-r.html#funciones",
@@ -263,7 +263,7 @@
     "href": "encuentros/1-intro-r/intro-r.html#funciones-5",
     "title": "Introducción a R base",
     "section": "Funciones",
-    "text": "Funciones\n\nmean(c(\"10\", \"20\", \"30\"))\n\n[1] NA"
+    "text": "Funciones\n\nmean(c(\"10\", \"20\", \"30\"))\n\nWarning in mean.default(c(\"10\", \"20\", \"30\")): argument is not numeric or\nlogical: returning NA\n\n\n[1] NA"
   },
   {
     "objectID": "encuentros/1-intro-r/intro-r.html#objetos",
@@ -389,7 +389,7 @@
     "href": "encuentros/1-intro-r/intro-r.html#listo",
     "title": "Introducción a R base",
     "section": "¡Listo!",
-    "text": "¡Listo!\n\nNos vemos el encuentro que viene.\nSeguimos la comunicación entre clase y clase por Slack\nAcá dejamos más ejercitación para seguir practicando\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+    "text": "¡Listo!\n\nNos vemos el encuentro que viene.\nSeguimos la comunicación entre clase y clase por Slack\nAcá dejamos más ejercitación para seguir practicando"
   },
   {
     "objectID": "encuentros/1-intro-r/intro-r_ejercitacion.html",
@@ -472,15 +472,15 @@
     "objectID": "encuentros/2-proyectos/proyectos-r.html#qué-vimos",
     "href": "encuentros/2-proyectos/proyectos-r.html#qué-vimos",
     "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "¿Qué vimos?",
-    "text": "¿Qué vimos?\n✅ Valores\n✅ Vectores\n✅ Data frames\n✅ Objetos\n✅ Funciones"
+    "section": "",
+    "text": "✅ Valores\n✅ Vectores\n✅ Data frames\n✅ Objetos\n✅ Funciones"
   },
   {
     "objectID": "encuentros/2-proyectos/proyectos-r.html#hoja-de-ruta",
     "href": "encuentros/2-proyectos/proyectos-r.html#hoja-de-ruta",
     "title": "Proyectos de R, organizando la mesa de Trabajo",
-    "section": "Hoja de Ruta",
-    "text": "Hoja de Ruta\n\n\n📌 Paquetes\n📌 Ruta de un archivo (o file path)\n📌 Importar nuestra primera base de datos\n\n📌 Armar un proyecto de trabajo en Rstudio (R project)\n📌 Estructura de carpeta\n  👉🏼 Cómo estructurar la carpeta de trabajo\n\n  👉🏼 Cómo nombrar archivos"
+    "section": "",
+    "text": "📌 Paquetes\n📌 Ruta de un archivo (o file path)\n📌 Importar nuestra primera base de datos\n\n📌 Armar un proyecto de trabajo en Rstudio (R project)\n📌 Estructura de carpeta\n  👉🏼 Cómo estructurar la carpeta de trabajo\n\n  👉🏼 Cómo nombrar archivos"
   },
   {
     "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-1",
@@ -494,7 +494,7 @@
     "href": "encuentros/2-proyectos/proyectos-r.html#paquetes-2",
     "title": "Proyectos de R, organizando la mesa de Trabajo",
     "section": "Paquetes",
-    "text": "Paquetes\n\nLos paquetes o librerías son la potencia de los lenguajes como R y Python\nEs cómo las comunidades pueden hacer crecer al lenguaje\n\n\nLink a Mapa de paquetes"
+    "text": "Paquetes\n\nLos paquetes o librerías son la potencia de los lenguajes como R y Python\nEs cómo las comunidades pueden hacer crecer al lenguaje\n\n\n\n\nLink a Mapa de paquetes"
   },
   {
     "objectID": "encuentros/2-proyectos/proyectos-r.html#paquetes-3",
@@ -669,7 +669,7 @@
     "href": "encuentros/2-proyectos/proyectos-r.html#estructura-de-carpetas",
     "title": "Proyectos de R, organizando la mesa de Trabajo",
     "section": "Estructura de carpetas",
-    "text": "Estructura de carpetas\n\n📂 nuevo_proyecto\n\n nuevo_proyecto.Rproj\n📂 datos\n\n⛁ nombres-2015.csv\n\n📂 outputs\n📂 scripts\n\n📄 1_levantar_datos.R\n\n📂 docs_metodologicos\n\n📚 bibliografia.docx\n\n\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+    "text": "Estructura de carpetas\n\n📂 nuevo_proyecto\n\n nuevo_proyecto.Rproj\n📂 datos\n\n⛁ nombres-2015.csv\n\n📂 outputs\n📂 scripts\n\n📄 1_levantar_datos.R\n\n📂 docs_metodologicos\n\n📚 bibliografia.docx"
   },
   {
     "objectID": "encuentros/2-proyectos/proyectos-r_ejercitacion.html",
@@ -766,22 +766,22 @@
     "objectID": "encuentros/3-tidyverse/r-tidyverse.html#qué-vimos",
     "href": "encuentros/3-tidyverse/r-tidyverse.html#qué-vimos",
     "title": "Procesando datos con {tidyverse}",
-    "section": "¿Qué vimos?",
-    "text": "¿Qué vimos?\n\n✅ Conceptos básicos de R (valores, vectores, data.framtes, funciones, objetos)\n\n✅ Cómo armar y organizar un proyecto de trabajo\n\n✅ Qué son los paquetes (o librerías)"
+    "section": "",
+    "text": "✅ Conceptos básicos de R (valores, vectores, data.framtes, funciones, objetos)\n\n✅ Cómo armar y organizar un proyecto de trabajo\n\n✅ Qué son los paquetes (o librerías)"
   },
   {
     "objectID": "encuentros/3-tidyverse/r-tidyverse.html#hoja-de-ruta",
     "href": "encuentros/3-tidyverse/r-tidyverse.html#hoja-de-ruta",
     "title": "Procesando datos con {tidyverse}",
-    "section": "Hoja de Ruta",
-    "text": "Hoja de Ruta\n\n\n📌 ¿Qué es la Ciencia de Datos?\n\n📦 Paquete {dplyr}\n🔧 `select()` 🔧 `filter()` \n\n🔧 `mutate()` 🔧 `rename()` \n\n🔧 `arrange()` \n\n🔧 `group_by()` 🔧 `summarise()`  \n\n🔧 `joins` \n\n📌 La pipa (|&gt; o %&gt;%)\n\n📦 Paquete {tidyr}\n🔧 `pivot_longer()` 🔧 `pivot_wider()`"
+    "section": "",
+    "text": "📌 ¿Qué es la Ciencia de Datos?\n\n📦 Paquete {dplyr}\n🔧 `select()` 🔧 `filter()` \n\n🔧 `mutate()` 🔧 `rename()` \n\n🔧 `arrange()` \n\n🔧 `group_by()` 🔧 `summarise()`  \n\n🔧 `joins` \n\n📌 La pipa (|&gt; o %&gt;%)\n\n📦 Paquete {tidyr}\n🔧 `pivot_longer()` 🔧 `pivot_wider()`"
   },
   {
     "objectID": "encuentros/3-tidyverse/r-tidyverse.html#configuración-para-esta-clase",
     "href": "encuentros/3-tidyverse/r-tidyverse.html#configuración-para-esta-clase",
     "title": "Procesando datos con {tidyverse}",
-    "section": "Configuración para esta clase",
-    "text": "Configuración para esta clase\n\n\nArmar un proyeto de trabajo nuevo\nCrear una carpeta en el llamada datos\nDescargar la base del Padrón Único Nacional de Alojamientos (Argentina) y ubicarla en la carpeta datos\nCrear un script de trabajo"
+    "section": "",
+    "text": "Armar un proyeto de trabajo nuevo\nCrear una carpeta en el llamada datos\nDescargar la base del Padrón Único Nacional de Alojamientos (Argentina) y ubicarla en la carpeta datos\nCrear un script de trabajo"
   },
   {
     "objectID": "encuentros/3-tidyverse/r-tidyverse.html#qué-es-la-ciencia-de-datos-1",
@@ -816,7 +816,7 @@
     "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-2",
     "title": "Procesando datos con {tidyverse}",
     "section": "{tidyverse}",
-    "text": "{tidyverse}\n\n\nCargo el paquete:\n\n\nlibrary(tidyverse)\n\nWarning: package 'tidyverse' was built under R version 4.4.3\n\n\nWarning: package 'readr' was built under R version 4.4.3\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+    "text": "{tidyverse}\n\n\nCargo el paquete:\n\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
   },
   {
     "objectID": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-3",
@@ -1152,7 +1152,7 @@
     "href": "encuentros/3-tidyverse/r-tidyverse.html#mutate---caso-práctico",
     "title": "Procesando datos con {tidyverse}",
     "section": "mutate() - Caso práctico",
-    "text": "mutate() - Caso práctico\n\n\nLlega a la oficina una persona interesada en saber cuál es el valor total disponible para dormir en los establecimientos. Quiere, entonces, conocer el resultado de la suma entre habitaciones y plazas.\n\n\n\nPara ello, podemos crear una variable que contenga este resultado:"
+    "text": "mutate() - Caso práctico\n\n\nLlega a la oficina una persona interesada en saber cuál es el valor total disponible para dormir en los establecimientos. Quiere, entonces, conocer el resultado de la suma entre habitaciones y plazas.\n\n. . .\n\nPara ello, podemos crear una variable que contenga este resultado:"
   },
   {
     "objectID": "encuentros/3-tidyverse/r-tidyverse.html#mutate---caso-práctico-1",
@@ -1341,14 +1341,14 @@
     "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-4",
     "title": "Procesando datos con {tidyverse}",
     "section": "tidyverse en acción",
-    "text": "tidyverse en acción\n\n\n\ndf_puna |&gt; \n  select(indice_tiempo, tipo, plazas) |&gt; \n  filter(indice_tiempo %in% c(2021, 2022)) |&gt; \n  mutate(tipo_recod = case_when(tipo == \"Hoteleros\" ~ \"Hoteleros\",\n                                .default = \"Otros\")) |&gt; \n  group_by(indice_tiempo, tipo_recod) |&gt; \n  summarise(cant_plazas = sum(plazas),\n            prom_plazas = mean(plazas))\n\n\n\n\n# A tibble: 4 × 4\n# Groups:   indice_tiempo [2]\n  indice_tiempo tipo_recod cant_plazas prom_plazas\n          &lt;dbl&gt; &lt;chr&gt;            &lt;dbl&gt;       &lt;dbl&gt;\n1          2021 Hoteleros       454631        264.\n2          2021 Otros           325419        102.\n3          2022 Hoteleros       455702        264.\n4          2022 Otros           324575        102."
+    "text": "tidyverse en acción\n\n\n\ndf_puna |&gt; \n  select(indice_tiempo, tipo, plazas) |&gt; \n  filter(indice_tiempo %in% c(2021, 2022)) |&gt; \n  mutate(tipo_recod = case_when(tipo == \"Hoteleros\" ~ \"Hoteleros\",\n                                .default = \"Otros\")) |&gt; \n  group_by(indice_tiempo, tipo_recod) |&gt; \n  summarise(cant_plazas = sum(plazas),\n            prom_plazas = mean(plazas))\n\n\n\n\n`summarise()` has grouped output by 'indice_tiempo'. You can override using the\n`.groups` argument.\n\n\n# A tibble: 4 × 4\n# Groups:   indice_tiempo [2]\n  indice_tiempo tipo_recod cant_plazas prom_plazas\n          &lt;dbl&gt; &lt;chr&gt;            &lt;dbl&gt;       &lt;dbl&gt;\n1          2021 Hoteleros       454631        264.\n2          2021 Otros           325419        102.\n3          2022 Hoteleros       455702        264.\n4          2022 Otros           324575        102."
   },
   {
     "objectID": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-5",
     "href": "encuentros/3-tidyverse/r-tidyverse.html#tidyverse-en-acción-5",
     "title": "Procesando datos con {tidyverse}",
     "section": "tidyverse en acción",
-    "text": "tidyverse en acción\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+    "text": "tidyverse en acción"
   },
   {
     "objectID": "encuentros/3-tidyverse/r-tidyverse_ejercicios.html",
@@ -1431,29 +1431,29 @@
     "objectID": "encuentros/4-visualizacion/r-viz.html#qué-vimos",
     "href": "encuentros/4-visualizacion/r-viz.html#qué-vimos",
     "title": "Visualización de datos con {ggplot2}",
-    "section": "¿Qué vimos?",
-    "text": "¿Qué vimos?\n\n✅ Conceptos básicos de R\n\n✅ Pensar un proyecto de datos con R\n\n✅ Procesamiento de datos con {tidyverse}"
+    "section": "",
+    "text": "✅ Conceptos básicos de R\n\n✅ Pensar un proyecto de datos con R\n\n✅ Procesamiento de datos con {tidyverse}"
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz.html#hoja-de-ruta",
     "href": "encuentros/4-visualizacion/r-viz.html#hoja-de-ruta",
     "title": "Visualización de datos con {ggplot2}",
-    "section": "Hoja de Ruta",
-    "text": "Hoja de Ruta\n\n📌 ¿Por qué visualizar datos?\n📌 Gramática de los gráficos y {ggplot2}\n  - Capas y el operador `+` (más)\n📌 Armando un gráfico de barras (columnas)\n  - Función `geom_col()`\n📌 Chapa y pintura de un gráfico (atributos)"
+    "section": "",
+    "text": "📌 ¿Por qué visualizar datos?\n📌 Gramática de los gráficos y {ggplot2}\n  - Capas y el operador `+` (más)\n📌 Armando un gráfico de barras (columnas)\n  - Función `geom_col()`\n📌 Chapa y pintura de un gráfico (atributos)"
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz.html#configuración-para-esta-clase",
     "href": "encuentros/4-visualizacion/r-viz.html#configuración-para-esta-clase",
     "title": "Visualización de datos con {ggplot2}",
-    "section": "Configuración para esta clase",
-    "text": "Configuración para esta clase\n\n\nArmar un proyeto de trabajo nuevo o abrir aquel con el que veníamos trabajando\nCargar la base del Padrón Único Nacional de Alojamientos (Argentina) y chequear que esté en la carpeta datos\nCrear un script de trabajo\nCarga la librería {tidyverse}"
+    "section": "",
+    "text": "Armar un proyeto de trabajo nuevo o abrir aquel con el que veníamos trabajando\nCargar la base del Padrón Único Nacional de Alojamientos (Argentina) y chequear que esté en la carpeta datos\nCrear un script de trabajo\nCarga la librería {tidyverse}"
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz.html#por-qué-visualizar",
     "href": "encuentros/4-visualizacion/r-viz.html#por-qué-visualizar",
     "title": "Visualización de datos con {ggplot2}",
     "section": "¿Por qué visualizar?",
-    "text": "¿Por qué visualizar?\n\n\n“La visualización es el proceso de hacer visibles los contrastes, ritmos y eventos que los datos expresan, que no podemos percibir cuando vienen en forma de áridas listas de números y categorías.” 1\n\n\n\nInterpretar / decodificar la información de forma visual\n\n\n\nGuiar hacia el hallazago\n\n\nhttps://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/visualizacion.html"
+    "text": "¿Por qué visualizar?\n\n\n“La visualización es el proceso de hacer visibles los contrastes, ritmos y eventos que los datos expresan, que no podemos percibir cuando vienen en forma de áridas listas de números y categorías.” 1\n\n\n\nInterpretar / decodificar la información de forma visual\n\n\n\nGuiar hacia el hallazago"
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz.html#qué-es-ggplot2",
@@ -1509,7 +1509,7 @@
     "href": "encuentros/4-visualizacion/r-viz.html#gráfico-en-clave-de-capas-4",
     "title": "Visualización de datos con {ggplot2}",
     "section": "Gráfico en clave de capas",
-    "text": "Gráfico en clave de capas\n\n\nPregunta-problema: Quiero representar la cantidad de habitaciones por tipo de alojamiento, para el año 2022\n\nPreparo los datos:\n\nlibrary(tidyverse)\ndf_puna &lt;- read_csv(\"data/puna_base_agregada.csv\")\n\ndf_habitaciones_2022 &lt;- df_puna |&gt;\n  filter(indice_tiempo == 2022) |&gt; \n  group_by(tipo) |&gt; \n  summarise(habitaciones_n = sum(habitaciones, na.rm = T))"
+    "text": "Gráfico en clave de capas\n\n\nPregunta-problema: Quiero representar la cantidad de habitaciones por tipo de alojamiento, para el año 2022\n\nPreparo los datos:\n\nlibrary(tidyverse)\ndf_puna &lt;- read_csv(\"data/puna_base_agregada.csv\")\n\ndf_habitaciones_2022 &lt;- df_puna |&gt;\n  filter(indice_tiempo == 2022) |&gt; \n  group_by(tipo) |&gt; \n  summarise(habitaciones_n = sum(habitaciones, na.rm = T))\n\n\n\nRows: 19672 Columns: 13\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (8): region, ruta_natural, provincia_codigo, provincia_nombre, departame...\ndbl (5): indice_tiempo, establecimientos, unidades, habitaciones, plazas\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz.html#gráfico-en-clave-de-capas-5",
@@ -1523,63 +1523,63 @@
     "href": "encuentros/4-visualizacion/r-viz.html#gráfico-en-clave-de-capas-6",
     "title": "Visualización de datos con {ggplot2}",
     "section": "Gráfico en clave de capas",
-    "text": "Gráfico en clave de capas\n\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n))"
+    "text": "Gráfico en clave de capas\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n))"
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz.html#gráfico-en-clave-de-capas-7",
     "href": "encuentros/4-visualizacion/r-viz.html#gráfico-en-clave-de-capas-7",
     "title": "Visualización de datos con {ggplot2}",
     "section": "Gráfico en clave de capas",
-    "text": "Gráfico en clave de capas\n\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col()"
+    "text": "Gráfico en clave de capas\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col()"
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---relleno",
     "href": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---relleno",
     "title": "Visualización de datos con {ggplot2}",
     "section": "Chapa y pintura - Relleno",
-    "text": "Chapa y pintura - Relleno\n\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(fill = \"red\")"
+    "text": "Chapa y pintura - Relleno\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(fill = \"red\")"
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---relleno-1",
     "href": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---relleno-1",
     "title": "Visualización de datos con {ggplot2}",
     "section": "Chapa y pintura - Relleno",
-    "text": "Chapa y pintura - Relleno\n\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(aes(fill = tipo))"
+    "text": "Chapa y pintura - Relleno\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(aes(fill = tipo))"
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---contorno",
     "href": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---contorno",
     "title": "Visualización de datos con {ggplot2}",
     "section": "Chapa y pintura - Contorno",
-    "text": "Chapa y pintura - Contorno\n\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(aes(fill = tipo),\n           color = \"black\")"
+    "text": "Chapa y pintura - Contorno\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(aes(fill = tipo),\n           color = \"black\")"
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---referencias",
     "href": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---referencias",
     "title": "Visualización de datos con {ggplot2}",
     "section": "Chapa y pintura - Referencias",
-    "text": "Chapa y pintura - Referencias\n\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(aes(fill = tipo),\n           color = \"black\") + \n  labs(title = \"Cantidad de habitaciones por tipo de alojamiento\")"
+    "text": "Chapa y pintura - Referencias\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(aes(fill = tipo),\n           color = \"black\") + \n  labs(title = \"Cantidad de habitaciones por tipo de alojamiento\")"
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---referencias-1",
     "href": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---referencias-1",
     "title": "Visualización de datos con {ggplot2}",
     "section": "Chapa y pintura - Referencias",
-    "text": "Chapa y pintura - Referencias\n\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(aes(fill = tipo),\n           color = \"black\") + \n  labs(title = \"Cantidad de habitaciones por tipo de alojamiento\",\n       subtitle = \"Argentina, año 2022\",\n       x = \"\",\n       y = \"Cant. de habitaciones\",\n       caption = \"Fuente: Elaboración propia en base al PUNA-MINTURyDEP\")"
+    "text": "Chapa y pintura - Referencias\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(aes(fill = tipo),\n           color = \"black\") + \n  labs(title = \"Cantidad de habitaciones por tipo de alojamiento\",\n       subtitle = \"Argentina, año 2022\",\n       x = \"\",\n       y = \"Cant. de habitaciones\",\n       caption = \"Fuente: Elaboración propia en base al PUNA-MINTURyDEP\")"
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---theme",
     "href": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---theme",
     "title": "Visualización de datos con {ggplot2}",
     "section": "Chapa y pintura - theme",
-    "text": "Chapa y pintura - theme\n\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(aes(fill = tipo),\n           color = \"black\") + \n  labs(title = \"Cantidad de habitaciones por tipo de alojamiento\",\n       subtitle = \"Argentina, año 2022\",\n       x = \"\",\n       y = \"Cant. de habitaciones\",\n       caption = \"Fuente: Elaboración propia en base al PUNA-MINTURyDEP\") +\n  theme_minimal()"
+    "text": "Chapa y pintura - theme\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(aes(fill = tipo),\n           color = \"black\") + \n  labs(title = \"Cantidad de habitaciones por tipo de alojamiento\",\n       subtitle = \"Argentina, año 2022\",\n       x = \"\",\n       y = \"Cant. de habitaciones\",\n       caption = \"Fuente: Elaboración propia en base al PUNA-MINTURyDEP\") +\n  theme_minimal()"
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---theme-1",
     "href": "encuentros/4-visualizacion/r-viz.html#chapa-y-pintura---theme-1",
     "title": "Visualización de datos con {ggplot2}",
     "section": "Chapa y pintura - theme",
-    "text": "Chapa y pintura - theme\n\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(aes(fill = tipo),\n           color = \"black\") + \n  labs(title = \"Cantidad de habitaciones por tipo de alojamiento\",\n       subtitle = \"Argentina, año 2022\",\n       x = \"\",\n       y = \"Cant. de habitaciones\",\n       caption = \"Fuente: Elaboración propia en base al PUNA-MINTURyDEP\") +\n  theme_minimal() + \n  theme(legend.position = \"none\")\n\n\n\n\n\n\n::::\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+    "text": "Chapa y pintura - theme\n\nggplot(data = df_habitaciones_2022,\n       aes(x = tipo, y = habitaciones_n)) +\n  geom_col(aes(fill = tipo),\n           color = \"black\") + \n  labs(title = \"Cantidad de habitaciones por tipo de alojamiento\",\n       subtitle = \"Argentina, año 2022\",\n       x = \"\",\n       y = \"Cant. de habitaciones\",\n       caption = \"Fuente: Elaboración propia en base al PUNA-MINTURyDEP\") +\n  theme_minimal() + \n  theme(legend.position = \"none\")\n\n\n\n\n\n\n\n\n::::"
   },
   {
     "objectID": "encuentros/4-visualizacion/r-viz_ejercitacion.html",
@@ -1628,7 +1628,7 @@
     "href": "encuentros/5-reportes/index.html#slides",
     "title": "Introducción a la generación de reportes con {rmarkdown}.",
     "section": "Slides",
-    "text": "Slides\n\n\n\n\n Descarga las diapositivas\n\n\n\n\n Descarga las Notas de clase (script)"
+    "text": "Slides\n\n\n\n Descarga las diapositivas\n\n\n\n\n Descarga las Notas de clase (script)"
   },
   {
     "objectID": "encuentros/5-reportes/index.html#links",
@@ -1676,22 +1676,22 @@
     "objectID": "encuentros/5-reportes/r-reportes.html#qué-vimos",
     "href": "encuentros/5-reportes/r-reportes.html#qué-vimos",
     "title": "Generación de reportes con {rmarkdown}",
-    "section": "¿Qué vimos?",
-    "text": "¿Qué vimos?\n\n✅ Conceptos básicos de R\n\n✅ Pensar un proyecto de datos con R\n\n✅ Procesamiento de datos con {tidyverse}\n\n✅ Visualización de datos con{ggplot2}"
+    "section": "",
+    "text": "✅ Conceptos básicos de R\n\n✅ Pensar un proyecto de datos con R\n\n✅ Procesamiento de datos con {tidyverse}\n\n✅ Visualización de datos con{ggplot2}"
   },
   {
     "objectID": "encuentros/5-reportes/r-reportes.html#hoja-de-ruta",
     "href": "encuentros/5-reportes/r-reportes.html#hoja-de-ruta",
     "title": "Generación de reportes con {rmarkdown}",
-    "section": "Hoja de Ruta",
-    "text": "Hoja de Ruta\n\n\n📌️ ¿Qué es Rmarkdown (spoiler: R + Mardown)?\n\n\n\n📌️ Conceptos básicos de Markdown\n\n\n\n📌️ YAML, Chunks y texto"
+    "section": "",
+    "text": "📌️ ¿Qué es Rmarkdown (spoiler: R + Mardown)?\n\n\n\n📌️ Conceptos básicos de Markdown\n\n\n\n📌️ YAML, Chunks y texto"
   },
   {
     "objectID": "encuentros/5-reportes/r-reportes.html#configuración-para-esta-clase",
     "href": "encuentros/5-reportes/r-reportes.html#configuración-para-esta-clase",
     "title": "Generación de reportes con {rmarkdown}",
-    "section": "Configuración para esta clase",
-    "text": "Configuración para esta clase\n\n\nTener instalado (o instalar) el paquete rmarkdown:\n\ninstall.packages(\"rmarkdown\")"
+    "section": "",
+    "text": "Tener instalado (o instalar) el paquete rmarkdown:\n\ninstall.packages(\"rmarkdown\")"
   },
   {
     "objectID": "encuentros/5-reportes/r-reportes.html#r-rmarkdown",
@@ -1761,7 +1761,7 @@
     "href": "encuentros/5-reportes/r-reportes.html#rmarkdown-1",
     "title": "Generación de reportes con {rmarkdown}",
     "section": "Rmarkdown",
-    "text": "Rmarkdown\n\n\nAntes:\n\n\n\n\n\n\n\n\nDespués:"
+    "text": "Rmarkdown\n\n\n\nAntes:\n\n\n\n\n\n\n\n\n\n\nDespués:"
   },
   {
     "objectID": "encuentros/5-reportes/r-reportes.html#rmarkdown---formatos-de-salida",
@@ -1859,7 +1859,7 @@
     "href": "encuentros/5-reportes/r-reportes.html#recursos",
     "title": "Generación de reportes con {rmarkdown}",
     "section": "RECURSOS",
-    "text": "RECURSOS\n\nGuía de comandos para texto en Rmarkdown\nGuía definitiva de Rmarkdown (en inglés)\nMachete Rmarkdown\nCocina de Rmarkdown (en inglés)\n\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+    "text": "RECURSOS\n\nGuía de comandos para texto en Rmarkdown\nGuía definitiva de Rmarkdown (en inglés)\nMachete Rmarkdown\nCocina de Rmarkdown (en inglés)"
   },
   {
     "objectID": "encuentros/5-reportes/r-reportes_ejercitacion.html",
@@ -1929,7 +1929,7 @@
     "href": "index.html#cómo",
     "title": "Introducción al Procesamiento de datos con R",
     "section": "¿Cómo?",
-    "text": "¿Cómo?\nLa programación no es un tema de mentes brillantes, sino más bien de aquellas perseverantes. Con este lema bajo el brazo es que se pensó el curso, el cual se focaliza en lo práctico. No sólo se van a ofrecer ejercicios para resolver código entre clase y clase sino que vamos a escribir R durante el encuentro sincrónico, compartiendo pantallas y dudas en vivo!"
+    "text": "¿Cómo?\n\nModalidad 100% virtual a-sincrónica.\n\nLas clases están grabadas y se podrán ver en cualquier momento. Además, se dispondrá de un foro de consultas para evacuar dudas y compartir avances con los demás participantes.\nPorque la programación no es un tema de mentes brillantes, sino más bien de aquellas perseverantes. Con este lema bajo el brazo es que se pensó el curso, el cual se focaliza en lo práctico. Se van a ofrecer ejercicios para resolver código entre clase y clase. También se brindarán materiales de apoyo para que cada participante pueda avanzar a su propio ritmo.\nTip: Recomendamos traer tu proyecto de datos para trabajar durante el curso. Podemos darte soporte en cómo organizarlo y procesarlo. ¡Todas las consultas son bienvenidas!"
   },
   {
     "objectID": "index.html#cronograma",
@@ -2049,5 +2049,47 @@
     "title": "Puesta a punto",
     "section": "Descarga de Slack (versión escritorio)",
     "text": "Descarga de Slack (versión escritorio)\nLa forma de comunicación será principalmente Slack, una plataforma de intercambio que funciona como un chat-foro. Desde allí es posible concentrar la comunicación del curso, difundir material, código y también realizar consultas y respuestas de forma grupal."
+  },
+  {
+    "objectID": "encuentros/5-reportes/r-reportes.html",
+    "href": "encuentros/5-reportes/r-reportes.html",
+    "title": "Generación de reportes con {rmarkdown}",
+    "section": "",
+    "text": "🍀 Linktree\n🔗 Web\n\n\n\n\n✅ Conceptos básicos de R\n\n✅ Pensar un proyecto de datos con R\n\n✅ Procesamiento de datos con {tidyverse}\n\n✅ Visualización de datos con{ggplot2}\n\n\n\n\n\n📌️ ¿Qué es Rmarkdown (spoiler: R + Mardown)?\n\n\n\n📌️ Conceptos básicos de Markdown\n\n\n\n📌️ YAML, Chunks y texto\n\n\n\n\n\n\nTener instalado (o instalar) el paquete rmarkdown:\n\ninstall.packages(\"rmarkdown\")"
+  },
+  {
+    "objectID": "encuentros/3-tidyverse/r-tidyverse.html",
+    "href": "encuentros/3-tidyverse/r-tidyverse.html",
+    "title": "Procesando datos con {tidyverse}",
+    "section": "",
+    "text": "💬 Slack\n🔗 Web\n🐘 Mastodon\n𝕏 X\n✉️ Correo\n\nInstagram\nLinkedIn\n\n\n\n\n\n\n✅ Conceptos básicos de R (valores, vectores, data.framtes, funciones, objetos)\n\n✅ Cómo armar y organizar un proyecto de trabajo\n\n✅ Qué son los paquetes (o librerías)\n\n\n\n\n\n📌 ¿Qué es la Ciencia de Datos?\n\n📦 Paquete {dplyr}\n🔧 `select()` 🔧 `filter()` \n\n🔧 `mutate()` 🔧 `rename()` \n\n🔧 `arrange()` \n\n🔧 `group_by()` 🔧 `summarise()`  \n\n🔧 `joins` \n\n📌 La pipa (|&gt; o %&gt;%)\n\n📦 Paquete {tidyr}\n🔧 `pivot_longer()` 🔧 `pivot_wider()`  \n\n\n\n\n\n\n\nArmar un proyeto de trabajo nuevo\nCrear una carpeta en el llamada datos\nDescargar la base del Padrón Único Nacional de Alojamientos (Argentina) y ubicarla en la carpeta datos\nCrear un script de trabajo"
+  },
+  {
+    "objectID": "encuentros/4-visualizacion/r-viz.html",
+    "href": "encuentros/4-visualizacion/r-viz.html",
+    "title": "Visualización de datos con {ggplot2}",
+    "section": "",
+    "text": "🍀 Linktree\n🔗 Web\n\n\n\n\n✅ Conceptos básicos de R\n\n✅ Pensar un proyecto de datos con R\n\n✅ Procesamiento de datos con {tidyverse}\n\n\n\n\n📌 ¿Por qué visualizar datos?\n📌 Gramática de los gráficos y {ggplot2}\n  - Capas y el operador `+` (más)\n📌 Armando un gráfico de barras (columnas)\n  - Función `geom_col()`\n📌 Chapa y pintura de un gráfico (atributos)\n\n\n\n\n\nArmar un proyeto de trabajo nuevo o abrir aquel con el que veníamos trabajando\nCargar la base del Padrón Único Nacional de Alojamientos (Argentina) y chequear que esté en la carpeta datos\nCrear un script de trabajo\nCarga la librería {tidyverse}"
+  },
+  {
+    "objectID": "encuentros/4-visualizacion/r-viz.html#footnotes",
+    "href": "encuentros/4-visualizacion/r-viz.html#footnotes",
+    "title": "Visualización de datos con {ggplot2}",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/visualizacion.html↩︎"
+  },
+  {
+    "objectID": "encuentros/1-intro-r/intro-r.html",
+    "href": "encuentros/1-intro-r/intro-r.html",
+    "title": "Introducción a R base",
+    "section": "",
+    "text": "💬 Slack\n🔗 Web\n🐘 Mastodon\n𝕏 X\n✉️ Correo\n\nInstagram\nLinkedIn"
+  },
+  {
+    "objectID": "encuentros/2-proyectos/proyectos-r.html",
+    "href": "encuentros/2-proyectos/proyectos-r.html",
+    "title": "Proyectos de R, organizando la mesa de Trabajo",
+    "section": "",
+    "text": "💬 Slack\n🔗 Web\n🐘 Mastodon\n𝕏 X\n✉️ Correo\n\nInstagram\nLinkedIn\n\n\n\n\n\n✅ Valores\n✅ Vectores\n✅ Data frames\n✅ Objetos\n✅ Funciones\n\n\n\n\n\n📌 Paquetes\n📌 Ruta de un archivo (o file path)\n📌 Importar nuestra primera base de datos\n\n📌 Armar un proyecto de trabajo en Rstudio (R project)\n📌 Estructura de carpeta\n  👉🏼 Cómo estructurar la carpeta de trabajo\n\n  👉🏼 Cómo nombrar archivos"
   }
 ]
