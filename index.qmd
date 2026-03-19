@@ -22,9 +22,13 @@ Para toda aquella persona que quiera / necesite trabajar con datos de una forma 
 
 ## ¿Cómo?
 
-La programación no es un tema de mentes brillantes, sino más bien de aquellas perseverantes. Con este lema bajo el brazo es que se pensó el curso, el cual se focaliza en lo práctico. No sólo se van a ofrecer ejercicios para resolver código entre clase y clase sino que vamos a escribir R durante el encuentro sincrónico, compartiendo pantallas y dudas en vivo!
+> Modalidad 100% virtual a-sincrónica.
 
-------------------------------------------------------------------------
+Las clases están grabadas y se podrán ver en cualquier momento. Además, se dispondrá de un foro de consultas para evacuar dudas y compartir avances con los demás participantes.
+
+Porque la programación no es un tema de mentes brillantes, sino más bien de aquellas perseverantes. Con este lema bajo el brazo es que se pensó el curso, el cual se focaliza en lo práctico. Se van a ofrecer ejercicios para resolver código entre clase y clase. También se brindarán materiales de apoyo para que cada participante pueda avanzar a su propio ritmo.
+
+Tip: Recomendamos traer tu proyecto de datos para trabajar durante el curso. Podemos darte soporte en cómo organizarlo y procesarlo. ¡Todas las consultas son bienvenidas!
 
 ## Cronograma:
 
@@ -32,8 +36,9 @@ La programación no es un tema de mentes brillantes, sino más bien de aquellas 
 
 **Cantidad de horas por encuentro:** 2:30hs.
 
-**Día y horario de cursada:** Jueves, de 19 a 21:30hs (Hora Argentina, UTC-3).
+**Día y horario de cursada:** Jueves, de 18 a 20:30hs (Hora Argentina, UTC-3).
 
+<<<<<<< HEAD
 **Fecha de inicio**: Jueves 19 de Marzo.
 
 **Fecha de finalización**: Jueves 7 de Mayo.
