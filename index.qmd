@@ -34,25 +34,25 @@ La programación no es un tema de mentes brillantes, sino más bien de aquellas 
 
 **Día y horario de cursada:** Jueves, de 19 a 21:30hs (Hora Argentina, UTC-3).
 
-**Fecha de inicio**: Jueves 11 de Septiembre.
+**Fecha de inicio**: Jueves 19 de Marzo.
 
-**Fecha de finalización**: Jueves 23 de Octubre.
+**Fecha de finalización**: Jueves 7 de Mayo.
 
 **Cronograma de clases:**
 
--   Clase 1: 11/09
+-   Clase 1: 19/03
 
--   Clase 2: 18/09
+-   Clase 2: 26/03
 
--   Clase 3: 25/09
+-   Clase 3: 09/04 (No hay clase el 02/04 por feriado en Argentina)
 
--   Clase 4: 02/10
+-   Clase 4: 16/04
 
--   Clase 5: 09/10
+-   Clase 5: 23/04
 
--   Clase 6: 16/10
+-   Clase 6: 30/04
 
--   Clase 7: 23/10
+-   Clase 7: 07/05
 
 <!-- ## Inscripción: -->
 
