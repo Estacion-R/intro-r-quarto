@@ -3,7 +3,7 @@ title: "Proyectos de R, organizando la mesa de Trabajo"
 subtitle: "Buenas prácticas para organizar un proyecto de trabajo con datos"
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2025-09-18
+date: 2026-03-26
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
 logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
