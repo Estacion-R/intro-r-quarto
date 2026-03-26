@@ -35,8 +35,6 @@ downloadthis::download_file(
 
 -   Ciencia de Datos para Gente Sociable: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/>
 
--   Ejercitación de la semana: <https://Estacion-R.github.io/intro-r-quarto/encuentros/1-intro-r/intro-r_ejercitacion.html>
-
 ## Docente
 
 ![](images/docente.jpg){style="float: right; padding-left: 10px;" fig-alt="Foto de Federico Baraghian" width="180"}

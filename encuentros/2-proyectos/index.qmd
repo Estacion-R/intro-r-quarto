@@ -37,8 +37,6 @@ downloadthis::download_file(
 
 -   (en inglés) Rmarkdown for Scientist - Capítulo: *Workflow*: <https://rmd4sci.njtierney.com/workflow.html>
 
--   Ejercitación de la semana: <https://pablotis.github.io/intro-r-quarto/encuentros/2-proyectos/proyectos-r_ejercitacion.html>
-
 ## Docente
 
 ![](images/docente.jpg){style="float: right; padding-left: 10px;" fig-alt="Foto de Pablo Tiscornia" width="180"}
