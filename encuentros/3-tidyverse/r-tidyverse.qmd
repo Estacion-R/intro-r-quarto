@@ -206,7 +206,7 @@ base_de_datos %>%
 
 <br>
 
--   Pipa de **R base**: `%>%`
+-   Pipa de **R base**: `|>`
 
 <br>
 

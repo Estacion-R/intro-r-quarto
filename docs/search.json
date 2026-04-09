@@ -837,7 +837,7 @@
     "href": "encuentros/3-tidyverse/r-tidyverse.html#un-operador-llamado-pipa-1",
     "title": "Procesando datos con {tidyverse}",
     "section": "Un operador llamado pipa",
-    "text": "Un operador llamado pipa\n\n\nPipa de R base: %&gt;%\n\n\n\nPipa de {magritr}: %&gt;%"
+    "text": "Un operador llamado pipa\n\n\nPipa de R base: |&gt;\n\n\n\nPipa de {magritr}: %&gt;%"
   },
   {
     "objectID": "encuentros/3-tidyverse/r-tidyverse.html#ejemplo",
