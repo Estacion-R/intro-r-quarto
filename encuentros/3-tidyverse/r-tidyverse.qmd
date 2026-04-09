@@ -3,7 +3,7 @@ title: "Procesando datos con `{tidyverse}`"
 subtitle: "Principales herramientas (funciones) para el tratamiento de datos"
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2025-09-18
+date: 2026-04-09
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
 logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
@@ -107,7 +107,7 @@ execute:
 
 -   Crear una carpeta en el llamada `datos`
 
--   Descargar la base del [**Padrón Único Nacional de Alojamientos**](https://datos.yvera.gob.ar/dataset/padron-unico-nacional-alojamiento) (Argentina) y ubicarla en la carpeta `datos`
+-   Descargar la base del [**Padrón Único Nacional de Alojamientos**](https://drive.google.com/file/d/1Cxzg8H4lAiuu_m96BFgvVY-WLGHqIcdR/view?usp=sharing) (Argentina) y ubicarla en la carpeta `datos`
 
 -   Crear un **script** de trabajo
 
@@ -190,9 +190,9 @@ library(ggplot2)
 <br>
 
 ```{r eval=FALSE}
-base_de_datos |> 
-  funcion1 |> 
-  funcion2 |>  
+base_de_datos %>% 
+  funcion1 %>% 
+  funcion2 %>%  
   funcion3
 ```
 :::
@@ -206,7 +206,7 @@ base_de_datos |>
 
 <br>
 
--   Pipa de **R base**: `|>`
+-   Pipa de **R base**: `%>%`
 
 <br>
 
@@ -242,9 +242,9 @@ round(prop.table(table(datos$nombre)), digits = 1)
 -   Después (*con el pipe*):
 
 ```{r}
-datos$nombre |> 
-  table() |> 
-  prop.table() |> 
+datos$nombre %>% 
+  table() %>% 
+  prop.table() %>% 
   round(digits = 1)
 ```
 
@@ -290,7 +290,7 @@ knitr::include_graphics("images/logo dplyr.png")
 
 ```{r}
 #| eval: false
-base_de_datos |> 
+base_de_datos %>% 
   select(id, nombre) #<<
 ```
 
@@ -347,7 +347,7 @@ colnames(df_puna)
 #| code-line-numbers: "3,4"
 library(tidyverse)
 
-df_puna |> 
+df_puna %>% 
   select(localidad, tipo, plazas)
 ```
 
@@ -361,7 +361,7 @@ df_puna |>
 #| code-line-numbers: "2"
 library(tidyverse)
 
-df_puna_sel <- df_puna |> 
+df_puna_sel <- df_puna %>% 
   select(localidad, tipo, plazas)
 ```
 
@@ -394,7 +394,7 @@ colnames(df_puna)
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna_sel_posicion <- df_puna |> 
+df_puna_sel_posicion <- df_puna %>% 
   select(7, 9, 13)
 ```
 
@@ -414,7 +414,7 @@ colnames(df_puna_sel_posicion)
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna_sel_posicion2 <- df_puna |> 
+df_puna_sel_posicion2 <- df_puna %>% 
   select(1:3)
 ```
 
@@ -424,7 +424,7 @@ df_puna_sel_posicion2 <- df_puna |>
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna_sel_posicion2 <- df_puna |> 
+df_puna_sel_posicion2 <- df_puna %>% 
   select(1:3)
 ```
 
@@ -444,7 +444,7 @@ colnames(df_puna_sel_posicion2)
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna_sel_posicion3 <- df_puna |> 
+df_puna_sel_posicion3 <- df_puna %>% 
   select(establecimientos:plazas)
 ```
 
@@ -454,7 +454,7 @@ df_puna_sel_posicion3 <- df_puna |>
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna_sel_posicion3 <- df_puna |> 
+df_puna_sel_posicion3 <- df_puna %>% 
   select(establecimientos:plazas)
 ```
 
@@ -486,7 +486,7 @@ colnames(df_puna_sel_posicion3)
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna_sel_patron1 <- df_puna |> 
+df_puna_sel_patron1 <- df_puna %>% 
   select(starts_with("provincia"))
 ```
 
@@ -496,7 +496,7 @@ df_puna_sel_patron1 <- df_puna |>
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna_sel_patron1 <- df_puna |> 
+df_puna_sel_patron1 <- df_puna %>% 
   select(starts_with("provincia"))
 ```
 
@@ -512,7 +512,7 @@ colnames(df_puna_sel_patron1)
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna_sel_patron2 <- df_puna |> 
+df_puna_sel_patron2 <- df_puna %>% 
   select(ends_with("o"))
 ```
 
@@ -522,7 +522,7 @@ df_puna_sel_patron2 <- df_puna |>
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna_sel_patron2 <- df_puna |> 
+df_puna_sel_patron2 <- df_puna %>% 
   select(ends_with("o"))
 ```
 
@@ -542,7 +542,7 @@ colnames(df_puna_sel_patron2)
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna_sel_patron3 <- df_puna |> 
+df_puna_sel_patron3 <- df_puna %>% 
   select(contains("_"))
 ```
 
@@ -552,7 +552,7 @@ df_puna_sel_patron3 <- df_puna |>
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna_sel_patron3 <- df_puna |> 
+df_puna_sel_patron3 <- df_puna %>% 
   select(contains("_"))
 ```
 
@@ -574,7 +574,7 @@ colnames(df_puna_sel_patron3)
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna_select_tuto <- df_puna |> 
+df_puna_select_tuto <- df_puna %>% 
   select(localidad, 2, starts_with("provincia"), 9:11)
 ```
 
@@ -584,7 +584,7 @@ df_puna_select_tuto <- df_puna |>
 
 ```{r}
 #| code-line-numbers: "1"
-df_puna_select_tuto <- df_puna |> 
+df_puna_select_tuto <- df_puna %>% 
   select(localidad, 2, starts_with("provincia"), 9:11)
 ```
 
@@ -634,7 +634,7 @@ colnames(df_puna_select_tuto)
 ```{r}
 #| eval: false
 #| code-line-numbers: "2"
-base_de_datos |> 
+base_de_datos %>% 
   filter(condicion) 
 ```
 
@@ -651,7 +651,7 @@ knitr::include_graphics("images/filter_presentacion.png")
 ```{r}
 #| eval: false
 #| code-line-numbers: "2"
-base_de_datos |> 
+base_de_datos %>% 
   filter(Edad > 65) 
 ```
 
@@ -696,7 +696,7 @@ unique(df_puna$clasificacion)
 ```{r}
 library(tidyverse)
 
-df_filtrada <- df_puna |> 
+df_filtrada <- df_puna %>% 
   filter(clasificacion == "Camping")
 ```
 
@@ -756,7 +756,7 @@ unique(df_puna$clasificacion)
 -   Filtro (opción 1):
 
 ```{r}
-df_camping_y_hoteles3estrellas <- df_puna |> 
+df_camping_y_hoteles3estrellas <- df_puna %>% 
   filter(clasificacion == "Camping" | clasificacion == "Hotel 3 estrellas")
 ```
 
@@ -777,7 +777,7 @@ unique(df_camping_y_hoteles3estrellas$clasificacion)
 -   Filtro (opción 2, operador: `%in%`):
 
 ```{r}
-df_camping_y_hoteles3estrellas <- df_puna |> 
+df_camping_y_hoteles3estrellas <- df_puna %>% 
   filter(clasificacion %in% c("Camping", "Hotel 3 estrellas"))
 ```
 
@@ -800,7 +800,7 @@ unique(df_camping_y_hoteles3estrellas$clasificacion)
 ```{r}
 #| eval: false
 #| code-line-numbers: "2,3"
-df_puna |> 
+df_puna %>% 
   select(localidad, 
          clasificacion)
 ```
@@ -809,7 +809,7 @@ df_puna |>
 ::: {.column width="40%"}
 ```{r}
 #| echo: false
-df_puna |> 
+df_puna %>% 
   select(localidad, clasificacion)
 ```
 :::
@@ -824,9 +824,9 @@ df_puna |>
 ```{r}
 #| eval: false
 #| code-line-numbers: "4"
-df_puna |> 
+df_puna %>% 
   select(localidad, 
-         clasificacion) |> 
+         clasificacion) %>% 
   filter(clasificacion %in% c("Camping", "Hotel 3 estrellas"))
 ```
 :::
@@ -834,8 +834,8 @@ df_puna |>
 ::: {.column width="40%"}
 ```{r}
 #| echo: false
-df_puna |> 
-  select(localidad, clasificacion) |> 
+df_puna %>% 
+  select(localidad, clasificacion) %>% 
   filter(clasificacion %in% c("Camping", "Hotel 3 estrellas"))
 ```
 :::
@@ -903,7 +903,7 @@ base_de_datos %>%
 ```{r}
 #| eval: false
 #| code-line-numbers: "2"
-df_lugar_tot <- df_puna |> 
+df_lugar_tot <- df_puna %>% 
   select(localidad, habitaciones, plazas)
 ```
 :::
@@ -911,7 +911,7 @@ df_lugar_tot <- df_puna |>
 ::: {.column width="40%"}
 ```{r}
 #| echo: false
-df_puna |> 
+df_puna %>% 
   select(localidad, habitaciones, plazas) 
 ```
 :::
@@ -926,8 +926,8 @@ df_puna |>
 ```{r}
 #| eval: false
 #| code-line-numbers: "3"
-df_lugar_tot <- df_puna |> 
-  select(localidad, habitaciones, plazas) |> 
+df_lugar_tot <- df_puna %>% 
+  select(localidad, habitaciones, plazas) %>% 
   mutate(lugar_disponible = habitaciones + plazas)
 ```
 :::
@@ -935,8 +935,8 @@ df_lugar_tot <- df_puna |>
 ::: {.column width="40%"}
 ```{r}
 #| echo: false
-df_puna |> 
-  select(localidad, habitaciones, plazas) |> 
+df_puna %>% 
+  select(localidad, habitaciones, plazas) %>% 
   mutate(lugar_disponible = habitaciones + plazas)
 ```
 :::
@@ -957,7 +957,7 @@ df_puna |>
 ```{r}
 #| eval: false
 #| code-line-numbers: "2"
-df_lugar_tot <- df_puna |> 
+df_lugar_tot <- df_puna %>% 
   select(indice_tiempo, localidad, plazas)
 ```
 :::
@@ -965,7 +965,7 @@ df_lugar_tot <- df_puna |>
 ::: {.column width="40%"}
 ```{r}
 #| echo: false
-df_puna |> 
+df_puna %>% 
   select(indice_tiempo, localidad, plazas)
 ```
 :::
@@ -980,8 +980,8 @@ df_puna |>
 ```{r}
 #| eval: false
 #| code-line-numbers: "3,4,5"
-df_puna_recod <- df_puna |> 
-  select(indice_tiempo, localidad, plazas) |> 
+df_puna_recod <- df_puna %>% 
+  select(indice_tiempo, localidad, plazas) %>% 
   mutate(anio_etiqueta = case_when(indice_tiempo == 2020 ~ "Año 2020",
                                       indice_tiempo == 2021 ~ "Año 2021",
                                       indice_tiempo == 2022 ~ "Año 2022"))
@@ -991,8 +991,8 @@ df_puna_recod <- df_puna |>
 ::: {.column width="40%"}
 ```{r}
 #| echo: false
-df_puna |> 
-  select(indice_tiempo, localidad, plazas) |> 
+df_puna %>% 
+  select(indice_tiempo, localidad, plazas) %>% 
   mutate(anio_etiqueta = case_when(indice_tiempo == 2020 ~ "Año 2020",
                                       indice_tiempo == 2021 ~ "Año 2021",
                                       indice_tiempo == 2022 ~ "Año 2022"))
@@ -1015,8 +1015,8 @@ df_puna |>
 ```{r}
 #| eval: false
 #| code-line-numbers: "3,4"
-df_puna_agrup <- df_puna |> 
-  select(tipo, plazas) |> 
+df_puna_agrup <- df_puna %>% 
+  select(tipo, plazas) %>% 
   mutate(tipo_agrupado = case_when(tipo == "Hoteleros" ~ "Hoteleros",
                                    .default = "Otros"))
 ```
@@ -1025,8 +1025,8 @@ df_puna_agrup <- df_puna |>
 ::: {.column width="40%"}
 ```{r}
 #| echo: false
-df_puna |> 
-  select(tipo, plazas) |> 
+df_puna %>% 
+  select(tipo, plazas) %>% 
   mutate(tipo_agrupado = case_when(tipo == "Hoteleros" ~ "Hoteleros",
                                    .default = "Otros"))
 ```
@@ -1048,8 +1048,8 @@ df_puna |>
 ```{r}
 #| eval: false
 #| code-line-numbers: "3,4,5,6"
-df_puna_agrup_hotel <- df_puna |> 
-  select(clasificacion, plazas) |> 
+df_puna_agrup_hotel <- df_puna %>% 
+  select(clasificacion, plazas) %>% 
   mutate(clasif_agrupado = case_when(
     clasificacion %in% c("Hotel 1 estrella", 
                                    "Hotel 2 estrellas",
@@ -1061,8 +1061,8 @@ df_puna_agrup_hotel <- df_puna |>
 ::: {.column width="40%"}
 ```{r}
 #| echo: false
-df_puna |> 
-  select(clasificacion, plazas) |> 
+df_puna %>% 
+  select(clasificacion, plazas) %>% 
   mutate(clasif_agrupado = case_when(
     clasificacion %in% c("Hotel 1 estrella", 
                                    "Hotel 2 estrellas",
@@ -1085,8 +1085,8 @@ df_puna |>
 Dada la consigna anterior, rellenar en el campo marcado con `______` con el código necesario para ejecutar la sentencia:
 
 ``` r
-df_puna |> 
-  select(localidad, ________) |> 
+df_puna %>% 
+  select(localidad, ________) %>% 
   mutate(nueva_clasificacion = case_when(________ == "Camping" ~ "Camping",
                                          .default = "Otros"))
 ```
@@ -1124,7 +1124,7 @@ sum(df_puna$plazas)
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna |> 
+df_puna %>% 
   summarise(cant_plazas = sum(plazas))
 ```
 
@@ -1136,7 +1136,7 @@ df_puna |>
 
 ```{r}
 #| code-line-numbers: "2,3"
-df_puna |> 
+df_puna %>% 
   summarise(cant_plazas = sum(plazas),
             prom_plazas = mean(plazas))
 ```
@@ -1149,7 +1149,7 @@ df_puna |>
 
 ```{r}
 #| code-line-numbers: "2:5"
-df_puna |> 
+df_puna %>% 
   summarise(cant_plazas = sum(plazas),
             prom_plazas = mean(plazas),
             min_plazas  = min(plazas),
@@ -1179,7 +1179,7 @@ df_puna |>
 
 ```{r}
 #| code-line-numbers: "2:5"
-df_puna |> 
+df_puna %>% 
   summarise(cant_plazas = sum(plazas),
             prom_plazas = mean(plazas),
             min_plazas  = min(plazas),
@@ -1194,8 +1194,8 @@ df_puna |>
 
 ```{r}
 #| code-line-numbers: "2"
-df_puna |>
-  group_by(indice_tiempo) |> 
+df_puna %>%
+  group_by(indice_tiempo) %>% 
   summarise(cant_plazas = sum(plazas),
             prom_plazas = mean(plazas),
             min_plazas  = min(plazas),
@@ -1228,8 +1228,8 @@ df_puna |>
 
 ```{r}
 # Creo objeto
-tabla_puna <- df_puna |>
-  group_by(indice_tiempo) |> 
+tabla_puna <- df_puna %>%
+  group_by(indice_tiempo) %>% 
   summarise(cant_plazas = sum(plazas),
             prom_plazas = mean(plazas),
             min_plazas  = min(plazas),
@@ -1254,7 +1254,7 @@ class(tabla_puna)
 ```{r}
 #| code-line-numbers: "2"
 #| eval: false
-tabla_puna |> 
+tabla_puna %>% 
   filter(indice_tiempo == 2022)
 ```
 :::
@@ -1262,7 +1262,7 @@ tabla_puna |>
 ::: {.column widt="\"50%"}
 ```{r}
 #| echo: false
-tabla_puna |> 
+tabla_puna %>% 
   filter(indice_tiempo == 2022)
 ```
 :::
@@ -1277,8 +1277,8 @@ tabla_puna |>
 ```{r}
 #| code-line-numbers: "3"
 #| eval: false
-tabla_puna |> 
-  filter(indice_tiempo == 2022) |> 
+tabla_puna %>% 
+  filter(indice_tiempo == 2022) %>% 
   select(indice_tiempo, cant_plazas)
 ```
 :::
@@ -1286,8 +1286,8 @@ tabla_puna |>
 ::: {.column widt="\"50%"}
 ```{r}
 #| echo: false
-tabla_puna |> 
-  filter(indice_tiempo == 2022) |> 
+tabla_puna %>% 
+  filter(indice_tiempo == 2022) %>% 
   select(indice_tiempo, cant_plazas)
 ```
 :::
@@ -1306,7 +1306,7 @@ tabla_puna |>
 ```{r}
 #| code-line-numbers: "2"
 #| eval: false
-df_puna |> 
+df_puna %>% 
   select(indice_tiempo, tipo, plazas)
 ```
 :::
@@ -1314,7 +1314,7 @@ df_puna |>
 ::: {.column widt="\"50%"}
 ```{r}
 #| echo: false
-df_puna |> 
+df_puna %>% 
   select(indice_tiempo, tipo, plazas)
 ```
 :::
@@ -1327,8 +1327,8 @@ df_puna |>
 ```{r}
 #| code-line-numbers: "3"
 #| eval: false
-df_puna |> 
-  select(indice_tiempo, tipo, plazas) |> 
+df_puna %>% 
+  select(indice_tiempo, tipo, plazas) %>% 
   filter(indice_tiempo %in% c(2021, 2022))
 ```
 :::
@@ -1336,8 +1336,8 @@ df_puna |>
 ::: {.column widt="\"50%"}
 ```{r}
 #| echo: false
-df_puna |> 
-  select(indice_tiempo, tipo, plazas) |> 
+df_puna %>% 
+  select(indice_tiempo, tipo, plazas) %>% 
   filter(indice_tiempo %in% c(2021, 2022))
 ```
 :::
@@ -1350,9 +1350,9 @@ df_puna |>
 ```{r}
 #| code-line-numbers: "4"
 #| eval: false
-df_puna |> 
-  select(indice_tiempo, tipo, plazas) |> 
-  filter(indice_tiempo %in% c(2021, 2022)) |> 
+df_puna %>% 
+  select(indice_tiempo, tipo, plazas) %>% 
+  filter(indice_tiempo %in% c(2021, 2022)) %>% 
   mutate(tipo_recod = case_when(tipo == "Hoteleros" ~ "Hoteleros",
                                 .default = "Otros"))
 ```
@@ -1361,9 +1361,9 @@ df_puna |>
 ::: {.column widt="\"50%"}
 ```{r}
 #| echo: false
-df_puna |> 
-  select(indice_tiempo, tipo, plazas) |> 
-  filter(indice_tiempo %in% c(2021, 2022)) |> 
+df_puna %>% 
+  select(indice_tiempo, tipo, plazas) %>% 
+  filter(indice_tiempo %in% c(2021, 2022)) %>% 
   mutate(tipo_recod = case_when(tipo == "Hoteleros" ~ "Hoteleros",
                                 .default = "Otros"))
 ```
@@ -1377,12 +1377,12 @@ df_puna |>
 ```{r}
 #| code-line-numbers: "6,7,8"
 #| eval: false
-df_puna |> 
-  select(indice_tiempo, tipo, plazas) |> 
-  filter(indice_tiempo %in% c(2021, 2022)) |> 
+df_puna %>% 
+  select(indice_tiempo, tipo, plazas) %>% 
+  filter(indice_tiempo %in% c(2021, 2022)) %>% 
   mutate(tipo_recod = case_when(tipo == "Hoteleros" ~ "Hoteleros",
-                                .default = "Otros")) |> 
-  group_by(indice_tiempo, tipo_recod) |> 
+                                .default = "Otros")) %>% 
+  group_by(indice_tiempo, tipo_recod) %>% 
   summarise(cant_plazas = sum(plazas),
             prom_plazas = mean(plazas))
 ```
@@ -1391,12 +1391,12 @@ df_puna |>
 ::: {.column widt="\"50%"}
 ```{r}
 #| echo: false
-df_puna |> 
-  select(indice_tiempo, tipo, plazas) |> 
-  filter(indice_tiempo %in% c(2021, 2022)) |> 
+df_puna %>% 
+  select(indice_tiempo, tipo, plazas) %>% 
+  filter(indice_tiempo %in% c(2021, 2022)) %>% 
   mutate(tipo_recod = case_when(tipo == "Hoteleros" ~ "Hoteleros",
-                                .default = "Otros")) |> 
-  group_by(indice_tiempo, tipo_recod) |> 
+                                .default = "Otros")) %>% 
+  group_by(indice_tiempo, tipo_recod) %>% 
   summarise(cant_plazas = sum(plazas),
             prom_plazas = mean(plazas))
 ```
