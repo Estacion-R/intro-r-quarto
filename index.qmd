@@ -36,7 +36,7 @@ Tip: Recomendamos traer tu proyecto de datos para trabajar durante el curso. Pod
 
 **Cantidad de horas por encuentro:** 2:30hs.
 
-**Día y horario de cursada:** Jueves, de 18 a 20:30hs (Hora Argentina, UTC-3).
+**Día y horario de cursada:** Jueves, de 19 a 21:30hs (Hora Argentina, UTC-3).
 
 **Fecha de inicio**: Jueves 19 de Marzo.
 
