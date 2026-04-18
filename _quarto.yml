@@ -41,8 +41,8 @@ website:
             href: encuentros/1-intro-r/intro-r_ejercitacion.qmd
           - text: "Encuentro 2: Proyectos de trabajo y paquetes"
             href: encuentros/2-proyectos/proyectos-r_ejercitacion.qmd
-         # - text: "Encuentro 3: Intro a tidyverse"
-         #   href: encuentros/3-tidyverse/r-tidyverse_ejercicios.qmd
+          - text: "Encuentro 3: Intro a tidyverse"
+            href: encuentros/3-tidyverse/r-tidyverse_ejercicios.qmd
     right: 
       - href: cod_de_conducta.qmd
         text: Código de conducta
