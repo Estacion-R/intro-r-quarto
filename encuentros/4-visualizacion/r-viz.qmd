@@ -3,7 +3,7 @@ title: "Visualización de datos con `{ggplot2}`"
 subtitle: "Principales conceptos y funciones para visualizar datos con R"
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2025-10-09
+date: 2026-04-23
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
 logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
@@ -73,7 +73,7 @@ execute:
 
 -   Armar un proyeto de trabajo nuevo o abrir aquel con el que veníamos trabajando
 
--   Cargar la base del [**Padrón Único Nacional de Alojamientos**](https://datos.yvera.gob.ar/dataset/padron-unico-nacional-alojamiento) (Argentina) y chequear que esté en la carpeta `datos`
+-   Cargar la base del [**Padrón Único Nacional de Alojamientos**](https://drive.google.com/file/d/1Cxzg8H4lAiuu_m96BFgvVY-WLGHqIcdR/view) (Argentina) y chequear que esté en la carpeta `datos`
 
 -   Crear un **script** de trabajo
 
