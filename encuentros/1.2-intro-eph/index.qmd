@@ -1,0 +1,41 @@
+---
+title: "Encuentro 2 - Introducción a la Encuesta Permanente de Hogares (EPH - INDEC)"
+author: Estación R
+image: featured.png
+description: ¿Qué es la EPH? Metodología, cobertura y limitaciones.
+---
+
+## Descripción
+
+En este encuentro vamos a introducirnos en la encuesta más importante de Argentina: sus objetivos, su historia y sus principales características.
+
+
+## Slides
+
+<iframe class="slide-deck" src="/encuentros/1-intro-r/intro-eph-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;">
+
+</iframe>
+
+```{r echo=FALSE}
+downloadthis::download_file(
+  path = here::here("encuentros/1.2-intro-eph/Introducción a EPH.pdf"),
+  output_name = "r-intro_eph",
+  button_label = "Descarga las diapositivas",
+  button_type = "success",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = TRUE
+)
+```
+
+## Links
+
+-   Presentación: <https://docs.google.com/document/d/10MfUrYuR66ZB1e9OznpzsKQQBXtdPO1GTy_4aPhRLf4/edit?usp=sharing>
+
+-   Ciencia de Datos para Gente Sociable: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/>
+
+## Docente
+
+![](images/docente.jpg){style="float: right; padding-left: 10px;" fig-alt="Foto de Federico Baraghian" width="180"}
+
+[Federico Baraghian](https://www.linkedin.com/in/federico-baraghian/)

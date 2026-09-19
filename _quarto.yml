@@ -33,6 +33,8 @@ website:
             href: encuentros/4-visualizacion/index.qmd
           - text: "Módulo 5: Reportes con {rmarkdown}"
             href: encuentros/5-reportes/index.qmd
+          - text: "Módulo EPH: Intro a EPH"
+            href: encuentros/1.2-intro-eph/index.qmd
           - text: "Módulo 6: Trabajo integrador"
             href: encuentros/6-TP integrador/index.qmd
       - text: "Ejercitación"

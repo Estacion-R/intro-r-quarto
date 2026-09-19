@@ -1,0 +1,424 @@
+---
+title: Introducción a la Encuesta Permanente de Hogares (EPH-INDEC)
+subtitle: Primeras nociones y conceptos clave
+author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
+institution: Estación R
+date: 2026-09-24
+footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
+logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
+#title-slide-attributes:
+  #data-background-image: images/horst-teach-quarto.png
+  #data-background-size: stretch
+  #data-background-opacity: "0.8"
+format: 
+  revealjs: 
+    theme: intro-eph.scss
+    multiplex: false
+    transition: fade
+    progress: true
+    highlight-style: printing
+    embed-resources: true
+    code-line-numbers: false
+    code-block-bg: true
+    code-copy: true
+code-block-border-left: "#31BAE9"
+execute:
+  execute:
+  freeze: auto
+  echo: true
+---
+
+# Bienvenidos y bienvenidas a Estación R
+
+::: columns
+::: {.column width="50%"}
+💬 [Slack](https://join.slack.com/t/estacion-r/shared_invite/zt-2smy7t4ae-1KDZLHN1aqXmZXdKbc5buA)
+
+🔗 [Web](https://estacion-r.netlify.app/)
+
+🐘 [Mastodon](https://botsin.space/@r_tips)
+
+𝕏 [X](https://twitter.com/estacion_erre)
+
+✉️ [Correo](mailto:pablotiscornia@estacion-r.com)
+:::
+
+::: {.column width="50%"}
+[Instagram](https://www.instagram.com/estacion_ere?igsh=OWhtcWR5ZGkwb3Bw&utm_source=qr)
+
+[LinkedIn](https://www.linkedin.com/company/estacion-r/)
+:::
+:::
+
+## Hoja de Ruta
+
+📌 ¿Qué es la EPH?
+
+📌 ¿Cuáles son sus objetivos?
+
+📌 Historia, muestra e instrumentos
+
+📌 Indicadores principales y materiales de interés.
+
+# ¿Qué es la EPH?
+
+## ¿Qué es la EPH?
+
+![](images/Marco%20analitico_conceptual%20EPH.jpg){fig-align="center" width="65%"}
+
+## Objetivos de la EPH
+
+**El objetivo general** de la encuesta es el conocimiento de un aspecto de nuestra realidad: La inserción de la población en la estructura económico-social.[^1]
+
+[^1]: [La nueva Encuesta Permanente de Hogares de Argentina. 2003](https://www.indec.gob.ar/ftp/cuadros/sociedad/metodologia_eph_continua.pdf)
+
+Dicha inserción puede ser analizada a partir de tres ejes:
+
+1.  Características demográficas.
+
+2.  Inserción en la producción de bienes y servicios.
+
+3.  Participación en la distribución del producto social.
+
+# Características de la EPH
+
+## Historia
+
+::: fragment
+-   **Orígen:** La encuesta nace en 1973 con la modalidad de relevamiento "*puntual*": 2 ondas por año, en mayo y octubre.
+:::
+
+::: fragment
+-   **Cambios:** En 2003 se llevó adelante la reformulación de la encuesta con el objetivo de mantener un relevamiento continuo agrupado en 4 períodos (trimestres).
+:::
+
+::: fragment
+-   **Esquema**: centralización normativa (equipo central) - descentralización ejecutiva (equipos provinciales).
+:::
+
+## Características muestrales {.smaller}
+
+::: fragment
+-   **Cobertura o dominio de estimación**: Principales aglomerados urbanos. Fue creciendo progresivamente desde la puntual hacia la continua, hasta llegar a 31 aglomerados urbanos (todas las capitales de provincia + aquellos aglomerados con +100.000 habitantes).
+:::
+
+::: fragment
+-   **Aglomerado**: *Se trata de aquellas localidades que atraviesan límites de provincias, departamentos o partidos. (...) En las encuestas de fuerza de trabajo dos localidades distintas, pero próximas y que conforman en realidad un único mercado de trabajo, son tomadas como un único aglomerado.*[^2]
+:::
+
+[^2]: [EPH. Actualización del diseño de sus muestras 1974-2003](https://www.indec.gob.ar/ftp/cuadros/sociedad/eph_muestras_74-03.pdf)
+
+::: fragment
+-   **Representación:** La encuesta representa al 65% del total de la población (En Arg. según el censo 2010 la población urbana llegaba al 90%) **ACTUALIZAR INFO**
+:::
+
+::: fragment
+-   **Total Urbano (ex EAHU):** Una vez al año se releva el Total Urbano, extensión de la EPH al 100% de la población urbana (se relevan localidades de 2.000 y más habitantes). Esto pasa a ser el 92% de la población total.[^3]
+:::
+
+[^3]: [EPH. Total urbano. Principales tasas: tercer trimestre 2022](https://www.indec.gob.ar/uploads/informesdeprensa/eph_total_urbano_02_23FECDE7B871.pdf)
+
+## Características muestrales {.small}
+
+-   La Encuesta Permanente de Hogares es una encuesta por muestreo: relevo a un "pequeño" (¿pequeño?) puñado de hogares que representan al conjunto del universo.
+
+::: fragment
+-   Diseño Muestral: bietápico estratificado.
+:::
+
+::: fragment
+-   Tener en cuenta:
+    -   La representatividad
+    -   El margen de error
+    -   Coeficientes de variación de los estimadores
+    -   Límite superior/inferior de la estimación puntual
+:::
+
+::: fragment
+-   Esquema de rotación: 2-2-2 (la vivienda entra a la muestra durante dos trimestres consecutivos - descansa dos - vuelve a la muestra dos trimestres consecutivos)
+:::
+
+AGREGAR ALGUNA FUENTE O DOCU. (VER DOCUMENTO MUESTRAL CITADO ARRIBA PARA MÁS INFO)
+
+## Principales temáticas abordadas por la EPH
+
+-   Características demográficas básicas
+
+-   Características ocupacionales
+
+-   Características migratorias
+
+-   Características habitacionales
+
+-   Características educacionales
+
+-   Características de ingreso
+
+## Instrumento de medición:
+
+Conceptos clave:
+
+<br>
+
+::: fragment
+-   *Confiabilidad* (que el instrumento logre relevar información consistente sobre el mismo fenómeno a lo largo del tiempo)
+:::
+
+::: fragment
+-   *Validez* (¿medimos lo que decimos que queremos medir?)
+:::
+
+::: fragment
+-   *Tres cuestionarios* (Vivienda, Hogar e individual)
+:::
+
+## Cuestionario de vivienda
+
+**Definición**: *"cualquier recinto fijo o móvil que ha sido construído o adaptado para alojar personas. Las viviendas pueden ser particulares o colectivas. La EPH sólo encuesta las particulares".*
+
+::: fragment
+-   Principales dimensiones:
+
+    -   Identificación de viviendas y hogares
+    -   Características de la vivienda y hábitat
+    -   Condición de residencia
+:::
+
+## Cuestionario de hogar {.small}
+
+**Definición**: *"Persona o grupo de personas parientes o no, que viven bajo un mismo techo y comparten los gastos de alimentación"*
+
+::: fragment
+-   Principales dimensiones:
+
+    -   Características habitacionales
+    -   Características demográficas básicas (Sexo, edad, relación de parentesco)
+    -   Características educacionales (alfabetización, nivel educativo)
+    -   Condición de migración (país de nacimiento, de residencia en los últimos 5 años)
+    -   Cobertura de salud
+    -   División social del trabajo doméstico en el hogar
+    -   Presencia de discapacitados en el hogar
+    -   Estrategias y fuentes de manutención de los hogares
+    -   Ingresos monetarios no laborales
+:::
+
+## El jefe o la jefa de hogar {.small}
+
+**Definición:** *Aquella persona reconocida como tal por los demás miembros del hogar.*
+
+::: fragment
+-   **No es estático.** Responde tanto a un modelo general de asignación social y sexual de roles al interior del hogar como a criterios operativos:
+
+    -   económicos (quien trabaja / quien más cobra)
+    -   antigüedad
+    -   horarios (a quien se encuentra en el hogar)
+:::
+
+::: fragment
+-   En caso de no haber acuerdo entre los miembros del hogar acerca de quién es el jefe o la jefa, se asigna por el o la encuestadora según los siguientes criterios (en orden de prioridad):
+
+    -   Quien tiene a su cargo la responsabilidad económica del hogar
+    -   El miembro con mayor edad del hogar
+    -   Quien haya acudido al llamado
+:::
+
+## Cuestionario individual {.small}
+
+::: fragment
+-   **Aplicación:** Todas aquellas personas residentes del hogar, mayores de 10 años (niños y niñas en edad de ¿trabajar? o ¿estudiar?).
+:::
+
+::: fragment
+-   **Respondentes** Mayor de 18 años (Puede ser auto o no auto-respondente)
+:::
+
+::: fragment
+-   **Mide el principal concepto: El Trabajo**:
+
+    -   Definición de la 19° Conferencia Internacional del Trabajo - OIT (CIET, 2013): Todas las actividades desarrolladas en unidades económicas por personas de cualquier sexo con el fin de producir bienes y servicios para el consumo de terceros o autoconsumo.
+
+    -   EPH: Es toda actividad destinada a la producción de bienes y servicios con valor económico en el mercado (trabajo en la ocupación)
+:::
+
+## Cuestionario individual {.smaller}
+
+**La EPH toma una definición acotada del concepto de trabajo, acorde a sus objetivos y a sus instrumentos. No puede perder la capacidad de medir.**
+
+Entonces, ¿según la EPH, a quienes se los considera "trabajando"?
+
+::: fragment
+-   ¿Si realiza actividades laborales pagas en dinero o especie (en relación de dependencia, changas, trabajos temporarios, etc.)?
+:::
+
+::: fragment
+```         
+SÍ
+```
+:::
+
+::: fragment
+-   ¿Si realiza actividades para su propio consumo?
+:::
+
+::: fragment
+```         
+NO 
+```
+:::
+
+::: fragment
+-   ¿Si realiza una contraprestación laboral en virtud de la recepción de un subsidio o plan social?
+:::
+
+::: fragment
+```         
+SÍ 
+```
+:::
+
+## Cuestionario individual {.smaller}
+
+::: fragment
+-   Si es trabajador o trabajadora por cuenta propia con instalaciones (taller, negocio u oficina) y concurrió a su lugar de trabajo aunque no tuvo clientes?
+:::
+
+::: fragment
+```         
+SÍ 
+```
+:::
+
+::: fragment
+-   ¿Si realiza actividades domésticas en su hogar (por ej. Ama de casa)?
+:::
+
+::: fragment
+```         
+NO 
+```
+:::
+
+::: fragment
+-   ¿Si realiza actividades voluntarias?
+:::
+
+::: fragment
+```         
+NO 
+```
+:::
+
+::: fragment
+-   ¿Si realiza actividades laborales no remuneradas (por ej. docentes ad-honorem, pasantes)?
+:::
+
+::: fragment
+```         
+SÍ 
+```
+:::
+
+
+## Cuestinario individual: Principales indicadores {.small}
+
+- __Condición de actividad:__ relación de las personas con la producción de bienes y servicios con valor económico en el mercado.
+
+<br>
+
+  - Categorías de la variable:
+  
+      - **Ocupado u ocupada**: quienes se encuentran trabajando en la semana de referencia o no trabajando pero manteniendo un puesto de trabajo -suspensiones-.
+  
+      - **Desocupado o desocupada**: quienes no tienen trabajo, están disponibles para trabajar y buscan trabajo activamente en algún momento de los últimos 30 días.
+
+      - **Inactivo o inactiva**: quienes no se encuentran trabajando ni buscaron activamente trabajo en el período de referencia -últimos 30 días-.
+      
+## Población activa {.small}
+
+- __Población económicamente activa:__ Aquellas personas que tienen o que están buscando activamente una ocupación (población ocupada + desocupada)
+
+- __Pluriempleo__
+
+- __Subocupación y sobreocupación -horaria-__
+
+- __Demanda de empleo__
+
+## Población activa {.small}
+
+![](images/condicion de actividad.png){width="20%"}
+
+## Población ocupada {.small}
+
+**Categoría ocupacional:** En cuanto a la posición que tienen las personas respecto al esquema de relaciones sociales de producción, de un sistema de producción histórico y vigente (el capitalismo), los individuos pueden clasificarse en:
+
+  + Patrones
+  
+  + Cuenta propia
+  
+  + Asalariados
+  
+  + Trabajadores familiares
+  
+#### Otras caracterizaciones
+
+::: columns
+::: {.column width="50%"}  
+- Intensidad en la inserción (subempleo)
+  
+- Búsqueda de otra ocupación (y sus causas)
+  
+- Tamaño del establecimiento
+  
+- Antigüedad en el puesto de trabajo / Continuidad laboral
+:::
+
+::: {.column width="50%"}
+- Calidad del empleo
+  
+- Utilización de capital (propio / ajeno)
+  
+- Movimientos interurbanos
+:::
+:::
+
+## Población desocupada
+  
+- Tiempo de búsqueda
+
+- Razones por las que no encuentra trabajo
+
+- Temporalidad en la desocupación (nuevo desocupado / Viejo desocupado)
+
+- Características de la última ocupación
+
+### Documentación de interés {.smaller}
+
+- [Diseño de registro a agosto de 2019](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_registro_1t19.pdf)
+  
+- [Cuestionario individual](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CIndividual.pdf)
+  
+- [Cuestionario Hogar](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CHogar.pdf)
+  
+- [Cuestionario vivienda](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CVivienda.pdf)
+  
+- [La nueva EPH contínua](https://www.indec.gob.ar/ftp/cuadros/sociedad/metodologia_eph_continua.pdf)
+  
+- [Consideraciones sobre la revisión, evaluación y recuperación de la EPH. Nota metodológica actualizada para el uso de los datos del primer trimestre de 2019](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_nota_metodologica_1_trim_2019.pdf)
+
+- [Informe de mercado de trabajo a 1er trimestre de 2019](https://www.indec.gob.ar/uploads/informesdeprensa/mercado_trabajo_eph_1trim19B489ACCDF9.pdf)
+  
+- [Sistema de consulta a los cuadros regulares de la EPH contínua](https://www.indec.gob.ar/indec/web/Institucional-Indec-bases_EPH_tabulado_continua)
+  
+- [Cartografía de la EPH](https://www.indec.gob.ar/indec/web/Nivel4-Tema-1-39-120)
+
+##### Clasificadores utilizados en la EPH (Rama de actividad y Tarea / Ocupación)
+  
+- __Actividad (rama):__ [Clasificador de Actividades para Encuestas Sociodemográficas (CAES-MERCOSUR)](https://www.indec.gob.ar/ftp/cuadros/menusuperior/clasificadores/notas_explicativas_caes_v2018.pdf)
+  
+- __Ocupación:__ [Clasificador Nacional de Ocupaciones (CNO-2001-INDEC)](https://www.indec.gob.ar/ftp/cuadros/menusuperior/clasificadores/definiciones_conceptuales_cno.pdf)
+
+- __Códigos geográficos:__ [Países](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/codigospaises_09.pdf) y [provincias](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/codigosprovincias_09.pdf)
+  
+REVISAR Y ACTUALIZAR
+
+## !Muchas Gracias!

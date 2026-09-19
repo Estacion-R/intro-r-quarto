@@ -1,0 +1,6 @@
+---
+title: Introducción a R
+author: Pablo Tiscornia
+image: featured.png
+description: ¿Qué es R? Primeros pasos y conceptos principales para procesar datos con R
+---
