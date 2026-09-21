@@ -557,7 +557,7 @@
     "href": "encuentros/1.2-intro-eph/intro-eph.html#población-activa",
     "title": "Introducción a la Encuesta Permanente de Hogares (EPH-INDEC)",
     "section": "Población activa",
-    "text": "Población activa\n\nPoblación económicamente activa: Aquellas personas que tienen o que están buscando activamente una ocupación (población ocupada + desocupada)\nPluriempleo\nSubocupación y sobreocupación -horaria-\nDemanda de empleo"
+    "text": "Población activa\n\nPoblación económicamente activa: Aquellas personas que tienen o que están buscando activamente una ocupación (población ocupada + desocupada)\nPluriempleo\nSubocupación y sobreocupación -horaria-\nDemanda de empleo\n\nPoblación desocupada\n\nTiempo de búsqueda\nRazones por las que no encuentra trabajo\nTemporalidad en la desocupación (nuevo desocupado / Viejo desocupado)\nCaracterísticas de la última ocupación"
   },
   {
     "objectID": "encuentros/1.2-intro-eph/intro-eph.html#población-activa-1",
@@ -571,21 +571,14 @@
     "href": "encuentros/1.2-intro-eph/intro-eph.html#población-ocupada",
     "title": "Introducción a la Encuesta Permanente de Hogares (EPH-INDEC)",
     "section": "Población ocupada",
-    "text": "Población ocupada\nCategoría ocupacional: En cuanto a la posición que tienen las personas respecto al esquema de relaciones sociales de producción, de un sistema de producción histórico y vigente (el capitalismo), los individuos pueden clasificarse en:\n\nPatrones\nCuenta propia\nAsalariados\nTrabajadores familiares\n\nOtras caracterizaciones\n\n\n\nIntensidad en la inserción (subempleo)\nBúsqueda de otra ocupación (y sus causas)\nTamaño del establecimiento\nAntigüedad en el puesto de trabajo / Continuidad laboral\n\n\n\nCalidad del empleo\nUtilización de capital (propio / ajeno)\nMovimientos interurbanos"
-  },
-  {
-    "objectID": "encuentros/1.2-intro-eph/intro-eph.html#población-desocupada",
-    "href": "encuentros/1.2-intro-eph/intro-eph.html#población-desocupada",
-    "title": "Introducción a la Encuesta Permanente de Hogares (EPH-INDEC)",
-    "section": "Población desocupada",
-    "text": "Población desocupada\n\nTiempo de búsqueda\nRazones por las que no encuentra trabajo\nTemporalidad en la desocupación (nuevo desocupado / Viejo desocupado)\nCaracterísticas de la última ocupación\n\nDocumentación de interés\n\nDiseño de registro a agosto de 2019\nCuestionario individual\nCuestionario Hogar\nCuestionario vivienda\nLa nueva EPH contínua\nConsideraciones sobre la revisión, evaluación y recuperación de la EPH. Nota metodológica actualizada para el uso de los datos del primer trimestre de 2019\nInforme de mercado de trabajo a 1er trimestre de 2019\nSistema de consulta a los cuadros regulares de la EPH contínua\nCartografía de la EPH\n\nClasificadores utilizados en la EPH (Rama de actividad y Tarea / Ocupación)\n\nActividad (rama): Clasificador de Actividades para Encuestas Sociodemográficas (CAES-MERCOSUR)\nOcupación: Clasificador Nacional de Ocupaciones (CNO-2001-INDEC)\nCódigos geográficos: Países y provincias\n\nREVISAR Y ACTUALIZAR"
+    "text": "Población ocupada\nCategoría ocupacional: En cuanto a la posición que tienen las personas respecto al esquema de relaciones sociales de producción, de un sistema de producción histórico y vigente (el capitalismo), los individuos pueden clasificarse en:\n\nPatrones\nCuenta propia\nAsalariados\nTrabajadores familiares\n\nOtras caracterizaciones\n\n\n\nIntensidad en la inserción (subempleo)\nBúsqueda de otra ocupación (y sus causas)\nTamaño del establecimiento\nAntigüedad en el puesto de trabajo / Continuidad laboral\n\n\n\nCalidad del empleo\nUtilización de capital (propio / ajeno)\nMovimientos interurbanos\n\n\n\nDocumentación de interés\n\nDiseño de registro a agosto de 2019\nCuestionario individual\nCuestionario Hogar\nCuestionario vivienda\nLa nueva EPH contínua\nConsideraciones sobre la revisión, evaluación y recuperación de la EPH. Nota metodológica actualizada para el uso de los datos del primer trimestre de 2019\nInforme de mercado de trabajo a 1er trimestre de 2019\nSistema de consulta a los cuadros regulares de la EPH contínua\nCartografía de la EPH\n\nClasificadores utilizados en la EPH (Rama de actividad y Tarea / Ocupación)\n\nActividad (rama): Clasificador de Actividades para Encuestas Sociodemográficas (CAES-MERCOSUR)\nOcupación: Clasificador Nacional de Ocupaciones (CNO-2001-INDEC)\nCódigos geográficos: Países y provincias\n\nREVISAR Y ACTUALIZAR"
   },
   {
     "objectID": "encuentros/1.2-intro-eph/intro-eph.html#muchas-gracias",
     "href": "encuentros/1.2-intro-eph/intro-eph.html#muchas-gracias",
     "title": "Introducción a la Encuesta Permanente de Hogares (EPH-INDEC)",
-    "section": "!Muchas Gracias!",
-    "text": "!Muchas Gracias!\n\n\n\n🔗 Introducción al Procesamiento de Datos con R"
+    "section": "¡Muchas Gracias!",
+    "text": "¡Muchas Gracias!"
   },
   {
     "objectID": "encuentros/2-proyectos/index.html",

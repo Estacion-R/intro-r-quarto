@@ -79,3 +79,16 @@ details>summary {
   font-size: 0.55em;
   line-height: 1.2;
 }
+
+.reveal .titulo-final {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.reveal .titulo-final h1 {
+  margin: 0;
+}

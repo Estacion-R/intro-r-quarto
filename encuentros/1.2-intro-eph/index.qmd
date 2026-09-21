@@ -1,5 +1,5 @@
 ---
-title: "Encuentro 2 - Introducción a la Encuesta Permanente de Hogares (EPH - INDEC)"
+title: "Encuentro EPH - Introducción a la Encuesta Permanente de Hogares (EPH - INDEC)"
 author: Estación R
 image: featured.png
 description: ¿Qué es la EPH? Metodología, cobertura y limitaciones.
@@ -9,10 +9,9 @@ description: ¿Qué es la EPH? Metodología, cobertura y limitaciones.
 
 En este encuentro vamos a introducirnos en la encuesta más importante de Argentina: sus objetivos, su historia y sus principales características.
 
-
 ## Slides
 
-<iframe class="slide-deck" src="/encuentros/1-intro-r/intro-eph-speaker.html" height="420" width="747" style="border: 1px solid #2e3846;">
+<iframe class="slide-deck" src="/encuentros/1.2-intro-eph/intro-eph.html" height="420" width="747" style="border: 1px solid #2e3846;">
 
 </iframe>
 
@@ -30,7 +29,7 @@ downloadthis::download_file(
 
 ## Links
 
--   Presentación: <https://docs.google.com/document/d/10MfUrYuR66ZB1e9OznpzsKQQBXtdPO1GTy_4aPhRLf4/edit?usp=sharing>
+<!-- -   Presentación: <https://docs.google.com/document/d/10MfUrYuR66ZB1e9OznpzsKQQBXtdPO1GTy_4aPhRLf4/edit?usp=sharing> -->
 
 -   Ciencia de Datos para Gente Sociable: <https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/>
 

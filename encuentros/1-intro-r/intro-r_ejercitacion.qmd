@@ -8,12 +8,12 @@ author: "Estación R"
 1.  Crear un vector llamado `apellido`, con los siguientes 7 apellidos:
 
     -   "García",
-    -   "Sanchez",
-    -   "Van Del Sar",
-    -   "Mihatovich",
+    -   "Sánchez",
+    -   "de la Fuente",
+    -   "Velasco",
     -   "Lama",
-    -   "Lugercio"
-    -   "Messidona"
+    -   "Albarracín"
+    -   "López"
 
 2.  Crear un vector llamado `cantidad`, con los siguientes 7 valores, que representen la frecuencia con la que existe cada apellido en nuestra base:
 

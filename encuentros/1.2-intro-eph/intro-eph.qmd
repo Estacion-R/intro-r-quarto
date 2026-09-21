@@ -23,7 +23,6 @@ format:
     code-copy: true
 code-block-border-left: "#31BAE9"
 execute:
-  execute:
   freeze: auto
   echo: true
 ---
@@ -318,107 +317,110 @@ SÍ
 ```
 :::
 
-
 ## Cuestinario individual: Principales indicadores {.small}
 
-- __Condición de actividad:__ relación de las personas con la producción de bienes y servicios con valor económico en el mercado.
+-   **Condición de actividad:** relación de las personas con la producción de bienes y servicios con valor económico en el mercado.
 
 <br>
 
-  - Categorías de la variable:
-  
-      - **Ocupado u ocupada**: quienes se encuentran trabajando en la semana de referencia o no trabajando pero manteniendo un puesto de trabajo -suspensiones-.
-  
-      - **Desocupado o desocupada**: quienes no tienen trabajo, están disponibles para trabajar y buscan trabajo activamente en algún momento de los últimos 30 días.
+-   Categorías de la variable:
 
-      - **Inactivo o inactiva**: quienes no se encuentran trabajando ni buscaron activamente trabajo en el período de referencia -últimos 30 días-.
-      
-## Población activa {.small}
+    -   **Ocupado u ocupada**: quienes se encuentran trabajando en la semana de referencia o no trabajando pero manteniendo un puesto de trabajo -suspensiones-.
 
-- __Población económicamente activa:__ Aquellas personas que tienen o que están buscando activamente una ocupación (población ocupada + desocupada)
+    -   **Desocupado o desocupada**: quienes no tienen trabajo, están disponibles para trabajar y buscan trabajo activamente en algún momento de los últimos 30 días.
 
-- __Pluriempleo__
-
-- __Subocupación y sobreocupación -horaria-__
-
-- __Demanda de empleo__
+    -   **Inactivo o inactiva**: quienes no se encuentran trabajando ni buscaron activamente trabajo en el período de referencia -últimos 30 días-.
 
 ## Población activa {.small}
 
-![](images/condicion de actividad.png){width="20%"}
+-   **Población económicamente activa:** Aquellas personas que tienen o que están buscando activamente una ocupación (población ocupada + desocupada)
+
+-   **Pluriempleo**
+
+-   **Subocupación y sobreocupación -horaria-**
+
+-   **Demanda de empleo**
+
+### Población desocupada
+
+-   Tiempo de búsqueda
+
+-   Razones por las que no encuentra trabajo
+
+-   Temporalidad en la desocupación (nuevo desocupado / Viejo desocupado)
+
+-   Características de la última ocupación
+
+## Población activa {.small}
+
+![](images/condicion%20de%20actividad.png){width="20%"}
 
 ## Población ocupada {.small}
 
 **Categoría ocupacional:** En cuanto a la posición que tienen las personas respecto al esquema de relaciones sociales de producción, de un sistema de producción histórico y vigente (el capitalismo), los individuos pueden clasificarse en:
 
-  + Patrones
-  
-  + Cuenta propia
-  
-  + Asalariados
-  
-  + Trabajadores familiares
-  
+-   Patrones
+
+-   Cuenta propia
+
+-   Asalariados
+
+-   Trabajadores familiares
+
 #### Otras caracterizaciones
 
 ::: columns
-::: {.column width="50%"}  
-- Intensidad en la inserción (subempleo)
-  
-- Búsqueda de otra ocupación (y sus causas)
-  
-- Tamaño del establecimiento
-  
-- Antigüedad en el puesto de trabajo / Continuidad laboral
+::: {.column width="50%"}
+-   Intensidad en la inserción (subempleo)
+
+-   Búsqueda de otra ocupación (y sus causas)
+
+-   Tamaño del establecimiento
+
+-   Antigüedad en el puesto de trabajo / Continuidad laboral
 :::
 
 ::: {.column width="50%"}
-- Calidad del empleo
-  
-- Utilización de capital (propio / ajeno)
-  
-- Movimientos interurbanos
+-   Calidad del empleo
+
+-   Utilización de capital (propio / ajeno)
+
+-   Movimientos interurbanos
 :::
 :::
 
-## Población desocupada
-  
-- Tiempo de búsqueda
+## Documentación de interés {.smaller}
 
-- Razones por las que no encuentra trabajo
+-   [Diseño de registro a agosto de 2019](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_registro_1t19.pdf)
 
-- Temporalidad en la desocupación (nuevo desocupado / Viejo desocupado)
+-   [Cuestionario individual](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CIndividual.pdf)
 
-- Características de la última ocupación
+-   [Cuestionario Hogar](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CHogar.pdf)
 
-### Documentación de interés {.smaller}
+-   [Cuestionario vivienda](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CVivienda.pdf)
 
-- [Diseño de registro a agosto de 2019](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_registro_1t19.pdf)
-  
-- [Cuestionario individual](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CIndividual.pdf)
-  
-- [Cuestionario Hogar](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CHogar.pdf)
-  
-- [Cuestionario vivienda](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CVivienda.pdf)
-  
-- [La nueva EPH contínua](https://www.indec.gob.ar/ftp/cuadros/sociedad/metodologia_eph_continua.pdf)
-  
-- [Consideraciones sobre la revisión, evaluación y recuperación de la EPH. Nota metodológica actualizada para el uso de los datos del primer trimestre de 2019](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_nota_metodologica_1_trim_2019.pdf)
+-   [La nueva EPH contínua](https://www.indec.gob.ar/ftp/cuadros/sociedad/metodologia_eph_continua.pdf)
 
-- [Informe de mercado de trabajo a 1er trimestre de 2019](https://www.indec.gob.ar/uploads/informesdeprensa/mercado_trabajo_eph_1trim19B489ACCDF9.pdf)
-  
-- [Sistema de consulta a los cuadros regulares de la EPH contínua](https://www.indec.gob.ar/indec/web/Institucional-Indec-bases_EPH_tabulado_continua)
-  
-- [Cartografía de la EPH](https://www.indec.gob.ar/indec/web/Nivel4-Tema-1-39-120)
+-   [Consideraciones sobre la revisión, evaluación y recuperación de la EPH. Nota metodológica actualizada para el uso de los datos del primer trimestre de 2019](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_nota_metodologica_1_trim_2019.pdf)
+
+-   [Informe de mercado de trabajo a 1er trimestre de 2019](https://www.indec.gob.ar/uploads/informesdeprensa/mercado_trabajo_eph_1trim19B489ACCDF9.pdf)
+
+-   [Sistema de consulta a los cuadros regulares de la EPH contínua](https://www.indec.gob.ar/indec/web/Institucional-Indec-bases_EPH_tabulado_continua)
+
+-   [Cartografía de la EPH](https://www.indec.gob.ar/indec/web/Nivel4-Tema-1-39-120)
 
 ##### Clasificadores utilizados en la EPH (Rama de actividad y Tarea / Ocupación)
-  
-- __Actividad (rama):__ [Clasificador de Actividades para Encuestas Sociodemográficas (CAES-MERCOSUR)](https://www.indec.gob.ar/ftp/cuadros/menusuperior/clasificadores/notas_explicativas_caes_v2018.pdf)
-  
-- __Ocupación:__ [Clasificador Nacional de Ocupaciones (CNO-2001-INDEC)](https://www.indec.gob.ar/ftp/cuadros/menusuperior/clasificadores/definiciones_conceptuales_cno.pdf)
 
-- __Códigos geográficos:__ [Países](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/codigospaises_09.pdf) y [provincias](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/codigosprovincias_09.pdf)
-  
+-   **Actividad (rama):** [Clasificador de Actividades para Encuestas Sociodemográficas (CAES-MERCOSUR)](https://www.indec.gob.ar/ftp/cuadros/menusuperior/clasificadores/notas_explicativas_caes_v2018.pdf)
+
+-   **Ocupación:** [Clasificador Nacional de Ocupaciones (CNO-2001-INDEC)](https://www.indec.gob.ar/ftp/cuadros/menusuperior/clasificadores/definiciones_conceptuales_cno.pdf)
+
+-   **Códigos geográficos:** [Países](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/codigospaises_09.pdf) y [provincias](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/codigosprovincias_09.pdf)
+
 REVISAR Y ACTUALIZAR
 
-## !Muchas Gracias!
+<div class="titulo-final">
+
+## ¡Muchas Gracias!
+
+</div>

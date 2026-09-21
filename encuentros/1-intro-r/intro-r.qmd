@@ -3,7 +3,7 @@ title: Introducción a R base
 subtitle: Fundamentos básicos del lenguaje
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2026-03-19
+date: 2026-09-22
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
 logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 #title-slide-attributes:
@@ -62,9 +62,9 @@ execute:
     - Grabación de encuentros
     ```
 
-# Presentación
+<!-- # Presentación
 
-👋 Presentate [acá](https://docs.google.com/document/d/10MfUrYuR66ZB1e9OznpzsKQQBXtdPO1GTy_4aPhRLf4/edit?usp=sharing)
+👋 Presentate [acá](https://docs.google.com/document/d/10MfUrYuR66ZB1e9OznpzsKQQBXtdPO1GTy_4aPhRLf4/edit?usp=sharing) -->
 
 ## Hoja de Ruta
 
@@ -386,7 +386,7 @@ mean(objeto_como_input)
 
 ```{r}
 vector_edad <- c(20, 43, 102, 56)
-vector_nombre <- c("Pepe", "Pepa", "Rigoberto", "Rodoberta")
+vector_nombre <- c("José", "Ana", "Vicente", "Cristina")
 
 base_personas <- data.frame(vector_edad,
                             vector_nombre)
