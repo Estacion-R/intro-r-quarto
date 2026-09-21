@@ -444,7 +444,7 @@
   <meta name="generator" content="quarto-1.3.353">
 
   <meta name="author" content="🔗 Estación R">
-  <meta name="dcterms.date" content="2026-03-19">
+  <meta name="dcterms.date" content="2026-09-22">
   <title>Introducción a R base</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -1266,7 +1266,7 @@ class CountdownTimer {
 </div>
 </div>
 
-  <p class="date">2026-03-19</p>
+  <p class="date">2026-09-22</p>
 </section>
 <section id="bienvenidos-y-bienvenidas-a-estación-r" class="title-slide slide level1 center">
 <h1>Bienvenidos y bienvenidas a Estación R</h1>
@@ -1284,6 +1284,7 @@ class CountdownTimer {
 </div>
 </section>
 
+<section>
 <section id="sobre-el-curso" class="title-slide slide level1 center">
 <h1>Sobre el curso</h1>
 <ul>
@@ -1294,12 +1295,9 @@ class CountdownTimer {
 
 - Grabación de encuentros</code></pre></li>
 </ul>
-</section>
+<!-- # Presentación
 
-<section>
-<section id="presentación" class="title-slide slide level1 center">
-<h1>Presentación</h1>
-<p>👋 Presentate <a href="https://docs.google.com/document/d/10MfUrYuR66ZB1e9OznpzsKQQBXtdPO1GTy_4aPhRLf4/edit?usp=sharing">acá</a></p>
+👋 Presentate [acá](https://docs.google.com/document/d/10MfUrYuR66ZB1e9OznpzsKQQBXtdPO1GTy_4aPhRLf4/edit?usp=sharing) -->
 </section>
 <section id="hoja-de-ruta" class="slide level2">
 <h2>Hoja de Ruta</h2>
@@ -1448,7 +1446,7 @@ class CountdownTimer {
 </section></section>
 <section id="descanso" class="title-slide slide level1 center">
 <h1>Descanso</h1>
-<p></p><div class="countdown" id="timer_be0bcf7e" data-warn-when="60" data-update-every="1" data-blink-colon="true" tabindex="0" style="right:0;bottom:0;"> <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div> <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code> </div><p></p>
+<p></p><div class="countdown" id="timer_d8cdfa6a" data-warn-when="60" data-update-every="1" data-blink-colon="true" tabindex="0" style="right:0;bottom:0;"> <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div> <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code> </div><p></p>
 </section>
 
 <section>
@@ -1683,7 +1681,7 @@ class CountdownTimer {
 </ul>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>vector_edad <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">20</span>, <span class="dv">43</span>, <span class="dv">102</span>, <span class="dv">56</span>)</span>
-<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>vector_nombre <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Pepe&quot;</span>, <span class="st">&quot;Pepa&quot;</span>, <span class="st">&quot;Rigoberto&quot;</span>, <span class="st">&quot;Rodoberta&quot;</span>)</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>vector_nombre <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;José&quot;</span>, <span class="st">&quot;Ana&quot;</span>, <span class="st">&quot;Vicente&quot;</span>, <span class="st">&quot;Cristina&quot;</span>)</span>
 <span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>base_personas <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(vector_edad,</span>
 <span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>                            vector_nombre)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1698,10 +1696,10 @@ class CountdownTimer {
 <div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>base_personas</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  vector_edad vector_nombre
-1          20          Pepe
-2          43          Pepa
-3         102     Rigoberto
-4          56     Rodoberta</code></pre>
+1          20          José
+2          43           Ana
+3         102       Vicente
+4          56      Cristina</code></pre>
 </div>
 </div>
 </section></section>
@@ -1724,7 +1722,7 @@ class CountdownTimer {
 <div class="cell">
 <div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>base_personas<span class="sc">$</span>vector_nombre</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] &quot;Pepe&quot;      &quot;Pepa&quot;      &quot;Rigoberto&quot; &quot;Rodoberta&quot;</code></pre>
+<pre><code>[1] &quot;José&quot;     &quot;Ana&quot;      &quot;Vicente&quot;  &quot;Cristina&quot;</code></pre>
 </div>
 </div>
 </section>
