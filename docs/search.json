@@ -746,7 +746,7 @@
     "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-2",
     "title": "Proyectos de R, organizando la mesa de Trabajo",
     "section": "Importar datos",
-    "text": "Importar datos\n\nManos a la obra:\n\nlibrary(readr)\n\nread_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")"
+    "text": "Importar datos\n\nManos a la obra:\n\nlibrary(readr)\n\nread_csv(file = \"C:/Users/Federico/Downloads/nombres-2015.csv\")"
   },
   {
     "objectID": "encuentros/2-proyectos/proyectos-r.html#importar-datos-3",
@@ -760,14 +760,14 @@
     "href": "encuentros/2-proyectos/proyectos-r.html#importar-datos-4",
     "title": "Proyectos de R, organizando la mesa de Trabajo",
     "section": "Importar datos",
-    "text": "Importar datos\n\nFalta algo…\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")"
+    "text": "Importar datos\n\nFalta algo…\n\nbase_personas &lt;- read_csv(file = \"C:/Users/Federico/Downloads/nombres-2015.csv\")"
   },
   {
     "objectID": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-1",
     "href": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-1",
     "title": "Proyectos de R, organizando la mesa de Trabajo",
     "section": "Proyectos de trabajo",
-    "text": "Proyectos de trabajo\n\n\n\nCopiar la siguiente sentencia en tu consola o script y ejecutar:\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")"
+    "text": "Proyectos de trabajo\n\n\n\nCopiar la siguiente sentencia en tu consola o script y ejecutar:\n\nbase_personas &lt;- read_csv(file = \"C:/Users/Federico/Downloads/nombres-2015.csv\")"
   },
   {
     "objectID": "encuentros/2-proyectos/proyectos-r.html#proyectos-de-trabajo-2",
@@ -837,14 +837,14 @@
     "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-8",
     "title": "Proyectos de R, organizando la mesa de Trabajo",
     "section": "Crear un proyecto de Rstudio",
-    "text": "Crear un proyecto de Rstudio\n\nAntes (sin un proyecto)\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")"
+    "text": "Crear un proyecto de Rstudio\n\nAntes (sin un proyecto)\n\nbase_personas &lt;- read_csv(file = \"C:/Users/Federico/Downloads/nombres-2015.csv\")"
   },
   {
     "objectID": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-9",
     "href": "encuentros/2-proyectos/proyectos-r.html#crear-un-proyecto-de-rstudio-9",
     "title": "Proyectos de R, organizando la mesa de Trabajo",
     "section": "Crear un proyecto de Rstudio",
-    "text": "Crear un proyecto de Rstudio\n\nAntes (sin un proyecto)\n\nbase_personas &lt;- read_csv(file = \"/home/pablote/Documentos/datos/nombres-2015.csv\")\n\n\nDespués (con un proyecto)\n\nbase_personas &lt;- read_csv(\"datos/nombres-2015.csv\")"
+    "text": "Crear un proyecto de Rstudio\n\nAntes (sin un proyecto)\n\nbase_personas &lt;- read_csv(file = \"C:/Users/Federico/Downloads/nombres-2015.csv\")\n\n\nDespués (con un proyecto)\n\nbase_personas &lt;- read_csv(\"datos/nombres-2015.csv\")"
   },
   {
     "objectID": "encuentros/2-proyectos/proyectos-r.html#estructura-de-carpetas",

@@ -3,7 +3,7 @@ title: "Proyectos de R, organizando la mesa de Trabajo"
 subtitle: "Buenas prácticas para organizar un proyecto de trabajo con datos"
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2026-03-26
+date: 2026-09-24
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
 logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
@@ -194,7 +194,7 @@ library(readr)
 
 -   **Base de datos:** *Nombre de Personas. Argentina, año 2015.*
 
-> [Link](https://datos.gob.ar/dataset/otros-nombres-personas-fisicas)
+> [Link](https://drive.google.com/file/d/1uyvbLLzvr2qbjIv33XokxmdUJNK26i8b/view?usp=sharing)
 
 ## Importar datos
 
@@ -202,7 +202,7 @@ library(readr)
 
 **- Base de datos:** *Nombre de Personas. Argentina, año 2015.*
 
-[Link](https://datos.gob.ar/dataset/otros-nombres-personas-fisicas)
+[Link](https://drive.google.com/file/d/1uyvbLLzvr2qbjIv33XokxmdUJNK26i8b/view?usp=sharing)
 
 -   Tip: Reconocer la ***extensión*** del archivo a descargar (.csv, .txt, .sav, .dta, .sas, etc.)
 
@@ -213,7 +213,7 @@ library(readr)
 ``` r
 library(readr)
 
-read_csv(file = "/home/pablote/Documentos/datos/nombres-2015.csv")
+read_csv(file = "C:/Users/Federico/Downloads/nombres-2015.csv")
 ```
 
 ## Importar datos
@@ -225,7 +225,7 @@ read_csv(file = "/home/pablote/Documentos/datos/nombres-2015.csv")
 -   Falta algo...
 
 ``` r
-base_personas <- read_csv(file = "/home/pablote/Documentos/datos/nombres-2015.csv")
+base_personas <- read_csv(file = "C:/Users/Federico/Downloads/nombres-2015.csv")
 ```
 
 # Descanso
@@ -251,7 +251,7 @@ contador <- countdown(minutes = 10, bottom = 0, warn_when = 60, blink_colon = TR
 -   Copiar la siguiente sentencia en tu consola o script y ejecutar:
 
 ``` r
-base_personas <- read_csv(file = "/home/pablote/Documentos/datos/nombres-2015.csv")
+base_personas <- read_csv(file = "C:/Users/Federico/Downloads/nombres-2015.csv")
 ```
 
 ## Proyectos de trabajo
@@ -343,7 +343,7 @@ base_personas <- read_csv("datos/nombres-2015.csv")
 -   **Antes** *(sin un proyecto)*
 
 ``` r
-base_personas <- read_csv(file = "/home/pablote/Documentos/datos/nombres-2015.csv")
+base_personas <- read_csv(file = "C:/Users/Federico/Downloads/nombres-2015.csv")
 ```
 
 ## Crear un proyecto de Rstudio
@@ -351,7 +351,7 @@ base_personas <- read_csv(file = "/home/pablote/Documentos/datos/nombres-2015.cs
 -   **Antes** *(sin un proyecto)*
 
 ``` r
-base_personas <- read_csv(file = "/home/pablote/Documentos/datos/nombres-2015.csv")
+base_personas <- read_csv(file = "C:/Users/Federico/Downloads/nombres-2015.csv")
 ```
 
 <br>
