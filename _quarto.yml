@@ -27,8 +27,8 @@ website:
             href: encuentros/1-intro-r/index.qmd
           - text: "Módulo 2: Proyectos de trabajo"
             href: encuentros/2-proyectos/index.qmd
-          # - text: "Módulo 3: Procesamiento de datos con {tidyverse}"
-          #   href: encuentros/3-tidyverse/index.qmd
+          - text: "Módulo 3: Procesamiento de datos con {tidyverse}"
+            href: encuentros/3-tidyverse/index.qmd
           # - text: "Módulo 4: Visualización de datos con {ggplot2}"
           #   href: encuentros/4-visualizacion/index.qmd
           # - text: "Módulo 5: Reportes con {rmarkdown}"
@@ -43,8 +43,8 @@ website:
             href: encuentros/1-intro-r/intro-r_ejercitacion.qmd
           - text: "Encuentro 2: Proyectos de trabajo y paquetes"
             href: encuentros/2-proyectos/proyectos-r_ejercitacion.qmd
-          # - text: "Encuentro 3: Intro a tidyverse"
-          #   href: encuentros/3-tidyverse/r-tidyverse_ejercicios.qmd
+          - text: "Encuentro 3: Intro a tidyverse"
+            href: encuentros/3-tidyverse/r-tidyverse_ejercicios.qmd
     right: 
       - href: cod_de_conducta.qmd
         text: Código de conducta

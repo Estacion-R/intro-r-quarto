@@ -3,7 +3,7 @@ title: "Procesando datos con `{tidyverse}`"
 subtitle: "Principales herramientas (funciones) para el tratamiento de datos"
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2026-04-09
+date: 2026-09-29
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
 logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 format: 
@@ -217,7 +217,7 @@ base_de_datos %>%
 <br> <br>
 
 ```{r}
-datos <- data.frame(nombre = c("Pirulanzo", "Rodogovia", "Rodogovia", "Rodogovia"),
+datos <- data.frame(nombre = c("Luciano", "Helena", "Helena", "Helena"),
                     edad = c(23, 12, 87, 32))
 
 datos
@@ -225,7 +225,7 @@ datos
 
 ## Ejemplo:
 
--   Quiero calcular qué proporción de personas se llaman *Rodogovia*
+-   Quiero calcular qué proporción de personas se llaman *Helena*
 
 <br>
 
@@ -434,10 +434,6 @@ df_puna_sel_posicion2 <- df_puna %>%
 colnames(df_puna_sel_posicion2)
 ```
 
-#  {.center auto-animate="true"}
-
-![](https://imgs.search.brave.com/Frz7Kuv_uvyXQb269pQbZ2-UxWSZ-oIPOgfP4lTWmmU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvc2FjaGEt/YmFyb24tY29oZW4t/dmVyeS1uaWNlLXFq/N2x5YXFudXBueTl6/ODAuZ2lm.gif)
-
 ## `select()` - *por nombre (consecutiva)*
 
 <br>
@@ -463,10 +459,6 @@ df_puna_sel_posicion3 <- df_puna %>%
 ```{r}
 colnames(df_puna_sel_posicion3)
 ```
-
-# 
-
-![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXk3OXA1YnRnOGFkOGxqMjd4ZHU4MzZha2I4dzhqMmw0NTFmN2RoZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d4W4ZshZVbrqYvVnh8/giphy.gif)
 
 ## `select()` - *Por patrones de texto*
 
@@ -532,10 +524,6 @@ df_puna_sel_patron2 <- df_puna %>%
 colnames(df_puna_sel_patron2)
 ```
 
-# 
-
-![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjEzMW15cWk3bXJ5MzQ0aXQwd2IwenIyN3JseTlucW9nc2R0enY4NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lk023zZqHJ3Zz4rxtV/giphy.gif)
-
 ## `select()` + `contains()`
 
 <br>
@@ -561,10 +549,6 @@ df_puna_sel_patron3 <- df_puna %>%
 ```{r}
 colnames(df_puna_sel_patron3)
 ```
-
-# 
-
-![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXprbDVsM2l1MmF5dDRjMGY1N2xiNW52dmFscHNsM3NhbDZ5eXc5NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NEvPzZ8bd1V4Y/giphy.gif)
 
 # LA COMBINACIÓN FINAL
 
@@ -593,10 +577,6 @@ df_puna_select_tuto <- df_puna %>%
 ```{r}
 colnames(df_puna_select_tuto)
 ```
-
-# 
-
-![](images/explode.gif)
 
 # Ejercitación grupal
 
@@ -1206,15 +1186,7 @@ df_puna %>%
 
 <br>
 
-::: columns
-::: {.column width="50%"}
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHJ6NDl6MGtpbnE4bng3dGM5aDFtdDlpMXBpcDN3ZHlheWh5OWY3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/adNxtO8PpNOPS/giphy.gif)
-:::
-
-::: {.column width="50%"}
 -   Toda función tiene un `input` (ingredientes 🧂🌾🧄) y un `output` (la torta 🎂)
-:::
-:::
 
 ## input / output
 
@@ -1292,12 +1264,6 @@ tabla_puna %>%
 ```
 :::
 :::
-
-## `tidyverse` en acción
-
-<br>
-
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazY5ZnJvaWsxYnp4bDZ2amtjOGhpc2ZxaGNobDVpOGlwa3VwcHhlZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sG4zmff2zDOp7t2MNA/giphy.gif)
 
 ## `tidyverse` en acción
 
@@ -1403,6 +1369,8 @@ df_puna %>%
 :::
 :::
 
-## `tidyverse` en acción
+## ¡Listo!
 
-![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXBmYmR4Nno1eDNrNjYwbnA1OG83cXRteXVibDNqd3h2aDdsbjRobCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hXDrTueJWAscK3xWQ2/giphy.gif)
+-   Nos vemos el encuentro que viene.
+
+-   Seguimos la comunicación entre clase y clase por **Slack**

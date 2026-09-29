@@ -62,10 +62,11 @@ execute:
     - Grabación de encuentros
     ```
 
+```{=html}
 <!-- # Presentación
 
 👋 Presentate [acá](https://docs.google.com/document/d/10MfUrYuR66ZB1e9OznpzsKQQBXtdPO1GTy_4aPhRLf4/edit?usp=sharing) -->
-
+```
 ## Hoja de Ruta
 
 ::: columns
