@@ -71,6 +71,7 @@ execute:
 
 [^1]: [La nueva Encuesta Permanente de Hogares de Argentina. 2003](https://www.indec.gob.ar/ftp/cuadros/sociedad/metodologia_eph_continua.pdf)
 
+::: fragment
 Dicha inserción puede ser analizada a partir de tres ejes:
 
 1.  Características demográficas.
@@ -78,6 +79,7 @@ Dicha inserción puede ser analizada a partir de tres ejes:
 2.  Inserción en la producción de bienes y servicios.
 
 3.  Participación en la distribución del producto social.
+:::
 
 # Características de la EPH
 
@@ -391,23 +393,19 @@ SÍ
 
 ## Documentación de interés {.smaller}
 
--   [Diseño de registro a agosto de 2019](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_registro_1t19.pdf)
+-   [Diseño de registro a agosto de 2026](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_registro_1T2026.pdf)
 
--   [Cuestionario individual](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CIndividual.pdf)
-
--   [Cuestionario Hogar](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CHogar.pdf)
-
--   [Cuestionario vivienda](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CVivienda.pdf)
+-   [Cuestionario individual](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CIndividual.pdf) / [Cuestionario Hogar](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CHogar.pdf) / [Cuestionario vivienda](https://www.indec.gob.ar/ftp/cuadros/sociedad/EPHContinua_CVivienda.pdf)
 
 -   [La nueva EPH contínua](https://www.indec.gob.ar/ftp/cuadros/sociedad/metodologia_eph_continua.pdf)
 
 -   [Consideraciones sobre la revisión, evaluación y recuperación de la EPH. Nota metodológica actualizada para el uso de los datos del primer trimestre de 2019](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_nota_metodologica_1_trim_2019.pdf)
 
--   [Informe de mercado de trabajo a 1er trimestre de 2019](https://www.indec.gob.ar/uploads/informesdeprensa/mercado_trabajo_eph_1trim19B489ACCDF9.pdf)
+-   [Informe de mercado de trabajo a 2do trimestre de 2026](https://www.indec.gob.ar/uploads/informesdeprensa/mercado_trabajo_eph_2trim26433FCBC5A8.pdf)
 
 -   [Sistema de consulta a los cuadros regulares de la EPH contínua](https://www.indec.gob.ar/indec/web/Institucional-Indec-bases_EPH_tabulado_continua)
 
--   [Cartografía de la EPH](https://www.indec.gob.ar/indec/web/Nivel4-Tema-1-39-120)
+-   [Cartografía de la EPH](https://sitioanterior.indec.gob.ar/nivel4_default.asp?id_tema_1=1&id_tema_2=39&id_tema_3=120)
 
 ##### Clasificadores utilizados en la EPH (Rama de actividad y Tarea / Ocupación)
 
@@ -417,10 +415,8 @@ SÍ
 
 -   **Códigos geográficos:** [Países](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/codigospaises_09.pdf) y [provincias](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/codigosprovincias_09.pdf)
 
-REVISAR Y ACTUALIZAR
+REVISAR Y ACTUALIZAR Cuestionarios y CAES, el resto está ok.
 
-<div class="titulo-final">
-
+::: titulo-final
 ## ¡Muchas Gracias!
-
-</div>
+:::
