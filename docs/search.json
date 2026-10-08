@@ -452,7 +452,7 @@
     "href": "encuentros/1.2-intro-eph/intro-eph.html#hoja-de-ruta",
     "title": "Introducción a la Encuesta Permanente de Hogares (EPH-INDEC)",
     "section": "Hoja de Ruta",
-    "text": "Hoja de Ruta\n📌 ¿Qué es la EPH?\n📌 ¿Cuáles son sus objetivos?\n📌 Historia, muestra e instrumentos\n📌 Indicadores principales y materiales de interés."
+    "text": "Hoja de Ruta\n\n📌 ¿Qué es la EPH?\n📌 ¿Cuáles son sus objetivos?\n📌 Historia, muestra e instrumentos\n📌 Indicadores principales y materiales de interés."
   },
   {
     "objectID": "encuentros/1.2-intro-eph/intro-eph.html#qué-es-la-eph-1",
@@ -480,14 +480,14 @@
     "href": "encuentros/1.2-intro-eph/intro-eph.html#características-muestrales",
     "title": "Introducción a la Encuesta Permanente de Hogares (EPH-INDEC)",
     "section": "Características muestrales",
-    "text": "Características muestrales\n\n\nCobertura o dominio de estimación: Principales aglomerados urbanos. Fue creciendo progresivamente desde la puntual hacia la continua, hasta llegar a 31 aglomerados urbanos (todas las capitales de provincia + aquellos aglomerados con +100.000 habitantes).\n\n\n\n\nAglomerado: Se trata de aquellas localidades que atraviesan límites de provincias, departamentos o partidos. (…) En las encuestas de fuerza de trabajo dos localidades distintas, pero próximas y que conforman en realidad un único mercado de trabajo, son tomadas como un único aglomerado.1\n\n\n\n\nRepresentación: La encuesta representa al 65% del total de la población (En Arg. según el censo 2010 la población urbana llegaba al 90%) ACTUALIZAR INFO\n\n\n\n\nTotal Urbano (ex EAHU): Una vez al año se releva el Total Urbano, extensión de la EPH al 100% de la población urbana (se relevan localidades de 2.000 y más habitantes). Esto pasa a ser el 92% de la población total.2\n\n\nEPH. Actualización del diseño de sus muestras 1974-2003EPH. Total urbano. Principales tasas: tercer trimestre 2022"
+    "text": "Características muestrales\n\n\nCobertura o dominio de estimación: Principales aglomerados urbanos. Fue creciendo progresivamente desde la puntual hacia la continua, hasta llegar a 31 aglomerados urbanos (todas las capitales de provincia + aquellos aglomerados con +100.000 habitantes).\n\n\n\n\nAglomerado: Se trata de aquellas localidades que atraviesan límites de provincias, departamentos o partidos. (…) En las encuestas de fuerza de trabajo dos localidades distintas, pero próximas y que conforman en realidad un único mercado de trabajo, son tomadas como un único aglomerado.1\n\n\n\n\nRepresentación: La encuesta representa al 65% del total de la población (En Arg. según el censo 2022 la población urbana llegaba al 93,5%) ACTUALIZAR INFO\n\n\n\n\nTotal Urbano (ex EAHU): Una vez al año se releva el llamado “Total Urbano”, extensión de la EPH al 100% de la población urbana (se relevan localidades de 2.000 y más habitantes). El alcance resulta en la representación del 93,5% de la población total y la capacidad de extrapolar resultados a totales provinciales.2\n\n\nEPH. Actualización del diseño de sus muestras 1974-2003EPH. Total urbano. Principales tasas: tercer trimestre 2022"
   },
   {
     "objectID": "encuentros/1.2-intro-eph/intro-eph.html#características-muestrales-1",
     "href": "encuentros/1.2-intro-eph/intro-eph.html#características-muestrales-1",
     "title": "Introducción a la Encuesta Permanente de Hogares (EPH-INDEC)",
     "section": "Características muestrales",
-    "text": "Características muestrales\n\nLa Encuesta Permanente de Hogares es una encuesta por muestreo: relevo a un “pequeño” (¿pequeño?) puñado de hogares que representan al conjunto del universo.\n\n\n\nDiseño Muestral: bietápico estratificado.\n\n\n\n\nTener en cuenta:\n\nLa representatividad\nEl margen de error\nCoeficientes de variación de los estimadores\nLímite superior/inferior de la estimación puntual\n\n\n\n\n\nEsquema de rotación: 2-2-2 (la vivienda entra a la muestra durante dos trimestres consecutivos - descansa dos - vuelve a la muestra dos trimestres consecutivos)\n\n\nAGREGAR ALGUNA FUENTE O DOCU. (VER DOCUMENTO MUESTRAL CITADO ARRIBA PARA MÁS INFO)"
+    "text": "Características muestrales\n\nLa Encuesta Permanente de Hogares es una encuesta por muestreo: relevo a un “pequeño” (¿pequeño?) puñado de hogares que representan al conjunto del universo.\n\n\n\nDiseño Muestral: bietápico estratificado.\n\n\n\n\nTener en cuenta:\n\nLa representatividad\nEl margen de error\nCoeficientes de variación de los estimadores\nLímite superior/inferior de la estimación puntual\n\n\n\n\n\nEsquema de rotación: 2-2-2 (la vivienda entra a la muestra durante dos trimestres consecutivos - descansa dos - vuelve a la muestra dos trimestres consecutivos)"
   },
   {
     "objectID": "encuentros/1.2-intro-eph/intro-eph.html#principales-temáticas-abordadas-por-la-eph",
@@ -578,7 +578,14 @@
     "href": "encuentros/1.2-intro-eph/intro-eph.html#documentación-de-interés",
     "title": "Introducción a la Encuesta Permanente de Hogares (EPH-INDEC)",
     "section": "Documentación de interés",
-    "text": "Documentación de interés\n\nDiseño de registro a agosto de 2026\nCuestionario individual / Cuestionario Hogar / Cuestionario vivienda\nLa nueva EPH contínua\nConsideraciones sobre la revisión, evaluación y recuperación de la EPH. Nota metodológica actualizada para el uso de los datos del primer trimestre de 2019\nInforme de mercado de trabajo a 2do trimestre de 2026\nSistema de consulta a los cuadros regulares de la EPH contínua\nCartografía de la EPH\n\nClasificadores utilizados en la EPH (Rama de actividad y Tarea / Ocupación)\n\nActividad (rama): Clasificador de Actividades para Encuestas Sociodemográficas (CAES-MERCOSUR)\nOcupación: Clasificador Nacional de Ocupaciones (CNO-2001-INDEC)\nCódigos geográficos: Países y provincias\n\nREVISAR Y ACTUALIZAR Cuestionarios y CAES, el resto está ok."
+    "text": "Documentación de interés\n\nDiseño de registro a agosto de 2026\nCuestionario individual / Cuestionario Hogar / Cuestionario vivienda\nLa nueva EPH contínua\nConsideraciones sobre la revisión, evaluación y recuperación de la EPH. Nota metodológica actualizada para el uso de los datos del primer trimestre de 2019\nInforme de mercado de trabajo a 2do trimestre de 2026\nSistema de consulta a los cuadros regulares de la EPH contínua\nCartografía de la EPH\n\nClasificadores utilizados en la EPH (Rama de actividad y Tarea / Ocupación)\n\nActividad (rama): Clasificador de Actividades para Encuestas Sociodemográficas (CAES-MERCOSUR)\nOcupación: Clasificador Nacional de Ocupaciones (CNO-2001-INDEC)\nCódigos geográficos: Países y provincias"
+  },
+  {
+    "objectID": "encuentros/1.2-intro-eph/intro-eph.html#procesamiento",
+    "href": "encuentros/1.2-intro-eph/intro-eph.html#procesamiento",
+    "title": "Introducción a la Encuesta Permanente de Hogares (EPH-INDEC)",
+    "section": "Procesamiento",
+    "text": "Procesamiento\n\nMercado de trabajo: Tasas principales\n\ntasas_mt &lt;- df_eph %&gt;% \n  summarise(poblacion = sum(PONDERA),\n            ocupados = sum(PONDERA[ESTADO == 1]),\n            desocupados = sum(PONDERA[ESTADO == 2]),\n            PEA = sum(PONDERA[ESTADO %in% 1:2]),\n            PEI = poblacion - PEA,\n            \n            tasa_actividad = round( PEA / poblacion * 100, 1),\n            tasa_empleo = round(ocupados / poblacion * 100, 1),\n            tasa_desocupacion = round(desocupados / PEA * 100, 1))"
   },
   {
     "objectID": "encuentros/1.2-intro-eph/intro-eph.html#muchas-gracias",

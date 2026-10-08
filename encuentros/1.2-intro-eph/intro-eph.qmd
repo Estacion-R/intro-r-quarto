@@ -3,7 +3,7 @@ title: Introducción a la Encuesta Permanente de Hogares (EPH-INDEC)
 subtitle: Primeras nociones y conceptos clave
 author: "[🔗 Estación R](https://estacion-r.netlify.app/)"
 institution: Estación R
-date: 2026-09-24
+date: 2026-10-08
 footer: "[🔗 Introducción al Procesamiento de Datos con R](https://pablotis.github.io/intro-r-quarto/)"
 logo: "../../img/Logo_PNG_Baja_Mesa de trabajo 1.png"
 #title-slide-attributes:
@@ -50,6 +50,8 @@ execute:
 :::
 
 ## Hoja de Ruta
+
+<br>
 
 📌 ¿Qué es la EPH?
 
@@ -110,11 +112,11 @@ Dicha inserción puede ser analizada a partir de tres ejes:
 [^2]: [EPH. Actualización del diseño de sus muestras 1974-2003](https://www.indec.gob.ar/ftp/cuadros/sociedad/eph_muestras_74-03.pdf)
 
 ::: fragment
--   **Representación:** La encuesta representa al 65% del total de la población (En Arg. según el censo 2010 la población urbana llegaba al 90%) **ACTUALIZAR INFO**
+-   **Representación:** La encuesta representa al 65% del total de la población (En Arg. según el censo 2022 la población urbana llegaba al 93,5%) **ACTUALIZAR INFO**
 :::
 
 ::: fragment
--   **Total Urbano (ex EAHU):** Una vez al año se releva el Total Urbano, extensión de la EPH al 100% de la población urbana (se relevan localidades de 2.000 y más habitantes). Esto pasa a ser el 92% de la población total.[^3]
+-   **Total Urbano (ex EAHU):** Una vez al año se releva el llamado "Total Urbano", extensión de la EPH al 100% de la población urbana (se relevan localidades de 2.000 y más habitantes). El alcance resulta en la representación del 93,5% de la población total y la capacidad de extrapolar resultados a totales provinciales.[^3]
 :::
 
 [^3]: [EPH. Total urbano. Principales tasas: tercer trimestre 2022](https://www.indec.gob.ar/uploads/informesdeprensa/eph_total_urbano_02_23FECDE7B871.pdf)
@@ -138,8 +140,6 @@ Dicha inserción puede ser analizada a partir de tres ejes:
 ::: fragment
 -   Esquema de rotación: 2-2-2 (la vivienda entra a la muestra durante dos trimestres consecutivos - descansa dos - vuelve a la muestra dos trimestres consecutivos)
 :::
-
-AGREGAR ALGUNA FUENTE O DOCU. (VER DOCUMENTO MUESTRAL CITADO ARRIBA PARA MÁS INFO)
 
 ## Principales temáticas abordadas por la EPH
 
@@ -415,7 +415,23 @@ SÍ
 
 -   **Códigos geográficos:** [Países](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/codigospaises_09.pdf) y [provincias](https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/codigosprovincias_09.pdf)
 
-REVISAR Y ACTUALIZAR Cuestionarios y CAES, el resto está ok.
+## Procesamiento
+
+- Mercado de trabajo: Tasas principales
+
+```r 
+tasas_mt <- df_eph %>% 
+  summarise(poblacion = sum(PONDERA),
+            ocupados = sum(PONDERA[ESTADO == 1]),
+            desocupados = sum(PONDERA[ESTADO == 2]),
+            PEA = sum(PONDERA[ESTADO %in% 1:2]),
+            PEI = poblacion - PEA,
+            
+            tasa_actividad = round( PEA / poblacion * 100, 1),
+            tasa_empleo = round(ocupados / poblacion * 100, 1),
+            tasa_desocupacion = round(desocupados / PEA * 100, 1)) 
+```
+
 
 ::: titulo-final
 ## ¡Muchas Gracias!
